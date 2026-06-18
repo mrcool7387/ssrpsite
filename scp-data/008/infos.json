@@ -1,0 +1,13 @@
+{
+    "ssrp": {
+        "location": "c2",
+        "minlevel": 2
+    },
+    "scpr": {
+        "location": "bhs",
+        "minlevel": 4
+    },
+
+    "class": {"primary": "e", "secondary": "-", "tertiary": "-"},
+    "hazards": ["bio"]
+}

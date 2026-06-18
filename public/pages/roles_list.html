@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SCP Foundation - Database</title>
+        <link rel="stylesheet" href="/static/css/output.css" />
+        <style>
+            /* Versteckt Scrollbalken für alle Browser im Tabellen-Container */
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            .no-scrollbar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+        </style>
+    </head>
+    <body class="bg-[#121212] text-[#e0e0e0] font-mono h-screen w-screen overflow-hidden selection:bg-red-600 selection:text-white antialiased">
+        <div class="fixed inset-5 bg-slate-900/20 p-6 rounded-xl border border-slate-800/60 shadow-xl shadow-black/40 flex flex-col overflow-hidden">
+            <h1 class="text-2xl font-black text-red-600 mb-4 tracking-widest uppercase text-center border-b border-slate-800/60 pb-3 shrink-0 relative">
+                SSRP Database
+                <a href="/" class="absolute right-0 top-0 text-slate-500 hover:text-red-600 transition-colors duration-200" title="Datenbank schließen">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </a>
+            </h1>
+            
+            <div class="flex flex-wrap items-center gap-4 mb-4 pb-4 border-b border-slate-800/40 shrink-0 text-xs">
+                <div class="flex flex-col gap-1 w-full sm:w-64">
+                    <label for="search-input" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">Suche (Rollenname)</label>
+                    <input type="text" id="search-input" placeholder="Z.B. Security, Class D..." class="w-full bg-[#121212] border border-slate-800 rounded px-3 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors" />
+                </div>
+            </div>
+
+            <div id="roles-list" class="flex-1 flex flex-col min-h-0 text-slate-300">
+            </div>
+        </div>
+        <script src="/static/js/roles_list.js"></script>
+    </body>
+</html>

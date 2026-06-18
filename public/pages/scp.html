@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SCP Foundation - Item Dossier</title>
+        <link rel="stylesheet" href="/static/css/output.css" />
+    </head>
+    <body class="bg-[#121212] text-[#e0e0e0] font-mono h-screen w-screen overflow-hidden antialiased">
+        <div class="fixed inset-5 bg-slate-950/40 backdrop-blur-md p-6 rounded-xl border border-slate-800/80 shadow-2xl shadow-black/60 flex flex-col overflow-hidden">
+            
+            <header class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-800/80 pb-4 mb-5 shrink-0 gap-4">
+                <div class="flex items-center gap-3 select-none">
+                    <img src="/assets/logo_red.png" alt="SCP Logo" class="w-10 h-10 text-red-900" />
+                    <span id="logo" class="text-2xl font-black text-red-600 tracking-wider uppercase selection:bg-red-600 selection:text-black">
+                        SSRPSite
+                    </span>
+                </div>
+                
+                <nav id="links" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-400 tracking-wide font-medium items-center">
+                    <a href="/scps" class="text-red-500 hover:text-red-400 transition-colors duration-200 py-1 font-bold">← Zurück zur Datenbank</a>
+                    <a href="/roles" class="hover:text-red-500 transition-colors duration-200 py-1">Roles</a>
+                    <a href="/roles/calc" class="hover:text-red-500 transition-colors duration-200 py-1">Roles Calc</a>
+                    <a href="/skills" class="hover:text-red-500 transition-colors duration-200 py-1">Map</a>
+                    <a href="/definitions" class="hover:text-red-500 transition-colors duration-200 py-1">Definitions</a>
+                </nav>
+            </header>
+
+            <div id="status-container" class="grow flex items-center justify-center">
+                <div id="loading" class="text-xl font-bold text-slate-500 tracking-widest uppercase animate-pulse">
+                    Rufe Datenbank-Eintrag ab...
+                </div>
+
+                <div id="error-container" class="hidden flex flex-col items-center justify-center gap-4 text-center">
+                    <div class="text-3xl font-black text-red-600 tracking-wider uppercase">Zugriff Verweigert / Nicht Gefunden</div>
+                    <p id="error-message" class="text-slate-400 max-w-md text-sm leading-relaxed"></p>
+                    <a href="/scps" class="mt-2 border border-red-600/40 hover:bg-red-600/10 text-red-500 px-4 py-2 rounded text-xs uppercase tracking-widest font-bold transition-all">Zurück zur Übersicht</a>
+                </div>
+            </div>
+
+            <main id="content" class="hidden grow grid grid-cols-1 lg:grid-cols-3 gap-6 overflow-y-auto p-1 pr-2 max-h-[calc(100vh-160px)]">
+                
+                <div class="lg:col-span-2 flex flex-col gap-5">
+                    <div class="p-4 bg-slate-900/40 rounded-xl border border-slate-800/60 shadow-xl flex flex-col gap-1 shrink-0 relative">
+                        <span class="text-slate-500 font-bold tracking-widest uppercase text-[10px]">Item Dossier</span>
+                        <h2 id="scp-title" class="text-3xl font-black text-red-600 tracking-wider uppercase">SCP-XXX</h2>
+                        <a href="/scps" class="absolute right-4 top-4 text-slate-500 hover:text-red-600 transition-colors duration-200" title="Dossier schließen">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="p-5 bg-slate-900/20 rounded-xl border border-slate-800/60 shadow-xl flex flex-col gap-3 grow min-h-[200px]">
+                        <h3 class="text-xs font-bold text-red-500 tracking-wider uppercase border-b border-slate-800/60 pb-2 shrink-0">Beschreibung</h3>
+                        <div id="scp-description" class="text-slate-300 text-sm leading-relaxed tracking-wide text-justify overflow-y-auto pr-2 max-h-[600px] space-y-4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-5">
+                    
+                    <div class="p-5 bg-slate-900/40 rounded-xl border border-slate-800/60 shadow-xl flex flex-col gap-4 shrink-0">
+                        <h3 class="text-xs font-bold text-red-500 tracking-wider uppercase border-b border-slate-800/60 pb-2">Klassifizierung</h3>
+                        
+                        <div class="grid grid-cols-2 gap-4 text-xs">
+                            <div>
+                                <span class="block text-slate-500 font-bold uppercase tracking-wider text-[10px] mb-1">Class</span>
+                                <div id="scp-class" class="flex flex-col gap-1">
+                                    </div>
+                            </div>
+                            <div>
+                                <span class="block text-slate-500 font-bold uppercase tracking-wider text-[10px] mb-1">Gefahrenrisiko</span>
+                                <div id="hazards-container" class="flex flex-wrap gap-1.5 mt-0.5">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-5 bg-slate-900/40 rounded-xl border border-slate-800/60 shadow-xl  gap-4 grow grid grid-cols-2 ">
+                        <h3 class="text-xs font-bold text-red-500 tracking-wider uppercase border-b border-slate-800/60 pb-2 shrink-0">Standort-Protokoll</h3>
+                        
+                        <div class="flex flex-col gap-4 text-xs grow justify-start">
+                            <div id="ssrp-block" class="p-3 bg-slate-950/40 rounded border border-slate-800/60 transition-opacity duration-200">
+                                <span class="text-red-500/80 font-black tracking-widest uppercase text-[10px] block mb-2">SSRP Server-Daten</span>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <div>
+                                        <span class="text-slate-500 block text-[9px] uppercase font-bold">Zone / Location</span>
+                                        <span id="ssrp-location" class="text-slate-200 font-bold text-sm uppercase block mt-0.5">-</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-slate-500 block text-[9px] uppercase font-bold">Min. Freigabe-Level</span>
+                                        <span id="ssrp-level" class="text-slate-200 font-bold text-sm block mt-0.5">-</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="scpr-block" class="p-3 bg-slate-950/40 rounded border border-slate-800/60 transition-opacity duration-200">
+                                <span class="text-red-500/80 font-black tracking-widest uppercase text-[10px] block mb-2">SCPR Server-Daten</span>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <div>
+                                        <span class="text-slate-500 block text-[9px] uppercase font-bold">Zone / Location</span>
+                                        <span id="scpr-location" class="text-slate-200 font-bold text-sm uppercase block mt-0.5">-</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-slate-500 block text-[9px] uppercase font-bold">Min. Freigabe-Level</span>
+                                        <span id="scpr-level" class="text-slate-200 font-bold text-sm block mt-0.5">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Button to Wiki -->
+                    <div class="p-4 bg-slate-900/40 rounded-xl border border-slate-800/60 shadow-xl shrink-0">
+                        <a id="scp-wiki-link" href="#" target="_blank" class="group flex items-center justify-between w-full p-4 bg-slate-950/60 hover:bg-red-600/10 border border-slate-800 hover:border-red-600/50 rounded-lg transition-all duration-300">
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/logo_O_black_F_white.png" alt="SCP Wiki Logo" class="w-6 h-6 grayscale group-hover:grayscale-0 transition-all duration-300" />
+                                <span class="text-slate-300 group-hover:text-red-500 font-bold uppercase tracking-widest text-[10px] sm:text-xs">Offizieller Wiki-Eintrag</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-500 group-hover:text-red-500 transition-colors duration-300">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+            </main>
+        </div>
+        <script src="/static/js/scp.js"></script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SSRPSite - 503 SERVICE DISABLED</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/static/css/output.css" />
+    </head>
+    <body class="bg-[#121212] text-[#e0e0e0] h-screen w-screen overflow-hidden antialiased font-mono">
+        <div class="fixed inset-5 bg-slate-950/40 backdrop-blur-md p-6 rounded-xl border border-slate-800/80 shadow-2xl shadow-black/60 flex flex-col overflow-hidden">
+            <header class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-800/80 pb-4 mb-6 shrink-0 gap-4">
+                <div class="flex items-center gap-3 select-none">
+                    <img src="/assets/logo_red.png" alt="SCP Logo" class="w-10 h-10 text-red-900" />
+                    <span id="logo" class="text-2xl font-black text-red-600 tracking-wider uppercase selection:bg-red-600 selection:text-black"> SSRPSite </span>
+                </div>
+
+                <nav id="links" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-600 tracking-wide font-medium items-center pointer-events-none select-none">
+                    <span class="py-1">SCPs</span>
+                    <span class="py-1">Roles</span>
+                    <span class="py-1">Roles Calc</span>
+                    <span class="py-1">Map</span>
+                    <span class="py-1">Definitions</span>
+                </nav>
+            </header>
+
+            <main class="grow flex flex-col items-center justify-center p-4">
+                <div class="max-w-md w-full p-6 bg-slate-900/30 backdrop-blur-sm rounded-xl border border-slate-800/80 shadow-xl flex flex-col gap-5 relative overflow-hidden text-center group hover:border-yellow-600/30 transition-all duration-300">
+                    <div class="absolute top-0 left-0 right-0 h-0.75 bg-amber-600 animate-pulse"></div>
+
+                    <div class="flex flex-col items-center justify-center gap-1">
+                        <span class="text-[10px] font-bold text-amber-500 tracking-widest uppercase animate-pulse">System Lockout</span>
+                        <h2 class="text-6xl font-black text-amber-600 tracking-widest [text-shadow:0_0_10px_rgba(217,119,6,0.5)]">503</h2>
+                    </div>
+
+                    <div class="border-b border-slate-800/80 pb-2">
+                        <h3 class="text-xs font-black text-slate-400 tracking-widest uppercase">
+                            [!] SYSTEM VORÜBERGEHEND DEAKTIVIERT [!]
+                        </h3>
+                    </div>
+
+                    <p class="text-sm text-slate-400 leading-relaxed tracking-wide">
+                        Dieses Datenbank-Modul wurde temporär offline geschaltet. Es finden aktuell Wartungsarbeiten, Code-Updates oder eine Eindämmungs-Überprüfung (Containment Audit) statt.
+                    </p>
+
+                    <div class="bg-slate-950/50 p-3 rounded-lg border border-slate-900 text-[11px] text-left text-slate-500 font-mono space-y-1">
+                        <div><span class="text-amber-500/70 font-bold">> STATUS:</span> MAINTENANCE_LOCKDOWN</div>
+                        <div><span class="text-amber-500/70 font-bold">> MODULE:</span> PAGE_DISABLED</div>
+                        <div><span class="text-amber-500/70 font-bold">> TELEMETRY:</span> SYNCING_RESOURCES...</div>
+                    </div>
+
+                    <p class="text-[10px] text-slate-500 tracking-wide uppercase italic">
+                        Bitte versuche es zu einem späteren Zeitpunkt erneut.
+                    </p>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>

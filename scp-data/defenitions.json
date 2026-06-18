@@ -1,0 +1,175 @@
+[
+    {
+        "title": "PRIMARY CLASSES",
+        "important": true,
+        "desc": "Following all of the Primary Classes currently in use.",
+        "color": "slate"
+    },
+    {
+        "title": "Sicher",
+        "color": "emerald",
+        "icon": "/assets/def-icons/pclass/safe-icon.svg",
+        "desc": "Als Sicher klassifizierte Anomalien sind leicht und sicher einzudämmen. Dies liegt häufig daran, dass die Foundation das SCP hinreichend untersucht hat, sodass die Eindämmung keine signifikanten Ressourcen oder die Anomalie eine spezifische oder bewusste Aktivierung oder einen Auslöser benötigt. Dass eine Anomalie als Sicher klassifiziert ist, bedeutet jedoch nicht, dass ihre Handhabung oder Aktivierung keine Gefahr birgt."
+    },
+    {
+        "title": "Euclid",
+        "color": "blue",
+        "icon": "/assets/def-icons/pclass/euclid-icon.svg",
+        "desc": "Objekte der Klasse Euclid sind Anomalien, die mehr Ressourcen benötigen, um vollständig eingedämmt werden zu können, oder wo eine zuverlässige Eindämmung bzw. Isolation nicht immer möglich ist. Hauptsächlich liegt dies daran, dass das SCP unzureichend erforscht oder grundsätzlich unvorhersehbar ist. Euclid ist die Objektklasse mit der größten Bandbreite und es kann oft davon ausgegangen werden, dass ein SCP diese Klasse hat, wenn es nicht unter eine der anderen dem Standard entsprechenden Objektklassen fällt."
+    },
+    {
+        "title": "Keter",
+        "color": "red",
+        "icon": "/assets/def-icons/pclass/keter-icon.svg",
+        "desc": "Als Keter klassifizierte Objekte sind Anomalien, die äußerst schwer dauerhaft oder verlässlich eingedämmt werden können und die umfangreicher und komplexer Sicherheitsmaßnahmen bedürfen. Die Foundation kann diese SCPs aufgrund fehlender Forschung oder Technologie oft nicht gut eindämmen oder bekämpfen. Ein als Keter klassifiziertes SCP bedeutet nicht, dass das SCP gefährlich ist, nur dass es einfach sehr schwer oder kostspielig einzudämmen ist."
+    },
+    {
+        "title": "Thaumiel",
+        "color": "purple",
+        "icon": "/assets/def-icons/pclass/thaumiel-icon.svg",
+        "desc": "Die Thaumiel-Klasse gilt für Anomalien, die die Foundation speziell zur Eindämmung anderer SCPs einsetzt. Selbst die bloße Existenz von Objekten der Thaumiel-Klasse ist meist auf höchster Ebene der Foundation geheim und ihre Standorte, Funktionen und ihr aktueller Status sind nur wenigen Mitarbeitern der Foundation außerhalb des O5-Rates bekannt."
+    },
+    {
+        "title": "Esoteric",
+        "color": "purple",
+        "icon": "/assets/def-icons/pclass/esoteric-icon.svg"
+    },
+
+
+    {
+        "title": "SECONDARY CLASSES",
+        "important": true,
+        "desc": "Following all of the Secondary Classes currently in use.",
+        "color": "slate"
+    },
+    {
+        "title": "Apollyon",
+        "color": "red",
+        "icon": "/assets/def-icons/sclass/apollyon-icon.svg",
+        "desc": "Bei SCPs der Apollyon-Klasse handelt es sich um Anomalien, die nicht eingedämmt werden können, von denen erwartet wird, dass sie in Kürze aus der Eindämmung ausbrechen, oder um ein anderes ähnliches Szenario. Solche Anomalien stehen in der Regel im Zusammenhang mit weltbedrohenden Bedrohungen oder einem K-Klasse-Szenario irgendeiner Art und erfordern massive Anstrengungen der Foundation, um sie zu bewältigen."
+    },
+    {
+        "title": "Archon",
+        "color": "orange",
+        "icon": "/assets/def-icons/sclass/archon-icon.svg",
+        "desc": "Anomalien der Archon-Klasse sind Anomalien, die theoretisch eingedämmt werden könnten, aber aus irgendeinem Grund besser nicht eingedämmt werden sollten. Archon-Anomalien können ein Teil der Konsensrealität sein, der sich nur schwer vollständig eindämmen lässt, oder sie können nachteilige Auswirkungen haben, wenn sie eingedämmt werden. Diese SCPs sind nicht uneindämmbar - das entscheidende Merkmal dieser Klasse ist, dass die Foundation sich dafür entscheidet, die Anomalie nicht einzudämmen."
+    },
+    {
+        "title": "Cernunnos",
+        "color": "yellow",
+        "icon": "/assets/def-icons/sclass/cernunnos-icon.svg",
+        "desc": "Anomalien der Cernunnos-Klasse könnten praktisch eingedämmt werden, aber aus logistischen oder ethischen Gründen hat sich die Foundation bis auf Weiteres dagegen entschieden. Die Anomalie kann weiterhin teilweise eingedämmt oder aktiv vor der Öffentlichkeit versteckt werden, aber die Kosten dafür, sie vollständig einzudämmen, überwiegen den Nutzen."
+    },
+    {
+        "title": "Ticonderoga",
+        "color": "emerald",
+        "icon": "/assets/def-icons/sclass/ticonderoga-icon.svg",
+        "desc": "Anomalien der Ticonderoga-Klasse sind Anomalien, die nicht eingedämmt werden können, aber dies auch nicht müssen. Während die Eindämmung dieser Anomalien ähnlich wie bei den SCPs der Archon-Klasse unnötig ist, sind die SCPs der Ticonderoga-Klasse mit dem derzeitigen Wissen und den Ressourcen der Foundation darüber hinaus nicht eindämmbar. Dies könnte an ihrem weitverbreiteten oder allgegenwärtigen Vorkommen auf der Erde liegen, obwohl sich die Öffentlichkeit weiterhin ihrer Existenz oder anomalen Natur unbewusst ist, wobei die Ticonderoga-Klasse ebenso extraterrestrische Anomalien außerhalb der Reichweite der Foundation enthält."
+    },
+    {
+        "title": "Ausstehend",
+        "color": "blue",
+        "icon": "/assets/def-icons/sclass/pending-icon.svg",
+        "desc": "SCP-Artikel, denen noch keine Objektklasse zugewiesen wurde, können als Ausstehend klassifiziert werden. Dies wird gemacht, um anzudeuten, dass die Foundation derzeit nicht genügend Informationen besitzt, um der Anomalie eine Objektklasse zuzuweisen. Dies ist eine bewusste Entscheidung, um zu betonen, dass die Forschung noch nicht beendet wurde, und bedeutet nicht, dass der oder die Autor*in einfach nur nicht weiß, welche Objektklasse verwendet werden soll!"
+    },
+    {
+        "title": "Nicht eingedämmt",
+        "color": "purple",
+        "icon": "/assets/def-icons/sclass/uncontained-icon.svg",
+        "desc": "SCPs, die noch nicht eingedämmt wurden, kann eine Objektklasse zugewiesen werden, oft Keter, aber in einigen Artikeln wird Nicht eingedämmt anstelle der Objektklasse verwendet, um auszudrücken, dass fortlaufende Bemühungen erforderlich sind, um eine Eindämmung zu gewährleisten oder wiederherzustellen."
+    },
+    {
+        "title": "Erklärt",
+        "color": "slate",
+        "icon": "/assets/def-icons/sclass/explained-icon.svg",
+        "desc": "Erklärte Anomalien wurden erst als Anomalien klassifiziert, bevor sie vollständig erforscht und verstanden wurden, sodass ihre Effekte nun durch normale Wissenschaften erklärbar sind oder sie fälschlicherweise als eine Anomalie identifiziert wurden, bevor sie als ein Schwindel oder Missverständnis entlarvt wurden. Während die meisten separat als Erklärte SCPs aufgelistet werden, könnte ein SCP in der Hauptliste nach einer weiteren Untersuchung der scheinbaren Anomalie als Erklärt neu klassifiziert werden."
+    },
+    {
+        "title": "Neutralisiert",
+        "color": "orange",
+        "icon": "/assets/def-icons/sclass/neutralized-icon.svg",
+        "desc": "Neutralisierte Anomalien wurden als Anomalien klassifiziert, jedoch nicht länger anomal sind, weil sie absichtlich oder versehentlich zerstört oder ausgeschaltet wurden oder weil einfach ihre anomalen Eigenschaften oder Effekte verschwanden."
+    },
+    {
+        "title": "Ausgemustert",
+        "color": "red",
+        "icon": "/assets/def-icons/sclass/decommissioned-icon.svg",
+        "desc": "Ausgemusterte SCPs sind Anomalien, die absichtlich von der SCP Foundation zerstört oder deren anomalen Effekte entfernt wurden. Da die Foundation normalerweise versucht, anomale Objekte einzudämmen anstatt zu neutralisieren, wird diese Objektklasse nur verwendet, wenn es nicht möglich ist, eine Anomalie vollständig einzudämmen, oder wenn ein übermäßiger Aufwand an Ressourcen benötigt wird, um eine Anomalie in der Eindämmung zu behalten. Eine Ausmusterung kann auch aus ethischen Gründen durchgeführt werden, vor allem wenn eine Eindämmung extremes Leid verursachen würde oder keinen größeren Verlust von Leben verhindern könnte. Um jegliche unnötige Verluste zu vermeiden, erfordert eine Ausmusterung eine Genehmigung einer höheren Gewalt, wie dem O5-Rat, dem Ethikkomitee oder der Abteilung zur Ausmusterung."
+    },
+
+
+    {
+        "title": "DISRUPTION CLASSES",
+        "important": true,
+        "desc": "Following all of the Disruption Classes currently in use.",
+        "color": "slate"
+    },
+    {
+        "title": "Disruption Class: DARK",
+        "color": "darkgreen",
+        "icon": "/assets/def-icons/disruption/dark-icon.svg",
+        "desc": "The known or potential disruption is so low as to not be a concern.\n\nThe object is essentially inert when not interacted with and may potentially only affect a single induvidual.\n\nThe Foundation would find it trivial to clean up after it."
+    },
+    {
+        "title": "Disruption Class: VLAM",
+        "color": "blue",
+        "icon": "/assets/def-icons/disruption/vlam-icon.svg",
+        "desc": "The known or potential disruption would be localized to a small handful of people.\n\nTHe anomalous effects certainly do affect muliple people, but it would not extend very far.\n\nThe Foundation would find it relatively simple to neutralize its effetcs."
+    },
+    {
+        "title": "Disruption Class: KENEQ",
+        "color": "yellow",
+        "icon": "/assets/def-icons/disruption/keneq-icon.svg",
+        "desc": "The known or potential disruption would be extended to a number of people roughly defined as a city.\n\nThe anomalous effects could spread with fairly significant speed, fast enough to cause concern.\n\nThe Foundation would find it moderately difficult to neutralize its effetcs."
+    },
+    {
+        "title": "Disruption Class: EKHI",
+        "color": "orange",
+        "icon": "/assets/def-icons/disruption/ekhi-icon.svg",
+        "desc": "The known disruption would extend to roughtly the size of a large metropolitan area to an entire country. The potential disruption could extend to the entire known world.\n\nThe spread would be swift and difficult to manage.\n\nThe Foundation would find it quite difficult to neutralize its effetcs."
+    },
+    {
+        "title": "Disruption Class: AMIDA",
+        "color": "red",
+        "icon": "/assets/def-icons/disruption/amida-icon.svg",
+        "desc": "This Disruption Class should be reserved for special circumstances when The Foundatioin is essentially \"declaring war\" on an anomaly. When an anomaly poses such a dire thread to the status quo and The Foundation veil that there is no other option than to use all possible options in oder to Neutralize it.\n\nThe effects of an Amida anomaly would extend to the entire known world and possibly the entire universe."
+    },
+
+
+    {
+        "title": "RISK CLASSES",
+        "important": true,
+        "desc": "Following all of the Risk Classes currently in use.",
+        "color": "slate"
+    },
+    {
+        "title": "Risk Class: NOTICE",
+        "color": "darkgreen",
+        "icon": "/assets/def-icons/risk/notice-icon.svg",
+        "desc": "The anomalous effects of the object are nearly non-exstent to mild.\n\nAn individual within close proximity of the object would not feel anything as a result of the object.\n\nIt poses no danger to any individual nearby."
+    },
+    {
+        "title": "Risk Class: CAUTION",
+        "color": "blue",
+        "icon": "/assets/def-icons/risk/caution-icon.svg",
+        "desc": "The anomalous effects of the object are mild to moderate.\n\nAn individual within close proximity of the object may feel mild effects from the anomalous object.\n\nIt poses mild danger to any individual nearby."
+    },
+    {
+        "title": "Risk Class: WARNING",
+        "color": "yellow",
+        "icon": "/assets/def-icons/risk/warning-icon.svg",
+        "desc": "The anomalous effects of this object are moderate to significant.\n\nAn individual within close proximity of the object will feel mild effects or may feel mayor effects from the anomalous object.\n\nIt poses moderate danger to any individual nearby."
+    },
+    {
+        "title": "Risk Class: DANGER",
+        "color": "orange",
+        "icon": "/assets/def-icons/risk/danger-icon.svg",
+        "desc": "The anomalous effects of the object are significant to extreme.\n\nAn individual within close proximity of the object will feel major effects or may feel extreme effects from the anomalous object.\n\nIt poses significant danger to any individual nearby."
+    },
+    {
+        "title": "Risk Class: CRITICAL",
+        "color": "red",
+        "icon": "/assets/def-icons/risk/critical-icon.svg",
+        "desc": "The Risk Class should only be chosen when the object's effects will be near instant and/or extremly severe.\n\nIt does not, necessarily, need to cause actual death, but death is incredibly likely and excpected. An individual nearby will feel the effects instantly and the possibility to recover is impossible."
+    }
+]

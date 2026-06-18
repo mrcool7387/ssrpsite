@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SSRPSite - Roles Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/static/css/output.css" />
+    </head>
+    <body class="bg-[#121212] text-[#e0e0e0] h-screen w-screen overflow-hidden antialiased">
+        <div class="fixed inset-5 bg-slate-950/40 backdrop-blur-md p-6 rounded-xl border border-slate-800/80 shadow-2xl shadow-black/60 flex flex-col overflow-hidden">
+            <!-- Header-Bereich -->
+            <header class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-800/80 pb-4 mb-6 shrink-0 gap-4">
+                <!-- Logo & Titel Links -->
+                <div class="flex items-center gap-3 select-none">
+                    <img src="/assets/logo_red.png" alt="SCP Logo" class="w-10 h-10 text-red-900" />
+
+                    <!-- Titel -->
+                    <span id="logo" class="text-2xl font-black text-red-600 tracking-wider uppercase selection:bg-red-600 selection:text-black"> SSRPSite </span>
+                </div>
+
+                <!-- Navigationslinks Rechts -->
+                <nav id="links" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-400 tracking-wide font-medium items-center">
+                    <a href="/scps" class="hover:text-red-500 transition-colors duration-200 py-1">SCPs</a>
+                    <a href="/roles" class="hover:text-red-500 transition-colors duration-200 py-1">Roles</a>
+                    <a href="/roles/calc" class="text-red-500 hover:text-red-400 transition-colors duration-200 py-1 font-bold">Roles Calc</a>
+                    <a href="/skills" class="hover:text-red-500 transition-colors duration-200 py-1">Map</a>
+                    <a href="/definitions" class="hover:text-red-500 transition-colors duration-200 py-1">Definitions</a>
+                </nav>
+            </header>
+
+            <!-- Main Page Grid -->
+            <main class="grow grid grid-cols-1 lg:grid-cols-3 gap-6 overflow-y-auto p-1 pr-2 max-h-[calc(100vh-160px)]">
+                <!-- Inputs Section -->
+                <div class="lg:col-span-1 flex flex-col gap-5">
+                    <div
+                        class="p-6 bg-slate-900/30 backdrop-blur-sm rounded-xl border border-slate-800/80 shadow-xl flex flex-col gap-5 relative overflow-hidden group hover:border-slate-700/80 transition-all duration-300"
+                    >
+                        <!-- Decorative Top Red Line for SCP Vibe -->
+                        <div class="absolute top-0 left-0 right-0 h-0.75 bg-red-600/50"></div>
+                        <h3 class="text-xs font-black text-red-500 tracking-widest uppercase border-b border-slate-800/80 pb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+                                />
+                            </svg>
+                            Parameter Configuration
+                        </h3>
+
+                        <!-- Role Selection -->
+                        <div class="flex flex-col gap-1.5">
+                            <label for="role-select" class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">Rolle Auswählen</label>
+                            <select
+                                id="role-select"
+                                class="w-full appearance-none bg-slate-950/40 border border-slate-800/80 rounded-lg px-3 py-2.5 text-slate-200 text-sm font-semibold cursor-pointer transition-all duration-200 hover:border-red-500/40 focus:outline-none focus:border-red-600/80 focus:ring-1 focus:ring-red-600/80 focus:bg-slate-950/90 bg-[url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 fill=%22none%22 viewBox=%220 0 24 24%22 stroke=%22%23ef4444%22 stroke-width=%222.5%22%3E%3Cpath stroke-linecap=%22round%22 stroke-linejoin=%22round%22 d=%22M19 9l-7 7-7-7%22/%3E%3C/svg%3E')] bg-no-repeat bg-position-[right_0.75rem_center] bg-size-[1.1rem]"
+                            >
+                                <option value="">Lade Rollen...</option>
+                            </select>
+                        </div>
+
+                        <!-- Level Input -->
+                        <div class="flex flex-col gap-2">
+                            <label for="current-level-input" class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">Aktuelles Level</label>
+                            <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-lg border border-slate-800/60">
+                                <input
+                                    type="number"
+                                    id="current-level-input"
+                                    value="0"
+                                    min="0"
+                                    max="0"
+                                    class="w-16 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none bg-slate-950/40 border border-slate-800/60 rounded px-2 py-1 text-slate-200 text-center text-sm font-semibold transition-all duration-200 hover:border-red-500/40 focus:outline-none focus:border-red-600/80 focus:ring-1 focus:ring-red-600/80 focus:bg-slate-950/90 font-mono"
+                                />
+                                <input
+                                    type="range"
+                                    id="current-level-slider"
+                                    value="0"
+                                    min="0" 
+                                    max="0"
+                                    class="grow appearance-none cursor-pointer bg-transparent w-full focus:outline-none [&::-webkit-slider-runnable-track]:bg-slate-900 [&::-webkit-slider-runnable-track]:h-1.5 [&::-webkit-slider-runnable-track]:rounded-full [&::-webkit-slider-runnable-track]:border [&::-webkit-slider-runnable-track]:border-slate-800/80 [&::-webkit-slider-runnable-track]:transition-colors hover:[&::-webkit-slider-runnable-track]:border-red-500/40 hover:[&::-webkit-slider-runnable-track]:bg-slate-950 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-red-600 [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-[0_0_8px_rgba(220,38,38,0.6)] [&::-webkit-slider-thumb]:-mt-1.75 [&::-webkit-slider-thumb]:transition-[transform,background-color,shadow] [&::-webkit-slider-thumb]:duration-150 hover:[&::-webkit-slider-thumb]:scale-115 hover:[&::-webkit-slider-thumb]:bg-red-500 hover:[&::-webkit-slider-thumb]:shadow-[0_0_12px_rgba(239,68,68,0.8)] active:[&::-webkit-slider-thumb]:scale-125 active:[&::-webkit-slider-thumb]:bg-white active:[&::-webkit-slider-thumb]:border-red-600 active:[&::-webkit-slider-thumb]:shadow-[0_0_16px_rgba(255,255,255,0.9)] [&::-moz-range-track]:bg-slate-900 [&::-moz-range-track]:h-1.5 [&::-moz-range-track]:rounded-full [&::-moz-range-track]:border [&::-moz-range-track]:border-slate-800/80 hover:[&::-moz-range-track]:border-red-500/40 [&::-moz-range-thumb]:h-5 [&::-moz-range-thumb]:w-5 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-red-600 [&::-moz-range-thumb]:border-2 [&::-moz-range-thumb]:border-white [&::-moz-range-thumb]:shadow-[0_0_8px_rgba(220,38,38,0.6)] [&::-moz-range-thumb]:transition-[transform,background-color,shadow] [&::-moz-range-thumb]:duration-150 hover:[&::-moz-range-thumb]:scale-115 hover:[&::-moz-range-thumb]:bg-red-500 active:[&::-moz-range-thumb]:scale-125 active:[&::-moz-range-thumb]:bg-white active:[&::-moz-range-thumb]:border-red-600"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- XP Input -->
+                        <div class="flex flex-col gap-2">
+                            <label for="current-xp-input" class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">Aktuelle XP</label>
+                            <div class="flex items-center gap-4 bg-slate-950/40 p-2 rounded-lg border border-slate-800/60">
+                                <input
+                                    type="number"
+                                    id="current-xp-input"
+                                    value="0"
+                                    min="0"
+                                    class="w-24 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none bg-slate-950/40 border border-slate-800/60 rounded px-2 py-1 text-slate-200 text-center text-sm font-semibold transition-all duration-200 hover:border-red-500/40 focus:outline-none focus:border-red-600/80 focus:ring-1 focus:ring-red-600/80 focus:bg-slate-950/90 font-mono"
+                                />
+                                <input
+                                    type="range"
+                                    id="current-xp-slider"
+                                    value="0"
+                                    min="0"
+                                    max="0"
+                                    class="grow appearance-none cursor-pointer bg-transparent w-full focus:outline-none [&::-webkit-slider-runnable-track]:bg-slate-900 [&::-webkit-slider-runnable-track]:h-1.5 [&::-webkit-slider-runnable-track]:rounded-full [&::-webkit-slider-runnable-track]:border [&::-webkit-slider-runnable-track]:border-slate-800/80 [&::-webkit-slider-runnable-track]:transition-colors hover:[&::-webkit-slider-runnable-track]:border-red-500/40 hover:[&::-webkit-slider-runnable-track]:bg-slate-950 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-5 [&::-webkit-slider-thumb]:w-5 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-red-600 [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow-[0_0_8px_rgba(220,38,38,0.6)] [&::-webkit-slider-thumb]:-mt-1.75 [&::-webkit-slider-thumb]:transition-[transform,background-color,shadow] [&::-webkit-slider-thumb]:duration-150 hover:[&::-webkit-slider-thumb]:scale-115 hover:[&::-webkit-slider-thumb]:bg-red-500 hover:[&::-webkit-slider-thumb]:shadow-[0_0_12px_rgba(239,68,68,0.8)] active:[&::-webkit-slider-thumb]:scale-125 active:[&::-webkit-slider-thumb]:bg-white active:[&::-webkit-slider-thumb]:border-red-600 active:[&::-webkit-slider-thumb]:shadow-[0_0_16px_rgba(255,255,255,0.9)] [&::-moz-range-track]:bg-slate-900 [&::-moz-range-track]:h-1.5 [&::-moz-range-track]:rounded-full [&::-moz-range-track]:border [&::-moz-range-track]:border-slate-800/80 hover:[&::-moz-range-track]:border-red-500/40 [&::-moz-range-thumb]:h-5 [&::-moz-range-thumb]:w-5 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-red-600 [&::-moz-range-thumb]:border-2 [&::-moz-range-thumb]:border-white [&::-moz-range-thumb]:shadow-[0_0_8px_rgba(220,38,38,0.6)] [&::-moz-range-thumb]:transition-[transform,background-color,shadow] [&::-moz-range-thumb]:duration-150 hover:[&::-moz-range-thumb]:scale-115 hover:[&::-moz-range-thumb]:bg-red-500 active:[&::-moz-range-thumb]:scale-125 active:[&::-moz-range-thumb]:bg-white active:[&::-moz-range-thumb]:border-red-600"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- XP Interval -->
+                        <div class="flex flex-col gap-1.5">
+                            <label for="xp-interval-input" class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">XP Intervall (Minuten)</label>
+                            <input
+                                disabled=""
+                                type="number"
+                                id="xp-interval-input"
+                                value="7"
+                                min="1"
+                                class="lock w-full [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none bg-slate-950/40 border border-slate-800/80 rounded-lg px-3 py-2 text-slate-200 text-sm font-semibold transition-all duration-200 hover:border-red-500/40 focus:outline-none focus:border-red-600/80 focus:ring-1 focus:ring-red-600/80 focus:bg-slate-950/90 font-mono"
+                            />
+                        </div>
+
+                        <!-- Amount of XP -->
+                        <div class="flex flex-col gap-1.5">
+                            <label for="xp-amount-input" class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">XP Menge pro Intervall</label>
+                            <input
+                                disabled=""
+                                type="number"
+                                id="xp-amount-input"
+                                value="100"
+                                min="0"
+                                max="0"
+                                class="lock w-full [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none bg-slate-950/40 border border-slate-800/80 rounded-lg px-3 py-2 text-slate-200 text-sm font-semibold transition-all duration-200 hover:border-red-500/40 focus:outline-none focus:border-red-600/80 focus:ring-1 focus:ring-red-600/80 focus:bg-slate-950/90 font-mono"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- Global XP Display -->
+                    <div
+                        class="p-6 bg-slate-900/30 backdrop-blur-sm rounded-xl border border-slate-800/80 shadow-xl flex flex-col gap-4 relative overflow-hidden group hover:border-slate-700/80 transition-all duration-300"
+                    >
+                        <div class="absolute top-0 left-0 right-0 h-0.75 bg-red-600/50"></div>
+                        <h3 class="text-xs font-black text-red-500 tracking-widest uppercase border-b border-slate-800/80 pb-3 flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                                />
+                            </svg>
+                            Server Status
+                        </h3>
+                        <div class="flex items-center justify-between bg-slate-950/40 p-4 rounded-xl border border-slate-800/40">
+                            <div class="flex flex-col gap-0.5">
+                                <span class="text-slate-400 font-bold tracking-wider uppercase text-[10px]">Global XP Multiplier</span>
+                                <span class="text-slate-500 text-[10px] tracking-wide">Live sync with SSRP database</span>
+                            </div>
+                            <div
+                                id="global-xp-display"
+                                class="text-3xl font-black text-red-600 tracking-widest uppercase [text-shadow:0_0_8px_rgba(239,68,68,0.6),0_0_15px_rgba(239,68,68,0.3)] font-mono"
+                            >
+                                Calcing...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outputs Section -->
+                <div class="lg:col-span-2 flex flex-col gap-6">
+                    <!-- Section Header -->
+                    <div class="p-6 bg-slate-900/30 backdrop-blur-sm rounded-xl border border-slate-800/80 shadow-xl flex flex-col gap-6 grow relative overflow-hidden">
+                        <div class="absolute top-0 left-0 right-0 h-0.75 bg-red-600"></div>
+
+                        <div class="flex items-center justify-between border-b border-slate-800/80 pb-4">
+                            <h3 class="text-xs font-black text-red-500 tracking-widest uppercase flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                    />
+                                </svg>
+                                Calculation Output Diagnostics
+                            </h3>
+                            <span class="px-2 py-0.5 rounded text-[9px] border border-red-900/40 bg-red-950/40 text-red-400 font-bold uppercase tracking-widest animate-pulse font-mono">
+                                Live Telemetry
+                            </span>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 grow">
+                            <!-- Card 1: Clearance Level Status -->
+                            <div
+                                class="p-5 bg-slate-950/40 border border-slate-800/60 hover:border-slate-700/60 rounded-xl flex flex-col justify-between transition-all duration-300 relative group overflow-hidden"
+                            >
+                                <div class="absolute top-0 left-0 w-1 h-full bg-red-600/30 group-hover:bg-red-600 transition-all duration-300"></div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Clearance Level Status</span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 text-slate-500 group-hover:text-red-500 transition-colors"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <div>
+                                        <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">Aktuelles Level</span>
+                                        <div id="current-level-display" class="text-lg font-bold text-slate-100 tracking-wide uppercase font-mono">-</div>
+                                    </div>
+                                    <div class="border-t border-slate-900/80 pt-3">
+                                        <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">Nächstes Level</span>
+                                        <div id="next-level-display" class="text-lg font-bold text-slate-300 tracking-wide uppercase font-mono">-</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2: XP Requirement -->
+                            <div
+                                class="p-5 bg-slate-950/40 border border-slate-800/60 hover:border-slate-700/60 rounded-xl flex flex-col justify-between transition-all duration-300 relative group overflow-hidden"
+                            >
+                                <div class="absolute top-0 left-0 w-1 h-full bg-red-600/30 group-hover:bg-red-600 transition-all duration-300"></div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">XP Requirement</span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 text-slate-500 group-hover:text-red-500 transition-colors"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                </div>
+                                <div class="flex flex-col gap-1 justify-center grow">
+                                    <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">XP bis zum nächsten Level</span>
+                                    <div
+                                        id="xp-to-next-display"
+                                        class="text-3xl font-black text-red-600 tracking-widest uppercase [text-shadow:0_0_8px_rgba(239,68,68,0.6),0_0_15px_rgba(239,68,68,0.3)] font-mono"
+                                    >
+                                        0 XP
+                                    </div>
+                                </div>
+                                <span class="text-[9px] text-slate-500 tracking-wide mt-2">Required amount of additional experience points</span>
+                            </div>
+
+                            <!-- Card 3: Promotion Duration -->
+                            <div
+                                class="p-5 bg-slate-950/40 border border-slate-800/60 hover:border-slate-700/60 rounded-xl flex flex-col justify-between transition-all duration-300 relative group overflow-hidden"
+                            >
+                                <div class="absolute top-0 left-0 w-1 h-full bg-red-600/30 group-hover:bg-red-600 transition-all duration-300"></div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Promotion Duration</span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 text-slate-500 group-hover:text-red-500 transition-colors"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div class="flex flex-col gap-1 justify-center grow">
+                                    <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">Zeit bis zum nächsten Level</span>
+                                    <div
+                                        id="time-to-next-display"
+                                        class="text-2xl font-black text-slate-200 tracking-wider uppercase [text-shadow:0_0_8px_rgba(248,250,252,0.4),0_0_15px_rgba(248,250,252,0.15)] font-mono"
+                                    >
+                                        -
+                                    </div>
+                                </div>
+                                <span class="text-[9px] text-slate-500 tracking-wide mt-2">Estimated activity time to advance rank</span>
+                            </div>
+
+                            <!-- Card 4: Clearance Timeline -->
+                            <div
+                                class="p-5 bg-slate-950/40 border border-slate-800/60 hover:border-slate-700/60 rounded-xl flex flex-col justify-between transition-all duration-300 relative group overflow-hidden"
+                            >
+                                <div class="absolute top-0 left-0 w-1 h-full bg-red-600/30 group-hover:bg-red-600 transition-all duration-300"></div>
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-slate-400 font-bold uppercase tracking-wider text-[10px]">Clearance Timeline</span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-4 w-4 text-slate-500 group-hover:text-red-500 transition-colors"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="flex flex-col gap-3">
+                                    <div>
+                                        <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">Zeit bis Max. Level</span>
+                                        <div id="time-until-max-display" class="text-lg font-bold text-slate-350 tracking-wide uppercase font-mono">-</div>
+                                    </div>
+                                    <div class="border-t border-slate-900/80 pt-3">
+                                        <span class="text-[9px] text-slate-500 uppercase font-bold block tracking-wider mb-1">Bereits gespielte Zeit</span>
+                                        <div id="time-played-display" class="text-lg font-bold text-slate-400 tracking-wide uppercase font-mono">-</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const i = document.getElementById("xp-interval-input");
+                const a = document.getElementById("xp-amount-input");
+
+                // Sicherstellen, dass die Elemente existieren und das Intervall nicht 0 ist
+                if (i && a && parseFloat(i.value) !== 0) {
+                    document.getElementById("global-xp-display").textContent = `${(a.value / i.value).toFixed(2)} XP`;
+                }
+            });
+        </script>
+        <script src="/static/js/roles_calc.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SCP Foundation - Database</title>
+        <link rel="stylesheet" href="/static/css/output.css" />
+        <style>
+            /* Versteckt Scrollbalken für alle Browser im Tabellen-Container */
+            .no-scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            .no-scrollbar {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+        </style>
+    </head>
+    <body class="bg-[#121212] text-[#e0e0e0] font-mono h-screen w-screen overflow-hidden selection:bg-red-600 selection:text-white antialiased">
+        <div class="fixed inset-5 bg-slate-900/20 p-6 rounded-xl border border-slate-800/60 shadow-xl shadow-black/40 flex flex-col overflow-hidden">
+            <h1 class="text-2xl font-black text-red-600 mb-4 tracking-widest uppercase text-center border-b border-slate-800/60 pb-3 shrink-0 relative">
+                SSRP Database
+                <a href="/" class="absolute right-0 top-0 text-slate-500 hover:text-red-600 transition-colors duration-200" title="Datenbank schließen">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </a>
+            </h1>
+            
+            <div class="flex flex-wrap items-center gap-4 mb-4 pb-4 border-b border-slate-800/40 shrink-0 text-xs">
+                <div class="flex flex-col gap-1 w-full sm:w-64">
+                    <label for="search-input" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">Suche (ID / Name)</label>
+                    <input type="text" id="search-input" placeholder="Z.B. 096 oder Keter..." class="w-full bg-[#121212] border border-slate-800 rounded px-3 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors" />
+                </div>
+                <div class="flex flex-col gap-1 w-40">
+                    <label for="filter-primary-class" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">Primary Class</label>
+                    <select id="filter-primary-class" class="w-full bg-[#121212] border border-slate-800 rounded px-2 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors cursor-pointer">
+                        <option value="">ALLE</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-1 w-40">
+                    <label for="filter-secondary-class" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">Secondary Class</label>
+                    <select id="filter-secondary-class" class="w-full bg-[#121212] border border-slate-800 rounded px-2 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors cursor-pointer">
+                        <option value="">ALLE</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-1 w-40">
+                    <label for="filter-tertiary-class" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">Tertiary Class</label>
+                    <select id="filter-tertiary-class" class="w-full bg-[#121212] border border-slate-800 rounded px-2 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors cursor-pointer">
+                        <option value="">ALLE</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-1 w-32">
+                    <label for="filter-ssrp" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">SSRP Vorhanden</label>
+                    <select id="filter-ssrp" class="w-full bg-[#121212] border border-slate-800 rounded px-2 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors cursor-pointer">
+                        <option value="">ALLE</option>
+                        <option value="true">JA</option>
+                        <option value="false">NEIN</option>
+                    </select>
+                </div>
+                <div class="flex flex-col gap-1 w-32">
+                    <label for="filter-scpr" class="text-slate-500 font-bold tracking-wider uppercase text-[10px]">SCPR Vorhanden</label>
+                    <select id="filter-scpr" class="w-full bg-[#121212] border border-slate-800 rounded px-2 py-1.5 text-slate-300 focus:outline-none focus:border-red-600/50 transition-colors cursor-pointer">
+                        <option value="">ALLE</option>
+                        <option value="true">JA</option>
+                        <option value="false">NEIN</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="scp-list" class="flex-1 flex flex-col min-h-0 text-slate-300">
+            </div>
+        </div>
+        <script src="/static/js/scps_list.js"></script>
+    </body>
+</html>

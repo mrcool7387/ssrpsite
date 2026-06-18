@@ -3,48 +3,43 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>SSRPSite</title>
+        <title>SSRPSite - Definitions</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="/static/css/output.css" />
     </head>
-    <body class="bg-[#121212] text-[#e0e0e0] font-mono h-screen w-screen overflow-hidden antialiased">
+    <body class="bg-[#121212] text-[#e0e0e0] h-screen w-screen overflow-hidden antialiased font-mono">
         <div class="fixed inset-5 bg-slate-950/40 backdrop-blur-md p-6 rounded-xl border border-slate-800/80 shadow-2xl shadow-black/60 flex flex-col overflow-hidden">
-            
             <!-- Header-Bereich -->
             <header class="flex flex-col md:flex-row md:items-center md:justify-between border-b border-slate-800/80 pb-4 mb-6 shrink-0 gap-4">
-                
                 <!-- Logo & Titel Links -->
                 <div class="flex items-center gap-3 select-none">
                     <img src="/assets/logo_red.png" alt="SCP Logo" class="w-10 h-10 text-red-900" />
-                    
+
                     <!-- Titel -->
-                    <span id="logo" class="text-2xl font-black text-red-600 tracking-wider uppercase selection:bg-red-600 selection:text-black">
-                        SSRPSite
-                    </span>
+                    <span id="logo" class="text-2xl font-black text-red-600 tracking-wider uppercase selection:bg-red-600 selection:text-black"> SSRPSite </span>
                 </div>
-                
+
                 <!-- Navigationslinks Rechts -->
                 <nav id="links" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-400 tracking-wide font-medium items-center">
                     <a href="/scps" class="hover:text-red-500 transition-colors duration-200 py-1">SCPs</a>
                     <a href="/roles" class="hover:text-red-500 transition-colors duration-200 py-1">Roles</a>
                     <a href="/roles/calc" class="hover:text-red-500 transition-colors duration-200 py-1">Roles Calc</a>
                     <a href="/skills" class="hover:text-red-500 transition-colors duration-200 py-1">Map</a>
-                    <a href="/definitions" class="hover:text-red-500 transition-colors duration-200 py-1">Definitions</a>
+                    <a href="/definitions" class="text-red-500 hover:text-red-400 transition-colors duration-200 py-1 font-bold">Definitions</a>
                 </nav>
             </header>
 
             <!-- Main Page Grid -->
-            <main class="grow grid grid-cols-4 gap-6 overflow-auto p-4 max-h-150 h-auto">
-                <div class="p-3 pl-5 col-span-3 text-left text-3xl font-bold text-red-600 tracking-wide rounded-xl border border-slate-800/60 shadow-xl shadow-black/40 overflow-hidden">
-                    <div class="inline-flex items-center gap-3">
-                        Welcome to SSRPSite!
+            <main class="grow overflow-y-auto p-1 pr-2 max-h-[calc(100vh-160px)]">
+                <div id="definitions-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div id="loading" class="text-xl font-bold text-slate-500 tracking-widest uppercase animate-pulse text-center col-span-full py-8">
+                        Rufe Datenbank-Einträge ab...
                     </div>
-                </div>
-                <!-- Container für das Bild mit h-full -->
-                <div class="text-center text-2xl font-bold text-red-600 tracking-wide rounded-xl border border-slate-800/60 shadow-xl shadow-black/40 overflow-hidden h-full">
-                    <!-- Bild mit h-full, w-full, und object-cover -->
-                    <img src="/assets/gameplay/cdc.png" alt="description" class="h-full w-full object-cover">
                 </div>
             </main>
         </div>
+        <script src="/static/js/defenitions.js"></script>
     </body>
 </html>
