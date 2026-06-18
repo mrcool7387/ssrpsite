@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Demo – Notizen</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Notizen</h1>
+      <span class="badge" id="count">0</span>
+    </header>
+
+    <div class="input-row">
+      <input type="text" id="noteInput" placeholder="Neue Notiz..." autocomplete="off">
+      <button id="addBtn">Hinzufügen</button>
+    </div>
+
+    <ul id="noteList"></ul>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
