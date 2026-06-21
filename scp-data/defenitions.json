@@ -171,5 +171,25 @@
         "color": "red",
         "icon": "/assets/def-icons/risk/critical-icon.svg",
         "desc": "The Risk Class should only be chosen when the object's effects will be near instant and/or extremly severe.\n\nIt does not, necessarily, need to cause actual death, but death is incredibly likely and excpected. An individual nearby will feel the effects instantly and the possibility to recover is impossible."
+    },
+
+    {
+        "title": "SCENARIOS",
+        "important": true,
+        "desc": "Following some of the important Scenarios",
+        "color": "slate"
+    },
+    {
+        "title": "XK-Class Scenario",
+        "color": "red",
+        "icon": "",
+        "desc": "Most common and broadest meaning, covers just about any apocalypse. Religious apocalypse, humanity destroyed, Earth destroyed, the universe destroyed, etc.\n\nSome XK scenarios may fit well under other scenarios, such as ZK, but these definitions aren't mandatory."
+    },
+    {
+        "title": "CK-Class Scenario",
+        "color": "red",
+        "icon": "",
+        "desc": "Reality is changed by a deity/reality bender/retrocausal altering of history/etc. These can be radical, broad changes representing a true end of the world, or small \"localized\" changes. (See also RK)"
     }
 ]
+
