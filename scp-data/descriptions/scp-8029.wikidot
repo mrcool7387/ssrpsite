@@ -1,0 +1,26 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--|name=Dr Kira Moto]]
+[[[https://scp-wiki.wikidot.com/dr-moto-s-center-for-odd-occurrences|Want more?]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8028]]] | SCP-8029 | [[[SCP-8030]]] >>
+[[/=]]
+[[/div]]
+
+
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]
+
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8029-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8029-1 --]

@@ -1,0 +1,52 @@
+
+	=====
+[[include :scp-wiki:component:preview
+|text=We could talk there.]]
+=====
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:scp-archive]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+
+[[include :scp-wiki:info:start]]
+**SCP-8784:** 'You Find Yourselves in a Tavern' by [[*user Terrathorn]]
+
+Theme by [[*user 7happy7]]
+
+Word count: ~5.4k words
+
+⚠️ **Content warning:** Mentions of gender dysphoria, troubled childhoods and deceased family members.
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- Translator References --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8784-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8784-1 --]
+
+
+[[footnoteblock]]
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8783]]] | SCP-8784 | [[[SCP-8785]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** scp_tavern_illustration_upscale.png
+> **Author:** Alex Maclean
+> **License:** CC BY-SA 3.0.
+> **Source Link:** [https://scp-wiki.wdfiles.com/local--files/scp-8784/scp_tavern_illustration_upscale.png SCP Foundation Wiki]
+> **Additional Notes:** Original art made for this article.
+
+> **Filename:** scp_tavern_costume.jpg
+> **Author:** Eka Samkharadze
+> **License:** CC BY-SA 4.0.
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Costume_for_the_Opera._Art_Palace,_Tbilisi.jpg Wikimedia Commons]
+> **Additional Notes:** None
+[[include :scp-wiki:component:license-box-end]]

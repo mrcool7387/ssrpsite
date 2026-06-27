@@ -1,0 +1,49 @@
+
+	=====
+[[include component:preview
+text=
+Ever wonder how the Foundation developed their aerosol amnestics? Find out here!]]
+=====
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6384-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6384-1 --]
+
+
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=Jiwoahn]]
+=====
+[[<]]
+
+> **Name:** 20210730 Abandoned 1st Gen. Hyundai Sonata.jpg
+> **Author:** Windmemories
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:20210730_Abandoned_1st_Gen._Hyundai_Sonata.jpg Wikimedia Commons]
+
+> **Filename:** v.jpg
+> **Name:** Hugh-grant-mugshot.jpg
+> **Author:** Los Angeles County Sheriff's Department
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Hugh-grant-mugshot.jpg Wikimedia Commons]
+> **Additional Notes:** Cropped from original
+
+> **Filename** IMG_E8727.JPG
+> **Name:** Blue Bill and Green Grant
+> **Author:** [[*user Jiwoahn]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-6384 SCP Foundation Wiki]
+
+
+> **Name:** Peerless Brewing.jpg
+> **Author:** Polo phil
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Peerless_Brewing.jpg Wikimedia Commons]
+
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

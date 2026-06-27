@@ -1,0 +1,24 @@
+
+	[[div]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**SCP-7057: A Person?**
+Hello! I’m back again with another SCP! This time it’s //only// ~3k words so it was finished a bit faster 😉
+
+This one is kinda to make sure 7805 has almost zero redacteds (lol), but it's also my attempt at making an EVERSOR skip. Hope y’all enjoy!
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/div]]
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7056]]] | SCP-7057 | [[[SCP-7058]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

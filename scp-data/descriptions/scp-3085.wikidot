@@ -1,0 +1,40 @@
+
+	[[include component:preview
+text=
+What happens when a reality bender dies?
+]]
+
+[[include :scp-wiki:component:scp-pride]]
+[[include info:start]]
+⚠️ **Content warning:** This work of fiction involves scenes which depict or allude to topics which may be particularly distressing for some readers.
+
+* Suicide
+[[include info:end]]
+[[include :scp-wiki:component:info-cw]]
+
+[!-- NO TOQUES ESTO A MENOS QUE SEPAS LO QUE ESTÁS HACIENDO O TENGAS MI PERMISO, WEON. --]
+
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+For Translators
+https://scp-wiki.wikidot.com/fragment:scp-3085-1
+https://scp-wiki.wikidot.com/fragment:scp-3085-2
+--]
+
+@@ @@
+@@ @@
+[[include component:wikimodule |normal= --]]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-3084]]] | SCP-3085 | [[[SCP-3086]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box |author=Uncle Nicolini, SecretCrow]]
+=====
+
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,30 @@
+
+	[[>]]
+[[module rate]]
+[[/>]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7487-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7487-1 --]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[ SCP-7486]]] | SCP-7487 | [[[SCP-7488]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+=====
+> **Filename:** Afghan.jpg
+> **Name:** Afghan man in Balkh
+> **Author:** Wojciech Goslar
+> **Source:** https://commons.wikimedia.org/wiki/File:Afghan_man_in_Balkh.jpg
+> **License:** CC BY-SA 3.0
+=====
+
+[[include :scp-wiki:component:license-box-end]]

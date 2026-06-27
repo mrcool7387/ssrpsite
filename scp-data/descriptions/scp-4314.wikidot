@@ -1,0 +1,91 @@
+
+	=====
+[[include component:preview
+text=SCP-4314 is the irrational number defined as π (pi).]]
+=====
+
+[[include :scp-wiki:theme:penumbra]]
+
+[[module css]]
+:root {
+  --header-title: "SCP FOUNDATION";
+  --lgurl: url("https://scp-wiki.wdfiles.com/local--files/math-department-hub/Math%20Department%20Logo%20-%20Penumbra.png");
+}
+
+/* Bottom Rating Module */
+.bottom-rating-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+.bottom-rating-module .page-rate-widget-box {
+  margin: 0;
+}
+
+/* Article-Specific Styling */
+
+div.vertblock {
+    border: solid 2px var(--darkColor);
+    box-shadow: 0px -3px 0px -0.1px var(--accentColor);
+}
+
+a.subtlelink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#page-title {display: none;}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=badooga]]
+**SCP-4314: An Irrational Number**
+
+SCP-4314 is the irrational number defined as π (pi).
+
+[[[badooga-author-page|More By Badooga]]]
+
+[[[koths-korner|Original By Kothardarastrix]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module listpages category="fragment" name="fragment:scp-4314-%" limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://scp-wiki.wikidot.com/fragment:SCP-4314-0 --]
+[!-- http://scp-wiki.wikidot.com/fragment:SCP-4314-1 --]
+-----
+
+[[div class="bottom-rating-module"]]
+[[module Rate]]
+[[/div]]
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-9153]]] | SCP-4314 | TBA >>
+[[/div]]
+[[/=]]
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-4313]]] | SCP-4314 | [[[SCP-4315]]] >>
+[[/div]]
+[[/=]]
+
+[[=]]
+[[include :scp-wiki:component:license-box | author=badooga]]
+=====
+> **Filename:** Math Department Logo - Penumbra.png
+> **Author:** [[*user BlueEyedFox_]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wdfiles.com/local--files/math-department-hub/Math%20Department%20Logo%20-%20Penumbra.png SCP Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

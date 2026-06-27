@@ -1,0 +1,15 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+https://scp-wiki.wikidot.com/fragment:9000contestjeanjacket-0
+https://scp-wiki.wikidot.com/fragment:9000contestjeanjacket-1
+--]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

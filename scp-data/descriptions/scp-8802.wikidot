@@ -1,0 +1,28 @@
+
+	[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[[>]]
+[[module rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://scp-wiki.net/fragment:scp-8802-1 --]
+[!-- http://scp-wiki.net/fragment:scp-8802-2 --]
+[!-- http://scp-wiki.net/fragment:scp-8802-3 --]
+[!-- http://scp-wiki.net/fragment:scp-8802-4 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8801]]] | SCP-8802 | [[[SCP-8803]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

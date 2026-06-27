@@ -1,0 +1,47 @@
+
+	[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7171-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7171-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7171-3 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7170]]] | SCP-7171 | [[[SCP-7172]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** logo.jpg
+> **Name:** Department of Interdimensional Stability
+> **Author:** [https://scp-wiki.wikidot.com/estrellayoshte EstrellaYoshte]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne SCP Wiki]
+
+> **Filename:** telescope.jpg
+> **Name:** The Jodrell Bank Lovell Telescope, detail, Cheshire, England.jpg
+> **Date:** 15 July 2019
+> **Author:** Rosser1954
+> **License:** CC BY-SA 4.0 International
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:The_Jodrell_Bank_Lovell_Telescope,_detail,_Cheshire,_England.jpg|Wikimedia Commons]]]
+
+> **Filename:** pluto.jpg
+> **Name:** MVIC sunset scan of Pluto.jpg
+> **Date:** 14 July 2015
+> **Author:** NASA/JHUAPL/SwRI
+> **License:** public domain
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:MVIC_sunset_scan_of_Pluto.jpg|Wikimedia Commons]]], [[[https://www.nasa.gov/feature/pluto-wows-in-spectacular-new-backlit-panorama/|NASA]]]
+
+> **Filename:** asteroid.jpg
+> **Name:** 2013 Chelyabinsk meteor trace.jpg
+> **Date:** 15 February 2013
+> **Author:** Alex Alishevskikh
+> **License:** CC BY-SA 2.0
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:2013_Chelyabinsk_meteor_trace.jpg|Wikimedia Commons]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

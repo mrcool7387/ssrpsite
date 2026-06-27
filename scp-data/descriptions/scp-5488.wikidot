@@ -1,0 +1,67 @@
+
+	[[include :scp-wiki:theme:blankstyle]]
+
+[[div]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**SCP-5488: "Ratings That Stick"**
+The only way to be sure.
+
+[[image https://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/5488.png]]
+
+**[http://www.wikidot.com/user:info/nickthebrick1 nickthebrick1!]**
+and
+**[[[https://scp-wiki.wikidot.com/this-page-intentionally-left-blank|HarryBlank!]]]**
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/div]]
+
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-5488-offset-0
+https://scp-wiki.wikidot.com/fragment:scp-5488-offset-1
+https://scp-wiki.wikidot.com/fragment:scp-5488-offset-2
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5487]]] | SCP-5488 | [[[SCP-5489]]] >>
+[[/=]]
+[[/div]]
+
+[[div]]
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=nickthebrick1 and HarryBlank]]
+=====
+[[<]]
+> **Filename:** Stickers.png
+> **Author:** [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** Fire_Limo.png
+> **Name:** The Big Red Hire Engine, Dennis- Carmichael Fire Engine for hire. Oulton Broad
+> **Author:** sludgegulper
+> **License:** CC BY-SA 2.0
+> **Source:** [https://search.creativecommons.org/photos/470e413e-4235-4ecc-adfe-4f289218b25a flickr]
+
+> **Filename:** Cute_Stapler.jpg
+> **Author:** [[*user nickthebrick1]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** Maggie.jpg
+> **Name:** Ice, Cloud, and Land Elevation Satellite (ICESat)
+> **Author:** NASA Goddard Photo and Video
+> **License:** CC BY 2.0
+> **Source:** [https://search.creativecommons.org/photos/7e640700-daad-467a-bb0e-4959c99d3db1 flickr]
+
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/div]]

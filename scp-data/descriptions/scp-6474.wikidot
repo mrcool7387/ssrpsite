@@ -1,0 +1,44 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+That's it, that's the content on this page. Basically all the text is in the rest.
+--]
+
+[[footnoteblock]]
+@@ @@
+
+
+
+
+[!--
+Fragments:
+http://www.scp-wiki.net/fragment:scp-6474-0
+http://www.scp-wiki.net/fragment:scp-6474-1
+http://www.scp-wiki.net/fragment:scp-6474-2
+http://www.scp-wiki.net/fragment:scp-6474-3
+http://www.scp-wiki.net/fragment:scp-6474-4
+
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6473]]] | SCP-6474 | [[[SCP-6475]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** hyper
+> **Author:** [[*user TheyCallMeTim]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-6474 SCP Foundation Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]

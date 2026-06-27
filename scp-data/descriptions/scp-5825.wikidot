@@ -1,0 +1,85 @@
+
+	[[module css]]
+.danke{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+box-sizing: border-box;
+width: 100%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.inner{
+padding: 5px 5px 5px 15px;
+margin-bottom:10px;
+width: 94%;
+font-family: monospace;
+font-size: 1.1em; }
+
+.agent{
+background-color:#002200;
+border: 3px solid #55AA55;
+color: #77CC77;
+}
+
+.site{
+background-color:#222200;
+border: 3px solid #AAAA55;
+color: #DDDD77;
+}
+
+.blue{
+background-color:#002026;
+border: 3px solid #43A6B5;
+color: #65C8D7;
+}
+
+.red{
+background-color:#33130D;
+border: 3px solid #E17E6F;
+color: #FFA091;
+}
+
+.pink{
+background-color:#351022;
+border: 3px solid #e377ae;
+color: #ff99cd;
+}
+
+
+[[/module]]
+
+[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:calamity]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+* http://scp-wiki.wikidot.com/fragment:SCP-5825-1
+* http://scp-wiki.wikidot.com/fragment:SCP-5825-2
+* http://scp-wiki.wikidot.com/fragment:SCP-5825-3
+* http://scp-wiki.wikidot.com/fragment:SCP-5825-4
+* http://scp-wiki.wikidot.com/fragment:SCP-5825-5
+--]
+-----
+
+[[=]]
+[[[UnHuman Hub]]] | [[[Ship to Wreck]]] ➢
+[[/=]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5824]]] | SCP-5825 | [[[SCP-5826]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

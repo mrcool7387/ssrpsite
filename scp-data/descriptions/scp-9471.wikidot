@@ -1,0 +1,86 @@
+
+	[[include :scp-wiki:info:start]]
+[[=]]
+**The Price of Eternity** by [[*user Doctor Lovelace]]
+[[/=]]
+
+----
+[[=]]
+**Word Count:** 6,444 words
+
+⚠️ **Content warning:** This article contains mentions of suicide, self-mutilation, and death.
+[[/=]]
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+
+=====
+[[include component:preview
+text=Just how do you ensure the eternal existence of the Foundation when everything, even the desire to exist, decays over time?]]
+=====
+
+[[div id="cromthumbnail" style="display: none;"]]
+[[include component:image-block
+name=Price-of-Eternity-01.jpg
+|caption=An instance of SCP-9471-B
+|width=100%
+|align=center]]
+[[/div]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+[[span style="display:none;"]]%%fullname%%[[/span]]
+%%content%%
+[[/module]]
+
+[!-- For translators, here is a direct link to each iteration: --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestdoctorlovelace-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestdoctorlovelace-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestdoctorlovelace-2 --]
+
+@@ @@
+@@ @@
+@@ @@
+
+[[include :scp-wiki:component:wikimodule |normal= --]]]
+
+[[div class="footer-wikiwalk-nav"]]  
+[[=]]
+<< [[[SCP-9470]]] | SCP-9471 | [[[SCP-9472]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+----
+
+> **Filename:** Aion Project Logo
+> **Author:** [https://scp-wiki.wikidot.com/desk-of-junior-designer-s-yvonne Estrella]
+> **License:** CC BY-SA 3.0
+
+----
+
+> **Filename:** Price_of_Eternity_bg.webp
+> **Author:** [[*user Doctor Lovelace]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-9471 SCP Foundation Wiki]
+> **Derivative Of:**
+> ‎ ‎ ‎ **Name:** Webb uncovers possible hidden black hole in nearby spiral galaxy M83
+> ‎ ‎ ‎ **Author:** ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team
+> ‎ ‎ ‎ **License:** CC BY 2.0
+> ‎ ‎ ‎ **Source Link:** https://www.flickr.com/photos/nasawebbtelescope/54458091051/
+
+----
+
+> **Filename:** Price-of-Eternity-01.jpg
+> **Author:** [[*user Doctor Lovelace]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-9471 SCP Foundation Wiki]
+
+----
+
+> **Filename:** Price-of-Eternity-02.png
+> **Author:** [[*user Doctor Lovelace]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-9471 SCP Foundation Wiki]
+
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,31 @@
+
+	[[>]]
+[[module rate]]
+[[/>]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8425-0--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8425-1--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8424]]] | SCP-8425 | [[[SCP-8426]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+=====
+> **Filename:** Starfallen
+> **Name:** Starfall
+> **Author:** Dawid Zawiła 
+> **Source:** https://commons.m.wikimedia.org/wiki/File:Purple_starry_sky_(Unsplash).jpg
+> **License:** Creative Commons CC0 1.0
+
+=====
+
+[[include :scp-wiki:component:license-box-end]]

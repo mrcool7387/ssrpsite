@@ -1,0 +1,32 @@
+
+	[[include :scp-wiki:info:start]]
+**SCP-6494:** {{Weight of Pressure}}
+**Author:** [[*user CompleteIndie]]
+
+**Description:** SCP-6494 is not cut out for this.
+
+⚠️ **Content warning:** This article contains a depiction of suicide.
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+@@ @@
+
+[[=]]
+
+[[include :scp-wiki:component:wikimodule |ratings= --]]]
+
+@@ @@
+
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-6493]]] | SCP-6494 | [[[SCP-6495]]] >>
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]
+
+[[/=]]

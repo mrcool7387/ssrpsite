@@ -1,0 +1,56 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=TopDownUnder
+|no-right-margin=*]]
+Deptcon Article. Team AWD forever!
+
+More by [[[top|TopDownUnder]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+------
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://scp-wiki.wikidot.com/fragment:scp-6821-1 --]
+[!-- http://scp-wiki.wikidot.com/fragment:scp-6821-2 --]
+
+[[footnoteblock]]
+~~~~
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6820]]] | SCP-6821 | [[[SCP-6822]]] >>
+[[/=]]
+[[/div]]
+[[div class="centered"]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** cegua.jpg
+> **Name:** Siguanaba
+> **Author:** Orlando Callejas
+> **License:** CC BY-SA 4.0/3.0/2.5/2.0/1.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Siguanaba.JPG Wikimedia]
+
+> **Filename:** page.jpg
+> **Author:** [[*user TopDownUnder]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [page.jpg SCP Wiki]
+
+> **Filename:** zero.jpg
+> **Name:** Connla and the fairy maiden - Project Gutenberg etext 19993
+> **Author:** Project Gutenberg
+> **License:** CC-0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Connla_and_the_fairy_maiden_-_Project_Gutenberg_etext_19993.jpg Wikimedia]
+
+> **Filename:** hugo.jpg
+> **Name:** Yuri Cunza
+> **Author:** Jay27
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Yuri_Cunza.jpg Wikimedia]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]

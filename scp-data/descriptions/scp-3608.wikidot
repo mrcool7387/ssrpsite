@@ -1,0 +1,33 @@
+
+	[[include theme:black-highlighter-theme]]
+
+[[include :scp-wiki:component:pride-highlighter |inc-bi-alt= --]]]
+
+[[include component:ratio-bar base=-- |ex=--]]
+[[include :scp-wiki:info:start]]
+@@ @@
+**SCP-3608: "PTSD: Post-Traumatic Stress Dimension" by:** [[*user Doctor Fullham]]
+@@ @@
+[[=]]
++++ [http://www.scp-wiki.net/doctor-fullham ♫ Doctor Fullham's Author Page ♫]
+[[/=]]
+[[include component:ratio-bar pie=--]]
+[[include :scp-wiki:info:end]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-3607]]] | SCP-3608 | [[[SCP-3609]]] >>
+[[/=]]
+[[/div]]
+
+
+[!-- For translators, here is a direct link to each iteration. --]
+[!-- http://www.scp-wiki.net/fragment:scp-3608-0 --]
+[!-- http://www.scp-wiki.net/fragment:scp-3608-1 --]
+[!-- To make ListPages work correctly, make this main page first, then upload the first iteration and set its parent to the first page. Repeat that for each iteration. Remember to change the offset links at the bottom of each iteration to the correct link for the new pages you have created. --]

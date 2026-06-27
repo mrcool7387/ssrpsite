@@ -1,0 +1,73 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=Cole 13 and TopDownUnder
+|no-right-margin=*]]
+[[[cole-13-s-writing-hut| More by Cole 13]]]
+
+[[[top| More by TopDownUnder]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6170-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6170-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6170-3 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6169]]] | SCP-6170 | [[[SCP-6171]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=TopDownUnder and Cole 13]]
+=====
+> **Filename:** bright.jpg
+> **Name:** Straitjacketed
+> **Author:** edenpictures
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/10485077@N06/6854411127
+
+> **Filename:** tree.jpg
+> **Name:** Old Tree, Clifton Park,Rotherham
+> **Author:** Paige...
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/61546670@N02/7338790090
+
+> **Filename:** group.jpg
+> **Name:** Lion Country Safari, Irvine, 1971
+> **Author:** Orange County Archives
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/30346812@N07/2882956256
+
+> **Filename:** yellowstone.jpg
+> **Name:** Payún Volcanic Field
+> **Author:** NASA Goddard Photo and Video
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/24662369@N07/8347075230
+
+> **Filename:** yellowstone.jpg
+> **Name:** Payún Volcanic Field
+> **Author:** NASA Goddard Photo and Video
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/24662369@N07/8347075230
+
+> **Filename:** gorilla.jpg
+> **Name:** Gorilla
+> **Author:** Roger Luijten
+> **License:** CC BY 2.0
+> **Source Link:** https://www.flickr.com/photos/66555186@N02/6312198231
+
+> **Filename:** ATTISR.jpg
+> **Author:** [[*user Cole 13]]
+> **License:** CC BY 2.0
+> **Source Link:** http://scpdsandbox.wdfiles.com/local--files/collab%3Acole13topmeme/ATTISR.png
+=====
+[[include :scp-wiki:component:license-box-end]]

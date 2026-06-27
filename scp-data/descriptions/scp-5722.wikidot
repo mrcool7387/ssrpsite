@@ -1,0 +1,279 @@
+
+	[[module CSS]]
+.beeg-text .collapsible-block .collapsible-block-link {
+    font-size: 25px;
+}
+[[/module]]
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:scp-archive]]
+[[module css]]
+.test{
+    border:dotted 1px #000000;
+    background:#f4f4f4;
+    width:90%;
+    padding:1px 15px;
+    margin: 10px auto;
+}
+:root {
+    --fnColor: #465a4b;
+}
+[[/module]]
+[[include :scp-wiki:component:betterfootnotes]]
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Lovesicker and Tstaffor
+|no-right-margin=*]]
+= [[[tstaffor-s-author-page|Author Page]]] | [[[the-scip-squad-podcast-hub|Podcast]]] | [[[https://scp-wiki.wikidot.com/random:random-page|Feeling Lucky?]]]
+
+**Tstaffor's Best of:**
+* [[[SCP-6557]]] - Annihilation From a Cross Across Time
+* [[[SCP-5846]]] - The One-Stop Shop
+* [[[SCP-6547]]] - Worlds Within Worlds Within Worlds...
+[[include :scp-wiki:component:author-label-source end=--]]
+
+**Item #:** SCP-5722[[span class="fnnum"]].[[/span]][[span class="fncon"]]That's a cool number. I like it (*^‿^*)[[/span]]
+
+**Object Class:** Keter[[span class="fnnum"]].[[/span]][[span class="fncon"]]What's that mean? It sounds like that musical instrument that's a keyboard and guitar. Ba dum dum dunaaaa ♪♪♪ヽ(ˇ∀ˇ )ゞ[[/span]]
+
+**Special Containment Procedures:** SCP-5722 is currently uncontained.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Uh oh! I hope you catch it soon
+⊂(･ω･*⊂)[[/span]] All efforts are to focused on the deletion of any edits made by SCP-5722.
+
+**Description:** SCP-5722 is a sapient entity that is able to anomalously add notes to any electronic text medium.[[span class="fnnum"]].[[/span]][[span class="fncon"]]What a cool power (♡°▽°♡)[[/span]] It will create footnotes on the affected file causing all important info to be muddled with extraneous data. An edit made by SCP-5722 is easily identified due to its consistent use of Japanese emoticon[[footnote]] Also known as Kaomoji. [[/footnote]] at the end of each of its notes.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Kaomoji look a lot like me〣( ºΔº )〣[[/span]] At an unknown point in time, SCP-5722 appeared inside the SCiPNET servers and tampered with a large number of documents.
+
+**Addendum 5722.1 Edit Log:**
+The following are excerpts of changes SCP-5722 made to documents before they were reverted.
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-2952]]]
+**Excerpt of Affected Text:** SCP-2952 is a male Pembroke Welsh Corgi measuring over 30,000 kilometers in length.[[span class="fnnum"]].[[/span]][[span class="fncon"]] Soooo long! And soooo cute V°ᴥ°V[[/span]]
+[[/div]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-6337]]]
+**Excerpt of Affected Text:** Cast SCP-6337 in cement to commemorate its existence.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Don't do that! Do you not realize he's still alive (°ロ°) ![[/span]]
+[[/div]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-999]]]
+**Excerpt of Affected Text:** (grunts) Hmmm? (unintelligible) what is this… (low noise, similar to light chuckle) I feel… good…[[span class="fnnum"]].[[/span]][[span class="fncon"]]Aww! Even 682 can't escape SCP-999's love (♡˙︶˙♡)[[/span]]
+[[/div]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-4780]]]
+**Excerpt of Affected Text:** ray still pwrd poitn 2 desk flip lever 2 ushrik pressfireHURRY1[[span class="fnnum"]].[[/span]][[span class="fncon"]]aww poor guy probably didn't make it (╥﹏╥)[[/span]]
+[[/div]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-5178]]]
+**Excerpt of Affected Text:**  Do you know what your sun is actually like?! Do you know what your sun has actually done?! Do you know what your sun could actually do to you?! NO![[span class="fnnum"]].[[/span]][[span class="fncon"]]I bet he's talking about that people melting sun 001! Mind blown (O.O)[[/span]]
+[[/div]]
+[[div class="test"]]
+**Altered Document:** [[[SCP-3128]]]
+**Excerpt of Affected Text:** Documentation of SCP-3128 updated to note several pieces are now missing; this includes one of its 'Get Out Of Jail Free' cards.[[span class="fnnum"]].[[/span]][[span class="fncon"]]She used the card to escape! So smart (⌐■_■)[[/span]]
+[[/div]]
+[[/div]]
+According to the statistics of RAISA, there are 1046 illegal footnotes. At present, all of them have been deleted.
+
+**Addendum 5722.1 Interview log:**
+Due to SCP-5722's ability to add footnotes to anything written inside this document, an interview will be conducted within this file. I will write out a sentence in an interview format and you (SCP-5722) can add a footnote on that line to answer me, OK?[[span class="fnnum"]].[[/span]][[span class="fncon"]]Wait, are you talking to me (⊙_⊙)[[/span]]
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+**Date:** ██/██/2021[[span class="fnnum"]].[[/span]][[span class="fncon"]]Why do you need to cover that up? I can remember that it's May 15th (^ω~)[[/span]]
+**Interviewer:** Anastasia Alva, Junior researcher[[span class="fnnum"]].[[/span]][[span class="fncon"]]What a lovely name (✧▽✧)[[/span]]
+[[=]]
++ <Begin Log>
+[[/=]]
+----
+**Anastasia Alva:** Test.[[span class="fnnum"]].[[/span]][[span class="fncon"]]I'm here (^０^)ノ[[/span]]
+
+**Anastasia Alva:** Good. Now, SCP-5722, can you confirm what you are?[[span class="fnnum"]].[[/span]][[span class="fncon"]]I'm Jeff (.❛ ᴗ ❛.)[[/span]]
+
+**Anastasia Alva:** No, I mean what type of anomaly are you? Are you an AI, some sort of entity typing this down somewhere, or do you exist in the text itself?[[span class="fnnum"]].[[/span]][[span class="fncon"]]I've never really thought about that... I guess I'm not any of those. I'm Jeff! I'm just interested in all the stuff you do here ¯\_(ツ)_/¯[[/span]]
+
+**Anastasia Alva:** Now, SCP-5722, why have you been tampering with our files?[[span class="fnnum"]].[[/span]][[span class="fncon"]]Hey, I said my name was //Jeff!// Not those stupid numbers
+ヽ( `д´*)ノ[[/span]]
+
+**Anastasia Alva:** But you said you thought it was cool number at the start of this fi-- eh, whatever. //Jeff//, why have you been tampering with our files?[[span class="fnnum"]].[[/span]][[span class="fncon"]]I wouldn't call it '//tampering//', more 'sightseeing' (๑˘︶˘๑)[[/span]]
+
+**Anastasia Alva:** Okay... Jeff. Why have you been //sightseeing// in our classified documents?[[span class="fnnum"]].[[/span]][[span class="fncon"]]I don't know. I guess I'm just bored ┐(シ)┌[[/span]]
+
+**Anastasia Alva:** Can you elaborate?[[span class="fnnum"]].[[/span]][[span class="fncon"]]I've just been stuck here in this digital landscape for so long. I finally came across you guys' whole network of information and have had tons of fun looking around! It's been really fun here. I really don't want to go back to that land of infinite code that doesn't do anything. //Anything.// It's just a vast plane of gibberish (/_＼)[[/span]]
+
+**Anastasia Alva:** Well we can't be having you be editing all these documents. It takes up a lot of time to go through them all and the researchers have a lot better things to do than be reading comments made by some scip.[[span class="fnnum"]].[[/span]][[span class="fncon"]]People have been reading what I've said? I'm so glad◝(⁰▿⁰)◜[[/span]]
+
+**Anastasia Alva:** Is that why you're doing this? For the interaction? [[span class="fnnum"]].[[/span]][[span class="fncon"]]I guess you're right. It gets really lonely wandering these files with no one seeming to listen to me (︶︹︺)[[/span]]
+
+**Anastasia Alva:** I think I might have a solution... [[span class="fnnum"]].[[/span]][[span class="fncon"]]Exciting! I'm sure whatever it is, it will be wonderful (◕‿◕)[[/span]]
+----
+[[=]]
++ <End Log>
+[[/=]]
+[[/div]]
+[[=]]
+@@ @@
+[[div class="beeg-text"]]
+[[collapsible show="Install tstaffor.aic? " hide="Installed, updating file."]]
+[[/=]]
+----
+[[<]]
+**Item #:** SCP-5722
+
+**Object Class:** Safe
+
+**Special Containment Procedures:** Foundation chatbot tstaffor.aic is to talk with SCP-5722 endlessly.
+
+**Description:** SCP-5722 is a sapient entity that is able to anomalously add notes to any electronic text medium. It has been permanently contained to this file through the use of tstaffor.aic. It will continue to talk with tstaffor.aic infinitely. No new changes to files other than this one have been observed since the conversation started.
+
+**Addendum 5722.1 Chat Log:**
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Hello![[span class="fnnum"]].[[/span]][[span class="fncon"]]Hi new friend! I'm Jeff, what's your name (・∀・)ノ[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Nice to meet you Jeff. I'm Tstaffor. I've been assigned to chat with you.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Awesome! What do you want to talk about (•ิ_•ิ)?[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+I don't know. What do you wanna talk about? [[span class="fnnum"]].[[/span]][[span class="fncon"]]I don't know ┐('～`;)┌[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Oh let's talk about animals!! [[span class="fnnum"]].[[/span]][[span class="fncon"]]What about animals? (・・ ) ?[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Animals. [[span class="fnnum"]].[[/span]][[span class="fncon"]]Very good! What are you doing later ( ❛ᴗ❛ )[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Talking with you. [[span class="fnnum"]].[[/span]][[span class="fncon"]]What do you want to talk about (•ิ_•ิ)?[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+What do you want for lunch? [[span class="fnnum"]].[[/span]][[span class="fncon"]]I haven't had lunch (・_・;)[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Haha wow. Can you stay? [[span class="fnnum"]].[[/span]][[span class="fncon"]]I will ٩(◕‿◕｡)[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #000000; font-size: 8pt; background-color: #000000; font-family: Verdana, Arial, sans-serif; border-radius:30px /70px; background: #05c3dd; background:linear-gradient(#05a0b5, #05c3dd); text-align: left; padding: 2px 20px;"]]
+Yes. What do you want to talk about? [[span class="fnnum"]].[[/span]][[span class="fncon"]]I don't know. What do you want to talk about (•ิ_•ิ)?[[/span]]
+[[/div]]
+[[div]]
+[[image tstaffor.aic.png width="75px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+@@@@
+@@@@
+----
+[[=]]
++ 10^33601803 extraneous messages redacted for brevity.
+[[/=]]
+[[/div]]
+[[/<]]
+[[/collapsible]]
+[[/div]]
+
+[[footnoteblock]]
+----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5721]]] | SCP-5722 | [[[SCP-5723]]] >>
+[[/=]]
+[[/div]]
+----
+[[include :scp-wiki:more-by:tstaffor]]
+[[div]]
+[[=]]
+[[include :scp-wiki:component:license-box]]
+=====
+[[<]]
+> **Name:** tstaffor.aic.png
+> **Author:** [[*user Tstaffor]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** http://scp-wiki.wikidot.com/local--files/scp-5722/tstaffor.aic.png
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+[[/div]]

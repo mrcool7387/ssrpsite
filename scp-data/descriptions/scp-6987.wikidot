@@ -1,0 +1,51 @@
+
+	@@ @@
+@@ @@
+[[div style="display: none;"]]
+[[=]]
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-6987/logo.png|caption=.|width=100%|align=center]]
+[[/=]]
+[[/div]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=LORDXVNV]]
+= **SCP-6987** by [[*user LORDXVNV]]
+[[=]]
+**[[[LORDXVNV]]]'s Author Page**
+[[/=]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-6987-0
+https://scp-wiki.wikidot.com/fragment:scp-6987-1
+https://scp-wiki.wikidot.com/fragment:scp-6987-2
+https://scp-wiki.wikidot.com/fragment:scp-6987-3
+https://scp-wiki.wikidot.com/fragment:scp-6987-4
+--]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6986]]] | SCP-6987 | [[[SCP-6988]]] >>
+[[/=]]
+[[/div]]
+
+[[module CSS]]
+.authorlink-wrapper {
+    --author-top-adjust: .5rem;
+}
+
+.owindow h1 {
+  color: black;
+}
+[[/module]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

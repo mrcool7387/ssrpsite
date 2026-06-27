@@ -1,0 +1,44 @@
+
+	[[include :scp-wiki:theme:last-frontier]]
+
+[[module CSS]]
+
+div#header {
+    background-image: url('http://scptestwiki.wikidot.com/local--files/sigma:vivarium-test-page/ITTV_PRIDE_LOGO.png') !important;
+}
+
+[[/module]]
+
+[[module CSS]]
+#header h1 a::before {
+    content: "SCP Foundation";
+}
+ 
+#header h2::before {
+    content: "SECURE - CONTAIN - PROTECT";
+    text-shadow: 0rem 0rem 0.3125rem #000000;
+}
+[[/module]]
+@@ @@
+
+[[=]]
+[[module Rate]]
+[[/=]]
+------
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:7501-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:7501-2 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7500]]] | SCP-7501 | [[[SCP-7502]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

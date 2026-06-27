@@ -1,0 +1,59 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Pages:
+https://scp-wiki.wikidot.com/fragment:scp-6100-1
+https://scp-wiki.wikidot.com/fragment:scp-6100-2
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+~~~~
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6099]]] | SCP-6100 | [[[SCP-6101]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+=====
+> **Filename:** crucible.png
+> **Author:** [[*user modulum]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-6100 SCP Foundation Wiki]
+> **Derivative Of:**
+> ----
+> **Name:** logo.png
+> **Author:** [[*user far2]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/ SCP Foundation Wiki]
+
+> **Filename:** goldsky.jpg
+> **Names:** Caldwell 92 - 3.jpg
+> **Author:** NASA Hubble
+> **License:** CC BY-SA 2.0
+> **Source Link:** [http://w.wiki/7Hjt Wikimedia Commons]
+
+> **Filename:** milkyway.jpg
+> **Names:** Milky Way blue.jpg
+> **Author:** Christopher Universe
+> **License:** Public Domain
+> **Source Link:** [http://w.wiki/7Hju Wikimedia Commons]
+
+> **Filename:** spectro.png
+> **Author:** [[*user modulum]], [http://alexadam.github.io/demos/img-encode img-encode]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-6100 SCP Foundation Wiki]
+> **Derivative Of:**
+> ----
+> **Names:** Milky Way galaxy.jpg
+> **Author:** NASA/GSFC
+> **License:** Public Domain
+> **Source Link:** [http://w.wiki/7Hk2 Wikimedia Commons]
+=====
+[[include component:license-box-end]]

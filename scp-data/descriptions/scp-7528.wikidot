@@ -1,0 +1,145 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=Some things best remain TACIT.]]
+=====
+[[div style="display: none;"]]
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-7528/SmallSkull.jpg|caption=.]]
+[[/div]]
+
+[[module css]]
+:root {
+    --accent: 0, 210, 60 !important;
+}
+
+.series-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+
+    margin: 1rem 0;
+    padding: .02rem 1rem;
+    background: #445;
+
+    border-top-right-radius: .67rem;
+    border-top-left-radius: .67rem;
+
+    font-size: 1.2em;
+    font-family: var(--UI-font);
+}
+
+.series-nav>* {
+    margin: 0 0.3em;
+}
+
+.end_card {
+    background: linear-gradient(145deg, rgba(var(--accent), 0.5) 0%, #445 80%);
+    padding: 1.25rem 2rem;
+    text-align: center;
+}
+[[/module]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-7528-offset-0
+https://scp-wiki.wikidot.com/fragment:scp-7528-offset-1
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="series-nav"]]
+[[<]]
+<< [[size 85%]][*/secure-facility-dossier-area-12 Dossier: Area-12][[/size]]
+[[/<]]
+[[=]]
+**| @@ @@ SCP-7528 @@ @@ |**
+[[/=]]
+[[>]]
+[[size 85%]][*/scp-6762 SCP-6762][[/size]] >>
+[[/>]]
+[[/div]]
+
+[[div class="end_card"]]
+>+ {{>> [*/5k-series-hub PURE SOURCE] <<}}
+
+[[div class="blockquote quint"]]
+by [[*user Gabriel Kero]], [[*user HarryBlank]], and [[*user Placeholder McD]]
+[[/div]]
+
+[[module Rate]]
+
+[[div class="footer-wikiwalk-nav" style="margin: 0 auto;"]]
+[[=]]
+<< [[[SCP-7527]]] | SCP-7528 | [[[SCP-7529]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=Gabriel Kero, HarryBlank, & Placeholder McD]]
+[[<]]
+=====
+> //"Two men look out through the same bars:
+> One sees the mud, and one the stars."//
+> 
+>   -- Frederick Langbridge (1849–1923), //A Cluster of Quiet Thoughts//
+
+> **Name:** 7528.png/Pattern.png
+> **Author:** [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+
+> **Name:** AREA12
+> **Author:** [https://www.artreyus.com/ Trey Bishop] based on work by [[*user Jerden]] & [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** Local Files
+
+> **Name:** BARRIER
+> **Author:** [[*user Gabriel Kero]]
+> **License:** CC BY-SA 3.0
+
+> **Name:** Breach.jpg
+> **Author:** [[*user syuzhet]]
+> **License:** CC BY-SA 3.0
+
+> **Name:** crius.png
+> **Author:** [https://www.artreyus.com/ Trey Bishop]
+> **License:** CC BY-SA 3.0
+
+> **Name:** FinalFace.jpg, ScaryFace.jpg, Skull.jpg, SmallSkull.jpg
+> **Author:** Kyle Fitzpatrick
+> **License:** CC BY-SA 3.0
+
+> **Name:** I. T. Department Logo
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+
+----
+
+> **Name:** MUTATION
+> **Author:** [[*user Gabriel Kero]]
+> **License:** CC BY-SA 4.0
+> **Source Link:** Local Files
+> 
+> **__DERIVATIVE OF:__**
+> 
+> **Name:** Arnoldi Iteration.gif
+> **Author:** Greg Vernon
+> **License:** CC BY-SA 4.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:Arnoldi_Iteration.gif Wikimedia]
+
+----
+
+> **Name:** Static.jpg
+> **Title:** Glitching Screen
+> **Author:** Thoth God of Knowledge
+> **License:** CC BY 2.0
+> **Source Link:** [https://www.flickr.com/photos/62025628@N00/4255394744 Flickr]
+
+=====
+[[/<]]
+[[include :scp-wiki:component:license-box-end]]
+
+[[/div]]

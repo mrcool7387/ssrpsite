@@ -1,0 +1,200 @@
+
+	=====
+[[include component:preview
+text=Everyone knows how this story ends.
+]]
+=====
+
+[[div style="display: none;"]]
+[[include component:image-block
+| name=7376-Thumbnail.png
+| caption=Thumbnail
+| width=100%
+| align=center]]
+[[/div]]
+
+[[module css]]
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "ETC";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-7376
+|authorPage=https://scp-wiki.wikidot.com/montagueetc
+|comments=
+
+= **SCP-7376** - Qayin and Hevel
+
+----
+
+= A reimagining of [[[SCP-073]]] and [[[SCP-076]]].
+
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7376-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7376-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7376-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7376-4 --]
+
+@@ @@
+
+-----
+[[include :scp-wiki:component:wikimodule |normal= --]]]
+-----
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7375]]] | SCP-7376 | [[[SCP-7377]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** 7376-Thumbnail.png
+> **Name:** Victorian Prosthetic Arm
+> **Author:** [[[https://www.flickr.com/people/pathfinderlinden/ | John Lester]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/pathfinderlinden/4946436900 | Flickr]]]
+=====
+> **Filename:** Multiplex.svg
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> -----
+> **Filename:** See Below.svg
+> **Author:** [[*user ZackVMK-13]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[zackvmk-s-acs-icon-page | ZackVMK's ACS Icon Page]]]
+=====
+> **Filename:** Multiple.svg
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> -----
+> **Filename:** multiple-icon.svg
+> **Author:** [[*user Dr Asteria]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[SCP-6113]]]
+=====
+> **Filename:** Omega7.png
+> **Name:** Frye's Opera House Ruins, June 1889
+> **Author:** John P. Soule
+> **License:** Public Domain
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Frye%27s_Opera_House_Ruins,_June_1889_-_DPLA_-_ee4d2ee85fb7f4df22de51bfe90db6fb.jpg | Wikimedia Commons]]]
+=====
+> **Filename:** Classification Committee.png
+> **Name:** Classification Committee
+> **Author:** [[*user EstrellaYoshte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[desk-of-junior-designer-s-yvonne | Desk of Junior Designer S. Yvonne]]]
+=====
+> **Filename:** Tomb.png
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> -----
+> **Name:** Tomb Entrance
+> **Author:** [[[https://www.flickr.com/people/29320962@N07/ | Giles Watson]]]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/29320962@N07/4333992951 | Flickr]]]
+=====
+> **Filename:** OROK.png
+> **Name:** Klavigar - Orok (Logo) 01
+> **Author:** [[*user SunnyClockwork]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[sunny-art-cotbg-sarkicism | SunnyClockwork's Artwork - CotBG and Sarkicism]]]
+=====
+> **Filename:** integrated.png
+> **Author:** [[*user PlaguePJP]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[plaguepjp | Plague's Authorpage]]]
+=====
+> **Filename:** Hand.png
+> **Name:** Victorian Prosthetic Arm
+> **Author:** [[[https://www.flickr.com/people/pathfinderlinden/ | John Lester]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/pathfinderlinden/4946436900 | Flickr]]]
+=====
+> **Filename:** BrokenGod.png
+> **Name:** The Broken Church
+> **Author:** [[*user SunnyClockwork]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[sunny-art-cotbg-sarkicism | SunnyClockwork's Artwork - CotBG and Sarkicism]]]
+=====
+> **Filename:** Flor-Galana.svg
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> -----
+> **Filename:** icon-CC-FlorGalana.svg
+> **Author:** [[*user ChaosMageX]]
+> **License:**CC BY-SA 3.0
+> **Source Link:** [[[Chaos Arts]]]
+=====
+> **Filename:** Control.png
+> **Name:** Cryptologic Technician (Technical) 3rd Class Isaiah Preston stands watch in the combat information center aboard USS Chancellorsville (CG 62) in the Philippine Sea.
+> **Author:** [[[https://www.flickr.com/people/usnavy/ | Official U.S. Navy Page]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/usnavy/52326368157/ | Flickr]]]
+=====
+> **Filename:** Bowe.png
+> **Name:** Dr Edmund F. Woods 1915
+> **Author:** [[[https://www.flickr.com/people/puzzlemaster/ | Dave Miller]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/puzzlemaster/13220678613/ | Flickr]]]
+=====
+> **Filename:** ellipsis.png
+> **Author:** [[*user GwenWinterheart]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[SCP-7510]]]
+=====
+> **Filename:** ETTRA.png
+> **Author:** [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[SCP-7000]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

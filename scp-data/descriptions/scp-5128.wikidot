@@ -1,0 +1,25 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-5128-1
+http://scp-wiki.wikidot.com/fragment:scp-5128-2
+--]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5127]]] | SCP-5128 | [[[SCP-5129]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+[[include component:license-box-end]]

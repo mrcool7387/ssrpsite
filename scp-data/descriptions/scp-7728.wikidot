@@ -1,0 +1,71 @@
+
+	[[include :scp-wiki:theme:blankstyle fade=a]]
+[[module css]]
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include component:image-block name=scary.jpg|caption=[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]where it hides[[/span]]]]
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**item #:** scp-7728[[/span]][[footnote]] Ilse, you have got to be more careful about leaving your laptop around with blank files open. [[/footnote]]
+@@ @@
+@@ @@
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**obgect class:** scary[[/span]][[footnote]] //Oh mijn god//, even he is making up object classes! [[/footnote]]
+@@ @@
+@@ @@
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**special contaiment prosedures:** scp-7728 is not aloud to wake me up at nite but it still does enyway becauz it is mean. always ask mom and baba[[/span]][[footnote]] What a sweetheart. He even calls  me baba when I'm not looking. [[/footnote]] [[span style="font-family: 'Schoolbell';  font-size: 20px;"]]two check under bed and leaf the nitelite on.[[/span]]
+@@ @@
+@@ @@
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**descrepshon:** scp-7728 is the monster under my bed. its probable a gost type like gengar[[/span]][[footnote]] Riddle me this, Jay. What on earth is a "Gengar"? [[/footnote]] [[span style="font-family: 'Schoolbell';  font-size: 20px;"]]who is very scary. i tried beign niec to it but it keeps scareng me.  i hope one day it stops. i tried leaving it cookies like santa claws but it does not liek them. who dosent liek cookies?![[/span]]
+@@ @@
+@@ @@
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**adendumb 7728.1:** evry time i ask mom and baba to look under there adnd they alweys say nothing is there!!!! they dont belief me. but i now something is there!!!![[/span]][[footnote]]He probably keeps getting scared by that Furby you bought talking at night, Ilse. [[/footnote]] [[footnote]]I returned that Furby last week, Jay. He didn't like it, and it started to even annoy me.[[/footnote]]
+
+
+[[footnoteblock]]
+@@@@
+@@@@
+
+[[span style="font-family: 'Schoolbell';  font-size: 20px;"]]**adendumb 7728.2:** its still there[[/span]]
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[include :scp-wiki:component:earthworm
+| first=false | last=false | hub=yes
+| previous-url=https://scp-wiki.wikidot.com/pediatric-para-psychology | previous-title=Pediatric Para-Psychology
+| next-url=https://scp-wiki.wikidot.com/mean-monster-blues | next-title=Mean Monster Blues
+| hub-url=https://scp-wiki.wikidot.com/ever-after-hub | hub-title=Ever After Hub
+]]
+@@@@
+@@@@
+@@@@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7727]]] | SCP-7728 | [[[SCP-7729]]] >>
+[[/=]]
+[[/div]]
+[[include component:wikimodule |normal= --]]]
+
+[[include :scp-wiki:component:license-box
+|author=Uncle Nicolini]]
+
+> **Filename:** scary.jpg
+> **Author:** Ziko
+> **License:** CC BY SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:201708_Mackenzie_House_09.jpg Wikimedia Commons]
+
+
+
+[[include :scp-wiki:component:license-box-end]]

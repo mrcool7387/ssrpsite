@@ -1,0 +1,56 @@
+
+	=====
+[[include component:preview
+text=
+//For You, Isis, a hiding, a hint, a whisper, an obscuration, a veil.//
+
+The Sixth Occult War lasted from 1864 to 1869. A war of several sides and no victor. Only losers. One of the most detrimental conflicts humanity will ever face. But the world will recover. Only this time, it will be different. This time, a line will be drawn. This time, there will be a Veil.
+]]
+=====
+
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=-- |name=ArthCymro]]
+**[https://scp-wiki.wikidot.com/dr-dafydd-s-personnel-file More by this Author]**
+[[include :scp-wiki:component:author-label-source end=--]]
+
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8899-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8899-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8899-2 --]
+
+[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+
+[[footnoteblock]]
+@@ @@
+[[include :scp-wiki:component:license-box]]
+> **Filename:** https://upload.wikimedia.org/wikipedia/commons/a/a9/William_Blake_Eve_Tempted_by_the_Serpent_detail.jpg
+> **Name:** Eve Tempted by the Serpent detail
+> **Author:** William Blake
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:William_Blake_Eve_Tempted_by_the_Serpent_detail.jpg
+=====
+> **Filename:** https://upload.wikimedia.org/wikipedia/commons/2/23/The_life_and_letters_of_Sir_John_Henniker_Heaton_bt._%281916%29_%2814764155982%29.jpg
+> **Name:** The life and letters of Sir John Henniker Heaton bt.
+> **Author:** Porter, Rose Henniker
+> **License:** Public domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:The_life_and_letters_of_Sir_John_Henniker_Heaton_bt._(1916)_(14764155982).jpg
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8898]]] | SCP-8899 | [[[SCP-8900]]] >>
+[[/=]]
+[[/div]]

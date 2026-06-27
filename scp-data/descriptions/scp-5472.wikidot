@@ -1,0 +1,85 @@
+
+	[[include :scp-wiki:component:sigma-plus
+|wide=a]]
+[[include :scp-wiki:component:toggle-sidebar]]
+
+[[include component:preview
+text=There's a portal to a mansion in the back of a van.]]
+
+[[module CSS]]
+:root {
+    --header-title: "SCP Foundation";
+    --header-subtitle: "Studying Contradictory Places";
+}
+
+sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.5em;
+}
+
+.note {
+    background: #ffffff;
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
+}
+
+
+.scp-image-block.block-right { margin: 1em 2em 1em 1em; }
+
+#page-title{display:none}
+
+[[/module]]
+
+=====
+[[include :scp-wiki:component:preview text=A Portal to a Mansion in the Back of a Van]]
+=====
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5472-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5472-1 --]
+
+
+------
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5471]]] | SCP-5472 | [[[SCP-5473]]] >>
+[[/=]]
+[[/div]]
+
+[[=]]
+[[include :scp-wiki:component:license-box]]
+[[<]]
+=====
+> **Filename:** IMG_6735.JPG
+> **Name:** 2023 Ford Transit Connect XL LWB
+> **Author:** [[*user Jiwoahn]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-5472 SCP Foundation Wiki]
+
+> **Filename:** Downtowngal_on_Wikimedia.jpg
+> **Name:** Empty apartment living room.jpg
+> **Author:** [https://commons.wikimedia.org/wiki/User:Downtowngal Downtowngal]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Empty_apartment_living_room.jpg Wikimedia Commons]
+
+> **Filename:** PMBV.JPG
+> **Name:** //How to Make a Portal to a Mansion in the Back of a Van// - written by Manny van Portshire
+> **Author:** [[*user Jiwoahn]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-5472 SCP Foundation Wiki]
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

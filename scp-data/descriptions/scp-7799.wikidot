@@ -1,0 +1,48 @@
+
+	[[include :scp-wiki:component:rewrite-notice ongoing=--]]
+
+[[=]]
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=component:info-ayers
+|authorPage= https://scp-wiki.wikidot.com/trouts-authorpage
+|comments=
+> And we'll all float on.
+> Alright already, we'll all float on
+> Alright, don't worry even if things end up a bit too heavy
+> [https://youtu.be/CTAud5O7Qqk We'll all float on alright.]
+( Float On - Modest Mouse  )
+
+SCP-7799 - When I'm Gone and Afloat.]]
+[[/=]]
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-7799-1
+https://scp-wiki.wikidot.com/fragment:scp-7799-2
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7798]]] | SCP-7799 | [[[SCP-7800]]] >>
+[[/=]]
+[[/div]]
+[[include component:wikimodule |ratings= --]]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** jlyfis.png
+> **Name:** Jellyfish at Osaka
+> **Author:** Steffen Flor
+> **License:** Creative Commons Attribution-Share Alike 2.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:2018-08-24_Jellyfish_at_Osaka.jpg
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,74 @@
+
+	[[include :scp-wiki:component:pjpss]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+
+[[div]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number=9601
+|clearance= 4
+|container-class=neutralized
+|secondary-class=
+|secondary-icon=
+|disruption-class=
+|risk-class=
+]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= neutralized
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/neutralized-icon.svg
+|containment-color= 138, 33, 33
+|inc-neutralized-layout = --]]]
+
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-four= 138, 33, 33
+|inc-clearance= --]]]
+[[/div]]
+[[include :scp-wiki:component:acs-animation]]
+
+------
+
+[[include component:image-block
+    name=image |
+    caption=Subsection of SCP-9601-1 instances upon manifestation.|
+    align=center |
+    width=100%
+]]
+
+------
+
+[[include component:image-block
+    name=dale |
+    caption=Dale Florens.|
+    align=right |
+    width=10%
+]]
+
+**Special Containment Procedures:** All 531,094 surviving SCP-9601-1 instances have been relocated to wildlife reserves across the planet[[footnote]] As to avoid any major disruptions in the ecosystem of Summer Springs, Virginia. [[/footnote]]. The 468,906 deceased SCP-9601-1 instances have been donated to philanthropic organizations dedicated to feeding the impoverished. 
+
+Given the irregular nature in which SCP-9601-1 instances initially manifested, further containment has been deemed unnecessary. SCP-9601 has been adequately disposed of. 
+
+**Description:** SCP-9601 refers to a 16th century Persian oil lamp, the bottommost shards of which contain a transcription that reads as follows:
+
+[[=]]
+> Shine the lamp, 
+> Wield its power, 
+> Make the wish,
+> Of your special hour.
+[[/=]]
+
+SCP-9601-1 is the overarching designation given to 1,000,000 Male[[footnote]] Otherwise known as a "Buck". [[/footnote]] White-tailed Deer //(Odocoileus Virginianus)// which spontaneously manifested above the property of 47 year old Dale Florens in Summer Springs, VA, on November 25, 2025 at 14:39. 
+
+Both Dale Florens and SCP-9601 were instantly pulverized beneath the weight of multiple SCP-9601-1 instances.
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9600]]] | SCP-9601 | [[[SCP-9602]]] >>
+[[/=]]
+[[/div]]

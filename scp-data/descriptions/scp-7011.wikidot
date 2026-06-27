@@ -1,0 +1,70 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7011-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7011-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7011-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7011-4 --]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-7010]]] | SCP-7011 | [[[SCP-7012]]] >>
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=LAN 2D]]
+=====
+> **Filename:** wallowa_wind.jpg
+> **Name:** Oregon Summer Fog
+> **Author:** Brandon Olafsson
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://www.flickr.com/photos/168888063@N04/52199291528/in/photostream/ Flickr]
+
+> **Filename:** ALICE_final2.png
+> **Name:**  Frontier Supercomputer (3).jpg
+> **Author:** OLCF at ORNL
+> **License:** CC BY 2.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File%3AFrontier_Supercomputer_%283%29.jpg Wikimedia Commons]
+
+> **Filename:** wallowa_1
+> **Name:**  Wallowa Lake Day Trip [IMG_9737]
+> **Author:** Andy Melton
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://www.flickr.com/photos/trekkyandy/14414677829/in/photostream/ Flickr]
+
+> **Filename:** wallowa_2
+> **Name:**  Rock Stack at Wallowa Lake
+> **Author:** Evan Ology
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://www.flickr.com/photos/53789234@N02/4975912164/ Flickr]
+
+> **Filename:** wallowa_road
+> **Name:**  Sign for Don't Drive Like Hell in Joseph, OR.
+> **Author:** Robert Ashworth
+> **License:** CC BY 2.0
+> **Source Link:** [https://www.flickr.com/photos/90536753@N00/10776174595 Flickr]
+
+> **Filename:** tunnel
+> **Name:**  Through the Tunnel
+> **Author:** Becca Swift
+> **License:** CC BY 2.0
+> **Source Link:** [https://www.flickr.com/photos/rebeccaswift/14722929090/in/photostream/ Flickr]
+
+> **Filename:** Joseph
+> **Name:**  Joseph OR - aerial.jpg
+> **Author:** Sam Beebe
+> **License:** CC BY 2.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Joseph_OR_-_aerial.jpg Wikimedia Commons]
+
+> **Filename:** locker
+> **Name:**  Dülmen, Kirchspiel, ehem. Sondermunitionslager Visbeck, Bereich der US Army -- 2020 -- 7476.jpg
+> **Author:** Dietmar Rabich
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_Bereich_der_US_Army_--_2020_--_7476.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

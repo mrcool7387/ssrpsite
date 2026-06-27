@@ -1,0 +1,46 @@
+
+	=====
+[[include component:preview
+text="They just //had// to have their pound of flesh. And then they had to have another...over and over until I couldn't even recognize myself in the mirror anymore."
+]]
+=====
+
+[[include :scp-wiki:component:toggle-sidebar]]
+[[include :scp-wiki:component:markmywords]]
+[[include :scp-wiki:component:dynamic-emails code=--]]
+
+
+[[module CSS]]
+    #page-title {display: none;}
+
+#footer a {
+    color: #000000;
+}
+[[/module]]
+[[module css]]
+#main-content {
+     max-width: 62rem;
+}
+
+[[/module]]
+
+[[include :scp-wiki:info:start]]
+⚠️ **Content warning:** This article contains a content warning for sexual harassment, attempted sexual assault, discrimination, and workplace abuse.
+Article by [[*user KatyaStrangelove]]
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+-----
+[!-- https://scp-wiki.wikidot.com/fragment:scp9000katyastrangelove-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp9000katyastrangelove-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp9000katyastrangelove-2 --]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9139]]] | SCP-9140 | [[[SCP-9141]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,20 @@
+
+	[!--
+Fragment pages:
+https://scp-wiki.wikidot.com/fragment:scp-7392-1
+https://scp-wiki.wikidot.com/fragment:scp-7392-2
+--]
+
+[[module ListPages category="fragment" parent="." order="name" limit="1" offset="@URL"]]
+%%content%%
+[[/module]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** CamerasA1.png
+> **Name:** Surveillance cameras-IMG 4377.JPG
+> **Author:** Rama
+> **License:** CC BY-SA 2.0 FR
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Surveillance_cameras-IMG_4377.JPG Wikimedia Commons]
+> **Additional Notes:** Image reduced to one third of its original resolution.
+=====
+[[include :scp-wiki:component:license-box-end]]

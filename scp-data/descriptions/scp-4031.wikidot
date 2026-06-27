@@ -1,0 +1,439 @@
+
+	[[include :scp-wiki:component:betterfootnotes]]
+[[div style="display: none"]]
+[[include :scp-wiki:theme:flopstyle]]
+[[/div]]
+[[include :scp-wiki:theme:magnus-web-format]]
+[[include :scp-wiki:component:centered-header-sigma-9]]
+[[include :scp-wiki:theme:scp-trans-pride |trans-pride-footer= --]]]
+
+[[module CSS]]
+/* HEADER AREA */
+ :root {
+    --header-title: "RAISA Archive";
+    --header-subtitle: "RECORDS AND INFORMATION SECURITY ADMINISTRATION";
+    --titleColor: hsl(0, 0%, 20%);
+    --subtitleColor: hsl(0, 0%, 20%);
+    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-logo100.png);
+}
+
+ div#container-wrap {
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-body_bg.png);
+}
+
+ #header::before {
+    opacity: .4;
+}
+
+ #login-status,
+ #login-status a,
+ #login-status #my-account {
+    color: hsl(0, 0%, 20%);
+}
+
+ #account-topbutton {
+    border-color: hsl(0, 0%, 20%);
+}
+
+ #page-title {
+    display: none;
+}
+
+/* FORMATTING */
+ #page-content .collapsible-block {
+    box-shadow: none;
+}
+
+ .title-style {
+    text-underline-offset: 30%;
+}
+
+ .centered-table {
+    display: flex;
+
+    border-collapse: collapse;
+}
+
+ .centered-table > tbody {
+    margin: auto;
+}
+
+ .centered-table td {
+    padding: .4rem .8rem;
+
+    border: thin solid hsl(0, 0%, 5%);
+
+    text-align: center;
+}
+
+ .centered-table tr:first-child td {
+    width: 30%;
+
+    background: silver;
+
+    font-weight: bold;
+}
+
+ .sanguine {
+    color: hsl(356, 82%, 38%);
+
+    font-weight: bold;
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-4031
+|authorPage=/floppyphoenix
+|comments=**SCP-4031:** The Amnesiac Redemption **[[*https://youtu.be/d4pltuR8QPc Audio Version]]** 
+**By:** [[*user Lt Flops]] 
+**Published on 27 Dec 2018** 
+ 
+Written for **[*/forum/t-381751 Hatsune Miku's 1st Challenge]**. 
+----
+[[include :scp-wiki:more-by:lt-flops]]
+[[/div]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+@@ @@
+
+[[div class="meta-title"]]
+SCP-4031
+[[/div]]
+
+[[div class="pseudocrumbs"]]
+[[[SCP Series 5]]] >> SCP-4031
+[[/div]]
+
+[[div class="raisa-header"]]
+[[f<image https://scp-wiki.wdfiles.com/local--files/scp-001-ex/padlock.png]]
+
+++++ NOTICE FROM THE FOUNDATION RECORDS AND INFORMATION SECURITY ADMINISTRATION
+----
+The following file was discovered in a dilapidated experimentation chamber in the Site-82 Research Wing.
+
+-- Alexis Rose, Digitization Department Lead
+[[/div]]
+
+[[div class="material-box"]]
+[[=image https://scp-wiki.wdfiles.com/local--files/theme:classic/scp_foundation_logo.png style="height: 75px; width: 75px"]]
+[[div class="scp-header"]]
+**__Anomalous Item Entry__**
+[[/div]]
+[[div class="scp-info"]]
+[[div]]
+__**Item #:**__ SCP-4031
+[[/div]]
+[[div]]
+__**Object Class:**__ Euclid
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="material-box"]]
+[[div class="title-style"]]
+= Special Containment Procedures
+[[/div]]
+
+= [[size large]][[span class="terminal-span"]]N/A[[/span]][[/size]]
+[[/div]]
+
+[[div class="material-box"]]
+[[div class="title-style"]]
+= Description
+[[/div]]
+
+SCP-4031 is a powerful, fast-acting amnesiac of unknown makeup, quantity, and origin.
+
+Subjects in visual, olfactory, gustatory, auditory, tactile, and memetic range sustain short-term memory loss, disassociation, and an acidic aftertaste. Application of the amnesiac leads to a male vocalization of human origin. Exposed subjects cannot corroborate the vocalization's existence during interrogation.
+[[/div]]
+
+@@ @@
+
+[[div class="addenda-header"]]
++++ Attached Addenda
+[[/div]]
+[[div class="material-box"]]
+[[div class="title-style"]]
+= I. Experimentation Log
+[[/div]]
+
+The following is a series of alleged interactions with SCP-4031. Interactions were not logged in real time; unknown subject(s) recorded the interactions in documentation areas. Inputs include different persons, objects, and conceptual structures. Results include various levels of conceptual recall.
+
+@@ @@
+
+[[table class="centered-table"]]
+[[row]]
+[[hcell]]
+INPUT
+[[/cell]]
+[[hcell]]
+TEST RESULTS
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Strawberry Rhubarb Pie
+[[/cell]]
+[[cell]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Pie
+[[/cell]]
+[[cell]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Gustatory Sensation
+[[/cell]]
+[[cell]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Tongue
+[[/cell]]
+[[cell]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Fleshy Structure, Unknown Origin
+[[/cell]]
+[[cell]]
+Consumed.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Blood Loss
+[[/cell]]
+[[cell]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Blood Loss
+[[/cell]]
+[[cell]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Blood
+[[/cell]]
+[[cell]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Blood
+[[/cell]]
+[[cell]]
+Subject expired.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+New Test
+[[/cell]]
+[[cell]]
+Recalled.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Blood
+[[/cell]]
+[[cell]]
+[[[scp-5664|Recalled.]]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Laboratory Pencil
+[[/cell]]
+[[cell class="sanguine"]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+D-5549
+[[/cell]]
+[[cell class="sanguine"]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+D-5549
+[[/cell]]
+[[cell class="sanguine"]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Junior Researcher Ortega
+[[/cell]]
+[[cell class="sanguine"]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Junior Researcher Ortega
+[[/cell]]
+[[cell class="sanguine"]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Researcher Smalls
+[[/cell]]
+[[cell]]
+{{[[[scp-3309|N/A]]]}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Dr. Westrin
+[[/cell]]
+[[cell class="sanguine"]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Dr. Westrin
+[[/cell]]
+[[cell class="sanguine"]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell class="sanguine"]]
+Project Lead Xiulan
+[[/cell]]
+[[cell class="sanguine"]]
+Forgotten.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[cell]]
+@@ @@
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Vocalization
+[[/cell]]
+[[cell]]
+{{N/A}}
+[[/cell]]
+[[/row]]
+[[/table]]
+
+@@ @@
+
+[[/div]]
+
+[[div class="material-box"]]
+[[div class="title-style"]]
+= II. Investigative Report
+[[/div]]
+
+An investigatory team took Class-W Mnestic[[span class="fnnum"]].[[/span]][[span class="fncon"]]**Mnestic:** An agent used to temporarily enhance a user's immediate memory retention.[[/span]] drugs with the intent to examine SCP-4031. The team discovered a hitherto unaccounted-for male subject on the floor, deceased. The subject suffered lacerations, emaciation, a broken left clavicle, and blood loss in the oral cavity.
+
+Moreover, the subject suffered [[[a-kind-of-redemption|extensive trauma to the head.]]]
+[[/div]]
+
+@@ @@
+
+[[div class="footing"]]
+[[/div]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-4030]]] | [[[floppyphoenix|Lt Flops]]] | [[[SCP-4032]]] >>
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+[[div class="blockquote"]]
+**Filename:** raisa-body_bg.png
+**Author:** [[*user Croquembouche]]
+**License:** [*https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]
+**Source Link:** [*https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-body_bg.png Image]
+[[/div]]
+
+[[div class="blockquote"]]
+**Filename:** raisa-logo100.png
+**Author:** [[*user TSATPWTCOTTTADC]]
+**License:** [*https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]
+**Source Link:** [*https://scp-wiki.wdfiles.com/local--files/scp-4031/raisa-logo100.png Image]
+**Note:** Created by [[*user TSATPWTCOTTTADC]] with resources from [*https://opengameart.org/content/flat-folder-icon Open Game Art].
+[[/div]]
+=====
+[[include :scp-wiki:component:license-box-end]]

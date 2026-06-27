@@ -1,0 +1,29 @@
+
+	=====
+[[include component:preview
+text=
+The file "SCP-5356" does not exist. The object it describes may have been archived, explained, or decommissioned and removed from the main database. 
+]]
+=====
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-right: 2em; margin-top: -20px;"]]
+
+by [[[Koths Korner| ███████████████]]]
+
+[[/div]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://www.scp-wiki.net/fragment:scp-5356-1 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5356-2 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5355]]] | SCP-5356 | [[[SCP-5357]]] >>
+[[/=]]
+[[/div]]

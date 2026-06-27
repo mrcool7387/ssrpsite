@@ -1,0 +1,27 @@
+
+	[[module ListPages  category="fragment" parent="." limit="1" order="title" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7869-iteration-one --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7869-iteration-two --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7869-iteration-three --]
+
+[[include :scp-wiki:component:license-box
+author=AMystB859]]
+=====
+= Credit to my friend G.G. for drawing the ‘Artist’s Rendition’ of SCP-7869.
+= Her socials: 
+= Instagram: gen_ocide__
+= Yt: Ketchup_Pie 
+= Reddit: u/Cornbird_56
+
+= Watch out for a revamp on 7869 soon. I don't really like some parts of it
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7868]]] | SCP-7869 | [[[SCP-7870]]] >>
+[[/=]]
+[[/div]]

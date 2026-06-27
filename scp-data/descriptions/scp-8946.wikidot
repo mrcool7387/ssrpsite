@@ -1,0 +1,26 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+=====
+[[include :scp-wiki:component:preview
+text=
+The Departments of Geology are currently working with RCT-Δt to synchronize their now cross-dimensional databases.
+]]
+=====
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://www.scp-wiki.net/fragment:scp-8946-0
+http://www.scp-wiki.net/fragment:scp-8946-1--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8945]]] | SCP-8946 | [[[SCP-8947]]] >>
+[[/=]]
+[[/div]]

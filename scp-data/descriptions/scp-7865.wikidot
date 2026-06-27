@@ -1,0 +1,32 @@
+
+	[[div class="readtime creditRate"]]
+[[size 80%]]  ⧗ 1h10min read [[/size]]
+[[/div]]
+
+[[div style="margin: 3px 0;"]]
+[[/div]]
+
+[[include :scp-wiki:info:start]]
+⚠️ Content warning: This article contains heavy subject matter that includes murder, references to self-harm, suicidal ideation, and depictions of torture.
+[[include :scp-wiki:info:end]]
+[[include :scp-wiki:component:info-cw]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-7865-0
+https://scp-wiki.wikidot.com/fragment:scp-7865-1
+
+haha please dont break --]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** 1200px-Colossus.jpg
+> **Name:** Colossus
+> **Author:** Unknown
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Colossus.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

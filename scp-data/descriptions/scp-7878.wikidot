@@ -1,0 +1,39 @@
+
+	[[include :scp-wiki:info:start]]
+[[=]]
++++ SCP-7878
+++++ {{Doing everything, everywhere, all at once.}}
+Written by [[*user Felixou]]
+------
++++++ [[[Felixoupage |If you enjoyed this, check out other articles by me]]]
+------
+[[/=]]
+[[include :scp-wiki:info:end]]
+
+[[div style="display: none;"]]
+[[include component:image-block
+name=https://scp-wiki.wdfiles.com/local--files/everything.png
+|caption=Moving Past The Feeling
+|width=100%
+|align=center]]
+[[/div]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7878-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7878-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7878-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7878-4 --]
+
+[[include :scp-wiki:component:license-box
+|author=Felixou]]
+=====
+**Thumbnail**
+> **Filename:** everything.png
+> **Author:** Michelangelo, edited by [[*user Felixou]]
+> **License:** public domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Creaci%C3%B3n_de_Ad%C3%A1n.jpg
+=====
+[[include :scp-wiki:component:license-box-end]]

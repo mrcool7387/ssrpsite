@@ -1,0 +1,84 @@
+
+	[[include component:preview
+text=Did you know this thing was in rewrite for 3 years? (760 words)]]
+
+[[include :scp-wiki:component:toggle-sidebar]]
+
+[[module CSS]]
+#page-title {
+    display: none;
+}
+[[/module]]
+[[include :scp-wiki:info:start]]
+**PDG-213:** Antimatter Parasites
+**Author:** [[*user whenwerewe]]
+[*https://scp-wiki.wikidot.com/whenwerewe Here's my page!]
+[[include :scp-wiki:info:end]]
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[=]]
++++++ SCP FOUNDATION
++++++ FIELD OPERATIONS ANNEX
+
+++ **__Paraweapon Deployment Guide__**
++++ Entry 213: “Antimatter Parasites”
+[[/=]]
+
+------
+
+@@ @@
+[[div class="blockquote"]]
++++++ **30-Word How-To**
+Switch container to “immature” and add to enemy water or food supplies, or use “mature” and throw like a grenade. If you or a colleague are contaminated, don’t hesitate -- amputate.
+[[/div]]
+
+@@ @@
+
+**Overview:** Asset 213 is a hand-portable steel canister containing a brood of dormant xenoparasites. The Asset may be deployed in two configurations. In //immature// configuration, xenoparasites may be covertly inserted into enemy supplies as a form of biological agent. In //mature// configuration, however, the canister uses UV (ultraviolet) light to induce cannibalism in the brood, leaving one surviving adult xenoparasite. A thrown canister then opens on a timer, releasing the grown parasite to engage enemy forces.
+
+The xenoparasites naturally inhabit a living host, typically entering through the digestive tract, though any physical contact with instances can allow for infestation.  The //immature// configuration focuses on infesting enemy personnel. Typically, xenoparasites reproduce when the host experiences intense emotion, disintegrating nearby matter in energetic flashes to fuel themselves. However, due to Foundation conditioning, reproduction is impossible. Instead, heightened emotion triggers autolysis, annihilating the host, their surroundings, and the xenoparasites.
+
+The //mature// configuration centres on a full-grown xenoparasite, which can use its disintegration ability directly, and is secure against essentially all material assault. However, once released, its internal nutrient reserves will suffice for only thirty seconds before it self-terminates. The resulting rampage as it unsuccessfully attempts to sustain itself is the primary offensive effect.
+
+Field units may use either variation at their discretion. However, if mature instances are judged to have been used wastefully, compensation for the resulting collateral will be seized equitably from each squad-member’s account.
+
+@@ @@
+**Employment:** The //immature// configuration is best used as a weapon of sabotage or terror. Contamination may be used as an assassination method by inducing a heightened emotional state in the contaminated individual. It may also be used to degrade battlefield performance, as contaminated units will suffer fatalities and equipment loss in the emotionally taxing theatre of combat -- the sudden loss of men can often be lethal to unit cohesion. The allowable collateral ratio is no more than nine in ten.
+
+The //mature// configuration is effectively an intelligent area-clearing weapon, and may be used to sweep fortifications, destroy armour, or render an advance nonviable. Be warned that Asset 213 xenoparasites are indiscriminate, and can only rarely be reasoned with.
+
+[[<]]
+|||| [[image light.jpg width="400px"]] ||
+|| ,,Insurgent chieftain Rami Arslan disintegrates upon news of his son’s death.,, ||
+[[/<]]
+
+@@ @@
+**Maintenance:** Containers should be kept away from bright light, and sealed until used. On use, the entire brood should be emptied, and the containers must not be reused. __Check for lingering or laggard xenoparasites before resealing.__
+
+Asset 213 canisters require regular nutrient inputs to be kept quiescent. Specifically, broods need regular inputs of tissue from a living mammal (i.e. the mammal must be alive at the moment of consumption). This means no plants and no pre-packaged food, but foraged wildlife or requisitioned civilians are effective. Only in the most dire cases does Asset 213 need to be stabilised with your own tissue.
+
+@@ @@
+**Misfire Protocol:** Asset 213 experiences a wide variety of (__rare__) misfire modes. Their classifications and appropriate responses are catalogued below:
+
+||~ Failure Mode ||~ Response||
+|| Contamination of friendly units. || If a friendly unit experiences infestation in an extremity, amputation within thirty seconds is sufficient. Otherwise, apply the same standard you would to civilians: terminate. ||
+|| Contact with mature instance. || Remember that time is on your side. Mature xenoparasites are not slowed by material obstacles, and their sinuous motion cannot be outrun. However, they have no extraordinary senses, and hiding is possible. To maximise probability of survival, position colleagues between yourself and the instance. ||
+|| Attempt at bargaining. || Immature instances occasionally develop precocious mental abilities, and attempt to bargain for better nutrition, spacious accommodations, or their lives. Keep in mind they have no ability to follow up on their commitments. "Bargaining" from a mature entity is a sign of sadism; continued engagement may exhaust the instance's nutrient reserves before it attacks. ||
+|| Autolysis failure. || In exceedingly rare cases, the conditioned autolysis response may fail. Be on alert for immature instances reproducing, or mature instances outliving the thirty-second timer. In either case, immediately signal Orbital Command with your assigned beacon. Do not attempt to flee: it is impossible to escape the blast radius, even in a vehicle. Instead, obstruct the motion of the xenoparasites with your body as necessary. Even the instantaneous blindness as a mature instance tunnels through flesh can make the difference between a successful eradication and a lasting nest.||
+
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-212|PDG-212]]] | PDG-213| [[[SCP-214|PDG-214]]] >>
+[[/=]]
+
+@@ @@
+[[include :scp-wiki:component:license-box]]
+> **Filename:**light.jpg
+> **Author:** [*http://thewashingmachinepost.net/ http://thewashingmachinepost.net/] (used with permission)
+> **License:** CC BY-SA 3.0
+> **Source Link:** [*http://thewashingmachinepost.net/cover_images_39/bright-lights.jpg Link]
+[[include :scp-wiki:component:license-box-end]]
+[[/div]]

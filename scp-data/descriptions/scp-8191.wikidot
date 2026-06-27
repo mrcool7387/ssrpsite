@@ -1,0 +1,62 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:eventyr]]
+[[include :scp-wiki:component:dynamic-emails code=--]]
+
+[[include component:preview
+text= "Do you know who guards the Grail, in Chrétien de Troyes' //Percival//?"
+]]
+
+[[div style="display: none;"]]
+[[include component:image-block name=https://i.imgur.com/U4NgOwC.jpeg|caption=.]]
+[[/div]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=sailorenoch, rottingraisins, & Rosyfox2002]]
+**Authors:**
+[[*user sailorenoch]] - [https://scp-wiki.wikidot.com/art:faust-s-art-page Art Page]
+[[*user rottingraisins]] - [https://scp-wiki.wikidot.com/art:rottingraisins Art Page]
+[[*user Rosyfox2002]] - [https://scp-wiki.wikidot.com/art:rosyfoxs-art-pit Art Page]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8191-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8191-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8191-2 --]
+
+@@ @@
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8190]]] | SCP-8191 | [[[SCP-8192]]] >>
+[[/=]]
+[[/div]]
+
+@@ @@
+
+[[include :scp-wiki:component:license-box
+|author=rottingraisins, Rosyfox2002, sailorenoch]]
+> **Filename:** SCP-8191
+> **Author:** [[*user rottingraisins]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** Peggy
+> **Author:** [[*user rottingraisins]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** logo.png
+> **Author:** [[*user sailorenoch]]
+> **License:** CC BY-SA 3.0
+> **Source Link:**[[[https://i.imgur.com/Kb5mDQP.png |LINK]]]
+> **Font:** [[[https://github.com/amazusa/Nagino |Nagino]]]
+> **License:** OFL-1.1 license
+[[include :scp-wiki:component:license-box-end]]

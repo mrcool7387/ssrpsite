@@ -1,0 +1,65 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:jakstyle]]
+[[include :scp-wiki:component:text-style]]
+[[module CSS]]
+a {
+   color: #9d1cb9;
+}
+
+:root {
+    --title: "The Foundation";
+    --subtitle: "Secretum Servare Deum";
+}
+
+#extra-div-1::before {
+    color: #9d1cb9;
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=component:info-ayers
+|authorPage=https://scp-wiki.wikidot.com/scp-4276
+|comments=
+= //**SCP-7101** - Ms. Fortune// 
+I wrote this in an incredible rush to get 8 endings done for the 7K Contest. This is not my finest work by any means, and I'd like to apologize profusely for the cringe you may experience. 
+
+Good day. 
+
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:7101-1 Main --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-2 Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-3 Bad --] 
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-4 Good-Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-5 Good-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-6 Bad-Good--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-7 Bad-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-8 Good-Good-Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-9 Good-Good-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-10 Good-Bad-Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-11 Good-Bad-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-12 Bad-Good-Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-13 Bad-Good-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-14 Bad-Bad-Good --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-15 Bad-Bad-Bad --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7101-16 Secret End --]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** McDonald
+> **Name:** File:Santa Claus Parade (Toronto) (22634614918).jpg
+> **Author:** Randy Landicho
+> **License:** Creative Commons Attribution 2.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Santa_Claus_Parade_(Toronto)_(22634614918).jpg
+=====
+[[include :scp-wiki:component:license-box-end]]

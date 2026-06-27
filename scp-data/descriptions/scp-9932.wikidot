@@ -1,0 +1,1313 @@
+
+	[[include :scp-wiki:theme:blankstyle]]
+
+=====
+[[include component:preview
+text= Your fate was sealed a long time ago.
+]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module css]]
+:root {
+
+/* Change the desktop top-left sidebar square background */
+#main-content a[href="#sidebar"],
+#menu-button,
+.side-bar,
+.open-menu a {
+    background-color: #000000 !important;
+    border: 1px solid #1e1c1e !important;
+}
+
+/* Change the 3 menu lines inside it to Dark Ink */
+#main-content a[href="#sidebar"]::before,
+#main-content a[href="#sidebar"]::after,
+#main-content a[href="#sidebar"] span,
+#menu-button::before,
+#menu-button::after,
+#menu-button span,
+.side-bar::before,
+.side-bar::after,
+.side-bar span,
+.open-menu a::before,
+.open-menu a::after,
+.open-menu a span {
+    background-color: #03a9fc !important;
+}
+
+/* Optional: Invert colors when your cursor hovers over it */
+#main-content a[href="#sidebar"]:hover,
+#menu-button:hover,
+.side-bar:hover,
+.open-menu a:hover {
+    background-color: #1e1c1e !important;
+}
+#main-content a[href="#sidebar"]:hover::before,
+#main-content a[href="#sidebar"]:hover::after,
+#menu-button:hover::before,
+#menu-button:hover::after,
+.open-menu a:hover::before,
+.open-menu a:hover::after {
+    background-color: #f2b818 !important;
+}
+[[/module]]
+
+[[module CSS]]
+
+/* Change the main container box background and border */
+div.page-rate-widget-box, 
+div.rate-box-with-credit-button {
+    background-color: #000000 !important;
+    border: 1px solid #4a4a4a !important;
+}
+
+/* Force the inner elements (points and buttons) to have a transparent background */
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown,
+div.page-rate-widget-box span.cancel {
+    background-color: transparent !important;
+
+}
+
+/* Text color of the rating numbers and signs (+ / -) */
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a,
+div.page-rate-widget-box span.cancel a {
+    color: #C3C3C3 !important;
+}
+
+/* Text hover color when mousing over buttons */
+div.page-rate-widget-box span.rateup a:hover,
+div.page-rate-widget-box span.ratedown a:hover,
+div.page-rate-widget-box span.cancel a:hover {
+    color: #ffffff !important;
+    background-color: transparent !important; /* Keeps hover from adding an unwanted background */
+
+}
+/* TARGET THE INNER WHITE CITATION BOX */
+.licensebox .code {
+    background-color: #f2b818 !important; /* Warning Yellow background */
+    color: #1e1c1e !important;            /* Dark ink text color */
+    border: 1px dashed #1e1c1e !important; /* Matches the dashed border to the text */
+}
+
+/* Fix text and labels sitting inside that specific yellow block */
+.licensebox .code * {
+    color: #1e1c1e !important;
+}
+[[/module]]
+
+
+[[module css]]
+
+hr {
+    border: 0 !important;
+    border-top: 2px solid #bb0111 !important;
+    background: transparent !important;
+}
+
+[[/module]]
+
+[[module css]]
+
+#header h1 a::before,
+#header h2::before {
+  color: #c3c3c3 !important;
+}
+
+
+#header, #header * {
+  color: #C3C3C3 !important;
+}
+
+#header h2::before {
+  content: var(--header-subtitle);
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.scp-image-caption {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border-top: 1px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
+    border-left: 1px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+}
+.scp-image-block {
+    border: 1px solid #000000 !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #050505;
+    border-left: 1px solid #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2b2b2b;
+    border: 1px solid #444444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+}
+
+[[/module]]
+
+[[module css]]
+
+body {
+background: linear-gradient(
+to bottom,
+rgb(25,25,25) 0%,
+rgb(20,20,20) 25%,
+rgb(15,15,15) 35%,
+rgb(0,0,0) 100%
+) !important;
+}
+
+
+body {
+  color: #C3C3C3;
+}
+
+[[/module]]
+
+[[module css]]
+:root{
+  --header-title: "SITE-∞";
+  --header-subtitle: "DEPARTMENT OF INVERSION";
+
+
+
+}
+
+div#extra-div-1 {
+    background-image: url(https://scp-wiki.wdfiles.com/local--files/scp-9932/black%20white%20black%20and%20white%20inversion%20dept%20logo.png);
+    filter: invert(1) opacity(0.2);
+}
+
+div.invis_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+margin: 20px auto;
+padding: 20px;
+width:100%;
+
+}
+
+[[/module]]
+
+====
+[[include :scp-wiki:component:preview
+text=
+]]
+=====
+
+
+[[module css]]
+
+#page-content table.wiki-content-table th {
+  color: #FFFFFF;
+  background: #000000;
+}
+#page-content table.wiki-content-table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+#page-content table.wiki-content-table th,
+#page-content table.wiki-content-table td {
+  border: 1px solid #000000;
+}
+
+#page-content table.wiki-content-table td {
+  background: #141414;
+  color: #C3C3C3;
+}
+
+
+[[/module]]
+
+
+[[module CSS]]
+
+logo
+
+[[/module]]
+
+
+[[module css]]
+
+div.spec_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+border:5px solid rgb(30,30,30);
+margin: 20px auto;
+padding: 20px;
+width:100%;
+
+}
+
+div.license_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,0,0);
+border:5px solid rgb(30,30,30);
+margin: 5px auto;
+padding: 5px;
+width:100%;
+background:#000000;
+
+}
+
+div.testing_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+border:5px solid rgb(30,30,30);
+margin: 20px auto;
+padding: 15px;
+width:100%;
+background:#0b0b0b;
+
+}
+div.postincident_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+border:0px solid rgb(30,30,30);
+margin: 20px auto;
+padding: 20px;
+width:100%;
+
+}
+
+div.table_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+border:0px solid rgb(30,30,30);
+margin: 20px auto;
+padding: 20px;
+width:100%;
+
+}
+
+div.adden_memo {
+    --memo-heading: " ";
+--memo-logo: url( );
+--memo-color: rgb(255,255,255);
+border:0px solid rgb(30,30,30);
+margin: 20px auto;
+padding: 20px;
+width:100%;
+background:#FFFFFF;
+
+}
+
+
+[[/module]]
+
+@@@@
+@@@@
+
+[[module CSS]]
+.info-container{
+--barColour: #000000;
+--linkColour: #C3C3C3;
+}
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-∞[!-- url of your page on the scp wiki --]
+|authorPage=https://scp-wiki.wikidot.com/scp-9875[!-- SCP-9875 --]
+|comments=
+
+= **SCP-∞**
+= ◇ //by [[*user Birchwoodclassof76]]// ◇
+
+]]
+
+@@@@
+@@@@
+
+[[div class="invis_memo"]]
+
+[[div style="color: white; border: solid 1px #000000; background:
+#151515 url( https://scp-wiki.wdfiles.com/local--files/scp-9932/doubleandtransparent.png) center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:5px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**By Order of Site Director Hale**[[/span]]
+[[/=]]
+
+
+[[=]]
+The following file is classified under Level 2/∞ Clearance.
+[[/=]]
+
+[[=]]
+-- Marcus Hale, Department of Inversion, Director.
+[[/=]]
+
+[[/div]]
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+[[include component:image-block name= lab |caption= Laboratory within the interior of Site-∞ |width=750px|align= center]]
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+[[module css]]
+
+/* ACS header */
+-----------------------
+[[/module]]
+
+[[module CSS]]
+
+.anom-bar-container .disruption-icon,
+.anom-bar-container .risk-icon,
+.anom-bar-container .danger-diamond,
+.anom-bar-container .danger-diamond * {
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+[[/Module]]
+
+[[include :scp-wiki:component:customizable-acs
+|accent-one= 30,30,30
+|accent-two= 0,0,0
+|class-number-color= 30,30,30
+|inc-color-accent = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= esoteric
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/esoteric-icon.svg
+|containment-color= 30,30,30
+|inc-esoteric-layout = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= esoteric
+|containment-color= 30,30,30
+|secondary-class= thaumiel
+|secondary-color= 0,0,0
+|inc-split-color= --]]]
+
+
+
+[[div class="anom-bar-esoteric"]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= SCP-∞
+|clearance= 2
+|container-class= esoteric
+|secondary-class= thaumiel
+|secondary-icon= https://scp-wiki.wdfiles.com/local--files/scp-9932/darkgreythaumiel.png
+|disruption-class= vlam　
+|risk-class= warning　
+]]
+
+[[include :scp-wiki:component:customizable-acs
+|disruption-class= vlam　
+|disruption-image= https://scp-wiki.wdfiles.com/local--files/scp-9932/blacknowhiteinsidevlam.png
+|disruption-color= 30,30,30
+|inc-disruption= --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|risk-class= warning　
+|risk-image= https://scp-wiki.wdfiles.com/local--files/scp-9932/darkgreywarning.png
+|risk-color= 0,0,0
+|inc-risk= --]]]
+
+[[/div]]
+
+[[Module CSS]]
+
+.anom-bar-esoteric .anom-bar-container.esoteric.thaumiel .text-part .main-class {
+  background: linear-gradient(-60deg, rgb(30,30,30) 50%, rgb(0,0,0) 70%);
+  background-color: rgba(0,0,0);
+  color: #C3C3C3;
+}
+[[/Module]]
+
+
+[[module CSS]]
+
+/* Override colour of slider element added by ACS Animation */
+.bottom-box > div.diamond-part::before {
+  background-color: rgb(30,30,30) !important;
+}
+
+
+
+/* Containment icon borders for esoteric*/
+.anom-bar-esoteric .anom-bar-container.esoteric .text-part > .main-class::before,
+.anom-bar-esoteric .anom-bar-container.esoteric .text-part > .main-class::after {
+    border-color: rgb(0,0,0) !important;
+}
+
+.anom-bar-container.esoteric .danger-diamond > .top-icon::before {
+  -webkit-filter: invert(0) !important;
+  filter: invert(0) !important;
+}
+
+[[/Module]]
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-six= Clearance bar level 6 color, in RGB code
+|clearance-five= Clearance bar level 5 color, in RGB code
+|clearance-four= Clearance bar level 4 color, in RGB code
+|clearance-three= Clearance bar level 3 color, in RGB code
+|clearance-two= 30,30,30
+|clearance-one= Clearance bar level 1 color, in RGB code
+|inc-clearance= --]]]
+
+[[/div]]
+
+
+
+[[div class="spec_memo"]]
+
+[[div style="color: rgb(195,195,195);"]]
+
+
+@@@@
+@@@@
+
+
+
+[[module CSS]]
+.carousel-container .carousel-caption {
+    background-color: black !important;
+}
+
+
+[[/module]]
+
+[[/div]]
+
+[[div style="color: rgb(195,195,195);"]]
+
+
+[[include :scp-wiki:component:carousel
+| images=https://scp-wiki.wdfiles.com/local--files/scp-9932/before2.jpg,https://scp-wiki.wdfiles.com/local--files/scp-9932/after2.jpg
+| caption= SCP-∞-2 prior to and after SCP-∞ occurrence.
+| wiki=scp-sandbox-3
+| page=demo:carousel
+| style=LmhvcnNpZSBpbWcgeyBvYmplY3QtZml0OiBjb3ZlciB9
+| width=340px
+| height=340px
+
+
+}
+
+]]
+
+
+
+[[=]]
+[[span style="color: rgb(255, 255, 255);"]]**__SPECIAL CONTAINMENT PROCEDURES__**[[/span]]
+
+[[/=]]
+
+Visual and Audio surveillance is to be maintained around the perimeter of Site-∞. In the event of an occurrence, the surrounding area is to be immediately evacuated, with the exception of pre-designated personnel assigned under the Department of Inversion.
+
+Continued communication with the Department of Inversion is to be maintained.
+
+
+[[=]]
+[[span style="color: rgb(255, 255, 255);"]]**__DESCRIPTION__**[[/span]]
+
+[[/=]]
+
+SCP-∞ is a spatial-temporal anomaly affecting Foundation infrastructure, characterised by the progressive manifestation of sections of Site-∞ through a process of causal reversal.
+
+Prior to an SCP-∞-𝑥[[footnote]] With 𝑥 denoting the individual index of each SCP-∞ manifestation event. [[/footnote]] event, the affected area presents as though a large-scale explosive detonation has occurred. This includes widespread structural destruction and thermal damage consistent with a conventional blast event. Following the event, the environment begins a causal reversal in which the explosion and resulting physical damage are systematically undone, with debris reconstituting into a fully intact structure resembling areas of Site-∞. SCP-∞ sites contain containment infrastructure as well as personnel break rooms, testing chambers, decontamination corridors, and administrative workspaces. All personnel assigned to Site-∞ exhibit temporal inversion. A total of four SCP-∞ instances have been confirmed, as well as two confirmed future incidents.
+
+SCP-∞ is believed to have been constructed by the Department of Inversion, a previously unknown department, as a method of establishing inverted containment zones. This process may allow for the retroactive neutralisation of temporally inverted entities, effectively ensuring containment prior to the point of initial breach from the perspective of the deploying timeline. 
+
+
+
+[[/div]]
+
+[[/div]]
+
+
+[[div class="invis_memo"]]
+
+||~ Designation ||~ Causal Status[[footnote]]Denoting the temporal positioning of an SCP-∞ manifestation event, with Residual referring to a resolved event and Precursor referring to one yet to happen.[[/footnote]]　||~ Date and Time of Incident/ Estimated Date ||~ Resultant State ||
+|| ∞-1 || Residual || 06.14.2018, 17:03:46 || Site-∞ break room||
+|| ∞-2 || Residual || 04.12.2025, 17:28:01 || See Expedition Log ∞-2||
+|| ∞-3 || Residual || 10.18.2025, 17:13:22 || Living quarters and offices. ||
+|| ∞-4 || Residual || 03.10.2026, 17:09:18|| Testing and containment chambers||
+|| ∞-5 || Precursor || 11.24.2027 ||  ||
+|| ∞-6 || Precursor || 06.19.2029 ||   ||
+
+[[/div]]
+
+
+
+[[div class="invis_memo"]]
+
+[[=]]
+[[span style="color: rgb(255, 255, 255);"]]**__DISCOVERY__**[[/span]]
+
+[[/=]]
+
+Initial identification of SCP-∞ occurred during ongoing research conducted by the Department of Esoteric Physics into a structural anomaly resulting from an unknown high-energy destructive event.
+
+The area in question had been classified as inert rubble following the event. However, long-term observational data indicated a consistent deviation from expected thermodynamic behaviour. 
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Video Log ∞-1:**[[/span]]
+[[/=]]
+
+
+**Date:** 03.14.2025
+**Location:** Site-46, Sector-7 (Applied Physics Division), Main Laboratory.
+**Personnel Present:** Dr. Aris Thorne (Senior Physicist), Dr. Elena Hughes (Researcher, Department of Esoteric Physics).
+
+[[=]]
+//<Recording Start>//
+[[/=]]
+
+//Video captured through an internal security feed. Dr. Thorne is standing at a central workbench adjusting a set of localized diagnostic sensors.//
+
+//Dr. Hughes enters, holding a portable data pad//
+
+**Dr. Hughes:** Quick question—have you ever heard of a "Department of Inversion"?
+
+**Dr. Thorne:** //[Without looking up]//  The Department of what? No. Sounds like a joke the containment guys play on rookies. We have Temporal Isolation over in Sector-4, but that’s it. Why?
+
+**Dr. Hughes:** I was running our weekly baseline simulation on thermodynamic closed systems, specifically looking at the local entropy decay rates around the rubble field.
+
+**Dr. Thorne:** Okay. And?
+
+**Dr. Hughes:** The moment the software hit the anomalous thermal dip from six months ago, the system locked me out of the simulation. It automatically re-categorized the entire project data string, moved it out of my directory, and filed it under a server node designated "Department of Inversion."
+
+**Dr. Thorne:** Re-categorized? It shouldn't have the administrative permissions to hijack an active physics division project. Let me look.
+
+//[Thorne walks towards his computer]//
+
+**Dr. Thorne:** Let’s pull up the master site index. 
+
+//[Thorne searches for Department of Inversion within the database]//
+
+**Dr. Thorne:** What in the world... there's a localized network branch registered right there. It's mapped to the exact coordinates of the rubble field, but it's listing a full layout of offices, server banks, and holding cells. It says the infrastructure is fully occupied.
+
+**Dr. Hughes:** Click on the primary security logs. Let’s see who is supposedly logged into those terminals.
+
+**Dr. Thorne:** Every single file is locked. High-encryption security walls—Wait, this one doesn't have a security lock icon. 
+
+//[A single click, followed by a low system chime]//
+
+**Dr. Thorne:** It’s an active text document. But... the file size is shrinking. Someone is deleting the document line by line.
+
+**Dr. Hughes:** Why not just delete the whole thing?
+
+**Dr. Thorne:** No clue. 
+
+//[Leaning closer to the monitor, reading aloud]//
+
+SCP-████ is a temporally inverted ████████[[footnote]] Current evidence suggests this anomaly does not yet exist. [[/footnote]]           
+
+**Dr. Hughes:** Temporally inverted? 
+
+**Dr. Thorne:** Not a clue, above my pay grade.
+
+//[Thorne clicks off the file onto the main page]//
+
+Hold on, a new file just populated at the top of the queue. It's a raw audio format.
+
+**Dr. Hughes:** From when?
+
+**Dr. Thorne:** The timestamp says...34 seconds ago.
+
+**Dr. Hughes:** Okay. I will go and put a report in to… somebody. You have a look at that audio file.
+
+//<End Log>//
+
+[[/div]]
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Audio Log ∞-1:**[[/span]]
+[[/=]]
+
+[[=]]
+Below is an audio recording recovered by Dr Thorne from the Department of Inversion server. It is believed that the recovered material represents only a partial conversation, with the remaining segment currently irretrievable. Additionally, Site Director Hale’s speech was originally recorded in reverse audio.
+[[/=]]
+
+//<Recording Start>//
+
+**Director Hale:** I wouldn’t bother. There is no way out.
+
+**Director Hale:** Yes, but this time it means something to you.
+
+**Director Hale:** You.
+
+//[He leans back in his chair]//
+
+**Director Hale:** Containment.
+
+**Director Hale:** Classified, yes. But you’ll find out soon enough.
+
+**Director Hale:** I am sorry. Really I am. There was no other way.
+
+**Director Hale:** Bait.
+
+//[Director Hale rubs his forehead]//
+
+**Director Hale:** I promise you, if I had a choice, then it wouldn’t happen this way. But I don’t. Time is deterministic. Your fate was sealed a long time ago.
+
+//[He rests both hands flat on his desk]//
+
+**Director Hale:** No, I’m sorry.
+
+**Director Hale:** No. It will be painful. But you are going to survive. I guess you could say it’s your first day.
+
+//[He nods]//
+
+**Director Hale:** Oh, many years. I will see you soon.
+
+//<End Log>//
+
+[[/div]]
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Audio Log ∞-2:**[[/span]]
+[[/=]]
+
+**Date:** 03.19.2025
+
+**Location:** Site-207, Sector-3, Core Physics Research Lab
+
+**Personnel Present:** Dr. Aris Thorne, Dr. Elena Hughes 
+
+//Internal audio log captured by Lab 3-C's security feed. This conversation occurs 17 minutes before Dr. Hughes’s scheduled field deployment to Site-∞.//
+
+//<Recording Start>//
+
+//Dr. Hughes is sitting at her desk in front of the CRT monitor, watching the video recording of Site Director Hale.//
+
+//Dr. Thorne enters, breathing heavily.//
+
+**Director Hale:**//[on recording]// —it wouldn’t happen this way. But I don’t. Time is deterministic. Your fate was sealed a long time ago.
+
+**Dr. Thorne:** Elena. Stop the countdown. You’re not going out to there. Call security and halt the sweep right now.
+
+**Dr. Hughes:** //[Sound of papers shuffling, followed by a sigh]// Aris? What is wrong with you? The structural reassembly event is peaking in ten minutes. If I don't get the thermal sensors calibrated before the masonry calcifies—
+
+**Dr. Thorne:** Listen to me! I bypassed the encryption on that "Department of Inversion" server node. The one that hijacked your thermodynamic simulation data. I managed to scrape the active human resources roster out of the hidden directory.
+
+**Director Hale:** Oh, many years. I will see you—
+
+//[Hughes pauses the recording]//
+
+**Dr. Hughes:** Okay... and? Who's hiding a black-budget office wing in our rubble field?
+
+**Dr. Thorne:** You are.
+
+**Dr. Hughes:** //[A short, dry laugh]// Right. Sure. I can barely get approval for liquid nitrogen, but I’m secretly running an underground department.
+
+**Dr. Thorne:** I'm not joking, Elena. I’m looking at the live administrative layout right now. The network has an entire active profile generated under your exact security credentials. It lists you as a researcher within the division.
+
+//[Pause]//
+
+**Dr. Hughes:** That’s impossible. I’ve been a senior thermodynamics specialist here for years. My name shouldn't even be on a roster for another branch. It’s an indexing bug, Aris. The system must be misreading an old employee file.
+
+**Dr. Thorne:** It’s not an old file. That’s the problem. I pulled up the official contract attached to the profile to check the historical timestamp.
+
+**Dr. Hughes:** And? When does it say my employment started?
+
+**Dr. Thorne:** April 12th.
+
+**Dr. Hughes:** Aris, that's three weeks from now.
+
+**Dr. Thorne:** Exactly. The server isn't reading a file from our past; it’s hosting a database from our future.
+
+**Dr. Hughes:** //[Sound of her picking up her field kit, the plastic buckles clicking]// Then I definitely need to go down there.
+
+**Dr. Thorne:** Are you insane?! Did you hear a single word I just said? You have no clue what is going to happen when you step inside that convergence vector.
+
+**Director Hale:** //[on recording]// I wouldn’t bother. There is no—
+
+**Dr. Hughes:** This damn tape—
+
+**Dr. Thorne:** Just leave it. Listen, sending anyone into that sector right now is a trap. 
+
+**Director Hale:** //[on recording]// Yes, but this time it means something to you.
+
+****Dr. Hughes:**** Aris, look. If the server already says I’m going to be in that department, then I can’t avoid it. It’s a deterministic track.
+
+**Dr. Thorne:** Fine! Let the loop break!
+
+**Director Hale:** //[on recording]// You.
+
+****Dr. Hughes:**** //[Leaning forward, hitting the comms intercom to the holding cells]// Control to Security. Change of plans. Cancel my field deployment to Sector-7. We are sending a D-Class subject in my place. Prepare D-1842 for an initial exploratory sweep of the structure. 
+
+//[Dr. Thorne sighs]//
+
+**Dr. Hughes:** Well, if I'm going to be in this department in three weeks, Aris... I think I need to see what my office looks like. Monitor the D-Class's vitals. Let's see what happens when he steps inside.
+
+<End Log>
+
+[[/div]]
+
+[[/div]]
+
+
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Expedition Log ∞-1:**[[/span]]
+[[/=]]
+
+@@@@
+
+[[div class="invis_memo"]]
+
+[[include component:image-block name= lobby2 |caption= Site-∞ reception, captured by D-184 |width=300px|align= right]]
+
+On 03.19.2025, D-Class subject D-1842 was instructed to enter Site-∞ as part of an initial exploratory sweep of the structure. At the time of entry, the building appeared inactive and unoccupied. Exterior observation showed functioning interior lighting and signs of electrical activity despite no confirmed power source.
+
+Upon entering the main lobby area of SCP-∞, D-1842 immediately began displaying signs of respiratory distress. Subject reportedly attempted to retreat toward the entrance while clutching at the throat and chest.
+
+Observation staff noted symptoms consistent with rapid oxygen deprivation. D-1842 collapsed approximately fourteen seconds after initial entry.
+
+[[/div]]
+
+[[div class="invis_memo"]]
+
+
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Video Log ∞-2:**[[/span]]
+[[/=]]
+
+**Date:** 03.20.2025
+**Location:** Site-46, meeting room 8
+**Personnel Present:** Dr. Danielle Kessler (Senior Researcher, Department of Inversion), Dr. Elena Hughes (Researcher, Department of Esoteric Physics).
+
+//The following is a recording of a conversation between Dr. Elena Hughes and Dr. Danielle Kessler inside Hughes office, captured through an internal security feed.//
+
+//<Recording Start>//
+
+**Dr. Hughes:** Right. Look, I don't know what kind of game we're playing here, Kessler, but a D-Class subject was just asphyxiated in the main lobby because your "department" decided to materialize an entire facility out of thin air. 
+
+**Dr. Kessler:** It wasn't materialized, it was concluded. And you sent in a D-Class without the necessary protection during retrocausal reconstruction. I'm sorry for your loss, truly, but physics doesn't issue a safety warning.
+
+//[There is a pause as Dr. Kessler watches Dr. Hughes for a few moments]//
+
+**Dr. Hughes:** What do you know about this damn recording?
+
+**Dr. Kessler:** What recording?
+
+**Dr. Hughes:** The one on the screen, with the guy. It was found on your database.
+
+//[Kessler looks at the screen]//
+
+**Dr. Kessler:** That's Site Director Hale.
+
+**Dr. Hughes:** Who?
+
+**Dr. Kessler:** He's the Director of Site-∞. 
+
+**Dr. Hughes:** Right. And the recording?
+
+**Dr. Kessler:** Not a clue. Sorry.
+
+//[Pause]//
+
+**Dr. Hughes:** So, how long has your department actually been around?
+
+**Dr. Kessler:** Honestly, I have no idea. I’ve been with the Department of Inversion for three years.
+
+**Dr. Hughes:** //[She looks up sharply, staring at Kessler]// Impossible. This entire sector was nothing but a field of pulverized rubble up until six months ago.
+
+**Dr. Kessler:** It existed for us. You’re counting forward from the explosion. We’re counting backward to it. I don’t know when this department was— will be founded, I just know it’s at some point in the future.
+
+**Dr. Hughes:**  Okay, but why build all of this? Why dump a fully staffed, functioning site backward into a field of rubble? Why does your department even exist?
+
+**Dr. Kessler:** //[Adjusting her lapel pin]// Our primary mandate is the retroactive neutralization of temporally inverted entities.
+
+**Dr. Hughes:** Inverted entities? You mean things moving backward through our timeline?
+
+**Dr. Kessler:** Exactly. Think about how your standard containment operates. It relies entirely on cause and effect. But how do you contain something that already knows your every move? An entity moving backward through time has already experienced your future traps, your tactical teams, your cell designs. To them, your containment procedures are a script they’ve already read.
+
+**Dr. Hughes:** Even if the building is backward, you and your staff aren’t. How do you actually fight or contain something like that when you're still ticking forward? You'd be stepping into a room to deploy a trap, and the entity would see you walking in reverse, completely exposed.
+
+**Dr. Kessler:** //[She reaches into her suit pocket, pulls out a small, metallic blister pack, and places it on the table. Inside is a single blue capsule.]// We don't stay forward, Dr. Hughes. We take these.
+
+**Dr. Hughes:** //[She looks down at the pill, frowning]// What is that? Amnestics?
+
+**Dr. Kessler:** They're called Retrocausal Regulators. Developed by the medical division in 2031. It forces a complete biological and cognitive inversion upon ingestion. 
+
+//[Hughes looks from the pill back up to Kessler's eyes]//
+
+**Dr. Hughes:** You're talking about voluntarily turning your own mind and body backward? That sounds like psychological suicide.
+
+**Dr. Kessler:** The first few minutes are deeply unpleasant, yes. But it is the only way to meet them on equal ground.
+
+//[Pause]//
+
+We don't prevent the nightmare, Dr. Hughes. We just ensure that by the time you wake up to it, the cage is already built.
+
+//[Dr. Hughes slowly leans back in her chair]//
+
+**Dr. Hughes:** Then I suppose we have a lot of paperwork to un-write.
+
+**Dr. Kessler:** //[She offers a slight, clinical smile]// I look forward to forgetting it.
+
+//<End Log>//
+
+[[/div]]
+
+[[/div]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Email ∞-1:**[[/span]]
+[[/=]]
+
+[[=]]
+The following email was sent by Dr. Thorne on 03.21.2025
+
+Metadata embedded within img.37241011 identified it as having been captured during a Department of Inversion staff function dated December 2022. At the time the image was recovered, Dr. Elena Hughes denied any prior knowledge of the Department or personnel depicted within the photograph.
+[[/=]]
+
+@@@@
+
+[[div class="invis_memo"]]
+
+
+[[div class="email-example"]]
+
+
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** ehughes@scp.int
+**From:** athorne@scp.int
+**Subject:** DoI
+[[/div]]
+------
+Hi,
+
+I just had another look at the Department of Inversion database, and I just found something I think you'll want to see.
+
+I have attached it below.
+
+[https://scp-wiki.wdfiles.com/local--files/scp-9932/christmasphoto.jpg img.37241011]
+
+Dr. Aris Thorne
+Senior Physicist
+Department of Esoteric Physics
+
+[[/div]]
+[[/<]]
+
+[[/div]]
+
+[[/div]]
+
+
+
+[[div class="invis_memo"]]
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Video Log ∞-3:**[[/span]]
+[[/=]]
+
+**Date:** 03.23.2025
+**Location:** Site-46, meeting room 8
+**Personnel Present:** Dr. Danielle Kessler (Senior Researcher, Department of Inversion), Dr. Elena Hughes (Researcher, Department of Esoteric Physics).
+
+
+//<Recording start>//
+
+**Dr. Hughes:** Cut the crap, Kessler. I don’t know what kind of psychological stunt you’re pulling, but the joke is over. You lied to me.
+
+**Dr. Kessler:** Well, lovely to see you too Dr. Hughes. What exactly am I supposed to be lying about?
+
+**Dr. Hughes:** About us. You acted like I was a complete stranger who just happened to stumble into your network branch.
+
+**Dr. Kessler:** You are a stranger to me. Until this week, you were just a name on a backdated administrative roster from the mainframe.
+
+**Dr. Hughes:** Then explain this.
+
+//[Hughes slides the photo across the desk]//
+
+**Dr. Hughes:** My colleague, Dr. Thorne, pulled that file out of an encrypted lower directory on your network an hour ago. Take a good, close look at it.
+
+//[Pause]//
+
+Who is that on the right of the photo? 
+
+**Dr. Kessler:** That’s me.
+
+**Dr. Hughes:** Correct. And… oh look. Next to you, wearing frankly ridiculous reindeer ears, is—
+
+**Dr. Kessler:** //[Through gritted teeth]// You.
+
+**Dr. Hughes:** Here’s the problem: I have never been to an office Christmas party with 
+you. Frankly, I have never been to a Christmas party. Definitely not in [She turns the photo around]… 2022. I didn’t even know your department existed until Monday morning, and I have absolutely no memory of ever meeting you before this week. So how am I in that photograph? 
+
+**Dr. Kessler:** Please tell me you’ve been here long enough to have some basic understanding of the existence of time travel.
+
+**Dr. Hughes:** Yes, but I also know how limited our current time travel capabilities are and will be for the next few years, unless one was to fall out of the sky. I also understand that it’s most likely not protocol to travel 14 years into the past to attend a Christmas party.
+
+**Dr. Kessler:** You took the long way round.
+
+**Dr. Hughes:** What does that mean? The long way round?
+
+**Dr. Kessler:** Well you know I showed you those pills to invert yourself? Let’s just say there's a more— permanent method of inversion that some staff have done.
+
+**Dr. Hughes:** Right. That method is…?
+
+**Dr. Kessler:** Confidential at the moment. But you’ll learn soon enough.
+
+//[Kessler stands]//
+
+Anyway. I have work to be getting on with. I will be seeing you soon.
+
+//[She walks towards the door and turns]//
+
+Oh… by the way, I suggest you get used to the reindeer ears, Doctor. You’re the one who bought them.
+
+//<End Log>//
+
+[[/div]]
+
+[[/div]]
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Email ∞-2:**[[/span]]
+[[/=]]
+
+[[=]]
+The following email was sent approximately fifteen hours prior to Expedition Log ∞-2.
+[[/=]]
+
+
+[[div class="invis_memo"]]
+
+
+[[div class="email-example"]]
+
+
+[[<]]
+[[div class="email"]]
+[[div class="tofrom"]]
+**To:** athorne@scp.int
+**From:** mhale@scp.int
+**Subject:** Welcome
+[[/div]]
+------
+
+To Dr. Elena Hughes,
+
+We would like to formally congratulate you on your successful induction into the Department of Inversion.
+
+As you are now aware, your formal commencement is scheduled for tomorrow, April 12th.
+You are advised to report to the Site-∞ between 8:00 and 8:15. Here, any questions you may have will be answered within due course. 
+
+Once the formal inversion process has been completed, your appointment will be considered active, and all associated departmental protocols will apply immediately.
+
+Welcome to Site-∞.
+
+Regards,
+
+Dr. Marcus Hale
+Site Director
+Site-∞
+
+[[/div]]
+[[/<]]
+
+[[/div]]
+
+[[/div]]
+
+
+[[div class="invis_memo"]]
+
+[[div style="color:#c3c3c3; border: solid 1px #1e1e1e; background:#121212 center no-repeat; background-size: contain; background-position: center center; background-repeat: no-repeat; padding:20px; margin-bottom: 10px; "]]
+
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]**Expedition Log ∞-2:**[[/span]]
+[[/=]]
+
+**Date:** 04.12.2025
+**Location:** Site-∞, Sector-7
+**Personnel Present:** Dr. Elena Hughes (Senior Thermodynamics Specialist, Field Operative).
+**External Comms:** Dr. Aris Thorne (Senior Physicist).
+
+//<Recording Start>//
+
+//Dr. Hughes moves through a ruined corridor. She is equipped in standard recovery gear and a Foundation-issue respirator.//
+
+//Large sections of rubble and shattered concrete remain scattered throughout the environment, while portions of the surrounding structure have resolved into intact Foundation hallways bearing Site-∞ insignia.//
+
+//6 minutes and 32 seconds have been removed for brevity.//
+
+**Dr. Thorne:** Elena, I'm looking at your tracking beacon. The architectural mass is densifying around you. You need to clear the sector immediately, the mass is sealing.
+
+**Dr. Hughes:** I can't. There’s a three-ton block of structural concrete lifting itself off the ground behind me. It’s blocking the threshold. 
+
+//[A loud, hollow scraping noise echoes as stone grinds against stone]//
+
+//[A pile of debris reconstructs itself into a computer]//
+
+**Dr. Thorne:** Don't touch any unaccounted anomalous media, Elena. Focus on an exit route.
+
+**Dr. Hughes:** It's him— Hale. I think its the same video you found.
+
+//[Hughes clicks enter on the computer]//
+
+Aris, look. The office he is sitting in... it looks exactly like the layout of this corridor.
+
+**Dr. Thorne:** Elena, you need to find a manual bypass for the door.
+
+**Director Hale:**//[on recording]// I wouldn’t bother. There is no way out.
+
+**Dr. Hughes:**  Did he just reply to you?
+
+**Dr. Thorne:** No, it’s a coincidence. That’s the same drivel he has spouted out every time we play the tape.
+
+**Director Hale:** Yes, but this time it means something to you.
+
+//[Structural matter within the debris field begins coordinated inward motion]//
+
+**Dr. Hughes:**  He is replying to you. But that means… that means the tape was meant for—
+
+**Director Hale:** You.
+
+**Dr. Hughes:**  But— But why? What do you need me for?
+
+**Director Hale:** Containment.
+
+//[A distant sound of footsteps is heard]//
+
+**Dr. Hughes:**  There’s no point in asking what’s being contained, because I know you’re going to say its— 
+
+**Director Hale:** Classified, yes. But you’ll find out soon enough.
+
+**Dr. Thorne:**  Elena, the readings are spiking. There is something else in there with you. 
+
+//[The sound of footsteps rapidly approaching]//
+
+**Director Hale:** I am sorry. Really I am. There was no other way.
+
+**Dr. Hughes:**  No other way of what?... Oh my god. You’ve used me as— 
+
+**Director Hale:** Bait.
+
+//[Director Hale rubs his forehead]//
+
+**Director Hale:** I promise you, if I had a choice, then it wouldn’t happen this way. But I don’t. Time is deterministic. Your fate was sealed a long time ago.
+
+//[A section of rubble rises]//
+
+**Dr. Thorne:**  Listen, I am going to call a team to get you out. Just stay where you are— 
+
+**Dr. Hughes:**  There’s no point. //[Hughes turns to the screen]// They won’t get to me in time, will they.
+
+**Director Hale:** No, I’m sorry.
+
+//[Sections of ruined concrete begin folding inward]//
+
+**Dr. Thorne:**  Elena why are you listening to him? He is a madman. There has to be some other way to stop this.
+
+//[More debris rises from the floor]//
+
+**Dr. Hughes:**  Am I going to die?
+
+**Director Hale:** No. It will be painful. But you are going to survive. I guess you could say it’s your first day.
+
+**Dr. Hughes:**  At the department?
+
+//[Hale nods]//
+
+And you have known me for—
+
+**Director Hale:** Oh, many years. I will see you soon.
+
+//[A dark shadow jumps into a gap in the room as the concrete rises and reforms]//
+
+**Dr. Hughes:**  See you—
+
+//<End Log>//
+
+
+[[/div]]
+
+@@@@
+
+[[div class="invis_memo"]]
+
+
+[[=]]
+++++ [[span style="color: rgb(255, 255, 255);"]]__**Post Incident Investigation**__[[/span]]
+[[/=]]
+
+
+Following stabilization of SCP-∞-2, controlled excavation was conducted at the central chamber corresponding to the last known position of Dr. Hughes.
+
+[[=]]
+ [[span style="color: rgb(255, 255, 255);"]]__**Recovery Findings**__[[/span]]
+[[/=]]
+
+Personnel located the corpse of Dr. Hughes encased within a continuous section of load-bearing structural wall material. The subject was fully integrated into the masonry during the SCP-∞ manifestation event. The wall segment in question showed no fractures or construction boundaries, appearing as a single uninterrupted structural element.
+
+[[=]]
+ [[span style="color: rgb(255, 255, 255);"]]__**Cause of Death**__[[/span]]
+[[/=]]
+
+Hughes was determined to have expired due to asphyxiation and traumatic compression resulting from reintegration of structural wall material through the subject’s respiratory and circulatory systems during reconstruction.
+
+[[=]]
+ [[span style="color: rgb(255, 255, 255);"]]__**Further Notes**__[[/span]]
+[[/=]]
+
+Despite confirmation of her death, Dr. Hughes is registered as a researcher within the Department of Inversion. Further investigation is underway to determine her current status.
+
+
+[[/div]]
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9931]]] | SCP-∞ | [[[SCP-9933]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+
+[[div class="license_memo"]]
+
+ **Filename:** lab
+ **Author:** Root66
+ **License:** CC BY-SA 3.0
+ **Source Link:** [/https://commons.wikimedia.org/wiki/File:Laboratoires_Arkopharma_-_Laboratoire_R&D_-_Chromatographie_gazeuse.JPG]
+
+ ----
+
+[[/div]]
+
+[[div class="license_memo"]]
+
+ **Filename:** lobby
+ **Author:** Canmenwalker
+ **License:** CC BY-SA 2.0
+ **Source Link:**[/https://commons.wikimedia.org/wiki/File:Ottawa_City_Hall_Mayor_Office_reception_2025.JPG]
+
+ ----
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="license_memo"]]
+
+ **Filename:** blackwhitelogo
+ **Author:** Birchwoodclassof76
+ **License:** 
+ **Source Link:** [/https://scp-sandbox-3.wdfiles.com/local--files/testing-why-gradient-is-failing/black%20white%20black%20and%20white%20inversion%20dept%20logo.png]
+
+ ----
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="license_memo"]]
+
+ **Filename:** after
+ **Author:** Ohio Redevelopment Projects - ODSA
+ **License:** CC BY-SA 2.0
+ **Source Link:** [/https://www.flickr.com/photos/63837784@N08/14789278533/]
+
+ ----
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="license_memo"]]
+
+ **Filename:** lobby
+ **Author:** Canmenwalker
+ **License:** CC BY-SA 2.0
+ **Source Link:**[/https://commons.wikimedia.org/wiki/File:Ottawa_City_Hall_Mayor_Office_reception_2025.JPG]
+
+ ----
+
+[[/div]]
+
+@@@@
+@@@@
+
+[[div class="license_memo"]]
+
+ **Filename:** img.37241011
+ **Author:** Jirka Matousek
+ **License:** CC BY-SA 2.0
+ **Source Link:**[/https://www.flickr.com/photos/jirka_matousek/8499134252/in/album-72157632829398399]
+
+ ----
+
+[[/div]]
+
+@@@@
+@@@@
+
+
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,25 @@
+
+	[[include :scp-wiki:info:start]]
+@@ @@
+= **SCP-7585:** The Kid Dies At The End
+= **Author:** [[[winterheart-page | GwenWinterheart]]]
+[[include :scp-wiki:info:end]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[[module CSS]]
+:root{
+--title: "Applied Ontokinetics";
+--subtitle: "WAKING DREAMS・LUCID SLEEP";
+}
+[[/module]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** urn.jpeg
+> **License:**  CC0 1.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Vase_with_lid_MET_sf969146ab.jpg
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7585-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7585-1 --]

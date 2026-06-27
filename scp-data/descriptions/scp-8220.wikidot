@@ -1,0 +1,125 @@
+
+	=====
+[[include component:preview
+text=
+//A bit too sweet, but in a good way. Like mom's.//
+]]
+=====
+
+[[include :scp-wiki:component:rewrite-notice open=--]]
+
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:rso]]
+[[include :scp-wiki:info:start]]
+**SCP-8220:** For Your Birthday
+**Author:** [[*user Zenobiyl]]
+[[include :scp-wiki:component:ratio-bar pie=-- |ex=--]]
+[[include :scp-wiki:info:end]]
+
+[[module CSS]]
+#page-title {
+    display: none;
+}
+[[/module]]
+
+[[include :scp-wiki:component:image-block
+name=https://live.staticflickr.com/49/149731833_030f2608a2_o.jpg|
+caption=SCP-8220|
+width=260px|]]
+
+**ITEM #:** SCP-8220
+
+**OBJECT CLASS:** Safe
+
+**SPECIAL CONTAINMENT PROCEDURES:** Foundation staff may request access to SCP-8220.
+
+**DESCRIPTION:** SCP-8220 is a three-layered vanilla cake with strawberry and blueberry toppings. A plastic ornament reading 'happy birthday' is partially buried inside SCP-8220 and can only be removed by an individual on their birthday. This ornament contains a message addressed to the individual from an emotionally significant figure in their life, including the following:
+
+* Close relatives, including those recently deceased[[footnote]]See Addendum 8220.1[[/footnote]]
+* Romantic partners
+* Close friends
+* Role models
+
+The described flavor of SCP-8220 varies by individual.
+
+**ADDENDUM 8220.1:** Test Logs
+
+The following results have been observed during testing of SCP-8220.
+
+[[table  style="border-collapse:collapse; max-width: 600px;"]]
+[[row]]
+[[cell style="font-weight:bold;padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver; width: 20%;"]]
+Subject
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+Message
+[[/cell]]
+[[cell style="font-weight:bold; padding: .3em .7em; text-align: center; border: 1px solid black; background-color: silver;"]]
+Described Flavor
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+Eleanor Danry (28F)
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .3em .7em;"]]
+//I'll always love you Ellie...give us a call soon, ok?//
+[[/cell]]
+[[cell style="padding: .3em .7em; text-align: center; border: 1px solid black"]]
+"A bit too sweet, but in a good way. Like mom's."
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+James Harper (48M)
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .3em .7em;"]]
+//We're your family now, Jim...we got you no matter what!// 
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .3em .7em;"]]
+"Sour, but the aftertaste is better...like honey."
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+Rebecca Maynor (51F)
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .3em .7em;"]]
+//We love and care for you more than anything...it will get better!//
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .3em .7em;"]]
+"Flavorless. And they tried so hard, too..."
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="text-align: center; padding: .3em .7em; border: 1px solid black"]]
+Connor Austin (23M)
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .7em .7em;"]]
+//It wasn't your fault...//
+[[/cell]]
+[[cell style="border: 1px solid black; text-align: center; padding: .7em .7em;"]]
+"Burnt."
+[[/cell]]
+[[/row]]
+[[/table]]
+ _
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8219]]] | SCP-8220 | [[[SCP-8221]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+[[div class="blockquote"]]
+**Name:** Birthday Cake 01
+**Author:** Chris Gladis
+**License:** CC BY 2.0
+**Source Link:** https://flic.kr/p/eeq4k
+[[/div]]
+
+[[include :scp-wiki:component:license-box-end]]

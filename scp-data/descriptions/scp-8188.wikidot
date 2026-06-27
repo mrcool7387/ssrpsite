@@ -1,0 +1,25 @@
+
+	======
+[[include component:preview
+text=I never got to say I love you.]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8188-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8188-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8188-2 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8187]]] | SCP-8188 | [[[SCP-8189]]] >>
+[[/=]]
+[[/div]]

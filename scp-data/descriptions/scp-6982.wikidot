@@ -1,0 +1,293 @@
+
+	[[module CSS]]
+.yeetbox{
+width: 85.5%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px dashed rgb(130, 130, 130);
+background-color: rgb(233,231,204);
+text-align: right;
+}
+
+.aaaaa {
+border: 1px solid rgb(130, 130, 130);
+margin-left: auto;
+margin-right: auto;
+width: 85%;
+padding-left: 7px;
+padding-right: 7px;
+background-color: white;
+}
+[[/module]]
+[[include :scp-wiki:theme:scp-offices-sigma]]
+[[include :scp-wiki:component:toggle-sidebar]]
+[[include :scp-wiki:theme:flopstyle]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+> State your name for the record.
+
+@@ @@
+[[div class="yeetbox"]]
+//A birthday party. Fifth, maybe? Seventh?//
+
+//A kid sat alone. It was her birthday, yet no one cared. She listened to the laughter around her.//
+
+//She knew they were just here for the cake.//
+[[/div]]
+@@ @@
+[[>]]
+> Jayden Carver.
+[[/>]]
+@@ @@
+> How did you find out about the Foundation?
+@@ @@
+[[>]]
+> I just... know.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//The ball flew by. She turned her head, but she stayed where she was. She never really liked sports.//
+
+//They screamed at her to go. It didn't matter.//
+[[/div]]
+@@ @@
+> You just know?
+@@ @@
+[[>]]
+> I just know. What more is there to say?
+[[/>]]
+@@ @@
+> Alright, moving on. What made you come here?
+@@ @@
+[[div class="yeetbox"]]
+//"Nora?"//
+
+//The kids around her snickered. She rubbed her eyes. "Huh?"//
+[[/div]]
+@@ @@
+[[>]]
+> I think... I was supposed to.
+[[/>]]
+@@ @@
+> Elaborate.
+@@ @@
+[[>]]
+> It has to do with the knowledge. I...
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//A loud bang.//
+
+//She had dropped her textbook.//
+[[/div]]
+@@ @@
+> You what?
+@@ @@
+[[div class="yeetbox"]]
+//Screaming. Disappointment.//
+
+//Bad grades.//
+
+//A promise.//
+[[/div]]
+@@ @@
+[[>]]
+> I don't know.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//Can't go.//
+
+//Frustration.//
+[[/div]]
+@@ @@
+[[>]]
+> I don't... know what I was saying.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//Lonely.//
+[[/div]]
+@@ @@
+[[div class="yeetbox"]]
+//A friend.//
+
+//Someone who wouldn't leave.//
+[[/div]]
+@@ @@
+> Okay, what's going on?
+@@ @@
+[[div class="yeetbox"]]
+//A job offer.//
+
+//Stuck.//
+[[/div]]
+@@ @@
+[[>]]
+> Your, uh, your memories...
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//A secret.//
+
+//A horrible secret.//
+[[/div]]
+@@ @@
+> My memories?
+@@ @@
+[[div class="yeetbox"]]
+//A ritual.//
+
+//A sickness.//
+
+//A gun.//
+[[/div]]
+@@ @@
+[[>]]
+> It's not right, though. I've been seeing...
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//**A gun.**//
+[[/div]]
+@@ @@
+----
+@@ @@
+> You mentioned my memories yesterday. What'd you mean?
+@@ @@
+[[>]]
+> I don't... I don't remember what I said.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//Cheering. Congratulations.//
+
+//She could barely hear them over the static. They were happy for her, but...//
+
+Is this a branch?
+[[/div]]
+@@ @@
+> After I asked what was going on?
+@@ @@
+[[div class="yeetbox"]]
+//Screaming.//
+
+//An argument right as she tried to speak. She sat at the table, but it didn't mean anything.//
+[[/div]]
+@@ @@
+[[>]]
+> Oh.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//She opened her mouth, but no words came out.//
+
+//A secret left forever untold.//
+[[/div]]
+@@ @@
+> Are you always this... spacey?
+@@ @@
+[[>]]
+> Not before. My condition's been getting worse.
+[[/>]]
+@@ @@
+> Your condition?
+@@ @@
+[[>]]
+> I see memories. Not voluntarily.
+[[/>]]
+@@ @@
+[[div class="yeetbox"]]
+//The animal froze, eyes wide.//
+
+//She slammed on the brakes.//
+
+//Glass flying through the air.//
+
+//A sharp pain.//
+
+//It was too late to make amends.//
+[[/div]]
+@@ @@
+> Shit. How much did you see?
+@@ @@
+[[>]]
+> You won't like the answer no matter what I say.
+[[/>]]
+@@ @@
+> Just- let's keep this between us.
+@@ @@
+----
+@@ @@
+> How well do you remember the memories you see?
+@@ @@
+[[>]]
+> Depends. Some really stick with me, but others... I forget.
+[[/>]]
+@@ @@
+> Alright, uh, do you know anything about this?
+@@ @@
+[[div class="aaaaa"]]
+**Item #:** SCP-6982
+
+**Object Class:** Uncontained
+
+**Special Containment Procedures:** N/A
+
+**Description:** SCP-6982 is a silver bowl. Human subjects observing SCP-6982 from above will perceive a series of images reflected inside of it. 
+
+Images are as follows:
+# A bottle of beer.
+# A black car.
+# A small child, approximated to be 4-6 years of age.
+# A forest.
+# A shovel.
+[[/div]]
+@@ @@
+[[div class="yeetbox"]]
+This is...
+[[/div]]
+@@ @@
+[[>]]
+> Your, uh... I don't... think so.
+[[/>]]
+@@ @@
+> Fair enough.
+@@ @@
+[[div class="yeetbox"]]
+//More time.//
+
+//As she disappeared under the surface, she wished for more time.//
+[[/div]]
+@@ @@
+[[>]]
+> Look, I've seen your timelines.
+[[/>]]
+@@ @@
+> What?
+@@ @@
+[[>]]
+> I've seen your futures, and you never tell anyone. You always die wishing you could've said something.
+[[/>]]
+@@ @@
+> Said something...
+@@ @@
+[[div class="yeetbox"]]
+//She grabbed her shovel.//
+
+//It was time to dig up the past.//
+[[/div]]
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6981]]] | SCP-6982 | [[[SCP-6983]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

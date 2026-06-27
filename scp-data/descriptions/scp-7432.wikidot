@@ -1,0 +1,40 @@
+
+	[[include :scp-wiki:theme:blankstyle fade=a]]
+[[module css]]
+body {
+    background-image: linear-gradient(
+        to bottom,
+        #BCBCBC, #BCBCBC 90px,
+        #BCBCBC 90px, #e0e0e0 200px,
+        #e0e0e0 200px, #e0e0e0 100%);
+    background-repeat: no-repeat;
+}
+[[/module]]
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="name" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7432-1 P1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7432-2 P2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7432-3 P3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7432-4 P4--]
+
+@@ @@
+
+[[include :scp-wiki:component:earthworm
+| first=false| last=false | hub=yes
+| previous-url=/scp-7396| previous-title=J is for "Jetsam"
+| next-url=/scp-7450 | next-title=L is for "Lamentations"
+| hub-url=/scp-anthology-hub | hub-title=SCP ANTHOLOGY Hub
+]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7431]]] | SCP-7432 | [[[SCP-7433]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

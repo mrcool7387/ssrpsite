@@ -1,0 +1,24 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="scp-8632" limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8632-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8632-1 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8631]]] | SCP-8632 | [[[SCP-8633]]] >>
+[[/=]]
+[[/div]]
+
+=====
+[[include component:preview
+text=DISCLAIMER: Let's all become fictional!]]
+=====

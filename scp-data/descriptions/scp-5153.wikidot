@@ -1,0 +1,60 @@
+
+	[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[module CSS]]
+:root{
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+
+[[include info:start]]
+__**SCP-5153:**__ The Meteor Who Cried Wolf
+**Author:** [[*user TheMightyMcB]]
+
+**More by me:**
+* [http://www.scp-wiki.net/themightymcb-s-author-page TheMightyMcB's Author Page]
+
+**Special thanks to:**
+* [[*user DrAkimoto]]
+* [[*user rattles]]
+* [[*user Crashington]]
+* [[*user Oboebandgeek99]]
+
+[[include info:end]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+@@ @@
+
+~~~~
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5152]]] | SCP-5153 | [[[SCP-5154]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> N/A
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[!-- For translators, here is a direct link to each iteration. --]
+[!-- http://www.scp-wiki.net/fragment:scp-5153-0 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5153-1 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5153-2 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5153-3 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5153-4 --]
+[!-- To make ListPages work correctly, make this main page first, then upload the first iteration and set its parent to the first page. Repeat that for each iteration. Remember to change the offset links at the bottom of each iteration to the correct link for the new pages you have created. --]

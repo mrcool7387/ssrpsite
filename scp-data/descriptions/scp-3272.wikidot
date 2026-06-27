@@ -1,0 +1,65 @@
+
+	[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[module CSS]]
+:root{
+--cutColour: #fafafa;
+--barColour: #590505;
+}
+
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+
+.translation_block{
+display:none;}
+[[/module]]
+[[include info:start]]
+**SCP-3272:** It's Rainin' Men, HALLELUJAH!
+**Author:** [[*user TheMightyMcB]]
+**More By This Author:**
+* http://www.scp-wiki.net/themightymcb-s-author-page
+**Special thanks to:**
+[[*user MaliceAforethought]], [[*user Crashington]], [[*user Gee0765]], [[*user T Rutherford]], [[*user Veiedhimaedhr]], [[*user Ihp]], [[*user Jekeled]], [[*user Pr10r]], [[*user Swaghetti]], [[*user Rattles]], and [[*user Roget]].
+[[collapsible show="+ Image Attribution" hide="- Image Attribution"]]
+https://commons.wikimedia.org/wiki/File:Shooting_Star.jpg (CC-BY-SA 4.0)
+https://commons.wikimedia.org/wiki/File:ICanalFranceroadPortcranes5June06.jpg#mw-jump-to-license (CC-BY-SA 3.0)
+[[/collapsible]]
+[[include info:end]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-3271]]] | SCP-3272 | [[[SCP-3273]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Shooting_Star.jpg
+> **Name:** Shooting Star.jpg
+> **Author:** Ramesh Kumar R
+> **License:** CC BY-SA 4.0 International
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Shooting_Star.jpg
+> **Derivative of:** 
+> **Additional Notes:** 
+
+> **Filename:** Porta_Potty.jpg
+> **Name:** ICanalFranceroadPortcranes5June06.jpg
+> **Author:**  Infrogmation
+> **License:** CC BY-SA 2.0 Generic
+> **Source Link:** https://commons.wikimedia.org/wiki/File:ICanalFranceroadPortcranes5June06.jpg#mw-jump-to-license
+> **Derivative of:** 
+> **Additional Notes:** 
+
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[!-- For translators, here is a direct link to each iteration. --]
+[!-- http://www.scp-wiki.net/fragment:scp-3272-0 --]
+[!-- http://www.scp-wiki.net/fragment:scp-3272-1 --]
+[!-- To make ListPages work correctly, make this main page first, then upload the first iteration and set its parent to the first page. Repeat that for each iteration. Remember to change the offset links at the bottom of each iteration to the correct link for the new pages you have created. --]

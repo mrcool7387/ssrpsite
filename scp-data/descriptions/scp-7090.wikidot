@@ -1,0 +1,35 @@
+
+	[[div style="display: none;"]]
+[[include :scp-wiki:theme:flopstyle]]
+[[/div]]
+
+[[>]]
+[[include :scp-wiki:info:start]]
+[[=]]
+SCP-7090, "The Girl With The Sun In Her Head," by [[[mr-carbon-personnel-file|Mr Carbon]]].
+
+If you liked Aluko and Zheng, check out the [[[MTF Theta-90 Hub Page]]] to see them at a different time in their careers.
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7089]]] | SCP-7090 | [[[SCP-7091]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Name:** star.png
+> **Filename:** Full Sunburst over Earth.JPG
+> **Author:** NASA (edited by mrshaba at Wikipedia and Mr Carbon at the SCP Wiki)
+> **License:** Public domain via US government
+> **Source:** [https://commons.wikimedia.org/wiki/File:Full_Sunburst_over_Earth.JPG Wikimedia Commons]
+[[include :scp-wiki:component:license-box-end]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7090-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7090-1 --]

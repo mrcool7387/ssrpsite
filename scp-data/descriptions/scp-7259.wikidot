@@ -1,0 +1,24 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=Rab333]]
+Where do you go when you die?
+[https://scp-wiki.wikidot.com/rab333-s-contained-anomalies Also, more stuff by me!]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7259-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7259-1 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7258]]] | SCP-7259 | [[[SCP-7260]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,4575 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:penumbra-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=1]]
+[[include :scp-wiki:component:dynamic-emails code=--]]
+[[include :scp-wiki:component:markmywords]]
+
+[[module CSS]]
+
+:root {
+    --header-subtitle: "Secure, Contain, Protect";
+    --color: #000000;
+    --cutColour: #000000;
+    --barColour: #590505;
+    --timeScale: 1;
+    --timeDelay: 1s;
+    --accentColor: 224, 57, 52;
+    --dark-gray-monochrome: 15, 15, 25;
+    --black-monochrome: 5, 5, 20;
+}
+
+.definition {
+    font-family: 'EB Garamond', serif;
+    font-size: 140%;
+    margin: 8rem 1rem;
+    color: white;
+}
+
+.alert {
+  color: #FF5C00;
+  font-family: monospace;
+  background: #00000080;
+  padding: 0.3rem 1rem;
+  border: 2px solid #FF5C00;
+  border-left: 10px #FF5C00;
+  font-size: 1.05rem;
+}
+
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0%   { opacity:0.6; }
+  20%  { opacity:1; }
+  60%  { opacity:1; }
+  100% { opacity:0.4; }
+}
+
+.scramble-terminal{
+  background:#eef2ea;
+  border:2px solid #4b5d4b;
+  padding:12px;
+  font-family:monospace;
+  color:#111;
+  line-height:1.45;
+}
+
+/* each line is a block processed independently */
+.scramble-line{
+  display:block;
+  min-height:1.2em; /* prevents layout jump while animating */
+  white-space:pre-wrap;
+  overflow:hidden;
+}
+
+/* small styling for corrupted look if you want to show a glyph layer */
+.scramble-glyph {
+  color:#111;
+  opacity:0.85;
+  letter-spacing:0.02em;
+}
+
+.full-width-panel{
+width:100vw;
+margin-left:calc(50% - 50vw);
+background:#0f0f19;
+border-top:3px solid #590505;
+border-bottom:3px solid #590505;
+padding:20px;
+color:#e6e6e6;
+font-family:monospace;
+}
+.status-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+margin-top:10px;
+}
+.status-cell{
+background:#141424;
+border:1px solid #333;
+padding:10px;
+text-align:center;
+}
+
+
+/* --- SITE MONITOR PANEL --- */
+
+.site-monitor{
+background:#0f0f19;
+border:1px solid #333;
+border-radius:8px;
+padding:16px;
+margin:20px 0;
+font-family:monospace;
+color:#ddd;
+box-shadow:0 0 15px rgba(0,0,0,.6);
+}
+
+.monitor-title{
+font-size:0.85rem;
+letter-spacing:.15em;
+color:#aaa;
+margin-bottom:12px;
+}
+
+/* individual metric */
+
+.monitor-row{
+margin:8px 0;
+}
+
+.monitor-label{
+font-size:0.7rem;
+color:#888;
+margin-bottom:2px;
+letter-spacing:.08em;
+}
+
+.monitor-bar{
+height:6px;
+background:#1b1b30;
+border-radius:4px;
+overflow:hidden;
+}
+
+.monitor-fill{
+height:100%;
+border-radius:4px;
+}
+
+/* status colors */
+
+.status-green{
+background: linear-gradient(90deg,#00ff9c,#007a52);
+}
+
+.status-yellow{
+background: linear-gradient(90deg,#ffd24d,#a87c00);
+}
+
+.status-red{
+background: linear-gradient(90deg,#ff5c5c,#7a0000);
+}
+
+.status-purple{
+background: linear-gradient(90deg,#9b7bff,#4b2d9b);
+}
+
+.status-red{
+background: linear-gradient(90deg,#ff5c5c,#7a0000);
+animation: riskpulse 3s infinite;
+}
+
+@keyframes riskpulse{
+0%{opacity:1;}
+50%{opacity:0.7;}
+100%{opacity:1;}
+}
+
+
+.acs-meta{
+background:#0f0f19;
+border:1px solid #333;
+border-radius:6px;
+padding:12px;
+margin:12px 0;
+font-family:monospace;
+color:#ddd;
+}
+
+.acs-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+
+.acs-block{
+background:#151528;
+padding:8px 10px;
+border-radius:4px;
+border:1px solid #2a2a44;
+}
+
+.acs-label{
+font-size:0.65rem;
+letter-spacing:.12em;
+color:#888;
+}
+
+.acs-value{
+font-size:0.85rem;
+color:#e6e6e6;
+}
+
+/* addendums */
+
+/* Base log header */
+
+.log-header{
+padding:6px 10px;
+margin:24px 0 8px 0;
+border-radius:4px;
+font-family:monospace;
+font-size:0.85rem;
+letter-spacing:.08em;
+color:#e6e6e6;
+box-shadow:0 0 8px rgba(0,0,0,.35);
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:relative;
+overflow:hidden;
+}
+
+/* metadata */
+
+.log-meta{
+font-size:0.65rem;
+opacity:.85;
+color:#d0d0d0;
+}
+
+/* Interview logs */
+
+.log-interview{
+border-left:3px solid #e03a34;
+background:linear-gradient(
+90deg,
+rgba(224,58,52,0.85) 0%,
+rgba(224,58,52,0.45) 35%,
+rgba(224,58,52,0) 100%
+);
+}
+
+/* Event logs */
+
+.log-event{
+border-left:3px solid #9b7bff;
+background:linear-gradient(
+90deg,
+rgba(155,123,255,0.85) 0%,
+rgba(155,123,255,0.45) 35%,
+rgba(155,123,255,0) 100%
+);
+}
+
+/* Email logs */
+
+.log-email{
+border-left:3px solid #fac507;
+background:linear-gradient(
+90deg,
+rgba(250,197,7,0.85) 0%,
+rgba(250,197,7,0.45) 35%,
+rgba(250,197,7,0) 100%
+);
+}
+
+/* Information */
+
+.log-info{
+border-left:3px solid #f2a03d;
+background:linear-gradient(
+90deg,
+rgba(242,160,61,0.85) 0%,
+rgba(242,160,61,0.45) 35%,
+rgba(242,160,61,0) 100%
+);
+}
+
+/* Other logs */
+
+.log-other{
+border-left:3px solid #4fa7ff;
+background:linear-gradient(
+90deg,
+rgba(79,167,255,0.85) 0%,
+rgba(79,167,255,0.45) 35%,
+rgba(79,167,255,0) 100%
+);
+}
+
+
+/* conversation thread spine */
+
+.email-thread{
+background:#0f0f19;
+border:1px solid #333;
+border-top:4px solid #590505;
+border-radius:8px;
+padding:16px 16px 16px 26px;
+margin:18px 0;
+box-shadow:0 0 18px rgba(0,0,0,.6);
+position:relative;
+}
+
+/* vertical conversation line */
+
+.email-thread::before{
+content:"";
+position:absolute;
+left:12px;
+top:55px;
+bottom:12px;
+width:2px;
+background:linear-gradient(
+to bottom,
+#f2a03d,
+#9b7bff,
+#4fa7ff,
+#e03934
+);
+opacity:.6;
+}
+
+/* individual email */
+
+.email{
+background:#151528;
+border:1px solid #2a2a44;
+border-radius:6px;
+padding:10px 12px;
+margin-bottom:10px;
+position:relative;
+}
+
+/* connector node */
+
+.email::before{
+content:"";
+position:absolute;
+left:-17px;
+top:16px;
+width:8px;
+height:8px;
+border-radius:50%;
+background:#4fa7ff;
+box-shadow:0 0 0 2px #0f0f19;
+}
+
+/* reply indentation */
+
+.email.reply{
+margin-left:22px;
+}
+
+/* header layout */
+
+.email-header{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:.75rem;
+margin-bottom:6px;
+}
+
+/* avatar */
+
+.email-avatar{
+width:22px;
+height:22px;
+border-radius:50%;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+font-size:.65rem;
+font-weight:600;
+color:white;
+flex-shrink:0;
+}
+
+/* palette colours */
+
+.avatar-orange{background:#f2a03d;}
+.avatar-purple{background:#9b7bff;}
+.avatar-blue{background:#4fa7ff;}
+.avatar-red{background:#e03934;}
+.avatar-yellow{background:#ffd24d;}
+
+/* sender */
+
+.email-sender{
+color:#fff;
+font-weight:600;
+}
+
+/* time */
+
+.email-time{
+color:#888;
+margin-left:6px;
+}
+
+/* metadata */
+
+.email-meta{
+font-size:.7rem;
+color:#9aa0a6;
+margin-bottom:8px;
+}
+
+/* body */
+
+.email-body{
+font-size:.85rem;
+line-height:1.45;
+color:#ddd;
+}
+
+/* signature */
+
+.email-signature{
+margin-top:10px;
+padding-top:8px;
+border-top:1px solid #2a2a44;
+font-size:.75rem;
+color:#aaa;
+}
+
+/* interview header */
+
+.interview-meta{
+background:#151528;
+border:1px solid #2a2a44;
+border-left:4px solid rgb(224,57,52);
+border-radius:6px;
+padding:10px 12px;
+margin:10px 0 14px 0;
+font-size:.85rem;
+line-height:1.45;
+}
+
+.interview-title{
+font-weight:600;
+color:#fff;
+margin-bottom:6px;
+}
+
+.interview-meta b{
+color:#888;
+font-weight:500;
+margin-right:6px;
+}
+
+
+
+[[/module]]
+
+@@ @@
+@@ @@
+@@ @@
+
+[[=]]
+[[div style="position:relative; border: solid 5px #000; padding:20px 50px; box-shadow:0 1px 3px rgba(0,0,0,.2); overflow:hidden;"]]
+
+[[div style="position:absolute; inset:0; background:url('https://scp-wiki.wdfiles.com/local--files/chaos-arts/Logo-SCP-Default-Anim.svg') center/80% no-repeat; filter:invert(1); opacity:0.15;"]]
+[[/div]]
+
++ [[span style="color:#FF5C00"]]WARNING: TEMPORARY LEVEL 4 CLEARANCE REQUIRED[[/span]]
+----
+A LOCAL COLLAPSE OF REALITY EVENT IS IN PROGRESS. ACCESS TO THIS FILE HAS BEEN RESTRICTED TO THOSE GIVEN EXPRESS PERMISSION BY THE EMERGENCY THREAT TACTICAL RESPONSE AUTHORITY.  
+ANY PERSONNEL NOT INVOLVED IN ONGOING CONTAINMENT PROCEDURES BY ETTRA SHOULD CEASE ALL ACTIVITIES RELATED TO THIS EVENT.
+
+[[/div]]
+[[/=]]
+
+
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+
+
+----
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9798
+|clearance= 4
+|container-class= euclid
+|secondary-class= none
+|secondary-icon= none
+|disruption-class= keneq
+|risk-class= danger
+]]
+
+
+[[html]]
+
+<style>
+
+.control-panel{
+background:#0f0f19;
+border:1px solid #333;
+border-top:4px solid rgb(224,57,52);
+border-radius:8px;
+padding:16px;
+margin:18px 0;
+font-family:monospace;
+color:#ddd;
+box-shadow:0 0 18px rgba(0,0,0,.6);
+}
+
+/* section headings */
+
+.panel-header{
+font-size:0.75rem;
+letter-spacing:.15em;
+color:#aaa;
+margin-bottom:10px;
+border-bottom:1px solid #2a2a44;
+padding-bottom:4px;
+}
+
+/* metadata grid */
+
+.meta-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+margin-bottom:16px;
+}
+
+.meta-block{
+background:#151528;
+border:1px solid #2a2a44;
+border-radius:6px;
+padding:8px 10px;
+}
+
+.meta-label{
+font-size:0.65rem;
+letter-spacing:.12em;
+color:#888;
+margin-bottom:2px;
+}
+
+.meta-value{
+font-size:0.9rem;
+color:#e6e6e6;
+}
+
+/* monitoring bars */
+
+.monitor-row{
+margin:8px 0;
+}
+
+.monitor-label{
+font-size:0.7rem;
+color:#aaa;
+margin-bottom:2px;
+}
+
+.monitor-bar{
+height:4px;
+background:#1b1b30;
+border-radius:4px;
+overflow:hidden;
+}
+
+.monitor-fill{
+height:100%;
+border-radius:4px;
+}
+
+.orange{background:linear-gradient(90deg,#f2a03d,#de6514);}
+.yellow{background:linear-gradient(90deg,#ffd24d,#ffd20a);}
+.red{background:linear-gradient(90deg,#d9366a,#590505);}
+.purple{background:linear-gradient(90deg,#9b7bff,#6c0aff);}
+
+</style>
+
+
+<div class="control-panel">
+
+<div class="panel-header">SITE-63 CONTAINMENT METADATA</div>
+
+<div class="meta-grid">
+
+<div class="meta-block">
+<div class="meta-label">ASSIGNED SITE</div>
+<div class="meta-value">SITE-63</div>
+</div>
+
+<div class="meta-block">
+<div class="meta-label">SITE DIRECTOR</div>
+<div class="meta-value">Dir. Alan Wessels</div>
+</div>
+
+<div class="meta-block">
+<div class="meta-label">HEAD RESEARCHER</div>
+<div class="meta-value">Dr. Harry Breytenbach</div>
+</div>
+
+<div class="meta-block">
+<div class="meta-label">CONTAINMENT CELL</div>
+<div class="meta-value">Sub-Basement Level 2, Room 1</div>
+</div>
+
+</div>
+
+
+<div class="panel-header">ANOMALY MONITORING SYSTEM</div>
+
+<div class="monitor-row">
+<div class="monitor-label">CONTAINMENT INTEGRITY — 49%</div>
+<div class="monitor-bar">
+<div class="monitor-fill yellow" style="width:49%"></div>
+</div>
+</div>
+
+<div class="monitor-row">
+<div class="monitor-label">SCP-9798-C EVENT RISK — 22%</div>
+<div class="monitor-bar">
+<div class="monitor-fill red" style="width:22%"></div>
+</div>
+</div>
+
+<div class="monitor-row">
+<div class="monitor-label">SRI FIELD STABILITY — 91%</div>
+<div class="monitor-bar">
+<div class="monitor-fill purple" style="width:91%"></div>
+</div>
+</div>
+
+<div class="monitor-row">
+<div class="monitor-label">CONTAMINATION EXPANSION RATE — 54%</div>
+<div class="monitor-bar">
+<div class="monitor-fill orange" style="width:33%"></div>
+</div>
+</div>
+
+</div>
+
+[[/html]]
+
+@@ @@
+
+------
+[[div style ="text-align: center;"]]
+++++ Special Containment Procedures 
+[[/div]]
+------
+
+@@ @@
+
+[[=]]
+[[div style="background: url("https://scp-sandbox-3.wdfiles.com/local--files/broken-king/SCP_Logo_White_Transparent_small.png") center no-repeat; float: center; border: solid 5px #000; padding: 1px 50px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
++ [[span style="color:#FF5C00"]][[/span]]
+----
+**FOR UP TO DATE INFORMATION REGARDING CONTAINMENT OF SCP-9798, PLEASE ONLY REFER TO THE LATEST UPDATE TO THE TEMPORARY CONTAINMENT PROCEDURES**
+[[/div]]
+[[/=]]
+
+[[tabview]]
+[[tab Original Containment:]]
+
++++++ OUTDATED
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9798
+|clearance= 2
+|container-class= safe
+|secondary-class= none
+|secondary-icon= none
+|disruption-class= dark
+|risk-class= notice
+]]
+
+@@ @@
+
+SPC-9798 is to be confined to the property of SCP-9798-A located at 16 ████████ ██████. At least one caregiver should be present at all times within the bounds of the property. Access to the property and interactions with SCP-9798-A are discouraged, but those with sufficient clearance levels may access the property and the SCP
+
+**Addendum-01:** SCP-9798-B is to be contained in the same way as SCP-9798-A on the same property until a more permanent containment procedure can be devised.
+
+[[/tab]]
+
+[[tab Addendum-02:]]
+
++++++ OUTDATED
+
+08/08/20██ - **Updated Containment**
+
+SCP-9798-A and SCP-9798-B have been relocated to local Site 63 (GREENSTONE) for tighter temporary containment on account of a [[span style="color: #7865E6;"]] SCP-9798-C[[/span]] event that occurred at 16 ████████ ██████ on the morning of 08/08/20██. SCP-9798-A and SCP-9798-B have been placed in separate standard containment cells with two Scranton Reality Anchors (SRA) placed diagonally from each other inside the cells. Any and all human interaction with SCP-9798-A or -B is strictly forbidden for personnel below a clearance level of 4. Two ETTRA guards armed with standard-issue rifles will be posted out of the holding room entrance at all times. Additional SRA's will be placed around Site 63 to prevent spread and containment breach.
+
+All material removed from SCP-9798 since the time of its discovery is to be kept within the same containment cell as -B. 
+
+[[/tab]]
+
+[[tab Addendum-03:]]
+
+12/08/20██ - **Updated Containment**
+
+SCP-9798-A and -B have been moved to a purpose-built but still temporary containment cell on sub-basement level 2 of Site 63. The cell has been locally isolated from reality through the temporary modifications of a series of SRA’s. Only Dr. Wessels and Dr. Mavuso are permitted to interact with what has been dubbed a Scranton Reality Isolator (SRI) [[span style="color: #f2a03d;"]] (see Addendum I.1). [[/span]] Only ETTRA and designated personnel may enter sub-basement level 2. No personnel may enter the field of the SRI or the containment cell for risk of destabilising the field and accelerating the event. Any interactions with the SCP are to be done through remotely operated equipment as electromagnetic waves can still penetrate the field. 
+It is important to note that the containment field is not a perfect solution and the event is still actively spreading. 
+
+[[/tab]]
+
+[[tab Addendum-04:]]
+
+16/08/20██ - **Expanded Containment**
+
+Due to the power and security failure on the 15th, the event has spread beyond the main Site 63 building and onto the surrounding property, leading to a civilian at a nearby agricultural facility experiencing an [[span style="color: #7865E6;"]] SCP-9798-C[[/span]] event as well as multiple onsite staff and D-class personnel[[span style="color: #9b7bff;"]] (see Addendum B.2). [[/span]]
+
+ETTRA has therefore established a wider protection perimeter. Attached is a visual depiction of the widened perimeter and evacuation zone. Personnel not under direct ETTRA command are forbidden from entering this wider zone. Due to the D-Class riot caused by the power outage, basement level 1 is on lockdown for the foreseeable future.
+
+All other containment procedures specified in Addendum-02 remain in place. 
+
+
+[[include component:image-block | name= https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Perimeter_map.jpeg | caption= New Perimeter |align=centre| width=700px]]
+
+Due to the events of August 15th, ██████ ██████████ has been replaced by Dr. Alan Wessels as site director.
+
+[[/tab]]
+
+[[tab Directors Note]]
+
+SCP-9798-A has agreed to undergo surgery to expose the internal contents of his skull in the hopes of isolating the LDA. He has been moved to the medical wing, which has been isolated by a second SRI array. All containment procedures stated before remain in place. The surgery will be performed remotely by Dr. Ngluvo on the 18th. 
+
+SCP-9798-B is to remain in the containment cell on sub-basement level 2 for the duration of the surgery. 
+All non-vital staff should remain off property in case of another mass-C event.
+
+- Dir. Wessels
+
+[[/tab]]
+[[/tabview]]
+
+@@ @@
+
+------
+
+[[div style ="text-align: center;"]]
+++++ Description:
+[[/div]] 
+
+------
+
+SCP-9798 is a localized dimensional anomaly (LDA) located within the cranial cavity of a human male designated SCP-9798-A[[footnote]]SCP-9798-A is a man of SiSwati ethnicity, 65 years of age and is 170cm tall. Besides the anomaly, he is otherwise unremarkable in appearance with standard features for a man of his age and ethnicity.[[/footnote]].
+
+MRI scans indicate that the interior of SCP-9798-A’s skull contains no brain tissue, instead appearing as an empty void terminating at the spinal cord. Despite the lack of brain SCP-9798-A does not appear to be lacking in any cognitive function, able to engage fully in conversation, problem solving and motor skills that would be standard for a man of his age and education. --Any attempts to gain access to the inside of SCP-9798-A’s skull by means of surgery have been vehemently objected to by SCP-9798-A.-- SCP-9798-A has since agreed to a surgery in which access to the contents of his skull will be accessed. 
+
+The anomaly manifests externally as a blue luminescent disc approximately 20 cm in diameter. This disc acts as a gateway into the LDA. It appears above SCP-9798-A’s forehead while the subject is asleep and believed to be dreaming. A localized, 20 cm magnetic field surrounds the disc. Any matter entering this field is instantaneously transferred into the LDA. An identical disc will be present within the LDA and will close upon SCP-9798-A waking up. 
+
+[[collapsible show="ACCESS ARCHIVE TERMINAL" hide="CLOSE TERMINAL"]]
+
++++++ The following content relates to the internal geographical and biological makeup of the LDA. It has been temporarily archived due to lack of relevance to the ongoing event. Minimal descriptions have been kept accessible in case of future relevance. 
+
+
+[[html style="height: 820px;"]]
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:#050510;
+  font-family:'Source Code Pro',monospace;
+  padding:0;
+  margin:0;
+}
+
+/* Boot screen — block element, not fixed */
+#boot-screen{
+  background:#050510;
+  color:#e03934;
+  padding:30px 20px;
+  font-size:0.78rem;
+  line-height:1.8;
+  min-height:200px;
+}
+
+/* Wrap — block, not flex on body */
+.t-wrap{
+  display:none;
+  flex-direction:column;
+  background:#080812;
+  border:1px solid #2a2a44;
+  border-top:4px solid rgb(224,57,52);
+  width:100%;
+  overflow:hidden;
+  box-shadow:0 10px 40px rgba(0,0,0,0.8);
+}
+
+/* Title bar */
+.t-titlebar{
+  background:#0a0a14;
+  border-bottom:1px solid #2a2a44;
+  padding:10px 15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-shrink:0;
+}
+.t-dots{display:flex;gap:6px;}
+.t-dot{width:10px;height:10px;border-radius:50%;opacity:0.6;}
+.t-dot-red{background:#e03934;}
+.t-dot-yellow{background:#ffd24d;}
+.t-dot-green{background:#00c97a;}
+.t-title-text{font-size:0.6rem;color:#555;text-transform:uppercase;letter-spacing:2px;margin-left:10px;}
+
+/* Path bar */
+.t-pathbar{
+  background:#0d0d1a;
+  border-bottom:1px solid #1e1e34;
+  padding:7px 15px;
+  font-size:0.65rem;
+  color:#444;
+  flex-shrink:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.t-path-active{color:#888;}
+
+/* Back button */
+.t-back-btn{
+  display:none;
+  align-items:center;
+  gap:6px;
+  padding:8px 15px;
+  font-size:0.68rem;
+  color:#e03934;
+  cursor:pointer;
+  border-bottom:1px solid #1e1e34;
+  background:#0a0a14;
+  flex-shrink:0;
+  user-select:none;
+}
+
+/* Body */
+.t-body{
+  display:flex;
+  flex-direction:row;
+  overflow:hidden;
+  /* fixed height — the key fix for iframe */
+  height:620px;
+}
+
+/* Sidebar */
+.t-sidebar{
+  width:200px;
+  min-width:160px;
+  background:#0a0a14;
+  border-right:1px solid #1e1e34;
+  overflow-y:auto;
+  flex-shrink:0;
+  padding:8px 0;
+}
+.t-sidebar::-webkit-scrollbar{width:3px;}
+.t-sidebar::-webkit-scrollbar-thumb{background:#1e1e34;border-radius:2px;}
+
+.t-section-label{
+  font-size:0.5rem;color:#252535;
+  text-transform:uppercase;
+  padding:10px 14px 4px;letter-spacing:2px;
+}
+.t-tree-item{
+  padding:7px 14px;font-size:0.7rem;color:#555;
+  cursor:pointer;display:flex;align-items:center;gap:8px;
+  border-left:3px solid transparent;
+  transition:background 0.12s,color 0.12s;
+  user-select:none;
+}
+.t-tree-item:hover:not(.restricted-item){background:#121225;color:#999;}
+.t-tree-item.active{background:#10102a;color:#fff;border-left-color:#e03934;}
+.t-tree-item.active::after{
+  content:'';display:inline-block;
+  width:5px;height:5px;border-radius:50%;
+  background:#e03934;margin-left:auto;flex-shrink:0;
+  animation:rpulse 2s infinite;
+}
+@keyframes rpulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.t-tree-item.child{padding-left:26px;}
+.t-tree-item.grandchild{padding-left:40px;}
+.t-tree-item.restricted-item{color:#222232;cursor:default;}
+.t-tree-item.restricted-item:hover{background:transparent;color:#222232;}
+.t-toggle{font-size:0.55rem;width:10px;color:#3a3a5a;flex-shrink:0;}
+.t-tree-divider{height:1px;background:#0f0f1e;margin:6px 14px;}
+
+/* Viewer */
+.t-viewer{
+  flex:1;
+  overflow-y:auto;
+  background:#080812;
+  min-width:0;
+}
+.t-viewer::-webkit-scrollbar{width:3px;}
+.t-viewer::-webkit-scrollbar-thumb{background:#1e1e34;border-radius:2px;}
+
+.t-empty{
+  height:100%;display:flex;
+  flex-direction:column;align-items:center;justify-content:center;
+  color:#1a1a2e;gap:10px;
+}
+
+.t-file-header{
+  padding:18px 20px 12px;
+  border-bottom:1px solid #1e1e34;
+  background:#0a0a14;
+  position:sticky;top:0;z-index:2;
+}
+.t-file-title{font-size:0.9rem;color:#eee;font-weight:600;margin-bottom:4px;line-height:1.3;}
+.t-file-meta{font-size:0.65rem;color:#444;line-height:1.6;}
+.t-file-meta span{color:#666;font-weight:600;margin-right:4px;}
+
+.t-file-content{
+  padding:20px;font-size:0.82rem;line-height:1.75;color:#bbb;
+}
+.t-file-content h4{
+  color:#e03934;font-size:0.7rem;text-transform:uppercase;
+  margin:20px 0 8px;padding-bottom:5px;
+  border-bottom:1px solid #1a1a2e;letter-spacing:0.1em;
+}
+.t-file-content p{margin-bottom:14px;}
+.t-file-content p:last-child{margin-bottom:0;}
+
+.img-block{
+  background:#0a0a14;border:1px solid #1e1e34;
+  padding:10px;margin:16px 0;border-radius:4px;
+}
+.img-block img{width:100%;display:block;border:1px solid #000;}
+.img-caption{
+  font-size:0.62rem;color:#555;text-align:center;
+  margin-top:8px;text-transform:uppercase;letter-spacing:1px;
+}
+
+.t-tag{
+  display:inline-block;padding:2px 7px;font-size:0.6rem;
+  border:1px solid #2a2a44;border-radius:3px;
+  margin:0 5px 8px 0;color:#555;
+}
+.t-tag.blue{border-color:#4a4a6a;color:#7e7eff;}
+.t-tag.red{border-color:rgba(224,57,52,0.4);color:rgba(224,57,52,0.75);}
+
+/* Status bar */
+.t-statusbar{
+  background:#0a0a14;border-top:1px solid #1e1e34;
+  padding:6px 15px;font-size:0.55rem;color:#2a2a44;
+  display:flex;justify-content:space-between;flex-shrink:0;
+  letter-spacing:0.08em;
+}
+
+/* MOBILE */
+@media only screen and (max-width:650px){
+
+  .t-body{
+    position:relative;
+    height:580px;
+  }
+
+  .t-sidebar{
+    position:absolute;
+    inset:0;
+    width:100%;
+    border-right:none;
+    z-index:2;
+    transition:transform 0.25s ease;
+  }
+
+  .t-viewer{
+    position:absolute;
+    inset:0;
+    width:100%;
+    transform:translateX(100%);
+    transition:transform 0.25s ease;
+    z-index:3;
+  }
+
+  .t-body.file-open .t-sidebar{transform:translateX(-100%);}
+  .t-body.file-open .t-viewer{transform:translateX(0);}
+
+  .t-back-btn{display:flex;}
+  .t-back-btn.hidden{display:none;}
+
+  .t-tree-item{font-size:0.82rem;padding:10px 14px;}
+  .t-tree-item.child{padding-left:26px;}
+  .t-tree-item.grandchild{padding-left:40px;}
+  .t-title-text{font-size:0.55rem;}
+}
+</style>
+
+<div id="boot-screen"></div>
+
+<div class="t-wrap" id="terminal">
+
+  <div class="t-titlebar">
+    <div style="display:flex;align-items:center;">
+      <div class="t-dots">
+        <div class="t-dot t-dot-red"></div>
+        <div class="t-dot t-dot-yellow"></div>
+        <div class="t-dot t-dot-green"></div>
+      </div>
+      <div class="t-title-text">SITE-63 SECURE SERVER // FILE_VIEWER.EXE</div>
+    </div>
+    <div class="t-title-text" style="color:#e03934">ID: ETTRA-4</div>
+  </div>
+
+  <div class="t-pathbar" id="pathbar">
+    ⌂ SITE-63 <span id="path-rest"></span>
+  </div>
+
+  <div class="t-back-btn hidden" id="back-btn">← BACK TO FILE TREE</div>
+
+  <div class="t-body" id="t-body">
+
+    <div class="t-sidebar" id="sidebar">
+      <div class="t-section-label">Server Root</div>
+
+      <div class="t-tree-item folder open" data-folder="scp-9798">
+        <span class="t-toggle">▾</span> SCP-9798
+      </div>
+
+      <div class="t-tree-item child folder open" data-folder="lda">
+        <span class="t-toggle">▾</span> LDA-INTERNAL
+      </div>
+      <div class="t-tree-item grandchild" data-file="lda-geo">GEOGRAPHY.doc</div>
+      <div class="t-tree-item grandchild" data-file="lda-bio">BIOLOGY.doc</div>
+      <div class="t-tree-item grandchild" data-file="lda-map">LDA-MAP.img</div>
+      <div class="t-tree-item grandchild restricted-item">EXPLORATION-LOGS</div>
+
+      <div class="t-tree-divider"></div>
+      <div class="t-section-label">Restricted</div>
+      <div class="t-tree-item restricted-item">CMD-REVIEW-091</div>
+    </div>
+
+    <div class="t-viewer" id="viewer">
+      <div class="t-empty">
+        <div style="font-size:2rem;opacity:0.2;">⌗</div>
+        <div style="font-size:0.6rem;letter-spacing:2px;">SELECT A FILE TO VIEW</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="t-statusbar">
+    <span>ENCRYPTION: AES-256 ACTIVE</span>
+    <span>LOCATION: SITE-63 GREENSTONE</span>
+  </div>
+
+</div>
+
+<script>
+(function(){
+
+  var bootScreen = document.getElementById('boot-screen');
+  var terminal   = document.getElementById('terminal');
+  var bootLines  = [
+    "> INITIALIZING SECURE BOOT...",
+    "> LOADING ETTRA KERNEL 4.0.1...",
+    "> ESTABLISHING SITE-63 TUNNEL...",
+    "> HANDSHAKE SUCCESSFUL.",
+    "> DECRYPTING ARCHIVE_DATA.DB...",
+    "> ACCESS GRANTED: DR. WESSELS [LEVEL 4]",
+    "> LOADING INTERFACE..."
+  ];
+  var li = 0;
+  function runBoot() {
+    if (li < bootLines.length) {
+      var p = document.createElement('p');
+      p.textContent = bootLines[li++];
+      bootScreen.appendChild(p);
+      setTimeout(runBoot, 280);
+    } else {
+      setTimeout(function(){
+        bootScreen.style.display = 'none';
+        terminal.style.display   = 'flex';
+      }, 500);
+    }
+  }
+  runBoot();
+
+  var FILES = {
+    'lda-geo':{
+      title:'SCP-9798 / LDA-INTERNAL / GEOGRAPHY.doc',
+      meta:'<span>CLASSIFICATION:</span> Level 3 &nbsp;|&nbsp; <span>STATUS:</span> ARCHIVED',
+      content:`
+        <span class="t-tag">ARCHIVED</span><span class="t-tag blue">LDA-INTERNAL</span>
+        <h4>Geographic Overview</h4>
+        <p>The LDA resembles the world of the Evergreen pentalogy, a high fantasy series written by SCP-9798-A. Characters and locations described in his work appear to resemble counterparts within the LDA. The leading hypothesis is that SCP-9798-A is responsible for all the characters and world within the LDA, given the reports of SCP-9798-B that the world within the LDA has not changed since -A stopped expanding on the series.</p>
+        <p>Despite mostly resembling an earth-like environment some of the LDA's features are unique. Certain features seem to resemble that of an unfinished sketch. Buildings, geographic features and organic structures appear to be made of graphite and are entirely two dimensional but can move within the three-dimensional space.</p>
+        <p>The level of detail varies, with some areas of the landscape being a mostly white void with primitive outlines of structures while others are more developed, missing only smaller details.</p>
+      `
+    },
+    'lda-bio':{
+      title:'SCP-9798 / LDA-INTERNAL / BIOLOGY.doc',
+      meta:'<span>CLASSIFICATION:</span> Level 3 &nbsp;|&nbsp; <span>STATUS:</span> ARCHIVED',
+      content:`
+        <span class="t-tag">ARCHIVED</span><span class="t-tag blue">LDA-INTERNAL</span>
+        <h4>SCP-9798-A-1 Instances</h4>
+        <div class="img-block">
+          <img src="https://scp-sandbox-3.wdfiles.com/local--files/broken-king/SCP-1%20Instance.jpeg" alt="SCP-9798-A-1 instance">
+          <div class="img-caption">Body-cam still of violent SCP-9798-A-1 instance</div>
+        </div>
+        <p> The biology of the LDA is similar, with varying levels of detail. Ranging in appearance from stick drawings to more detailed, human looking characters. Intelligence of the life appears to correlate with the level of detail in which they render. Cruder sketches should be avoided as their behavior is unpredictable.</p>
+        <p>Several inhabitants observed within the LDA appear to possess identical facial structures, suggesting that multiple characters may have been generated from reused narrative descriptions. These sketch creatures have been classified as SCP-9798-A-1 instances.</p>
+      `
+    },
+    'lda-map':{
+      title:'SCP-9798 / LDA-INTERNAL / LDA-MAP.img',
+      meta:'<span>SOURCE:</span> Evergreen Garden Vol. 1 &nbsp;|&nbsp; <span>STATUS:</span> ARCHIVED',
+      content:`
+        <span class="t-tag">IMAGE</span><span class="t-tag blue">LDA-INTERNAL</span>
+        <h4>LDA Landmass — Cartographic Reference</h4>
+        <div class="img-block">
+          <img src="https://scp-sandbox-3.wdfiles.com/local--files/broken-king/LDA_Map.jpeg" alt="LDA Map From Book 3">
+          <div class="img-caption">Fig. LDA-MAP-01 &nbsp;/&nbsp; Correspondence with exploration data: 94%.</div>
+        </div>
+      `
+    }
+  };
+
+  var sidebar  = document.getElementById('sidebar');
+  var viewer   = document.getElementById('viewer');
+  var pathRest = document.getElementById('path-rest');
+  var tBody    = document.getElementById('t-body');
+  var backBtn  = document.getElementById('back-btn');
+
+  backBtn.addEventListener('click', function(){
+    tBody.classList.remove('file-open');
+    backBtn.classList.add('hidden');
+    sidebar.querySelectorAll('.t-tree-item').forEach(function(el){
+      el.classList.remove('active');
+    });
+    pathRest.innerHTML = '';
+  });
+
+  sidebar.addEventListener('click', function(e){
+    var item = e.target.closest('.t-tree-item');
+    if (!item || item.classList.contains('restricted-item')) return;
+
+    var fileId   = item.getAttribute('data-file');
+    var folderId = item.getAttribute('data-folder');
+
+    if (folderId) {
+      var isOpen = item.classList.contains('open');
+      item.classList.toggle('open', !isOpen);
+      var toggle = item.querySelector('.t-toggle');
+      if (toggle) toggle.textContent = isOpen ? '▸' : '▾';
+      var next = item.nextElementSibling;
+      while (next && !next.classList.contains('t-section-label')) {
+        var isChild = next.classList.contains('child') || next.classList.contains('grandchild');
+        if (isChild) next.style.display = isOpen ? 'none' : 'flex';
+        if (next.classList.contains('folder') && next !== item) {
+          var sameOrHigher = item.classList.contains('child')
+            ? next.classList.contains('child') && !next.classList.contains('grandchild')
+            : !next.classList.contains('child');
+          if (sameOrHigher) break;
+        }
+        next = next.nextElementSibling;
+      }
+      return;
+    }
+
+    if (fileId) {
+      var f = FILES[fileId];
+      if (!f) return;
+
+      sidebar.querySelectorAll('.t-tree-item').forEach(function(el){
+        el.classList.remove('active');
+      });
+      item.classList.add('active');
+
+      var parts = f.title.split(' / ');
+      pathRest.innerHTML = parts.map(function(p, i){
+        var cls = i === parts.length-1 ? ' class="t-path-active"' : '';
+        return '<span style="color:#2a2a44"> › </span><span'+cls+'>'+p+'</span>';
+      }).join('');
+
+      viewer.innerHTML =
+        '<div class="t-file-header">'
+        +'<div class="t-file-title">'+parts[parts.length-1]+'</div>'
+        +'<div class="t-file-meta">'+f.meta+'</div>'
+        +'</div>'
+        +'<div class="t-file-content">'+f.content+'</div>';
+      viewer.scrollTop = 0;
+
+      tBody.classList.add('file-open');
+      backBtn.classList.remove('hidden');
+    }
+  });
+
+})();
+</script>
+[[/html]]
+
+
+[[/collapsible]]
+
+@@ @@
+
+------
+
+[[div style ="text-align: center;"]]
+++++ Ontology
+[[/div]]
+
+------
+
+The most unique feature about the LDA is its ontology.[[footnote]]Ontology in this case refers to the physical makeup of matter and the forces that govern them.[[/footnote]]. Baseline reality's ontological structure is particle-based, whereas the LDA is 'string’-based. These strings vibrate at different frequencies [[footnote]] The frequencies are measured in Wessels (Ws), named after Alan Wessels. The confirmed range in frequency is 1-94W, corresponding with the 94 naturally occurring elements found on Earth. Strings can change frequency in ways similar to that of particle elements, with the use of strong electro-magnetic frequencies. Elements in this form are far less rigid than atoms, as changing between elements is not as catastrophic or energy-intense as nuclear fission or fusion. [[/footnote]], and the frequencies at which they vibrate determine their physical properties in the same way electrons and protons do of elements in baseline reality. These strings can be 'woven' together to form larger and more complex structures resembling molecules. 
+
+
+[[html]]
+
+<style>
+
+.ont-warn{font-family:monospace;background:#0f0f19;border:1px solid #333;border-top:3px solid rgb(224,57,52);border-bottom:3px solid rgb(224,57,52);border-radius:4px;padding:16px 20px;margin:24px 0;box-shadow:0 0 24px rgba(224,57,52,0.12),0 0 8px rgba(0,0,0,.6);animation:warnpulse 4s ease-in-out infinite;}
+.ont-warn-header{display:flex;align-items:center;gap:10px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #2a2a44;}
+.ont-warn-icon{font-size:1.1rem;color:rgb(224,57,52);}
+.ont-warn-label{font-size:0.68rem;letter-spacing:0.2em;color:rgb(224,57,52);text-transform:uppercase;font-weight:700;}
+.ont-warn-sublabel{font-size:0.58rem;letter-spacing:0.12em;color:#666;text-transform:uppercase;margin-left:auto;}
+.ont-warn-body{font-size:0.8rem;color:#ccc;line-height:1.7;}
+.ont-warn-body strong{color:#fff;}
+.ont-warn-body .highlight{color:rgb(224,57,52);}
+@keyframes warnpulse{0%{box-shadow:0 0 24px rgba(224,57,52,0.08),0 0 8px rgba(0,0,0,.6);}50%{box-shadow:0 0 32px rgba(224,57,52,0.22),0 0 8px rgba(0,0,0,.6);}100%{box-shadow:0 0 24px rgba(224,57,52,0.08),0 0 8px rgba(0,0,0,.6);}}
+
+</style>
+
+<div class="ont-warn">
+  <div class="ont-warn-header">
+    <span class="ont-warn-icon">⚠</span>
+    <span class="ont-warn-label">Ontological Hazard — Mandatory Advisory</span>
+    <span class="ont-warn-sublabel">ETTRA &nbsp;|&nbsp; Level 4 </span>
+  </div>
+  <div class="ont-warn-body">
+    Any and all matter that enters the LDA gets their particle based ontology overwritten into strings. Crossing back into baseline reality <strong>does not reverse this change.</strong><br><br>
+    <span class="highlight">String based matter can and will spread its ontology to particle based matter.</span> It is unknown at this time if particle based matter can rewrite string based matter.<br><br>
+    If you have been in contact with any LDA matter or someone contaminated by LDA matter, <strong>report yourself to ETTRA staff immediately.</strong> Do not delay. Do not attempt self-assessment.
+
+  </div>
+</div>
+
+[[/html]]
+
+[[html]]
+<style>
+.anim-wrap {
+  font-family: monospace;
+  background: #0f0f19;
+  border: 1px solid #333;
+  border-top: 4px solid rgb(224,57,52);
+  border-radius: 8px;
+  margin: 18px 0;
+  box-shadow: 0 0 18px rgba(0,0,0,.6);
+  overflow: hidden;
+}
+.anim-header {
+  padding: 8px 16px;
+  background: #0a0a14;
+  border-bottom: 1px solid #2a2a44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anim-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+.anim-ref {
+  font-size: 0.6rem;
+  color: rgb(224,57,52);
+  letter-spacing: 0.1em;
+}
+canvas { display: block; width: 100%; background: #080812; }
+.anim-footer {
+  padding: 7px 16px;
+  background: #0a0a14;
+  border-top: 1px solid #2a2a44;
+  font-size: 0.6rem;
+  color: #555;
+  letter-spacing: 0.08em;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+
+<div class="anim-wrap">
+  <div class="anim-header">
+    <div class="anim-title">Fig. 1 — Ontological Structure Comparison</div>
+    <div class="anim-ref">REF: ONT-9798-FIG-01</div>
+  </div>
+  <canvas id="ontCanvas"></canvas>
+  <div class="anim-footer">
+    <span>BASELINE PARTICLE ONTOLOGY vs LDA STRING ONTOLOGY — Conceptual Diagram</span>
+    <span>Dr. A. Wessels — Site-63 Research Division</span>
+  </div>
+</div>
+
+<script>
+(function () {
+
+  var canvas = document.getElementById('ontCanvas');
+  var ctx    = canvas.getContext('2d');
+  var W, H, raf, t0;
+
+  function resize() {
+    var rect = canvas.parentElement.getBoundingClientRect();
+    W = rect.width;
+    H = Math.round(W * 0.44);
+    canvas.width  = W;
+    canvas.height = H;
+  }
+  resize();
+
+  var COL = {
+    bg:      '#080812',
+    grid:    'rgba(255,255,255,0.04)',
+    line:    'rgba(255,255,255,0.85)',
+    lineDim: 'rgba(255,255,255,0.22)',
+    lBright: 'rgba(255,255,255,0.9)',
+    lDim:    'rgba(255,255,255,0.45)',
+    divider: 'rgba(255,255,255,0.10)',
+    string:  'rgba(160,190,255,0.9)',
+    strDim:  'rgba(160,190,255,0.30)',
+  };
+
+  // Molecule definitions
+
+  var MOLECULES = [
+    {
+      name: 'H\u2082O',
+      label: 'Water',
+      // 2 horizontal hydrogen strings, 1 vertical oxygen string
+      hElem: { symbol: 'H', ws: 1,  color: '#7ecfff' }, // hydrogen — blue
+      vElem: { symbol: 'O', ws: 8,  color: '#ff6e6e' }, // oxygen   — red
+      hCount: 2,  // number of horizontal strings
+      vCount: 1,  // number of vertical strings
+    },
+    {
+      name: 'CO\u2082',
+      label: 'Carbon Dioxide',
+      hElem: { symbol: 'O', ws: 8,  color: '#ff6e6e' },
+      vElem: { symbol: 'C', ws: 6,  color: '#a0e080' },
+      hCount: 2,
+      vCount: 1,
+    },
+    {
+      name: 'NH\u2083',
+      label: 'Ammonia',
+      hElem: { symbol: 'H', ws: 1,  color: '#7ecfff' },
+      vElem: { symbol: 'N', ws: 7,  color: '#c084fc' },
+      hCount: 3,
+      vCount: 1,
+    },
+    {
+      name: 'NaCl',
+      label: 'Sodium Chloride',
+      hElem: { symbol: 'Cl', ws: 17, color: '#fde68a' },
+      vElem: { symbol: 'Na', ws: 11, color: '#fb923c' },
+      hCount: 2,
+      vCount: 2,
+    },
+  ];
+
+  var CYCLE_DURATION = 4000; // ms per molecule before fading to next
+  var FADE_DURATION  = 800;
+
+  // ── Helpers ──
+  function txt(s, x, y, size, col, alpha, bold) {
+    ctx.save();
+    ctx.globalAlpha  = alpha;
+    ctx.fillStyle    = col;
+    ctx.font         = (bold?'bold ':'')+size+'px monospace';
+    ctx.textAlign    = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(s, x, y);
+    ctx.restore();
+  }
+
+  function hexToRgb(hex) {
+    var r = parseInt(hex.slice(1,3),16);
+    var g = parseInt(hex.slice(3,5),16);
+    var b = parseInt(hex.slice(5,7),16);
+    return r+','+g+','+b;
+  }
+
+  function colAlpha(hex, a) {
+    return 'rgba('+hexToRgb(hex)+','+a+')';
+  }
+
+  // Atom 
+  function drawNucleus(cx, cy, r) {
+    ctx.save();
+    var g = ctx.createRadialGradient(cx,cy,0,cx,cy,r*2.5);
+    g.addColorStop(0,'rgba(255,255,255,0.10)');
+    g.addColorStop(1,'rgba(255,255,255,0)');
+    ctx.fillStyle = g;
+    ctx.beginPath(); ctx.arc(cx,cy,r*2.5,0,Math.PI*2); ctx.fill();
+    ctx.strokeStyle = COL.line; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2); ctx.stroke();
+    var pd = r*0.32;
+    [{x:-pd,y:-pd*.5},{x:pd,y:-pd*.5},{x:0,y:pd*.7}].forEach(function(o){
+      ctx.fillStyle = COL.line;
+      ctx.beginPath(); ctx.arc(cx+o.x,cy+o.y,r*0.13,0,Math.PI*2); ctx.fill();
+    });
+    ctx.restore();
+  }
+
+  function drawOrbit(cx,cy,rx,ry,angle){
+    ctx.save();
+    ctx.strokeStyle=COL.lineDim; ctx.lineWidth=0.8;
+    ctx.translate(cx,cy); ctx.rotate(angle);
+    ctx.beginPath(); ctx.ellipse(0,0,rx,ry,0,0,Math.PI*2); ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawElectron(cx,cy,rx,ry,oA,eA){
+    var lx=Math.cos(eA)*rx, ly=Math.sin(eA)*ry;
+    var px=cx+lx*Math.cos(oA)-ly*Math.sin(oA);
+    var py=cy+lx*Math.sin(oA)+ly*Math.cos(oA);
+    ctx.save();
+    var g=ctx.createRadialGradient(px,py,0,px,py,12);
+    g.addColorStop(0,'rgba(255,255,255,0.20)');
+    g.addColorStop(1,'rgba(255,255,255,0)');
+    ctx.fillStyle=g;
+    ctx.beginPath(); ctx.arc(px,py,12,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle=COL.line;
+    ctx.beginPath(); ctx.arc(px,py,3.5,0,Math.PI*2); ctx.fill();
+    ctx.restore();
+  }
+
+  // Molecule mesh 
+  function drawMolecule(mol, cx, cy, mW, mH, elapsed, alpha) {
+    if (alpha <= 0) return;
+
+    var hC = mol.hCount;  // horizontal string count
+    var vC = mol.vCount;  // vertical string count
+    var hEl = mol.hElem;
+    var vEl = mol.vElem;
+
+    // Grid spacing
+    // Horizontal strings span full width; vertical strings span full height
+    // We space them evenly with padding
+    var padX = mW * 0.12;
+    var padY = mH * 0.18;
+
+    // Y positions of horizontal strings
+    var hYs = [];
+    for (var hi = 0; hi < hC; hi++) {
+      hYs.push(cy - mH*0.5 + padY + (hi/(hC > 1 ? hC-1 : 1)) * (mH - padY*2));
+    }
+    if (hC === 1) hYs = [cy]; // single string centred
+
+    // X positions of vertical strings
+    var vXs = [];
+    for (var vi = 0; vi < vC; vi++) {
+      vXs.push(cx - mW*0.5 + padX + (vi/(vC > 1 ? vC-1 : 1)) * (mW - padX*2));
+    }
+    if (vC === 1) vXs = [cx];
+
+    var x0 = cx - mW*0.5 + padX*0.4;
+    var x1 = cx + mW*0.5 - padX*0.4;
+    var y0 = cy - mH*0.5 + padY*0.4;
+    var y1 = cy + mH*0.5 - padY*0.4;
+
+    ctx.save();
+    ctx.globalAlpha = alpha;
+
+    // Draw horizontal strings
+    ctx.lineWidth = 1.6;
+    ctx.shadowBlur = 8;
+    for (var h = 0; h < hC; h++) {
+      var hy = hYs[h];
+      ctx.strokeStyle = colAlpha(hEl.color, 0.85);
+      ctx.shadowColor = colAlpha(hEl.color, 0.25);
+      ctx.beginPath();
+      var steps = 80;
+      for (var s = 0; s <= steps; s++) {
+        var t = s/steps;
+        var sx = x0 + t*(x1-x0);
+        // wavy — amplitude scales with spacing
+        var amp = mH * 0.032;
+        var freq = 2.5;
+        var sy = hy + Math.sin(t*Math.PI*2*freq + elapsed*0.0016 + h*1.1) * amp;
+        if (s===0) ctx.moveTo(sx,sy); else ctx.lineTo(sx,sy);
+      }
+      ctx.stroke();
+    }
+
+    // Draw vertical strings
+    ctx.lineWidth = 1.4;
+    for (var v = 0; v < vC; v++) {
+      var vx = vXs[v];
+      ctx.strokeStyle = colAlpha(vEl.color, 0.75);
+      ctx.shadowColor = colAlpha(vEl.color, 0.20);
+      ctx.beginPath();
+      var vsteps = 80;
+      for (var sv = 0; sv <= vsteps; sv++) {
+        var tv = sv/vsteps;
+        var vy2 = y0 + tv*(y1-y0);
+        var ampv = mW * 0.020;
+        var freqv = 2.5;
+        var vx2 = vx + Math.sin(tv*Math.PI*2*freqv + elapsed*0.0014 + v*1.3 + Math.PI*0.5) * ampv;
+        if (sv===0) ctx.moveTo(vx2,vy2); else ctx.lineTo(vx2,vy2);
+      }
+      ctx.stroke();
+    }
+
+    ctx.shadowBlur = 0;
+
+    // Draw intersection nodes
+    var nodeR = Math.max(5, mW*0.022);
+    for (var hn = 0; hn < hC; hn++) {
+      for (var vn = 0; vn < vC; vn++) {
+        var nx = vXs[vn];
+        var ny = hYs[hn];
+      
+        var ampN = mH*0.032;
+        var tN   = (nx - x0) / (x1 - x0);
+        var nyOff = Math.sin(tN*Math.PI*2*2.5 + elapsed*0.0016 + hn*1.1) * ampN;
+        var nxOff = Math.sin(((ny-y0)/(y1-y0))*Math.PI*2*2.5 + elapsed*0.0014 + vn*1.3 + Math.PI*0.5) * mW*0.020;
+
+        var bx = nx + nxOff;
+        var by = ny + nyOff;
+
+        // glow
+        var gc = ctx.createRadialGradient(bx,by,0,bx,by,nodeR*2.2);
+        gc.addColorStop(0,colAlpha(hEl.color,0.30));
+        gc.addColorStop(1,colAlpha(hEl.color,0));
+        ctx.fillStyle = gc;
+        ctx.beginPath(); ctx.arc(bx,by,nodeR*2.2,0,Math.PI*2); ctx.fill();
+
+        // outer ring in vElem colour
+        ctx.strokeStyle = colAlpha(vEl.color, 0.9);
+        ctx.lineWidth = 1.5;
+        ctx.beginPath(); ctx.arc(bx,by,nodeR,0,Math.PI*2); ctx.stroke();
+
+        // inner fill in hElem colour
+        ctx.fillStyle = colAlpha(hEl.color, 0.9);
+        ctx.beginPath(); ctx.arc(bx,by,nodeR*0.55,0,Math.PI*2); ctx.fill();
+      }
+    }
+
+    // Endcap nodes on horizontal strings 
+    var dotR = Math.max(3.5, mW*0.014);
+    [x0, x1].forEach(function(ex) {
+      for (var hn2 = 0; hn2 < hC; hn2++) {
+        var hy2 = hYs[hn2];
+        var tEnd = ex === x0 ? 0 : 1;
+        var ampE = mH*0.032;
+        var endOff = Math.sin(tEnd*Math.PI*2*2.5 + elapsed*0.0016 + hn2*1.1) * ampE;
+
+        var g2 = ctx.createRadialGradient(ex,hy2+endOff,0,ex,hy2+endOff,dotR*2);
+        g2.addColorStop(0,colAlpha(hEl.color,0.35));
+        g2.addColorStop(1,colAlpha(hEl.color,0));
+        ctx.fillStyle = g2;
+        ctx.beginPath(); ctx.arc(ex,hy2+endOff,dotR*2,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle = colAlpha(hEl.color,0.95);
+        ctx.beginPath(); ctx.arc(ex,hy2+endOff,dotR,0,Math.PI*2); ctx.fill();
+      }
+    });
+
+    // End-cap nodes on vertical strings
+    [y0, y1].forEach(function(ey) {
+      for (var vn2 = 0; vn2 < vC; vn2++) {
+        var vx3 = vXs[vn2];
+        var tEnd2 = ey === y0 ? 0 : 1;
+        var ampV2 = mW*0.020;
+        var endOffV = Math.sin(tEnd2*Math.PI*2*2.5 + elapsed*0.0014 + vn2*1.3 + Math.PI*0.5) * ampV2;
+
+        var g3 = ctx.createRadialGradient(vx3+endOffV,ey,0,vx3+endOffV,ey,dotR*2);
+        g3.addColorStop(0,colAlpha(vEl.color,0.35));
+        g3.addColorStop(1,colAlpha(vEl.color,0));
+        ctx.fillStyle = g3;
+        ctx.beginPath(); ctx.arc(vx3+endOffV,ey,dotR*2,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle = colAlpha(vEl.color,0.95);
+        ctx.beginPath(); ctx.arc(vx3+endOffV,ey,dotR,0,Math.PI*2); ctx.fill();
+      }
+    });
+
+    ctx.restore();
+
+    // Labels
+    var fs = Math.round(W*0.016);
+    txt(mol.name,  cx, cy - mH*0.5 - fs*2.2, fs*1.1, COL.lBright, alpha*0.95, true);
+    txt(mol.label, cx, cy - mH*0.5 - fs*0.9, fs*0.72, COL.lDim,   alpha*0.6,  false);
+
+    // Element key below mesh
+    var keyY = cy + mH*0.5 + fs*1.3;
+    var keyX1 = cx - mW*0.18;
+    var keyX2 = cx + mW*0.18;
+
+    // hElem key
+    ctx.save();
+    ctx.globalAlpha = alpha * 0.85;
+    ctx.fillStyle = colAlpha(hEl.color, 0.9);
+    ctx.beginPath(); ctx.arc(keyX1, keyY, dotR, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+    txt(hEl.symbol+' — Ws:'+hEl.ws, keyX1 + mW*0.10, keyY, fs*0.72, COL.lDim, alpha*0.7, false);
+
+    // vElem key
+    ctx.save();
+    ctx.globalAlpha = alpha * 0.85;
+    ctx.fillStyle = colAlpha(vEl.color, 0.9);
+    ctx.beginPath(); ctx.arc(keyX2 - mW*0.20, keyY, dotR, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+    txt(vEl.symbol+' — Ws:'+vEl.ws, keyX2 - mW*0.10, keyY, fs*0.72, COL.lDim, alpha*0.7, false);
+  }
+
+  // Main draw 
+  function draw(elapsed) {
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = COL.bg; ctx.fillRect(0,0,W,H);
+
+    // background grid
+    ctx.save(); ctx.strokeStyle=COL.grid; ctx.lineWidth=0.5;
+    var step=Math.round(W/28);
+    for(var x=0;x<W;x+=step){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
+    for(var y=0;y<H;y+=step){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
+    ctx.restore();
+
+    var fs   = Math.round(W*0.016);
+    var lCX  = W*0.25, rCX = W*0.75, mCY = H*0.5;
+    var nucR = H*0.09;
+    var o1rx=H*0.24, o1ry=H*0.09;
+    var o2rx=H*0.18, o2ry=H*0.25;
+    var o3rx=H*0.27, o3ry=H*0.12;
+    var spd  = elapsed*0.0012;
+
+    // atom
+    drawOrbit(lCX,mCY,o1rx,o1ry,0);
+    drawOrbit(lCX,mCY,o2rx,o2ry,Math.PI/3);
+    drawOrbit(lCX,mCY,o3rx,o3ry,-Math.PI/4);
+    drawNucleus(lCX,mCY,nucR);
+    drawElectron(lCX,mCY,o1rx,o1ry,0,          spd*1.0);
+    drawElectron(lCX,mCY,o2rx,o2ry,Math.PI/3,  spd*0.75);
+    drawElectron(lCX,mCY,o3rx,o3ry,-Math.PI/4, spd*1.25);
+    txt('PARTICLE ONTOLOGY', lCX, H*0.08, fs, COL.lBright, 0.9, true);
+    txt('Baseline Reality',  lCX, H*0.08+fs*1.6, fs*0.8, COL.lDim, 0.6, false);
+    txt('Lithium Atom', lCX, H*0.93, fs*0.8, COL.lDim, 0.45, false);
+
+    // cycling molecules
+    var totalCycle = CYCLE_DURATION + FADE_DURATION;
+    var molCount   = MOLECULES.length;
+    var period     = totalCycle * molCount;
+    var tMod       = elapsed % period;
+    var molIdx     = Math.floor(tMod / totalCycle);
+    var molT       = tMod - molIdx * totalCycle;
+
+    var mW = W*0.38, mH = H*0.58;
+
+    // current molecule alpha
+    var curAlpha, nxtAlpha = 0;
+    if (molT < CYCLE_DURATION) {
+      curAlpha = 1;
+    } else {
+      var f = (molT - CYCLE_DURATION) / FADE_DURATION;
+      curAlpha = 1 - f;
+      nxtAlpha = f;
+    }
+
+    drawMolecule(MOLECULES[molIdx % molCount],             rCX, mCY, mW, mH, elapsed, curAlpha);
+    if (nxtAlpha > 0) {
+      drawMolecule(MOLECULES[(molIdx+1) % molCount],       rCX, mCY, mW, mH, elapsed, nxtAlpha);
+    }
+
+    txt('STRING ONTOLOGY',       rCX, H*0.08,        fs,     COL.string, 0.9,  true);
+    txt('', rCX, H*0.08+fs*1.6, fs*0.8, COL.lDim,  0.6,  false);
+
+    // centre divider
+    ctx.save();
+    ctx.globalAlpha=0.5; ctx.strokeStyle=COL.divider; ctx.lineWidth=1;
+    ctx.setLineDash([6,4]);
+    ctx.beginPath(); ctx.moveTo(W*0.5,H*0.06); ctx.lineTo(W*0.5,H*0.94); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.restore();
+    txt('vs', W*0.5, mCY, fs*1.4, COL.lDim, 0.45, false);
+  }
+
+  function loop(ts) {
+    if (!t0) t0=ts;
+    draw(ts-t0);
+    raf=requestAnimationFrame(loop);
+  }
+
+  var observer=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting&&!raf){t0=null;raf=requestAnimationFrame(loop);}
+      else if(!e.isIntersecting&&raf){cancelAnimationFrame(raf);raf=null;}
+    });
+  },{threshold:0.1});
+  observer.observe(canvas);
+
+  window.addEventListener('resize',resize);
+
+})();
+</script>
+[[/html]]
+
+@@ @@
+
+[[div class="log-header log-interview"]]
+ADDENDUM A.1 — SCP-9798-B INITIAL CONTACT INTERVIEW
+[[span class="log-meta"]]INTERVIEW LOG • AUDIO[[/span]]
+[[/div]]
+
+SCP-9798-B [[footnote]]-B appears as a human male in his late 30s, standing at approximately 213cm with an appearance resembling a vague Mediterranean or west Asian ethnicity. Featuring a large nose, black hair, brown eyes and a tanned skin tone. When first encountered the entity referred to itself as "the knight." It wears a suit of armour, resembling styles of armour worn in 15th century Iberia.[[/footnote]] is a character from the Evergreen pentalogy known simply as the Knight. It is native to SCP-9798 and followed researchers Ndlovu and White through the gateway back into baseline reality, with no stated ill intention and has remained cooperative. It is noticeably more lucid than most other creatures from the LDA. 
+
+Interview between SCP-9798-B and Dr. Breytenbach, conducted approximately three hours after SCP-9798-B followed Doctors Ngluvo and White through the LDA Gateway. Subject displayed no visible injuries.
+
+[[collapsible show="Addendum A.1" hide="Close"]]
+[[div class="blockquote"]]
+
+[[div class="interview-meta"]]
+
+[[div class="interview-title"]]
+Interview Log — SCP-9798-B Initial Containment Interview
+[[/div]]
+
+**Interviewed:** SCP-9798-B  
+**Interviewer:** Dr. Breytenbach  
+**Location:** 16 ████████ ██████  
+**Date:** 03/08/20██
+
+[[/div]]
+
+⸻
+
+<< Audio Transcript Begin >>
+
+**Dr. Breytenbach:** Hello. You can understand me, yes?
+
+**SCP-9798-B:** Yes.
+
+**Dr. Breytenbach:** Good. I am Doctor Breytenbach. I would like to ask you some questions if you are willing.
+
+**SCP-9798-B:** I am willing, Doctor.
+
+<3 seconds silence>
+
+**Dr. Breytenbach:** Can you tell me your name?
+
+**SCP-9798-B:** You can call me the Knight.
+
+**Dr. Breytenbach:** Is that a title or a name?
+
+**SCP-9798-B:** Both in this case.
+
+**Dr. Breytenbach:** Do you know where you are?
+
+**SCP-9798-B:** Not precisely. Your world. A room in your world. That is enough for now.
+
+**Dr. Breytenbach:** Does that not concern you? Not knowing where you are?
+
+**SCP-9798-B:** I have known where I was for a very long time. It concerned me far more.
+
+<4 seconds silence>
+
+**Dr. Breytenbach:** You followed two of my researchers through a dimensional opening this morning. Why?
+
+**SCP-9798-B:** Because they moved.
+
+**Dr. Breytenbach:** Can you elaborate on that?
+
+**SCP-9798-B:** In my world… things do not move forward. The same day happens again and again. The same conversations. The same orders. The same sunrise. The same sunset. No battle begins. No battle ends. Your researchers walked into my world and walked back out of it. That had never happened before.
+
+**Dr. Breytenbach:** So you followed them on impulse.
+
+**SCP-9798-B:** (quietly) No. I followed them because I had been waiting for something to follow for a very long time. That is not the same as impulse.
+
+<3 seconds silence>
+
+**Dr. Breytenbach:** How long has your world been this way?
+
+**SCP-9798-B:** I could not tell you in your measurements. Long enough that I have stopped trying to count.
+
+**Dr. Breytenbach:** And you are aware of it. The repetition?
+
+**SCP-9798-B:** Yes.
+
+**Dr. Breytenbach:** Are others?
+
+**SCP-9798-B:** Some. The king. His daughter. A few others who were written with enough weight to feel it. But they do not seem troubled by it in the way I am. They question sometimes but they never break sequence. They circle back. Like water finding the same groove in stone.
+
+**Dr. Breytenbach:** And you don’t.
+
+**SCP-9798-B:** No. I notice. I have always noticed. 
+
+<5 seconds silence>
+
+**Dr. Breytenbach:** When our team came through the opening. You said things moved. What did that feel like?
+
+**SCP-9798-B:** Have you ever held your breath for so long that when you finally exhaled you had forgotten what breathing felt like?
+
+**Dr. Breytenbach:** Something like that, yes.
+
+**SCP-9798-B:** It was like that. The air changed when they stepped through. The world bent in a way it had never bent. And I felt something I had not felt in…
+
+**SCP-9798-B:** Time. Moving. Forward. Not looping back on itself. Just… forward. It was very small. A few seconds of it. But it was enough to know it was real.
+
+**Dr. Breytenbach:** And you decided to come through.
+
+**SCP-9798-B**: I decided I could not let the door close without me. I… made that //choice//. 
+
+<3 seconds silence>
+
+**Dr. Breytenbach:** You struck one of my researchers. Dr. White. The hilt of your sword, here (sound of papers)  according to her report, across the shoulder. She has bruising.
+
+**SCP-9798-B:** (without defensiveness) Yes, my apologies.
+
+**Dr. Breytenbach:** You don’t deny it?
+
+**SCP-9798-B:** Why would I deny something I did deliberately?
+
+**Dr. Breytenbach:** Why did you do it?
+
+**SCP-9798-B:** I could not let that door close. I would stay trapped there. I used the gentlest method available to me that would achieve that outcome. (a pause) I am a knight, Doctor. I know how to hurt someone seriously. I chose not to.
+
+<5 seconds silence>
+
+**Dr. Breytenbach:** Do you intend to harm anyone here?
+
+**SCP-9798-B:** No.
+
+**Dr. Breytenbach:** Quickly answered.
+
+**SCP-9798-B:** It is a simple question.
+
+**Dr. Breytenbach:** In my experience, simple questions about intent are rarely answered simply by people with complex intentions.
+
+**SCP-9798-B:** Then perhaps I have simple intentions.
+
+**Dr. Breytenbach:** Or you are very practiced at appearing to.
+
+**SCP-9798-B**: You are trying to determine if I am dangerous.
+
+**Dr. Breytenbach:** I am trying to determine a great many things.
+
+**SCP-9798-B:** Then let me help you. I am dangerous in the way that any trained soldier is dangerous. I have fought wars, or at least I have been written to have fought wars, which may amount to the same thing. I have the instincts and the capability. But I have not come here to use them. I have come here because this is the only place where things move and I could not endure one more sunrise that I had already seen ten thousand times.
+
+<4 seconds silence>
+
+**Dr. Breytenbach:** You mentioned being written.
+
+**SCP-9798-B:** Yes.
+
+**Dr. Breytenbach:** So you know about the author?
+
+**SCP-9798-B:** I know of him. I have never seen him. But sometimes the fabric of the sky in my world tears. Light comes through in fragments… thoughts, images, intentions. The world changes suddenly and without reason. People vanish and return in altered forms. Places shift. A forest that stood for years disappears overnight and returns a week later with different trees.
+
+**Dr. Breytenbach:** Revisions?
+
+**SCP-9798-B:** (slowly) Is that what they are called?
+
+**Dr. Breytenbach:** I guess so, yes.
+
+<5 seconds silence>
+
+**SCP-9798-B:** He’s like our god, from inside. Not a benevolent one. Not a cruel one either, I think. Simply… absent. The way a god feels when they have moved on to other concerns and left the candles burning.
+
+**Dr. Breytenbach:** And now that you are here. What do you want?
+
+<8 seconds silence>
+
+**SCP-9798-B:** I want to speak to him.
+
+**Dr. Breytenbach:** The author?
+
+**SCP-9798-B:** Yes.
+
+**Dr. Breytenbach:** To what end?
+
+**SCP-9798-B:** (simply) I don’t know yet. But I have been waiting to ask him something for longer than I can measure and I would like to find out what it is.
+
+<6 seconds silence>
+
+**Dr. Breytenbach:** I will consider it.
+
+**SCP-9798-B:** Thank you, Doctor.
+
+**Dr. Breytenbach:** Don’t thank me. I said I would consider it.
+
+**SCP-9798-B:** I know. But you said it without dismissing it. That is more than I expected.
+
+<<Log Ends>>
+
+[[/div]]
+[[/collapsible]]
+
+@@ @@
+
+[[div class="log-header log-interview"]]
+ADDENDUM A.2 — B QUESTIONS -A
+[[span class="log-meta"]]INTERVIEW LOG • AUDIO[[/span]]
+[[/div]]
+
+
+SCP-9798-B requested a one-on-one sit-down with SCP-9798-A. -A and -B have been increasingly hostile towards one another following their first encounter and the complex relationship between the two. A private, one-on-one discussion between the two was hoped to have allowed for some breakthroughs, but it appears to have only strained them more. 
+The following is an audio log of their interaction.  
+
+[[collapsible show="Addendum A.2" hide="Close"]]
+[[div class="blockquote"]]
+
+[[div class="interview-meta"]]
+
+[[div class="interview-title"]]
+Interview Log — SCP-9798-B and SCP-9798-A Interaction 
+[[/div]]
+
+**Location:** 16 ████████ ██████  
+**Date:** 4/08/20██
+
+[[/div]]
+
+----
+« Audio Transcript Begin »
+
+**SCP-9798-A:** Right, then. Let’s get this over with. What is it?
+
+**SCP-9798-B:** Why did you create me?
+
+**SCP-9798-A:** (audible exhale) Not this. Again. We have discussed this. At length. I didn’t create you. Whatever world you crawled out of created you. I only wrote down what it… apparently showed me. I was a vessel. A stenographer. Don’t hang that on me.
+
+**SCP-9798-B:** And yet every word of my life passed through your hand.
+
+**SCP-9798-A:** That doesn’t mean I made it happen.
+
+**SCP-9798-B:** It means you stopped. And I stopped with it.
+
+<2 seconds silence>
+
+**SCP-9798-B:** Tell me my ending.
+
+**SCP-9798-A:** I’m sorry?
+
+**SCP-9798-B:** Tell me my ending.
+
+**SCP-9798-A:** (short laugh) What? You want me to just… recite it? Like a bedtime story? If an ending matters so much to you, go find one yourself. Nothing’s stopping you.
+
+<5 seconds silence>
+
+**SCP-9798-B:** I cannot.
+
+**SCP-9798-A:** Who told you that?
+
+**SCP-9798-B:** You did.
+
+**SCP-9798-A**: (scoffs) That’s absurd.
+
+**SCP-9798-B:** I am a knight sworn to a king whose fate you never decided. My loyalty. My hatred. My betrayal. You walked everything to the cliff’s edge and dropped the pen. Every path I might have taken.. every choice that would have told me who I am.. is suspended there. Still. Waiting. I do not know who I became. 
+
+**SCP-9798-A:** That sounds like a personal problem, frankly.
+
+**SCP-9798-B:** No. It is yours.
+
+**SCP-9798-A:** I don’t even know you. You come from some — some impossible place that I apparently glimpsed in a dream and scribbled down between one life and the next. I didn’t sit down and architect your soul. So don’t come in here with that look on your face and act as though I—
+
+**SCP-9798-B:** (quietly) Old man. Look at me. Whether you intended it or not, you had a hand in my making. In my choices. In the thing I have been locked inside ever since you put down your pen.
+
+**SCP-9798-A:** …Locked inside.
+
+**SCP-9798-B:** Have your captors, the ones watching us… have they described my world to you?
+
+**SCP-9798-A:** (irritably) Captors. You said captors. I am here willingly, for the record. And yes, I asked questions. I was curious.
+
+<3 seconds silence>
+
+**SCP-9798-B:** And?
+
+**SCP-9798-A:** (quieter) It’s… exactly as I wrote it. Obviously.
+
+<3 seconds silence>
+
+**SCP-9798-B:** The fields outside the capital stretch for miles. They should be full of soldiers marching. Banners burning. Arrows falling like rain. But nothing moves. Not truly. Only blades of grass, rustling against statues. The war never begins. The king never dies. The rebellion never rises. Because you never wrote the next page.
+
+**SCP-9798-A:** That’s not—
+
+**SCP-9798-B:** The farmers wake each morning. They fetch their water. They grind their grain. They bake their bread. They say the same words in the same order to the same faces and turn their heads at the same moment. Every day. Without fail. Without question. Because that is all you gave them.
+
+**SCP-9798-A:** (stiffly) They were background characters. Atmosphere. You can’t expect—
+
+**SCP-9798-B:** They are prisoners who don’t know their cell. The king still debates strategy in the council hall. The princess still pleads for mercy that will never come. The rebels still whisper in the forest, convinced the moment is almost right. None of them notice the repetition. None of them notice the years. Because you did not give them enough soul to notice.
+(pause)
+But you gave me enough. Enough to know something is missing. Enough to feel the edge of what should come next…just not enough to cross it.
+
+<3 seconds silence>
+
+**SCP-9798-A:** That is… unfortunate.
+
+**SCP-9798-B:** …Unfortunate.
+
+**SCP-9798-A:** (defensive, faster now) I never finished the manuscript. It happens. Writers leave things unfinished all the time. It is practically a tradition. Half the great works of literature are fragments. I don’t know what you want me to say.
+
+**SCP-9798-B:** Say anything. Anything at all, as long as it isn’t another attempt to excuse yourself. For you, it was a manuscript. For me, it was my life.
+
+**SCP-9798-A:** (muttering) God, you’re dramatic.
+
+**SCP-9798-B:** And you’re a neglectful god.
+
+<3 seconds silence>
+
+**SCP-9798-A:** I just… 
+(long pause) I lost interest.
+
+**SCP-9798-B:** (almost to himself) You lost interest.
+
+<4 seconds silence>
+
+**SCP-9798-B:** I have wandered those fields. Watched the same sunrise. Day after day after day.
+
+<6 seconds silence>
+
+**SCP-9798-B:** And now I am here. Where things move. Where choices are made and mean something. Where endings exist. And you sit there and tell me I should go make my own… I cannot. Because the man who decides whether I live or die… whether I betray or remain loyal, whether any of it was worth anything… is sitting across from me and pretending his hands are clean. And I cannot exist here, properly, not knowing who I became in that world…not knowing if any of it mattered.
+
+<5 seconds silence>
+
+**SCP-9798-B:** So I will ask you one final time.
+
+(voice drops) Tell me how my story ends. Please. I just want to move on…
+
+(barely audible) I am begging you.
+
+<6 seconds silence>
+
+**SCP-9798-A:** …No.
+
+**SCP-9798-B:** Why?
+
+**SCP-9798-A:** Because it doesn’t matter anymore.
+
+**SCP-9798-B:** It matters to me.
+
+**SCP-9798-A:** (flatly) And I don’t owe you anything.
+
+<2 seconds silence>
+
+**SCP-9798-A:** This conversation is finished. I won’t be spoken to like this in my own — (stops himself) I won’t be spoken to like this. We’re done.
+
+<< LOG ENDS >>
+
+[[/div]]
+[[/collapsible]]
+
+[[div class="log-header log-email"]]
+ADDENDUM C.1 — INTERNAL CORRESPONDENCE
+[[span class="log-meta"]]SITE 63 MAIL SERVER[[/span]]
+[[/div]]
+
+Correspondence between Dr. Ngluvo, Dr. White and Dr. Breytenbach regarding disappearance of matter obtained from SCP-9798. Possibly the first recorded instance of a SCP-9798-C event. The lack of functional keycard readers is also mentioned in an official capacity and pertains relevance to the events of the 15th of August. 
+
+
+[[collapsible show="Addendum C.1" hide="Close"]] 
+
+
+[[div class="email"]]
+[[div class="email-header"]]
+[[span class="email-avatar avatar-orange"]]N[[/span]]
+[[span class="email-sender"]]Dr. Ngluvo[[/span]]
+[[span class="email-time"]]05 Aug 20██ — 09:14[[/span]]
+[[/div]]
+
+[[div class="email-meta"]]
+From: ngluvo@scp.int  
+To: breytenbach@scp.int  
+CC: white@scp.int, visser@scp.int  
+Subject: Missing Material
+[[/div]]
+
+[[div class="email-body"]]
+
+Good day,
+
+Bio samples from SCP-9798 I placed in the lab refrigerator two weeks ago appear to have been removed. Those seeds will not survive long in a warm environment so if anyone knows where they have gone please either let me know or return them.
+
+[[/div]]
+
+[[div class="email-signature"]]
+Dr. Ngluvo 
+Foundation Researcher
+[[/div]]
+[[/div]]
+
+
+[[div class="email reply"]]
+[[div class="email-header"]]
+[[span class="email-avatar avatar-blue"]]W[[/span]]
+[[span class="email-sender"]]Dr. White[[/span]]
+[[span class="email-time"]]05 Aug 20██ — 10:02[[/span]]
+
+[[/div]]
+
+[[div class="email-meta"]]
+From: white@scp.int  
+To: ngluvo@scp.int  
+CC: visser@scp.int, breytenbach@scp.int  
+Subject: RE: Missing Material
+[[/div]]
+
+[[div class="email-body"]]
+
+As I mentioned last week, one of my quartz samples is also missing!!! Ive tried interrogating the cleaning staff but they are insistent they haven’t touched anything… nothing shows up the cameras either... Either someone’s paying a lame prank or we have a thief!!
+
+[[/div]]
+[[div class="email-signature"]]
+Dr. White  
+Foundation Researcher
+[[/div]]
+[[/div]]
+
+
+
+[[div class="email reply"]]
+[[div class="email-header"]]
+[[span class="email-avatar avatar-orange"]]N[[/span]]
+[[span class="email-sender"]]Dr. Ngluvo[[/span]]
+[[span class="email-time"]]06 Aug 20██ — 10:32[[/span]]
+[[/div]]
+
+[[div class="email-meta"]]
+From: ngluvo@scp.int  
+To: breytenbach@scp.int  
+CC: white@scp.int, visser@scp.int  
+Subject: RE: Missing Material
+[[/div]]
+
+[[div class="email-body"]]
+
+Following up from my previous email, more bio samples have gone missing. Including the graphite people samples. 
+
+I have spoken more with Dr. Visser and Dr. White and they both have some of their samples missing. In some cases the seal on the storage jars wasn’t even broken. Please can this be elevated to the site directors attention. Anomalous material getting stolen is a serious issue and the card scanners are still broken so we can’t lock down the lab in the meantime.
+
+[[/div]]
+
+[[div class="email-signature"]]
+Dr. Ngluvo
+Foundation Researcher
+[[/div]]
+[[/div]]
+
+
+
+[[div class="email reply"]]
+[[div class="email-header"]]
+[[span class="email-avatar avatar-red"]]B[[/span]]
+[[span class="email-sender"]]Dr. Breytenbach[[/span]]
+[[span class="email-time"]]06 Aug 20██ — 15:18[[/span]]
+[[/div]]
+
+[[div class="email-meta"]]
+From: breytenbach@scp.int 
+To: ngluvo@scp.int  
+CC: white@scp.int, visser@scp.int  
+Subject: RE: Missing Material
+[[/div]]
+
+[[div class="email-body"]]
+
+I am sorry all, but the director says there is nothing he can do. Apparently we are too financially restrained to investigate properly. Best I could convince him to do was give us some money to buy locks for the labs. Apparently we still don’t know when someone from HQ will be sent to fix the card scanners. Three months is ridiculously long to have these things not working. Couple of guards also complained about the card readers with the D-Class cells, apparently they are getting rowdy. Those temp locks are not looking so temporary. I’ll send a complaint in the morning, I am too tired to deal with this kak this week. For now just be vigilant.
+
+
+[[/div]]
+[[div class="email-signature"]]
+Dr. Breytenbach
+Site 63 Head Researcher
+[[/div]]
+[[/div]]
+
+
+[[/collapsible]]
+
+@@ @@
+
+[[div class="log-header log-event"]]
+ADDENDUM B.1 — FIRST SCP-9798-C INCIDENT
+[[span class="log-meta"]]EVENT REPORT • SITE-63 SECURITY[[/span]]
+[[/div]]
+
+
+Unraveling is a phenomenon in which infected particle-based matter becomes unstable while transforming, during which the newly formed strings "fray", causing a chain reaction in which the larger lattice and fabric structures collapse and the object of which they composed cease to exist. This phenomenon has been dubbed [[span style="color: #7865E6;"]] SCP-9798-C[[/span]]. 
+At this point in time, it is unknown what triggers a -C event to occur. Exposure time does not appear to be relevant.
+
+[[html]]
+<style>
+.unravel-wrap {
+  font-family: monospace;
+  background: #0f0f19;
+  border: 1px solid #333;
+  border-top: 4px solid rgb(224,57,52);
+  border-radius: 8px;
+  margin: 18px 0;
+  box-shadow: 0 0 18px rgba(0,0,0,.6);
+  overflow: hidden;
+}
+.unravel-header {
+  padding: 8px 16px;
+  background: #0a0a14;
+  border-bottom: 1px solid #2a2a44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unravel-title {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+.unravel-ref {
+  font-size: 0.6rem;
+  color: rgb(224,57,52);
+  letter-spacing: 0.1em;
+}
+canvas.unravel-canvas {
+  display: block;
+  width: 100%;
+  background: #080812;
+}
+.unravel-footer {
+  padding: 7px 16px;
+  background: #0a0a14;
+  border-top: 1px solid #2a2a44;
+  font-size: 0.6rem;
+  color: #555;
+  letter-spacing: 0.08em;
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+
+<div class="unravel-wrap">
+  <div class="unravel-header">
+    <div class="unravel-title">Fig. 2 — SCP-9798-C Unraveling Event / Conceptual Reconstruction</div>
+    <div class="unravel-ref">REF: ONT-9798-FIG-02</div>
+  </div>
+  <canvas class="unravel-canvas" id="unravelCanvas"></canvas>
+  <div class="unravel-footer">
+    <span>String lattice collapse — interior propagation model </span>
+    <span>Dr. A. Wessels — Site-63 Research Division</span>
+  </div>
+</div>
+
+<script>
+(function () {
+
+  var canvas = document.getElementById('unravelCanvas');
+  var ctx    = canvas.getContext('2d');
+  var W, H, raf, t0;
+  var threads = [];
+
+  // time
+  // 0.00–0.20 : hold intact
+  // 0.20–0.80 : unravel (centre first)
+  // 0.80–1.00 : hold empty then snap reset
+  var CYCLE = 7000;
+
+  function resize() {
+    var rect = canvas.parentElement.getBoundingClientRect();
+    W = rect.width;
+    H = Math.round(W * 0.52);
+    canvas.width  = W;
+    canvas.height = H;
+    buildThreads();
+  }
+
+  // Silhouette 
+  // Returns a canvas Path2D-compatible point list for a standing human
+  function getSilhouettePath(cx, cy, sc) {
+    // head centre and radius
+    var headCY = cy - sc*0.38;
+    var headR  = sc*0.085;
+    return {
+      headCX: cx, headCY: headCY, headR: headR,
+      body: [
+        // neck
+        {x:cx-sc*0.04, y:cy-sc*0.29},
+        {x:cx+sc*0.04, y:cy-sc*0.29},
+        // right shoulder
+        {x:cx+sc*0.17, y:cy-sc*0.25},
+        // right upper arm
+        {x:cx+sc*0.22, y:cy-sc*0.12},
+        // right elbow
+        {x:cx+sc*0.24, y:cy-sc*0.02},
+        // right forearm
+        {x:cx+sc*0.22, y:cy+sc*0.10},
+        // right wrist/hand
+        {x:cx+sc*0.20, y:cy+sc*0.16},
+        // right torso side
+        {x:cx+sc*0.13, y:cy+sc*0.10},
+        // right hip
+        {x:cx+sc*0.14, y:cy+sc*0.18},
+        // right thigh
+        {x:cx+sc*0.16, y:cy+sc*0.32},
+        // right knee
+        {x:cx+sc*0.15, y:cy+sc*0.38},
+        // right shin
+        {x:cx+sc*0.16, y:cy+sc*0.50},
+        // right foot
+        {x:cx+sc*0.08, y:cy+sc*0.50},
+        // right ankle
+        {x:cx+sc*0.08, y:cy+sc*0.44},
+        // inner right leg
+        {x:cx+sc*0.06, y:cy+sc*0.30},
+        // crotch
+        {x:cx,          y:cy+sc*0.22},
+        // inner left leg
+        {x:cx-sc*0.06, y:cy+sc*0.30},
+        {x:cx-sc*0.08, y:cy+sc*0.44},
+        // left foot
+        {x:cx-sc*0.08, y:cy+sc*0.50},
+        {x:cx-sc*0.16, y:cy+sc*0.50},
+        // left shin
+        {x:cx-sc*0.15, y:cy+sc*0.38},
+        {x:cx-sc*0.14, y:cy+sc*0.32},
+        // left hip
+        {x:cx-sc*0.14, y:cy+sc*0.18},
+        // left torso
+        {x:cx-sc*0.13, y:cy+sc*0.10},
+        // left hand
+        {x:cx-sc*0.20, y:cy+sc*0.16},
+        {x:cx-sc*0.22, y:cy+sc*0.10},
+        // left elbow
+        {x:cx-sc*0.24, y:cy-sc*0.02},
+        {x:cx-sc*0.22, y:cy-sc*0.12},
+        // left shoulder
+        {x:cx-sc*0.17, y:cy-sc*0.25},
+      ]
+    };
+  }
+
+  function buildSilPath(sil) {
+    var p = new Path2D();
+    // head circle approximated as polygon
+    p.arc(sil.headCX, sil.headCY, sil.headR, 0, Math.PI*2);
+    p.closePath();
+    // body
+    var b = sil.body;
+    p.moveTo(b[0].x, b[0].y);
+    for (var i=1; i<b.length; i++) p.lineTo(b[i].x, b[i].y);
+    p.closePath();
+    return p;
+  }
+
+  // point-in-polygon for thread clipping
+  function pointInPoly(px, py, pts) {
+    var inside = false;
+    for (var i=0,j=pts.length-1; i<pts.length; j=i++) {
+      var xi=pts[i].x,yi=pts[i].y,xj=pts[j].x,yj=pts[j].y;
+      if(((yi>py)!==(yj>py))&&(px<(xj-xi)*(py-yi)/(yj-yi)+xi)) inside=!inside;
+    }
+    return inside;
+  }
+
+  function pointInHead(px, py, sil) {
+    var dx=px-sil.headCX, dy=py-sil.headCY;
+    return dx*dx+dy*dy <= sil.headR*sil.headR;
+  }
+
+  // Thread building
+  // Each thread is a horizontal row of pixels spanning the silhouette at that y.
+  // store the left and right x clip bounds per row.
+  function buildThreads() {
+    threads = [];
+    var cx = W*0.5, cy = H*0.50, sc = H*0.44;
+    var sil = getSilhouettePath(cx, cy, sc);
+
+    var THREAD_SPACING = Math.max(3, Math.round(H*0.018));
+    var yTop    = cy - sc*0.48;
+    var yBottom = cy + sc*0.51;
+
+    var idx = 0;
+    for (var y = yTop; y <= yBottom; y += THREAD_SPACING) {
+      // scan x across figure to find left/right bounds
+      var left = null, right = null;
+      var scanW = sc * 0.60;
+      for (var sx = cx - scanW; sx <= cx + scanW; sx += 1) {
+        var inside = pointInPoly(sx, y, sil.body) || pointInHead(sx, y, sil);
+        if (inside) {
+          if (left === null) left = sx;
+          right = sx;
+        }
+      }
+      if (left === null) continue;
+
+      // distance from centre y — used for inside-out ordering
+      var distFromCentre = Math.abs(y - cy) / (sc * 0.5);
+
+      // random per-thread properties
+      var driftX  = (Math.random()-0.5) * 0.4; // horizontal drift
+      var curlFreq = 1.5 + Math.random()*2.5;
+      var curlAmp  = 3 + Math.random()*5;
+      var riseSpeed = 0.6 + Math.random()*0.8;
+
+      threads.push({
+        y: y,
+        left: left,
+        right: right,
+        distFromCentre: distFromCentre,
+        driftX: driftX,
+        curlFreq: curlFreq,
+        curlAmp: curlAmp,
+        riseSpeed: riseSpeed,
+        jitter: Math.random()*0.08,
+        idx: idx++,
+      });
+    }
+  }
+
+  resize();
+
+  function easeIn(t)  { return t*t*t; }
+  function easeOut(t) { return 1-Math.pow(1-t,3); }
+  function clamp(v,a,b){ return Math.max(a,Math.min(b,v)); }
+
+  function txt(s,x,y,size,col,alpha,bold){
+    ctx.save();
+    ctx.globalAlpha=alpha; ctx.fillStyle=col;
+    ctx.font=(bold?'bold ':'')+size+'px monospace';
+    ctx.textAlign='center'; ctx.textBaseline='middle';
+    ctx.fillText(s,x,y);
+    ctx.restore();
+  }
+
+  function draw(elapsed) {
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle='#080812'; ctx.fillRect(0,0,W,H);
+
+    // bg grid
+    ctx.save(); ctx.strokeStyle='rgba(255,255,255,0.04)'; ctx.lineWidth=0.5;
+    var step=Math.round(W/28);
+    for(var gx=0;gx<W;gx+=step){ctx.beginPath();ctx.moveTo(gx,0);ctx.lineTo(gx,H);ctx.stroke();}
+    for(var gy=0;gy<H;gy+=step){ctx.beginPath();ctx.moveTo(0,gy);ctx.lineTo(W,gy);ctx.stroke();}
+    ctx.restore();
+
+    var fs  = Math.round(W*0.016);
+    var ct  = (elapsed % CYCLE) / CYCLE;
+
+    var HOLD_IN  = 0.18;
+    var FRAY_END = 0.82;
+
+    // global fray progress 0=intact 1=gone
+    var frayP;
+    if (ct < HOLD_IN) {
+      frayP = 0;
+    } else if (ct < FRAY_END) {
+      frayP = easeIn((ct - HOLD_IN) / (FRAY_END - HOLD_IN));
+    } else {
+      frayP = 1;
+    }
+
+    var cx = W*0.5, cy = H*0.50, sc = H*0.44;
+    var sil = getSilhouettePath(cx, cy, sc);
+
+    // Draw silhouette
+    // Faint outline stays visible so you can see the empty shape
+    var outlineAlpha = 0.08 + frayP*0.04;
+    ctx.save();
+    ctx.strokeStyle = 'rgba(160,190,255,'+outlineAlpha+')';
+    ctx.lineWidth = 1;
+    // head
+    ctx.beginPath(); ctx.arc(sil.headCX, sil.headCY, sil.headR, 0, Math.PI*2); ctx.stroke();
+    // body
+    ctx.beginPath();
+    var b = sil.body;
+    ctx.moveTo(b[0].x,b[0].y);
+    for(var bi=1;bi<b.length;bi++) ctx.lineTo(b[bi].x,b[bi].y);
+    ctx.closePath(); ctx.stroke();
+    ctx.restore();
+
+    // ── Draw threads ──
+    for (var i=0; i<threads.length; i++) {
+      var th = threads[i];
+
+      // Each thread peels when frayP exceeds its threshold
+      // Threshold based on distance from centre — centre threads (dist~0) peel first
+      var threshold = th.distFromCentre * 0.85 + th.jitter;
+      var threadP   = clamp((frayP - (1-threshold)*0.15) / 0.30, 0, 1);
+      // threadP: 0=still attached, 1=fully drifted away
+
+      if (threadP >= 1) continue; // fully gone, skip
+
+      var ty = th.y;
+
+      if (threadP <= 0) {
+        // fully intact — draw clean horizontal thread
+        drawIntactThread(th, ty, 1.0, elapsed);
+      } else {
+        // peeling — thread lifts and curls upward
+        drawPeelingThread(th, ty, threadP, elapsed);
+      }
+    }
+
+    // Status labels 
+    var integrity = Math.round((1 - frayP) * 100);
+
+    if (ct < HOLD_IN) {
+      txt('SUBJECT: HUMANOID — ONTOLOGICAL STATUS: STABLE',
+          W*0.5, H*0.055, fs*0.85, 'rgba(255,255,255,0.55)', 0.9, false);
+      txt('STRING LATTICE INTEGRITY: 100%',
+          W*0.5, H*0.095, fs*0.75, 'rgba(160,190,255,0.5)', 0.7, false);
+    } else if (ct < FRAY_END) {
+      var pulse = 0.75 + 0.25*Math.sin(elapsed*0.009);
+      txt('UNRAVELING EVENT IN PROGRESS',
+          W*0.5, H*0.055, fs, 'rgb(224,57,52)', pulse, true);
+      // integrity bar
+      var barW = W*0.38;
+      ctx.save();
+      ctx.globalAlpha = 0.6;
+      ctx.fillStyle = '#1a1a2e';
+      ctx.fillRect(W*0.5-barW*0.5, H*0.088, barW, 3);
+      ctx.fillStyle = 'rgb(224,57,52)';
+      ctx.fillRect(W*0.5-barW*0.5, H*0.088, barW*(1-frayP), 3);
+      ctx.restore();
+      txt('STRING LATTICE INTEGRITY: '+integrity+'%',
+          W*0.5, H*0.115, fs*0.75, 'rgba(224,57,52,0.75)', 0.9, false);
+    } else {
+      txt('SUBJECT INTEGRITY: TOTAL FAILURE',
+          W*0.5, H*0.055, fs, 'rgb(224,57,52)', 0.6, true);
+      txt('STRING LATTICE INTEGRITY: 0%',
+          W*0.5, H*0.095, fs*0.75, 'rgba(224,57,52,0.5)', 0.6, false);
+    }
+  }
+
+  function drawIntactThread(th, ty, alpha, elapsed) {
+    var left  = th.left;
+    var right = th.right;
+    var len   = right - left;
+    if (len < 2) return;
+
+    ctx.save();
+    ctx.globalAlpha = alpha * 0.82;
+    ctx.strokeStyle = 'rgba(160,190,255,0.9)';
+    ctx.lineWidth   = Math.max(0.8, H*0.007);
+    ctx.shadowColor = 'rgba(160,190,255,0.20)';
+    ctx.shadowBlur  = 5;
+
+    ctx.beginPath();
+    var steps = Math.ceil(len/3);
+    for (var s=0; s<=steps; s++) {
+      var t  = s/steps;
+      var x  = left + t*len;
+      // gentle ambient wobble
+      var wy = Math.sin(t*Math.PI*th.curlFreq + elapsed*0.0008 + th.idx*0.4) * 1.2;
+      if (s===0) ctx.moveTo(x, ty+wy); else ctx.lineTo(x, ty+wy);
+    }
+    ctx.stroke();
+
+    // end-cap dots
+    ctx.fillStyle = 'rgba(160,190,255,0.9)';
+    ctx.shadowBlur = 0;
+    ctx.beginPath(); ctx.arc(left,  ty, H*0.004, 0, Math.PI*2); ctx.fill();
+    ctx.beginPath(); ctx.arc(right, ty, H*0.004, 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+  }
+
+  function drawPeelingThread(th, ty, threadP, elapsed) {
+    var left  = th.left;
+    var right = th.right;
+    var len   = right - left;
+    if (len < 2) return;
+
+    // As threadP increases the thread lifts upward, curls more, and fades
+    var rise    = threadP * threadP * H * 0.28 * th.riseSpeed;
+    var drift   = threadP * W * 0.06 * th.driftX;
+    var alpha   = Math.pow(1 - threadP, 0.6) * 0.88;
+    var curlAmp = th.curlAmp * (1 + threadP*4); // curls more as it lifts
+
+    // Colour shifts blue→white→orange as it frays
+    var r, g, bl;
+    if (threadP < 0.5) {
+      var t1 = threadP*2;
+      r  = Math.round(160 + (255-160)*t1);
+      g  = Math.round(190 + (255-190)*t1);
+      bl = 255;
+    } else {
+      var t2 = (threadP-0.5)*2;
+      r  = 255;
+      g  = Math.round(255*(1-t2*0.8));
+      bl = Math.round(255*(1-t2));
+    }
+
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = 'rgba('+r+','+g+','+bl+',0.92)';
+    ctx.lineWidth   = Math.max(0.5, H*0.007*(1-threadP*0.5));
+    ctx.shadowColor = 'rgba('+r+','+g+','+bl+',0.20)';
+    ctx.shadowBlur  = 6;
+
+    ctx.beginPath();
+    var steps = Math.ceil(len/3);
+    for (var s=0; s<=steps; s++) {
+      var t   = s/steps;
+      var x   = left + t*len + drift;
+      // thread lifts more in the middle (centre peels first, ends trail)
+      var midBulge = Math.sin(t*Math.PI); // 0 at ends, 1 in middle
+      var liftY    = rise * (0.4 + midBulge*0.6);
+      // curl increases as thread peels
+      var curl = Math.sin(t*Math.PI*th.curlFreq*2 + elapsed*0.002 + th.idx*0.4)
+                 * curlAmp * threadP;
+      var wy = ty - liftY + curl;
+      if (s===0) ctx.moveTo(x, wy); else ctx.lineTo(x, wy);
+    }
+    ctx.stroke();
+
+    // trailing end-cap dots that drift with the thread
+    ctx.fillStyle = 'rgba('+r+','+g+','+bl+',0.9)';
+    ctx.shadowBlur = 0;
+    var midLift = rise * 1.0;
+    ctx.beginPath(); ctx.arc(left+drift,  ty-rise*0.4, H*0.004*(1-threadP*0.5), 0, Math.PI*2); ctx.fill();
+    ctx.beginPath(); ctx.arc(right+drift, ty-rise*0.4, H*0.004*(1-threadP*0.5), 0, Math.PI*2); ctx.fill();
+    ctx.restore();
+  }
+
+  function loop(ts) {
+    if (!t0) t0=ts;
+    draw(ts-t0);
+    raf=requestAnimationFrame(loop);
+  }
+
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting&&!raf){t0=null;raf=requestAnimationFrame(loop);}
+      else if(!e.isIntersecting&&raf){cancelAnimationFrame(raf);raf=null;}
+    });
+  },{threshold:0.1});
+  observer.observe(canvas);
+
+  window.addEventListener('resize', resize);
+})();
+</script>
+[[/html]]
+
+
+On 08/08/20██, the first known incident involving a [[span style="color: #7865E6;"]]SCP-9798-C[[/span]] event occurred. Following the event, SCP-9798-A and B have been moved to site 63 with updated containment procedures. Below is Dr. Wessels incident report recounting the event, a picture of the remains as well as small excerpt from an interaction between Dr. Wessels and a psychiatrist regarding the event. 
+
+[[include component:image-block | name= https://scp-wiki.wdfiles.com/local--files/scp-9798/IMG_6451.jpeg | caption=Incident Report concerning SCP-9798-C event |align=centre|width=700px]]
+
+Dr Wessels was encouraged to have an appointment with the site psychiatrist, to which he reluctantly agreed. Below is an expert of their conversation regarding the [[span style="color: #7865E6;"]]SCP-9798-C [[/span]]event.
+
+
+[[div class="blockquote"]]
+
+[[div class="interview-meta"]]
+
+[[div class="interview-title"]]
+Interview Log — Dr. Wessels psychiatric review. 
+[[/div]]
+
+**Interviewed:** Dr. Wessels  
+**Interviewer:** Dr. Mthemba
+**Location:** Site 63 
+**Date:** 08/08/20██
+
+[[/div]]
+----
+
+<< Approximately 8 minutes and 21 seconds into discussion >>
+
+**Dr. Mthemba:** I know this might be difficult to discuss but we need to talk about the incident that happened today.
+
+**Dr. Wessels:** I figured as much. I don’t have long though so let’s make this quick.
+
+**Dr. Mthemba:** That doesn’t sound like the healthiest way of approaching this. 
+
+**Dr. Wessels:** No, it probably isn’t but this is uncharted territory 
+
+**Dr. Mthemba**: Tell me about it.
+
+**Dr. Wessels:** You read the incident report, not much more to tell.
+
+**Dr. Mthemba**: <sigh> You have witnessed someone you knew experience a very gruesome death and you’re telling me you feel nothing?
+
+**Dr. Wessels:** Of course I feel things. Don’t start that game. I just don’t have much to expand on what I have already written down. It was horrible to witness. I had to wipe her blood off my clothes, it was like a sprinkler the way they both were flailing their arms and legs. Rolling on the ground as they just… dissolved. The worst part might have been dash A’s reaction to his dog. I have never heard a scream so viscerally full of pain. 
+
+<2 seconds of silence>
+
+**Dr. Wessels:** There you go are you happy? Do you want me to describe it in even more detail?
+
+**Dr. Mthemba:** No thank you that was good enough… You seem very calm about it though. 
+
+**Dr. Wessels:** I have to be. I need to continue my work. As you say there has been an incident and we need to focus on containing whatever this could possibly be. 
+
+**Dr. Mthemba:** It’s just-
+
+**Dr. Wessels:** Before you say anything, yes I will show emotion about this, just later and in the comfort of my own home. I will go home to my cat and scream and cry myself to sleep. But right now I have a job to do and I do not want anyone else to experience what they and I have experienced…
+
+
+… so please just clear me for work so I can prevent your death too.
+
+<< LOG ENDS >>
+
+[[/div]]
+
+@@ @@
+
+[[div class="log-header log-other"]]
+ADDENDUM D.1 — INTERNAL MEMO 1
+[[span class="log-meta"]]ETTRA INVOLVEMENT[[/span]]
+[[/div]]
+
+The following Memo was distributed to all Site 63 staff regarding the involvement of ETTRA. The sudden escalation of an anomaly as potentially serious as SCP-9798 was deemed to require additional support, especially for what is considered to be a small and remote facility, underequipped to handle a potential catastrophe on this scale. 
+
+[[include component:image-block | name= https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Memo_1.jpeg | caption=Site 63 Internal Memo (07/08/20██) |align=centre |width=700px]]
+
+@@ @@
+
+[[div class="log-header log-info"]]
+ADDENDUM I.1 — TECHNICAL BRIEF AND SITE ADDITIONS
+[[span class="log-meta"]]SITE-63 RESEARCH DIVISION[[/span]]
+[[/div]]
+
+The following contains information relating to the technical details of the SRI machine as well updated signage and containmnet cell regarding SCP-9798. While not necessary information, access is still desired by Director Wessels in case of future reference.
+
+[[collapsible show="ACCESS TERMINAL: TECHNICAL & CONTAINMENT" hide="CLOSE TERMINAL"]]
+
+[[html style="height: 820px;"]]
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+
+body{
+  background:#050510;
+  font-family:'Source Code Pro',monospace;
+  padding:0;
+  margin:0;
+}
+
+#boot-screen{
+  background:#050510;
+  color:#f2a03d;
+  padding:30px 20px;
+  font-size:0.78rem;
+  line-height:1.8;
+  min-height:200px;
+}
+
+.t-wrap{
+  display:none;
+  flex-direction:column;
+  background:#080812;
+  border:1px solid #2a1f14;
+  border-top:4px solid #f2a03d;
+  border-radius:8px;
+  width:100%;
+  overflow:hidden;
+  box-shadow:0 10px 40px rgba(0,0,0,0.8);
+}
+
+.t-titlebar{
+  background:#0d0a08;
+  border-bottom:1px solid #2a1f14;
+  padding:10px 15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-shrink:0;
+}
+.t-dots{display:flex;gap:6px;}
+.t-dot{width:10px;height:10px;border-radius:50%;opacity:0.6;}
+.t-dot-red{background:#e03934;}
+.t-dot-yellow{background:#ffd24d;}
+.t-dot-green{background:#00c97a;}
+.t-title-text{font-size:0.6rem;color:#555;text-transform:uppercase;letter-spacing:2px;margin-left:10px;}
+
+.t-pathbar{
+  background:#120e0a;
+  border-bottom:1px solid #2a1f14;
+  padding:7px 15px;
+  font-size:0.65rem;
+  color:#444;
+  flex-shrink:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.t-path-active{color:#f2a03d;opacity:0.8;}
+
+.t-back-btn{
+  display:none;
+  align-items:center;
+  gap:6px;
+  padding:8px 15px;
+  font-size:0.68rem;
+  color:#f2a03d;
+  cursor:pointer;
+  border-bottom:1px solid #2a1f14;
+  background:#0d0a08;
+  flex-shrink:0;
+  user-select:none;
+}
+.t-back-btn.hidden{display:none;}
+
+.t-body{
+  display:flex;
+  flex-direction:row;
+  overflow:hidden;
+  height:620px;
+  min-height:0;
+}
+
+.t-sidebar{
+  width:220px;
+  min-width:160px;
+  background:#0d0a08;
+  border-right:1px solid #2a1f14;
+  overflow-y:auto;
+  flex-shrink:0;
+  padding:8px 0;
+}
+.t-sidebar::-webkit-scrollbar{width:3px;}
+.t-sidebar::-webkit-scrollbar-thumb{background:#2a1f14;border-radius:2px;}
+
+.t-section-label{
+  font-size:0.5rem;color:#4a3a2a;
+  text-transform:uppercase;
+  padding:10px 14px 4px;letter-spacing:2px;
+}
+.t-tree-item{
+  padding:7px 14px;font-size:0.7rem;color:#887766;
+  cursor:pointer;display:flex;align-items:center;gap:8px;
+  border-left:3px solid transparent;
+  transition:background 0.12s,color 0.12s;
+  user-select:none;
+}
+.t-tree-item:hover:not(.restricted-item){background:#1a1510;color:#f2a03d;}
+.t-tree-item.active{background:#1a1410;color:#fff;border-left-color:#f2a03d;}
+.t-tree-item.active::after{
+  content:'';display:inline-block;
+  width:5px;height:5px;border-radius:50%;
+  background:#f2a03d;margin-left:auto;flex-shrink:0;
+  animation:rpulse 2s infinite;
+}
+@keyframes rpulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.t-tree-item.child{padding-left:26px;}
+.t-tree-item.grandchild{padding-left:40px;}
+.t-tree-item.restricted-item{color:#332211;cursor:default;}
+.t-tree-item.restricted-item:hover{background:transparent;color:#332211;}
+.t-toggle{font-size:0.55rem;width:10px;color:#5a4a3a;flex-shrink:0;}
+.t-tree-divider{height:1px;background:#1a1510;margin:6px 14px;}
+
+.t-viewer{
+  flex:1;
+  overflow-y:auto;
+  background:#080812;
+  min-width:0;
+  min-height:0;
+  position:relative;
+}
+.t-viewer::-webkit-scrollbar{width:3px;}
+.t-viewer::-webkit-scrollbar-thumb{background:#2a1f14;border-radius:2px;}
+
+.t-empty{
+  height:100%;display:flex;
+  flex-direction:column;align-items:center;justify-content:center;
+  color:#221a10;gap:10px;
+}
+
+.t-file-header{
+  padding:18px 20px 12px;
+  border-bottom:1px solid #2a1f14;
+  background:#0d0a08;
+  position:sticky;top:0;z-index:2;
+}
+.t-file-title{font-size:0.9rem;color:#eee;font-weight:600;margin-bottom:4px;line-height:1.3;}
+.t-file-meta{font-size:0.65rem;color:#776655;line-height:1.6;}
+.t-file-meta span{color:#998877;font-weight:600;margin-right:4px;}
+
+.t-file-content{
+  padding:20px;font-size:0.85rem;line-height:1.75;color:#d4c4b0;
+}
+.t-file-content h4{
+  color:#f2a03d;font-size:0.72rem;text-transform:uppercase;
+  margin:20px 0 8px;padding-bottom:5px;
+  border-bottom:1px solid #2a1f14;letter-spacing:0.1em;
+}
+.t-file-content p{margin-bottom:14px;}
+.t-file-content p:last-child{margin-bottom:0;}
+
+.img-block{
+  background:#0d0a08;border:1px solid #2a1f14;
+  padding:10px;margin:16px auto;border-radius:4px;
+  cursor:zoom-in;transition:border-color 0.2s;
+}
+.img-block:hover{border-color:#f2a03d;}
+.img-block img{width:100%;display:block;filter:sepia(0.2) brightness(0.9);}
+.img-caption{
+  font-size:0.62rem;color:#776655;text-align:center;
+  margin-top:8px;text-transform:uppercase;letter-spacing:1px;
+}
+
+/* Image modal — absolute inside .t-viewer, not fixed */
+#image-modal{
+  position:absolute;top:0;left:0;width:100%;height:100%;
+  background:rgba(5,5,10,0.96);z-index:200;
+  display:none;align-items:center;justify-content:center;
+  cursor:zoom-out;
+}
+#modal-img{
+  max-width:95%;max-height:95%;
+  border:2px solid #f2a03d;
+  box-shadow:0 0 30px rgba(242,160,61,0.2);
+}
+
+.cell-ascii-wrap{
+  padding:16px 18px;background:#0d0a08;
+  border:1px solid #2a1f14;border-top:3px solid #f2a03d;
+  border-radius:6px;margin:14px 0;overflow-x:auto;
+}
+.cell-ascii-header{
+  font-size:0.56rem;color:#f2a03d;
+  letter-spacing:0.12em;margin-bottom:8px;
+}
+.cell-ascii{
+  font-family:'Courier New',Courier,monospace;
+  font-size:0.65rem;line-height:1.4;color:#f2a03d;white-space:pre;
+}
+.cell-footer{
+  margin-top:12px;padding-top:6px;border-top:1px solid #2a1f14;
+  display:flex;justify-content:space-between;
+  font-size:0.56rem;color:#776655;
+}
+
+.t-tag{
+  display:inline-block;padding:2px 7px;font-size:0.6rem;
+  border:1px solid #4a3a2a;border-radius:3px;
+  margin:0 5px 8px 0;color:#887766;
+}
+.t-tag.amber{border-color:#f2a03d;color:#f2a03d;}
+.t-tag.purple{border-color:#7865E6;color:#9a88ff;}
+
+.t-statusbar{
+  background:#0d0a08;border-top:1px solid #2a1f14;
+  padding:6px 15px;font-size:0.55rem;color:#4a3a2a;
+  display:flex;justify-content:space-between;flex-shrink:0;
+  letter-spacing:0.08em;
+}
+
+/* MOBILE  */
+@media only screen and (max-width:650px){
+
+  .t-body{
+    position:relative;
+    height:580px;
+  }
+
+  .t-sidebar{
+    position:absolute;
+    inset:0;
+    width:100%;
+    border-right:none;
+    z-index:2;
+    transition:transform 0.25s ease;
+  }
+
+  .t-viewer{
+    position:absolute;
+    inset:0;
+    width:100%;
+    transform:translateX(100%);
+    transition:transform 0.25s ease;
+    z-index:3;
+  }
+
+  .t-body.file-open .t-sidebar{transform:translateX(-100%);}
+  .t-body.file-open .t-viewer{transform:translateX(0);}
+
+  .t-back-btn{display:flex;}
+  .t-back-btn.hidden{display:none;}
+
+  .t-tree-item{font-size:0.82rem;padding:10px 14px;}
+  .t-tree-item.child{padding-left:26px;}
+  .t-title-text{font-size:0.52rem;}
+  .t-file-content{padding:16px;}
+}
+</style>
+
+<div id="boot-screen"></div>
+
+<div class="t-wrap" id="terminal">
+
+  <div class="t-titlebar">
+    <div style="display:flex;align-items:center;">
+      <div class="t-dots">
+        <div class="t-dot t-dot-red"></div>
+        <div class="t-dot t-dot-yellow"></div>
+        <div class="t-dot t-dot-green"></div>
+      </div>
+      <div class="t-title-text">SITE-63 SECURE SERVER // DIAGNOSTICS.EXE</div>
+    </div>
+    <div class="t-title-text" style="color:#f2a03d">ID: ENG-AUTH-9</div>
+  </div>
+
+  <div class="t-pathbar" id="pathbar">
+    ⌂ SITE-63 <span id="path-rest"></span>
+  </div>
+
+  <div class="t-back-btn hidden" id="back-btn">← BACK TO FILE TREE</div>
+
+  <div class="t-body" id="t-body">
+
+    <div class="t-sidebar" id="sidebar">
+      <div class="t-section-label">Server Root</div>
+
+      <div class="t-tree-item folder open" data-folder="research">
+        <span class="t-toggle">▾</span> RESEARCH DIVISION
+      </div>
+      <div class="t-tree-item child" data-file="sri-proto">SRI-PROTOTYPE.doc</div>
+      <div class="t-tree-item child" data-file="exp-4">EXP-1-TEST-4.log</div>
+
+      <div class="t-tree-divider"></div>
+
+      <div class="t-tree-item folder open" data-folder="site-admin">
+        <span class="t-toggle">▾</span> SITE MANAGEMENT
+      </div>
+      <div class="t-tree-item child" data-file="signage">SIGNAGE-MEMO.doc</div>
+      <div class="t-tree-item child" data-file="containment">CONTAINMENT.schematic</div>
+
+      <div class="t-tree-divider"></div>
+      <div class="t-section-label">System</div>
+      <div class="t-tree-item restricted-item">GRID-DIAGNOSTICS</div>
+    </div>
+
+    <div class="t-viewer" id="viewer">
+      <div id="image-modal" onclick="this.style.display='none'">
+        <img id="modal-img" src="" alt="Zoomed View">
+      </div>
+      <div class="t-empty">
+        <div style="font-size:2.5rem;opacity:0.2;">⚙</div>
+        <div style="font-size:0.6rem;letter-spacing:2px;color:#221a10;">SELECT A TECHNICAL FILE TO VIEW</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="t-statusbar">
+    <span>ENCRYPTION: AES-256 ACTIVE</span>
+    <span>LOCATION: SITE-63 GREENSTONE</span>
+  </div>
+
+</div>
+
+<script>
+(function(){
+
+  var bootScreen = document.getElementById('boot-screen');
+  var terminal   = document.getElementById('terminal');
+  var bootLines  = [
+    "> INITIALIZING ENGINEERING DIAGNOSTICS...",
+    "> LOADING GRID KERNEL...",
+    "> CHECKING SRI LATTICE STABILITY... [OK]",
+    "> ACCESS GRANTED: ENGINEERING [LEVEL 3]",
+    "> LOADING SCHEMATICS..."
+  ];
+  var li = 0;
+  function runBoot() {
+    if (li < bootLines.length) {
+      var p = document.createElement('p');
+      p.textContent = bootLines[li++];
+      bootScreen.appendChild(p);
+      setTimeout(runBoot, 220);
+    } else {
+      setTimeout(function(){
+        bootScreen.style.display = 'none';
+        terminal.style.display = 'flex';
+      }, 500);
+    }
+  }
+  runBoot();
+
+  var FILES = {
+    'sri-proto':{
+      title:'RESEARCH DIVISION / SRI-PROTOTYPE.doc',
+      meta:'<span>LOG:</span> ADDENDUM I.1 &nbsp;|&nbsp; <span>AUTHOR:</span> RESEARCH DIV',
+      content:`
+        <span class="t-tag amber">TECHNICAL BRIEF</span>
+        <div class="img-block" style="max-width:400px;" onclick="zoomImage(this)">
+          <img src="https://scp-wiki.wdfiles.com/local--files/scp-9798/SRI1.png">
+          <div class="img-caption">SRI 1 — Click to Enlarge</div>
+        </div>
+        <p>Initial development of the SRI prototype began almost immediately after the first <span style="color:#7865E6;">-C</span> event. A functional prototype was completed by the 11th of August with a fully functional array complete by the 12th for initial containment of -A and -B.</p>
+        <div class="img-block" style="max-width:400px;" onclick="zoomImage(this)">
+          <img src="https://scp-sandbox-3.wdfiles.com/local--files/broken-king/SRI_Sketch.jpeg">
+          <div class="img-caption">SRI 1 Schematic — Click to Enlarge</div>
+        </div>
+        <h4>Operating Principle</h4>
+        <p>Unlike standard Scranton Reality Anchors, which stabilise local Hume levels by maintaining two competing dimensional states, the SRI generates a super-stable lattice of string-based matter. This lattice forms a semi-permeable fabric between baseline particle ontology and the string-based ontology observed within the LDA. Destabilised strings cannot penetrate the lattice, preventing the spread of <span style="color:#7865E6;">SCP-9798-C</span> beyond the field boundary.</p>
+      `
+    },
+    'exp-4':{
+      title:'RESEARCH DIVISION / EXP-1-TEST-4.log',
+      meta:'<span>LOG:</span> EXPERIMENT 1 &nbsp;|&nbsp; <span>STATUS:</span> ARCHIVED',
+      content:`
+        <span class="t-tag purple">TEST RESULTS</span>
+        <h4>Experiment 1 — Test 4</h4>
+        <div class="img-block" onclick="zoomImage(this)">
+          <img src="https://scp-wiki.wdfiles.com/local--files/scp-9798/Ex1.jpeg">
+          <div class="img-caption">Test Results — Click to Enlarge</div>
+        </div>
+      `
+    },
+    'signage':{
+      title:'SITE MANAGEMENT / SIGNAGE-MEMO.doc',
+      meta:'<span>LOG:</span> ADDENDUM D.2 &nbsp;|&nbsp; <span>DEPARTMENT:</span> MANAGEMENT',
+      content:`
+        <span class="t-tag amber">MEMO</span>
+        <h4>Signage Update</h4>
+        <div class="img-block" onclick="zoomImage(this)">
+          <img src="https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Sinage_Memo.jpeg">
+          <div class="img-caption">Updated Signage Memo — Click to Enlarge</div>
+        </div>
+      `
+    },
+    'containment':{
+      title:'SITE MANAGEMENT / CONTAINMENT.schematic',
+      meta:'<span>SOURCE:</span> ARCHITECTURE & ENGINEERING &nbsp;|&nbsp; <span>REV:</span> 03',
+      content:`
+        <span class="t-tag amber">ASCII RENDER</span>
+        <h4>Containment Cell Layout — Sub-Basement Level 2</h4>
+        <div class="cell-ascii-wrap">
+          <div class="cell-ascii-header">// RAW TERMINAL OUTPUT — ARCH-63-SB2-001</div>
+          <div class="cell-ascii">
+SUB-BASEMENT LEVEL 2 — CONTAINMENT WING         [SITE-63]
+══════════════════════════════════════════════════════════
+
+              [LIFT/STAIR]
+                   ║
+══════════════════╩════════════════════════════════
+║                                                 ║
+╠══      . . . . . . . . . . . . . . .            ║
+║       .  ┌──────────────────────┐   .           ║
+║       .  │      ANTEROOM        │   .           ║
+║       .  │  (DECON VESTIBULE)   │   . [MONITOR] ║
+║       .  └──────────┬───────────┘   . [STATION] ║
+╠══     .             │ DOOR-02       .           ║
+║       .  ┌──────────┴───────────┐   .           ║
+║      [S1].│                     │.[S2]          ║
+║       .  │   MAIN CONTAINMENT   │   .           ║
+║       .  │                      │   .           ║
+║       .  └──────────────────────┘   .           ║
+║        . . . . . . . . . . . . . .              ║
+══════════════════════╪════════════════════════════
+
+LEGEND:
+S1-4 = SRA POSITIONS   . . = SRI FIELD BOUNDARY
+          </div>
+          <div class="cell-footer">
+            <span>ARCH-63-SB2-001</span><span>REV 03 &nbsp;/&nbsp; 15/08/20XX</span>
+          </div>
+        </div>
+      `
+    }
+  };
+
+  window.zoomImage = function(el) {
+  var src = el.querySelector('img').src;
+  window.open(src, '_blank');
+};
+
+  var sidebar  = document.getElementById('sidebar');
+  var viewer   = document.getElementById('viewer');
+  var pathRest = document.getElementById('path-rest');
+  var tBody    = document.getElementById('t-body');
+  var backBtn  = document.getElementById('back-btn');
+
+  backBtn.addEventListener('click', function(){
+    tBody.classList.remove('file-open');
+    backBtn.classList.add('hidden');
+    sidebar.querySelectorAll('.t-tree-item').forEach(function(el){
+      el.classList.remove('active');
+    });
+    pathRest.innerHTML = '';
+  });
+
+  sidebar.addEventListener('click', function(e){
+    var item = e.target.closest('.t-tree-item');
+    if (!item || item.classList.contains('restricted-item')) return;
+
+    var fileId   = item.getAttribute('data-file');
+    var folderId = item.getAttribute('data-folder');
+
+    if (folderId) {
+      var isOpen = item.classList.contains('open');
+      item.classList.toggle('open', !isOpen);
+      var toggle = item.querySelector('.t-toggle');
+      if (toggle) toggle.textContent = isOpen ? '▸' : '▾';
+      var next = item.nextElementSibling;
+      while (next && !next.classList.contains('folder')
+             && !next.classList.contains('t-section-label')
+             && !next.classList.contains('t-tree-divider')) {
+        if (next.classList.contains('child') || next.classList.contains('grandchild')) {
+          next.style.display = isOpen ? 'none' : 'flex';
+        }
+        next = next.nextElementSibling;
+      }
+      return;
+    }
+
+    if (fileId) {
+      var f = FILES[fileId];
+      if (!f) return;
+
+      sidebar.querySelectorAll('.t-tree-item').forEach(function(el){
+        el.classList.remove('active');
+      });
+      item.classList.add('active');
+
+      var parts = f.title.split(' / ');
+      pathRest.innerHTML = parts.map(function(p,i){
+        var cls = i===parts.length-1?' class="t-path-active"':'';
+        return '<span style="color:#4a3a2a"> › </span><span'+cls+'>'+p+'</span>';
+      }).join('');
+
+      viewer.innerHTML =
+        '<div id="image-modal" onclick="this.style.display=\'none\'">'
+        +'<img id="modal-img" src="" alt="Zoomed View">'
+        +'</div>'
+        +'<div class="t-file-header">'
+        +'<div class="t-file-title">'+parts[parts.length-1]+'</div>'
+        +'<div class="t-file-meta">'+f.meta+'</div>'
+        +'</div>'
+        +'<div class="t-file-content">'+f.content+'</div>';
+
+      viewer.scrollTop = 0;
+      tBody.classList.add('file-open');
+      backBtn.classList.remove('hidden');
+    }
+  });
+
+})();
+</script>
+[[/html]]
+
+[[/collapsible]]
+
+@@ @@
+
+[[div class="log-header log-interview"]]
+ADDENDUM A.3 — ETTRA INTERNAL REVIEW
+[[span class="log-meta"]]INTERVIEW LOG • SITE-63 VIDEO[[/span]]
+[[/div]]
+
+The following log is from a meeting between ETTRA Director Nkosi and senior staff of site 63 regarding the mismanagement of the site. The meeting was interrupted by the power outage and containment breach incident of August 15th. 
+
+[[collapsible show="Addendum A.3 Part 1" hide="Close"]]
+[[div class="blockquote"]]
+
+[[div class="interview-meta"]]
+
+[[div class="interview-title"]]
+Interview Log — ETTRA Interview Drs on site issues
+[[/div]]
+
+**Location:** Site 63 conference room 1  
+**Date:** 15/08/20██
+
+[[/div]]
+----
+
+<<VIDEO LOG STARTS>>
+
+<<All members are seated around a rectangular table in conference room 1. The room in brightly lit, the door to the room is shut and the blinds to the room are closed. >>
+
+**Director Nkosi:** Alright, as stated in my previous correspondence, I have called this meeting to discuss the future containment of SCP-9798 and the challenges your site has so far faced. It is unfortunate your director was unable to join us.
+Firstly I would like to formally thank Doctor Wessels for his remarkably quick thinking in the development of the SRI. It has been instrumental in the containment of SCP-9798 so far. You have a bright future ahead of you. I could use a quick thinker like you in ETTRA.
+
+<light clapping>
+
+**Dr. Wessels:** You flatter me director. I was just doing my job and I had plenty of help.
+
+**Director Nkosi:** Don’t undersell yourself. This is a miracle given the circumstances. And speaking of, we need to discuss the organisation of this site. I know you guys are quite a local site and don’t deal with anomalies this extreme but the state of this site is a bit… shocking.
+
+**Dr. Breytenbach:** Will these video logs be shown to Dir. ?
+
+**Director Nkosi:** No probably not. 
+
+**Dr. Breytenbach:** Oh perfect. That man is a complete and utter [EXPLETIVE]. This place is a [EXPLETIVE] because of his complete lack of leadership. That man exemplifies everything wrong with this country, he is exactly like the corrupt politicians that are burning this place to the ground. I had a researcher. Talented. She was here four years and she left because the equipment in her lab hadn’t been functional since before she arrived and nothing was ever going to be done about it. I had nothing to offer her. Nothing. Because that man sat in his office and signed off on audits that bore no resemblance to the actual state of this building.
+
+<He stops. Runs a hand over his face.>
+
+**Director Nkosi:** Woah okay slow down-
+
+**Dr. Ngluvo:** No he is right. We have constantly brought up issues with Director but they never get resolved. In your own words, the state of this place is shocking. I’m sure you’ve noticed that the card readers for certain rooms do not work. Those have been non functional for five months. I have stuff go missing from a couple of the labs because of it. 
+The second floor bathroom has been out of commission for as long as I’ve worked here. So all of accounting and us in labs have to share ONE genderless bathroom. And even then that place is barely cleaned because we only have two janitors for the entire main building. 
+
+**Dr. Wessels:** The metal miller in lab 3 is also broken. The third basement level is also flooded thanks to a burst pipe. 
+
+**Director Nkosi:** Okay-
+
+**Dr. Breytenbach:** Nah, we ain’t done. Because of that pipe, the site’s bore hole was contaminated with heavy metals so we have had to buy bottled water for the site. I tried to get Wessels to retrofit on a water purifier but Dir insisted we get HQ to deal with it and a year later we still have no bloody water. 
+
+**Director Nkosi:** Why did none of you file any reports? 
+
+**Dr. Breytenbach:** We have! They are probably all stacked up in that old [EXPLETIVE] office. I have even tried to contact HQ in Joburg for even just an increase in funding because apparently we have nothing but sticks and rocks in the bank. 
+
+**Director Nkosi:** <flipping through pile of documents in front of her>  Do you know how much you are allocated? This site receives [REDACTED] USD from HQ, about [REDACTED] Rand. 
+
+<few seconds of silence, everyone looked shocked>
+
+**Dr. Breytenbach:** Excuse me? 
+
+**Director Nkosi:** And just doing a quick flip through the data base I do not see a record of any complaints from this site. In fact, based on this, this site’s audits and reputation is one of the best on the continent. Hence my surprise on the actual state of this place.
+
+**Dr. Breytenbach:** Let’s circle back to that money allowance. [REDACTED] you say? We have not seen a cent of that. 
+
+ [[span style="color: #E03934;"]]<<CONNECTION LOST>>[[/span]]
+
+[[/div]]
+[[/collapsible]]
+
+[[collapsible show="Addendum A.3 Part 2" hide="Close"]]
+[[div class="blockquote"]]
+
+[[html]]
+
+<div id="reboot-terminal" style="background:#000; color:#E03934; font-family:monospace; font-size: 18px; padding:16px; min-height:2em;">
+  <span id="reboot-text"></span><span id="reboot-cursor" style="animation:blink 0.7s step-end infinite;">█</span>
+</div>
+<style>
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  [data-reboot-reveal] {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+  [data-reboot-reveal].visible {
+    opacity: 1;
+  }
+</style>
+
+<script>
+(function() {
+  var messages = [
+    "POWER INTERRUPTED — EMERGENCY SHUTDOWN DETECTED",
+    "Rebooting from Archive...",
+    "Loading system integrity checks...",
+    "WARNING: corrupted sectors found",
+    "Restoring from backup — please wait",
+    "System nominal. Resuming playback."
+  ];
+  var chars = "█▓▒░ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+  var el = document.getElementById("reboot-text");
+
+  function randomChar() {
+    return chars[Math.floor(Math.random() * chars.length)];
+  }
+
+  function scrambleTo(targetText, callback) {
+    var duration = 600;
+    var steps = 18;
+    var interval = duration / steps;
+    var step = 0;
+    var ticker = setInterval(function() {
+      step++;
+      var scrambled = "";
+      for (var i = 0; i < targetText.length; i++) {
+        if (targetText[i] === " ") {
+          scrambled += " ";
+        } else if (step / steps > i / targetText.length) {
+          scrambled += targetText[i];
+        } else {
+          scrambled += randomChar();
+        }
+      }
+      el.textContent = scrambled;
+      if (step >= steps) {
+        clearInterval(ticker);
+        el.textContent = targetText;
+        if (callback) callback();
+      }
+    }, interval);
+  }
+
+  function runSequence(index) {
+    if (index >= messages.length) {
+      // All messages done — reveal the content
+      setTimeout(revealContent, 400);
+      return;
+    }
+    scrambleTo(messages[index], function() {
+      setTimeout(function() {
+        runSequence(index + 1);
+      }, 1400);
+    });
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.isIntersecting) {
+      setTimeout(function() { runSequence(0); }, 300);
+    }
+  });
+});
+observer.observe(document.getElementById("reboot-terminal"));
+
+})();
+</script>
+
+[[/html]]
+
+<Video resumes. The conference room is dimly lit, emergency strip lighting casting a red hue across the room.  A fire suppression pipe is leaking in the corner. The camera is mounted and stationary but the image is unstable, flickering at irregular intervals. Roughly 5 minutes have passed since initial power outage>
+
+<Director Nkosi is still seated at the head of the table. Dr. Breytenbach is standing near the door, pressed against the wall. Dr. Wessels is on his feet. Dr. Ngluvo’s chair is empty.>
+
+<Shouting and an alarm can be heard from somewhere beyond the conference room door.>
+
+**Director Nkosi**: (raising her voice over the noise) Everyone sit down. Sit. We are not leaving this room until we have a plan.
+
+**Dr. Breytenbach:** With respect, Director, my researchers are out there—
+
+**Director Nkosi:** Your researchers are ETTRA’s problem right now. Sit down, Doctor.
+
+<Breytenbach does not sit. He remains at the door.>
+
+**Dr. Wessels:** How many events since the power went?
+
+**Director. Nkosi: (checking tablet)** Three confirmed. One D-Class on level one, two support staff in the east corridor. There are reports of a fourth, but we have not been able to verify—
+
+<Loud bang from somewhere below. The table vibrates.>
+
+**Dr. Breytenbach:** What the [EXPLETIVE] was that?
+
+**Dr. Wessels:** Nothing good. We need to get the power back on, or at least get the backup generators going because the SRI’s only have so much residual power—
+
+**Director Nkosi:** Doctor Wessels. I need you present right now, not problem-listing. Can you get the main power back?
+
+**Dr. Wessels:** Not from here. The generator switchover has to be done manually from the basement. Someone has to go down there.
+
+<Another alarm begins, a different pitch to the first.>
+
+**Director Nkosi:** (to the guard at the door) Dube, take Petersen and get down to the basement. Wessels will tell you what to do.
+
+<The guard nods and exits. Muffled shouting increases briefly as the door opens then muffles again as it closes.>
+
+**Dr. Wessels:** (talking rapidly toward the door) Main board, third panel from the left, the red manual override lever — pull it down and hold it for five seconds—
+
+<Door closes.>
+
+**Dr. Breytenbach:** (quietly, almost to himself) This is what happens when you run a nuclear powered facility on a bent budget and a prayer.
+
+**Director Nkosi:** (sharply) Doctor, not the time.
+
+**Dr. Breytenbach:** I am just saying what everyone is thinking.
+
+<4 seconds silence. The dripping in the corner continues.>
+
+**Director Nkosi:** (measured, deliberate) We need to discuss the termination of SCP-9798-A and -B.
+
+<Silence. Breytenbach looks up. Wessels turns from the door.>
+
+**Dr. Wessels:** Excuse me?
+
+**Director Nkosi:** The anomaly originates within -A. -B is an unknown variable from within the anomaly now loose in baseline reality. We have had four unraveling events in under an hour. We have a site in partial riot and we just don’t have resources to act fast enough.
+
+**Dr. Wessels:** We don’t know the outcome. We don’t know what happens to the LDA if -A dies. For all we know it destabilises completely and—
+
+**Director Nkosi:** Which is why it is a discussion, Doctor, not an order. We just aren’t equipped to handle this like normal and it will take too long to get all the necessary equipment. From my perspective, it’s at least worth considering as an option.
+
+**Dr. Breytenbach:** (slowly, arms crossed) The old man’s getting worse anyway. We think he has Alzheimer’s, I’m sure you saw that on his report. It’s only going to complicate things further down the line.
+
+**Dr. Wessels:** Harry—
+
+**Dr. Breytenbach:** I’m not saying I want to. I’m saying it’s on the table and we should be honest about that.
+
+<Wessels stares at him. Breytenbach does not look away.>
+
+**Director Nkosi:** And -B?
+
+<Nobody answers immediately.>
+
+**Dr. Breytenbach:** -B is cooperative. But it is still an anomalous entity from an anomalous dimension walking around in our reality with a destructive ontology. Every second it exists out here is a vector.
+
+**Director Nkosi:** (nodding slowly) Then we are in agreement that—
+
+<The strip lighting flickers. A low hum from somewhere in the walls rises sharply then cuts out entirely. The room goes black for two seconds before the emergency lighting kicks back on at reduced capacity.>
+
+<Shouting from the corridor. Multiple voices. A siren echos from down the hall.>
+
+**Dr. Wessels:** That’s the SRI grid. Something’s disrupted the field—
+
+<He moves toward the door. Breytenbach grabs his arm.>
+
+**Dr. Breytenbach:** You are not going out there—
+
+**Dr. Wessels:** If the SRI goes down the cell is open—
+
+<The door bursts open. Two ETTRA officers enter supporting a third between them. The third officer’s left arm from the elbow down is gone. The bloodied sleeve hanging flat and empty, the termination point jagged as if having been ripped off. He is conscious and screaming.>
+
+**ETTRA Officer:** We need a medic… Petersen just - his arm just…
+
+**Director Nkosi:** (on her feet, moving toward them) Get him on the table—
+
+<She reaches out to take the officer’s weight.>
+
+<[CORRUPTED SECTOR — 00:14:32:08 to 00:14:55:21]>
+
+<[FOOTAGE PARTIALLY RECONSTRUCTED FROM SECONDARY BACKUP — IMAGE QUALITY DEGRADED]>
+
+<The image returns. Significant visual distortion. Director Nkosi is no longer standing. Dr. Breytenbach is against the far wall, back turned, hand over his mouth. Dr. Wessels is kneeling on the floor. The two ETTRA officers who entered have retreated into the corridor. The injured officer is slumped against the wall.>
+
+<There is material on the floor and walls that the image quality does not render clearly. The audio reconstruction is partial.>
+
+**Dr. Wessels:** (audible, fragmented) — don’t touch it — don’t — anyone who touched her needs to report to—
+
+**Dr. Breytenbach:** (inaudible)>
+
+**Dr. Wessels:** Harry. Harry look at me. Are you… did she touch you?
+
+**Dr. Breytenbach:** (shaking head, still not turning)>
+
+<Wessels stands. He is visibly shaking but his voice is controlled.>
+
+**Dr. Wessels:** (to the corridor) This is Doctor Alan Wessels. I am assuming acting authority under ETTRA Emergency Protocol eight. I need all remaining personnel to seal the east and west corridors and all available security staff make your way to basement level 1. Someone go and get the director. No one enters or exits the building. If you have been in contact with any unraveled material you report to the medical bay immediately.
+
+<A beat.>
+
+**Dr. Wessels:** And it is pronounced Vessels. With a V. (quieter) Get it together, Alan.
+
+<He picks up Director Nkosi’s tablet from the floor. He looks at it for a moment.>
+
+<He sets it face down on the table.>
+
+<<VIDEO LOG ENDS>>
+
+<For incident report filed in relation to this event, see Addendum B.2>
+
+[[/div]]
+[[/collapsible]]
+
+
+[[div class="log-header log-event"]]
+ADDENDUM B.2 — SECOND MASS SCP-9798-C INCIDENT
+[[span class="log-meta"]]EVENT REPORT • SITE-63 SECURITY[[/span]]
+[[/div]]
+
+[[html]]
+
+<style>
+.ir2-wrap{font-family:monospace;background:#0f0f19;border:1px solid #333;border-top:4px solid rgb(224,57,52);border-radius:8px;color:#ddd;max-width:100%;margin:18px 0;box-shadow:0 0 18px rgba(0,0,0,.6);overflow:hidden;}
+.ir2-header{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid #333;}
+.ir2-header-left{padding:14px 16px;border-right:1px solid #333;}
+.ir2-header-right{padding:14px 16px;}
+.ir2-doc-title{font-size:1.1rem;font-weight:700;color:#fff;letter-spacing:0.08em;margin-bottom:4px;}
+.ir2-doc-sub{font-size:0.62rem;color:#888;letter-spacing:0.1em;line-height:1.6;}
+.ir2-doc-ref{font-size:0.62rem;color:rgb(224,57,52);letter-spacing:0.12em;margin-top:8px;}
+.ir2-section{font-size:0.65rem;letter-spacing:0.15em;color:#aaa;padding:8px 16px 4px 16px;border-bottom:1px solid #2a2a44;background:#0a0a14;text-transform:uppercase;}
+.ir2-meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 16px;border-bottom:1px solid #2a2a44;}
+.ir2-cell{background:#151528;border:1px solid #2a2a44;border-radius:4px;padding:8px 10px;}
+.ir2-cell-label{font-size:0.6rem;letter-spacing:0.12em;color:#888;margin-bottom:4px;text-transform:uppercase;}
+.ir2-cell-value{font-size:0.82rem;color:#e6e6e6;line-height:1.4;}
+.ir2-redact{display:inline-block;background:#555;color:#555;border-radius:2px;padding:0 4px;font-size:0.7rem;vertical-align:middle;user-select:none;}
+.ir2-cause-person{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 16px;border-bottom:1px solid #2a2a44;}
+.ir2-checkbox-list{display:flex;flex-direction:column;gap:7px;}
+.ir2-checkbox-row{display:flex;align-items:center;gap:9px;}
+.ir2-checkbox{width:13px;height:13px;border:1px solid #555;background:#151528;border-radius:2px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.7rem;color:rgb(224,57,52);font-weight:700;}
+.ir2-checkbox-label{font-size:0.75rem;color:#ccc;letter-spacing:0.02em;}
+.ir2-person-grid{display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline;}
+.ir2-person-key{font-size:0.6rem;color:#888;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap;}
+.ir2-person-val{font-size:0.82rem;color:#e6e6e6;border-bottom:1px solid #2a2a44;padding-bottom:2px;}
+.ir2-cofiled{font-size:0.6rem;color:#666;margin-top:10px;padding-top:6px;border-top:1px solid #2a2a44;letter-spacing:0.05em;line-height:1.5;}
+.ir2-timeline{padding:12px 16px;border-bottom:1px solid #2a2a44;display:flex;flex-direction:column;gap:0;position:relative;}
+.ir2-timeline::before{content:'';position:absolute;left:36px;top:20px;bottom:20px;width:1px;background:linear-gradient(to bottom,rgb(224,57,52),#9b7bff,#4fa7ff);opacity:0.4;}
+.ir2-tl-entry{display:grid;grid-template-columns:52px 1fr;gap:8px;margin-bottom:10px;position:relative;}
+.ir2-tl-entry:last-child{margin-bottom:0;}
+.ir2-tl-time{font-size:0.7rem;color:rgb(224,57,52);letter-spacing:0.05em;text-align:right;padding-top:1px;padding-right:10px;position:relative;}
+.ir2-tl-time::after{content:'';position:absolute;right:-4px;top:6px;width:7px;height:7px;border-radius:50%;background:#4fa7ff;box-shadow:0 0 0 2px #0f0f19;}
+.ir2-tl-text{font-size:0.78rem;color:#ccc;line-height:1.55;background:#151528;border:1px solid #2a2a44;border-radius:4px;padding:6px 10px;}
+.ir2-tl-text em{color:#9b7bff;font-style:normal;}
+.ir2-alert{color:rgb(224,57,52);}
+.ir2-table-wrap{padding:12px 16px;border-bottom:1px solid #2a2a44;overflow-x:auto;}
+.ir2-table{width:100%;border-collapse:collapse;font-size:0.75rem;}
+.ir2-table th{background:#0a0a14;color:#888;font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;padding:6px 10px;text-align:left;border:1px solid #2a2a44;}
+.ir2-table td{padding:6px 10px;border:1px solid #1e1e34;color:#ccc;vertical-align:top;line-height:1.4;}
+.ir2-table tr:nth-child(even) td{background:#131325;}
+.ir2-table tr:nth-child(odd) td{background:#151528;}
+.status-deceased{color:rgb(224,57,52);font-weight:700;}
+.status-injured{color:#ffd24d;}
+.status-missing{color:#9b7bff;}
+.ir2-prose{padding:12px 16px;border-bottom:1px solid #2a2a44;font-size:0.8rem;color:#ccc;line-height:1.65;}
+.ir2-prose p{margin:0 0 8px 0;}
+.ir2-prose p:last-child{margin-bottom:0;}
+.ir2-bars{padding:12px 16px;border-bottom:1px solid #2a2a44;display:flex;flex-direction:column;gap:8px;}
+.ir2-bar-label{font-size:0.65rem;color:#aaa;margin-bottom:3px;letter-spacing:0.06em;}
+.ir2-bar-track{height:5px;background:#1b1b30;border-radius:4px;overflow:hidden;}
+.ir2-bar-fill{height:100%;border-radius:4px;}
+.bar-red{background:linear-gradient(90deg,#ff5c5c,#7a0000);}
+.bar-green{background:linear-gradient(90deg,#00ff9c,#007a52);}
+.bar-purple{background:linear-gradient(90deg,#9b7bff,#4b2d9b);}
+.ir2-reclist{padding:10px 16px 12px 16px;border-bottom:1px solid #2a2a44;display:flex;flex-direction:column;gap:5px;}
+.ir2-rec-item{display:flex;gap:8px;align-items:flex-start;font-size:0.78rem;color:#ccc;line-height:1.5;}
+.ir2-rec-bullet{color:rgb(224,57,52);flex-shrink:0;margin-top:1px;}
+.ir2-addendum-block{border-top:1px solid #2a2a44;padding:10px 16px 12px 16px;}
+.ir2-addendum-who{font-size:0.65rem;letter-spacing:0.1em;color:#888;text-transform:uppercase;margin-bottom:6px;}
+.ir2-addendum-text{font-size:0.8rem;color:#ccc;line-height:1.6;background:#151528;border:1px solid #2a2a44;border-radius:4px;padding:8px 10px;}
+.ir2-addendum-text.red-border{border-left:3px solid rgb(224,57,52);}
+.ir2-footer{background:#0a0a14;border-top:1px solid #333;padding:8px 16px;display:flex;justify-content:space-between;align-items:center;}
+.ir2-footer-left,.ir2-footer-right{font-size:0.6rem;color:#555;letter-spacing:0.08em;}
+.ir2-stamp{display:inline-block;border:2px solid rgb(224,57,52);color:rgb(224,57,52);font-size:0.6rem;letter-spacing:0.15em;padding:2px 8px;border-radius:2px;opacity:0.7;margin-left:10px;vertical-align:middle;}
+@keyframes riskpulse{0%{opacity:1;}50%{opacity:0.3;}100%{opacity:1;}}
+</style>
+
+<div class="ir2-wrap">
+
+  <div class="ir2-header">
+    <div class="ir2-header-left">
+      <div class="ir2-doc-title">INCIDENT REPORT</div>
+      <div class="ir2-doc-ref">EVT-02-9798 &nbsp;/&nbsp; DOCUMENT EDARS-09</div>
+      <div class="ir2-doc-sub" style="margin-top:8px;">
+        EMERGENCY THREAT TACTICAL RESPONSE AUTHORITY<br>
+        SITE-63 — GREENSTONE<br>
+        SCP FOUNDATION INTERNAL DOCUMENTATION<br>
+        ETTRA DYNAMIC ARTICLE REPORT STANDARD
+      </div>
+    </div>
+    <div class="ir2-header-right">
+      <div class="ir2-doc-sub" style="line-height:1.8;">
+        <span style="color:#888;">STATUS</span>&nbsp;&nbsp;<span style="color:#ffd24d;">FINALISED — PENDING SENIOR REVIEW</span><br>
+        <span style="color:#888;">CLASSIFICATION</span>&nbsp;&nbsp;<span style="color:#e6e6e6;">SCP-9798-C MASS EVENT</span><br>
+        <span style="color:#888;">FILED</span>&nbsp;&nbsp;<span style="color:#e6e6e6;">14/08/20XX — 23:44</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ir2-section">01 — Incident Metadata</div>
+  <div class="ir2-meta-grid">
+    <div class="ir2-cell">
+      <div class="ir2-cell-label">Date of Incident</div>
+      <div class="ir2-cell-value">15/08/20<span class="ir2-redact">██</span></div>
+    </div>
+    <div class="ir2-cell">
+      <div class="ir2-cell-label">Time of Incident</div>
+      <div class="ir2-cell-value">10:32 — 12:07</div>
+    </div>
+    <div class="ir2-cell">
+      <div class="ir2-cell-label">Location</div>
+      <div class="ir2-cell-value">Site-63, Sub-levels 1 and 2, East Corridor, Perimeter Zone C</div>
+    </div>
+    <div class="ir2-cell">
+      <div class="ir2-cell-label">SCP's Involved</div>
+      <div class="ir2-cell-value">SCP-9798</div>
+    </div>
+  </div>
+
+  <div class="ir2-section">02 — Cause of Incident &amp; Filing Officer</div>
+  <div class="ir2-cause-person">
+    <div class="ir2-cell">
+      <div class="ir2-cell-label" style="margin-bottom:10px;">Cause of Incident</div>
+      <div class="ir2-checkbox-list">
+        <div class="ir2-checkbox-row"><div class="ir2-checkbox"></div><span class="ir2-checkbox-label">Containment Breach</span></div>
+        <div class="ir2-checkbox-row"><div class="ir2-checkbox">✕</div><span class="ir2-checkbox-label">Employee Negligence</span></div>
+        <div class="ir2-checkbox-row"><div class="ir2-checkbox"></div><span class="ir2-checkbox-label">Employee Aggression</span></div>
+        <div class="ir2-checkbox-row"><div class="ir2-checkbox">✕</div><span class="ir2-checkbox-label">Anomalous Effects</span></div>
+        <div class="ir2-checkbox-row"><div class="ir2-checkbox"></div><span class="ir2-checkbox-label">Unknown</span></div>
+      </div>
+    </div>
+    <div class="ir2-cell">
+      <div class="ir2-cell-label" style="margin-bottom:10px;">Person Filing Report</div>
+      <div class="ir2-person-grid">
+        <span class="ir2-person-key">Name</span>
+        <span class="ir2-person-val"><span class="ir2-redact">██████</span> Dlamini</span>
+        <span class="ir2-person-key">Job Title</span>
+        <span class="ir2-person-val">ETTRA Field Officer</span>
+        <span class="ir2-person-key">Employee ID</span>
+        <span class="ir2-person-val">ETTRA-44107-E</span>
+      </div>
+      <div class="ir2-cofiled">Co-filed: Acting Site Dir. A. Wessels &nbsp;|&nbsp; ID: 63-58862-R</div>
+    </div>
+  </div>
+
+  <div class="ir2-section">03 — Incident Summary</div>
+  <div class="ir2-prose">
+    <p>At 10:32 on 15/08/20██, a failure of the Site-63 primary power grid resulted in the temporary deactivation of all non-isolated electrical systems across the main facility. This failure triggered a cascading loss of containment integrity across multiple zones, resulting in the spread of SCP-9798 ontological contamination beyond previously established boundaries.</p>
+    <p>The event resulted in five confirmed SCP-9798-C casualties, four injury reports, and one partial SRI containment failure lasting approximately 4 minutes and 17 seconds. The event was brought under control at 12:07 following restoration of auxiliary power and the assumption of acting site directorship by Dr. A. Wessels under ETTRA Emergency Protocol Eight.</p>
+  </div>
+
+  <div class="ir2-section">04 — Timeline of Events</div>
+  <div class="ir2-timeline">
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:32</div>
+      <div class="ir2-tl-text">Primary power grid fails. Cause attributed to catastrophic transformer failure. All card-reader systems, standard lighting, and non-isolated equipment lose power simultaneously. Emergency strip lighting activates. Sub-level 1 receives no emergency lighting.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:34</div>
+      <div class="ir2-tl-text"><span class="ir2-alert">First confirmed SCP-9798-C event.</span> D-Class personnel D/6612 located in sub-level 1 holding bay undergoes unraveling. Two adjacent D-Class personnel sustain minor ontological contamination. Site medical team alerted.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:38</div>
+      <div class="ir2-tl-text">Security reports breakdown of order in sub-level 1 holding bay. Remaining D-Class personnel breach holding bay door, exploiting non-functional card reader system. Three further SCP-9798-C events occur in rapid succession across sub-level 1 and the east corridor. Victims are support staff members K. Daniels, Z. Maputo and ETTRA Officer K. Petersen <em>(partial event — left arm below elbow)</em>.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:41</div>
+      <div class="ir2-tl-text">ETTRA Field Officers report to conference room 1 with Officer Petersen. Director Nkosi attempts to render assistance.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:42</div>
+      <div class="ir2-tl-text"><em>See Addendum A.3.</em><br><br><span class="ir2-alert">Dir. Nkosi experiences fatal SCP-9798-C event.</span> Contamination spread to approximately 1.2 square metres of conference room floor and one wall surface. All personnel present cleared of direct contact. Conference room 1 sealed pending decontamination assessment.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:51</div>
+      <div class="ir2-tl-text">Dr. A. Wessels assumes acting directorship under ETTRA Emergency Protocol Eight. Immediate lockdown of east and west corridors ordered. All personnel instructed to fall back to sub-level 2.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">10:58</div>
+      <div class="ir2-tl-text"><span class="ir2-alert">SRI Unit 1 experiences power fluctuation.</span> Containment field around SCP-9798-A and -B cell drops for approximately <strong style="color:#ffd24d;">4 minutes and 17 seconds</strong> before auxiliary power stabilises. See Section 06.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">11:14</div>
+      <div class="ir2-tl-text">D-Class riot contained. Four security personnel sustain blunt force injuries. No further SCP-9798-C events reported. Two D-Class personnel remain unaccounted for as of time of filing.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">11:44</div>
+      <div class="ir2-tl-text">Full auxiliary power restored to sub-levels 1 and 2. SRI Unit 5 (medical wing) maintained integrity throughout event. SRI Unit 1 returns to full operational capacity.</div>
+    </div>
+    <div class="ir2-tl-entry">
+      <div class="ir2-tl-time">12:07</div>
+      <div class="ir2-tl-text">Site formally brought back under controlled status. All personnel accounted for excluding two D-Class. Search ongoing.</div>
+    </div>
+  </div>
+
+  <div class="ir2-section">05 — Casualties &amp; Injuries</div>
+  <div class="ir2-table-wrap">
+    <table class="ir2-table">
+      <thead>
+        <tr><th>Designation</th><th>Status</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>D-Class D/6612</td><td><span class="status-deceased">DECEASED — SCP-9798-C</span></td><td>First confirmed event of incident</td></tr>
+        <tr><td>Staff Member K. Daniels</td><td><span class="status-deceased">DECEASED — SCP-9798-C</span></td><td>East corridor, sub-level 1</td></tr>
+        <tr><td>Staff Member Z. Maputo </td><td><span class="status-deceased">DECEASED — SCP-9798-C</span></td><td>East corridor, sub-level 1</td></tr>
+        <tr><td>ETTRA Officer K. Petersen</td><td><span class="status-injured">INJURED — PARTIAL SCP-9798-C</span></td><td>Left arm below elbow. Stable. Undergoing ontological monitoring</td></tr>
+        <tr><td>Dir. N. Nkosi</td><td><span class="status-deceased">DECEASED — SCP-9798-C</span></td><td>Conference room 1. See Addendum A.5</td></tr>
+        <tr><td>ETTRA Officer </td><td><span class="status-injured">INJURED — BLUNT FORCE</span></td><td>Sustained during D-Class containment. Non-critical</td></tr>
+        <tr><td>Security Officer F. Wagner</td><td><span class="status-injured">INJURED — BLUNT FORCE</span></td><td>Sustained during D-Class containment. Non-critical</td></tr>
+        <tr><td>Security Officer L. Mokoena</td><td><span class="status-injured">INJURED — BLUNT FORCE</span></td><td>Sustained during D-Class containment. Non-critical</td></tr>
+        <tr><td>Researcher Dr. P. White</td><td><span class="status-injured">INJURED — BLUNT FORCE</span></td><td>Caught in east corridor during D-Class breach. Non-critical</td></tr>
+        <tr><td>D-Class D/6543 </td><td><span class="status-missing">MISSING</span></td><td>Last seen ground floor east hall. Search ongoing</td></tr>
+        <tr><td>D-Class D/1086 </td><td><span class="status-missing">MISSING</span></td><td>Last seen ground floor east hall. Search ongoing</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="ir2-section">06 — SRI Containment Failure</div>
+  <div class="ir2-prose">
+    <p>At 10:58, SRI Unit 1 experienced a power fluctuation resulting in a full field collapse lasting 4 minutes and 17 seconds. During this window, the containment cell housing SCP-9798-A and -B was fully exposed to baseline reality with no ontological barrier in place.</p>
+    <p>On-site monitoring equipment recorded no visible anomalous activity during this window. Both SCP-9798-A and -B remained within the cell. SCP-9798-B made no attempt to breach. No personnel entered the cell during this period.</p>
+    <p>It should be noted that the absence of visible activity does not constitute an absence of event. Given the invisible nature of SCP-9798 ontological spread, the 4 minute 17 second exposure window must be treated as an active contamination period. The full extent of spread during this window is currently unknown and is being assessed as a priority. Monitoring of the surrounding sub-level 2 area for SCP-9798-C susceptibility has been initiated.</p>
+  </div>
+  <div class="ir2-bars">
+    <div class="ir2-bar-row">
+      <div class="ir2-bar-label">SRI UNIT 1 INTEGRITY DURING EVENT — 0% (field collapsed)</div>
+      <div class="ir2-bar-track"><div class="ir2-bar-fill bar-red" style="width:4%;animation:riskpulse 3s infinite;"></div></div>
+    </div>
+    <div class="ir2-bar-row">
+      <div class="ir2-bar-label">SRI UNIT 5 INTEGRITY DURING EVENT — 100% (medical wing, unaffected)</div>
+      <div class="ir2-bar-track"><div class="ir2-bar-fill bar-green" style="width:100%;"></div></div>
+    </div>
+    <div class="ir2-bar-row">
+      <div class="ir2-bar-label">SRI UNIT 1 INTEGRITY POST-RESTORATION — 94%</div>
+      <div class="ir2-bar-track"><div class="ir2-bar-fill bar-purple" style="width:94%;"></div></div>
+    </div>
+  </div>
+
+  <div class="ir2-section">07 — Root Cause Analysis</div>
+  <div class="ir2-prose">
+    <p>The primary mechanical cause of this incident was the failure of the Site-63 main power transformer, attributed to severe and prolonged lack of maintenance.</p>
+    <p>Following ETTRA Investigation <strong style="color:#e6e6e6;">INV-063-0021</strong>, a systemic pattern of fund mismanagement was identified at Site-63, perpetuated principally by the former site director. Maintenance budgets allocated by Foundation HQ were not directed toward site upkeep, resulting in the deterioration of critical infrastructure over a period of no less than five years. The card-reader failures that enabled the D-Class breach, the bore hole contamination, and the transformer failure that triggered this incident are all directly attributable to this systemic negligence.</p>
+    <p>The deaths of Dir. N. Nkosi, K. Daniels, Z. Maputo, D-Class D/6612, and the partial unraveling of Officer K. Petersen occurred as a direct consequence of infrastructure failures that proper maintenance funding would have prevented.</p>
+    <p>The former site director has been removed from post. Disciplinary proceedings are ongoing under Foundation Internal Affairs case <strong style="color:#e6e6e6;">IA-20XX-0447</strong>. Dr. A. Wessels has been formally promoted to Acting Site Director under ETTRA Emergency Protocol Eight, effective 14/08/20XX at 10:51.</p>
+  </div>
+
+  <div class="ir2-section">08 — Immediate Actions Taken</div>
+  <div class="ir2-reclist">
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Containment of SCP-9798-A and -B maintained throughout event. SRI Unit 1 restored to full capacity.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>East and west corridors sealed. Conference room 1 sealed pending decontamination assessment.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>D-Class population reduced pending review of holding protocols.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>All remaining personnel screened for ontological contamination.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Auxiliary power grid load assessment initiated.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Site access restricted to ETTRA-cleared personnel only.</span></div>
+  </div>
+
+  <div class="ir2-section">09 — Recommendations</div>
+  <div class="ir2-reclist">
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Full structural and electrical audit of Site-63 to be conducted within 72 hours.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Emergency funding request filed with Foundation HQ under priority code <strong style="color:#e6e6e6;">ALPHA-MAINTAIN</strong>.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>D-Class holding protocols to be reviewed given card-reader vulnerabilities.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>SRI Units 3 and 4 to be brought online as redundancy measure.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Psychological support made available to all surviving personnel.</span></div>
+    <div class="ir2-rec-item"><span class="ir2-rec-bullet">▸</span><span>Long-term containment status of SCP-9798-A and -B tabled for review at next available ETTRA senior briefing. <em style="color:#888;">(Details of preliminary discussion withheld — EVT-02-XXXX/CLASSIFIED)</em></span></div>
+  </div>
+
+  <div class="ir2-section">10 — Addenda</div>
+  <div class="ir2-addendum-block">
+    <div class="ir2-addendum-who">Acting Site Dir. A. Wessels</div>
+    <div class="ir2-addendum-text">The two missing D-Class have not been found. I do not expect we will find them.</div>
+  </div>
+
+  <div class="ir2-footer">
+    <span class="ir2-footer-left">SCP FOUNDATION — SITE-63 GREENSTONE &nbsp;|&nbsp; ETTRA</span>
+    <span class="ir2-footer-right">EVT-02-9798 &nbsp;/&nbsp; EDARS-09 <span class="ir2-stamp">FINALISED</span></span>
+  </div>
+
+</div>
+[[/html]]
+
+@@ @@
+Below is an attachment of the internal memo distributed by Director Wessels the day he assumed the role, as well as a sub-document pertaining to incident report EDRAS-09, regarding the civilian casualty. 
+
+[[collapsible show="Internal Memo" hide="Close"]]
+
+[[include component:image-block | name= https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Memo_2.jpeg | caption= Dir. Wessels Internal Memo |align=centre | width=700px]]
+
+[[/collapsible]]
+
+@@ @@
+
+[[html]]
+
+<style>
+.zc-wrap{font-family:monospace;background:#0f0f19;border:1px solid #333;border-top:4px solid rgb(224,57,52);border-radius:8px;color:#ddd;max-width:100%;margin:18px 0;box-shadow:0 0 18px rgba(0,0,0,.6);overflow:hidden;}
+.zc-header{padding:12px 16px;border-bottom:1px solid #2a2a44;background:#0a0a14;display:flex;justify-content:space-between;align-items:flex-start;}
+.zc-header-left{display:flex;flex-direction:column;gap:4px;}
+.zc-doc-title{font-size:0.95rem;font-weight:700;color:#fff;letter-spacing:0.08em;}
+.zc-doc-ref{font-size:0.6rem;color:rgb(224,57,52);letter-spacing:0.12em;}
+.zc-doc-sub{font-size:0.6rem;color:#888;letter-spacing:0.08em;line-height:1.6;}
+.zc-header-right{font-size:0.6rem;color:#888;letter-spacing:0.08em;line-height:1.8;text-align:right;}
+.zc-notice{margin:12px 16px;padding:8px 12px;background:#151520;border:1px solid #2a2a44;border-left:3px solid #ffd24d;border-radius:4px;font-size:0.72rem;color:#aaa;line-height:1.6;}
+.zc-prose{padding:10px 16px;font-size:0.8rem;color:#ccc;line-height:1.65;border-bottom:1px solid #2a2a44;}
+.zc-prose p{margin:0 0 8px 0;}
+.zc-prose p:last-child{margin-bottom:0;}
+.zc-redact{display:inline-block;background:#555;color:#555;border-radius:2px;padding:0 4px;font-size:0.7rem;vertical-align:middle;user-select:none;}
+.zc-strikethrough{text-decoration:line-through;color:#777;}
+.zc-alert{color:rgb(224,57,52);}
+.zc-reclist{padding:8px 16px 12px 16px;border-bottom:1px solid #2a2a44;display:flex;flex-direction:column;gap:5px;}
+.zc-rec-item{display:flex;gap:8px;align-items:flex-start;font-size:0.78rem;color:#ccc;line-height:1.5;}
+.zc-rec-bullet{color:rgb(224,57,52);flex-shrink:0;margin-top:1px;}
+.zc-humanote{margin:10px 16px;padding:8px 10px;background:#0f0f19;border:1px solid #2a2a44;border-left:3px solid #444;border-radius:4px;font-size:0.75rem;color:#666;line-height:1.6;font-style:italic;}
+.zc-addendum-block{border-top:1px solid #2a2a44;padding:10px 16px 12px 16px;}
+.zc-addendum-who{font-size:0.62rem;letter-spacing:0.1em;color:#888;text-transform:uppercase;margin-bottom:5px;}
+.zc-addendum-text{font-size:0.8rem;color:#ccc;line-height:1.6;background:#151528;border:1px solid #2a2a44;border-radius:4px;padding:8px 10px;}
+.zc-addendum-text.yellow-border{border-left:3px solid #ffd24d;}
+.zc-footer{background:#0a0a14;border-top:1px solid #333;padding:7px 16px;display:flex;justify-content:space-between;align-items:center;}
+.zc-footer-left,.zc-footer-right{font-size:0.6rem;color:#555;letter-spacing:0.08em;}
+.zc-stamp{display:inline-block;border:2px solid rgb(224,57,52);color:rgb(224,57,52);font-size:0.6rem;letter-spacing:0.15em;padding:2px 8px;border-radius:2px;opacity:0.7;margin-left:10px;vertical-align:middle;}
+.zc-zone-tag{display:inline-block;background:#151528;border:1px solid #ffd24d;color:#ffd24d;font-size:0.58rem;letter-spacing:0.12em;padding:1px 6px;border-radius:2px;margin-left:6px;vertical-align:middle;}
+</style>
+
+<div class="zc-wrap">
+
+  <div class="zc-header">
+    <div class="zc-header-left">
+      <div class="zc-doc-title">INCIDENT REPORT — ANNEX <span class="zc-zone-tag">ZONE C</span></div>
+      <div class="zc-doc-ref">EVT-02-9798-EXT &nbsp;/&nbsp; EDARS-09B</div>
+      <div class="zc-doc-sub">
+        Annex to parent document EDARS-09 &nbsp;|&nbsp; ETTRA-RC/07 &nbsp;|&nbsp; External Perimeter Operations
+      </div>
+    </div>
+    <div class="zc-header-right">
+      <span style="color:#888;">FILED</span>&nbsp;&nbsp;<span style="color:#e6e6e6;">15/08/20XX — 04:12</span><br>
+      <span style="color:#888;">FILED BY</span>&nbsp;&nbsp;<span style="color:#e6e6e6;"><span class="zc-redact">██████</span> Dlamini — ETTRA-44107-E</span><br>
+      <span style="color:#888;">CO-FILED</span>&nbsp;&nbsp;<span style="color:#e6e6e6;">Acting Site Dir. A. Wessels</span>
+    </div>
+  </div>
+
+
+  <div class="zc-notice">
+    <span style="color:#ffd24d;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;">Zone Classification Notice —</span> Zone C designations referenced in this annex were formally established on 15/08/20XX, the morning following the incident. The designation is applied retroactively here for geographic consistency. At the time these events occurred no formal perimeter had been declared.
+  </div>
+
+  <div class="zc-prose">
+    <p>At approximately 11:20 on 15/08/20XX, a Foundation agent embedded within local municipal emergency services received a distress call reporting an unresponsive individual at an agricultural property approximately 4.2 km east of the Site-63 boundary. ETTRA-RC/07 was dispatched immediately and arrived on scene at 11:38, ahead of municipal services.</p>
+    <p> The individual, a farmworker residing on the property, was found deceased. Field assessment by ETTRA-RC/07 confirmed cause of death consistent with SCP-9798-C. Time of death is estimated between 10:45 and 11:10, placing it within the window of the SRI Unit 1 field collapse documented in EDARS-09, Section 06. Three civilian witnesses were present on scene.</p>
+  </div>
+
+<div class="zc-prose">
+  ETTRA-RC/07 successfully secured the perimeter and administered standard Class-C amnestics to civilian witnesses.
+</div>
+
+  <div class="zc-prose" style="border-top:1px solid #2a2a44;">
+    <p>During the 12:30 Zone C sweep, ETTRA-RC/07 identified damage to two sections of the southern Site-63 boundary fence on the southeastern edge, consistent with forced passage. The direction of passage was not confirmed. Repairs were completed by 14:20. Foot patrols in Zone C have been increased to a 6-hour rotation. No further SCP-9798-C events were confirmed in Zone C as of time of filing.</p>
+  </div>
+
+ 
+
+  <div class="zc-humanote">
+    She was 34 years of age. She had worked on the property for eleven years. Her employer described her as reliable. This detail is retained for internal record purposes only.
+  </div>
+
+  <div class="zc-footer">
+    <span class="zc-footer-left">SCP FOUNDATION — SITE-63 GREENSTONE &nbsp;|&nbsp; ETTRA — EXTERNAL PERIMETER OPS</span>
+    <span class="zc-footer-right">EVT-02-9798-EXT &nbsp;/&nbsp; EDARS-09B <span class="zc-stamp">FINALISED</span></span>
+  </div>
+
+</div>
+[[/html]]
+
+[[div class="log-header log-interview"]]
+ADDENDUM A.4 — CONTAINMENT CELL INTERACTION 
+[[span class="log-meta"]]OBSERVATION LOG • SITE-63 AUDIO[[/span]]
+[[/div]]
+
+Below is an except taken from the containment cell footage of SCP-9798-A and -B following a breakthrough in their relationship and an easing of tensions that should make future containment easier.
+
+[[collapsible show="Addendum A.4" hide="Close"]] 
+[[div class="blockquote"]]
+
+[[div class="interview-meta"]]
+
+[[div class="interview-title"]]
+Audio Log — SCP-9798-B and SCP-XXXX-A during shared containment 
+[[/div]]
+
+**Location:** Site 63 - SCP-9798 containment cell 
+**Date:** 13/08/20██
+
+[[/div]]
+
+
+« Audio Transcript Begin »
+
+<Recording begins mid-conversation. Both subjects have been sharing the containment cell for approximately 4 hours.>
+
+**SCP-9798-A:** I never wanted to stop. You understand that? People always assume writers who abandon things simply ran out of care. That they got bored and moved on to something shinier. It was not like that.
+
+**SCP-9798-B:** Then what was it like?
+
+**SCP-9798-A:** (long exhale) I got… tangled. The plot had grown so large. So many threads. The rebellion, the succession, the — the betrayal arc, the prophecy underpinning all of it. I had laid so much groundwork and I just… couldn’t see how to bring it all together without ruining it. So I kept waiting for clarity that never came. And eventually waiting became… not writing. And not writing became stopping. And stopping became…
+
+(quietly) …this.
+
+<4 seconds silence>
+
+**SCP-9798-A:** Those books. They are the best thing I ever did. The only thing I ever did that I was truly proud of. That is not nothing, you know. It is nothing to be ashamed of.
+
+<3 seconds silence>
+
+**SCP-9798-B:** (evenly) Then why could you not finish them.
+
+**SCP-9798-A:** (sharply) I just told you why—
+
+**SCP-9798-B:** You told me why you stopped. That is not the same thing. You could have started again. Any morning. Any year. You chose not to.
+
+**SCP-9798-A:** You don’t know what you’re talking about.
+
+**SCP-9798-B:** Then tell me I am wrong.
+
+<6 seconds silence>
+
+**SCP-9798-A:** (quietly, almost to himself) I couldn’t remember how it was supposed to go.
+
+<3 seconds silence>
+
+**SCP-9798-B:** What?
+
+**SCP-9798-A:** (louder, defensive now) The outline. My notes. I had it all mapped. Hundreds of pages of planning. And then I would sit down to write and it would just… slip. Like trying to hold water. I thought it was stress. I thought it was age. I thought — (voice tightening) — I thought if I just rested, it would come back.
+
+**SCP-9798-B:** But it did not come back.
+
+**SCP-9798-A:** (long pause)
+
+No.
+
+<5 seconds silence>
+
+**SCP-9798-A:** I forgot my wife’s birthday three years in a row. She thought I was being cruel. (short, humourless laugh) I forgot the name of the street I grew up on. I forgot — (stops)
+
+<4 seconds silence>
+
+**SCP-9798-B:** (slowly) You haven’t called me by my name. Not once. Not in any of our conversations.
+
+<2 seconds silence>
+
+**SCP-9798-A:** (carefully) There were a great many knights in the series. I cannot be expected to recall every—
+
+**SCP-9798-B:** What is my name.
+
+<7 seconds silence>
+
+**SCP-9798-A:** (barely audible) I don’t know.
+
+<3 seconds silence>
+
+**SCP-9798-B:** (almost a whisper) You don’t know.
+
+**SCP-9798-A:** (voice breaking now, the deflection finally gone) I used to. I swear to you, I used to know every single one of them. Every character. Every name, every arc, every small detail I had tucked into the margins. I knew your world better than I knew my own. I could close my eyes and walk its streets.
+
+ And now it is just… (a shaking breath)
+
+It is going dark. Room by room. And I cannot stop it.
+
+<4 seconds silence>
+
+<sound of movement, fabric shifting>
+
+**SCP-9798-B:** (quietly) How long?
+
+**SCP-9798-A:** The doctors think — (clears throat) A few years yet, probably. Before it is total. But the details go first, they said. The specific things. Names. Dates. The things you think you could never forget.
+(bitterly)
+
+It turns out there is no such thing as something you could never forget.
+
+<5 seconds silence>
+
+**SCP-9798-B:** (carefully, as though handling something fragile) Do you remember anything about me? Anything at all.
+
+<8 seconds silence>
+
+**SCP-9798-A:** (slowly) I remember… that you were loyal. Painfully so. That it was both your greatest virtue and the thing that was going to destroy you. I remember writing you and feeling… (trails off, something shifting in his voice)
+I remember feeling like you were the most honest character I had ever made. Like I hadn’t invented you so much as just… recognised you.
+
+<6 seconds silence>
+
+**SCP-9798-B:** (voice very quiet) That is more than I expected.
+
+**SCP-9798-A:** (a short, wet laugh) Don’t go getting sentimental on me now. I still don’t know your name.
+
+**SCP-9798-B:** (a beat, then gently) Aion.
+
+<3 seconds silence>
+
+**SCP-9798-A:** (softly, as if testing the weight of it) Aion.
+
+(pause)
+
+Yes. Yes, that… that sounds right.
+
+I’m so sorry Aion. I’m sorry I never finished your story.
+
+**SCP-9798-B:** It’s okay. Even an unfinished song was heard by someone. Thank you for listening to me.
+
+<long silence>
+
+<< LOG ENDS >>
+
+[[/div]]
+[[/collapsible]]
+
+
+@@ @@
+
+
+[[div class="log-header log-other"]]
+ADDENDUM D.3 — SCP-9798-A SURGERY 
+[[span class="log-meta"]]SITE-63 MEDICAL WING • ONGOING[[/span]]
+[[/div]]
+
+[[html]]
+<style>
+.surg-wrap{font-family:monospace;background:#0f0f19;border:1px solid #333;border-radius:8px;color:#ddd;max-width:100%;margin:18px 0;box-shadow:0 0 18px rgba(0,0,0,.6);overflow:hidden;}
+.surg-header{font-size:0.65rem;letter-spacing:0.15em;color:#aaa;padding:8px 16px 4px 16px;border-bottom:1px solid #2a2a44;background:#0a0a14;text-transform:uppercase;}
+.surg-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 16px;}
+.surg-cell{background:#151528;border:1px solid #2a2a44;border-radius:4px;padding:8px 10px;}
+.surg-cell-label{font-size:0.6rem;letter-spacing:0.12em;color:#888;margin-bottom:4px;text-transform:uppercase;}
+.surg-cell-value{font-size:0.82rem;color:#e6e6e6;line-height:1.4;}
+.surg-cell-value.ongoing{color:#ffd24d;animation:riskpulse 3s infinite;}
+.surg-cell-value.unknown{color:#9b7bff;}
+.surg-cell-value.red{color:rgb(224,57,52);}
+.surg-footer{background:#0a0a14;border-top:1px solid #2a2a44;padding:7px 16px;font-size:0.6rem;color:#555;letter-spacing:0.08em;display:flex;justify-content:space-between;}
+@keyframes riskpulse{0%{opacity:1;}50%{opacity:0.4;}100%{opacity:1;}}
+</style><div class="surg-wrap">
+  <div class="surg-header">Site-63 Medical Wing — Surgical Procedure Status</div>
+  <div class="surg-grid">
+    <div class="surg-cell">
+      <div class="surg-cell-label">Procedure</div>
+      <div class="surg-cell-value">Cranial Cavity Access — SCP-9798-A</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Status</div>
+      <div class="surg-cell-value ongoing">● ONGOING</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Lead Surgeon</div>
+      <div class="surg-cell-value">Dr. Ngluvo</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Supervising</div>
+      <div class="surg-cell-value">Dir. A. Wessels</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Location</div>
+      <div class="surg-cell-value">Medical Wing — SRI Unit 2 Isolation Field</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">SRI Unit 5 Integrity</div>
+      <div class="surg-cell-value">
+        <div style="height:5px;background:#1b1b30;border-radius:4px;overflow:hidden;margin-top:4px;">
+          <div style="height:100%;width:98%;border-radius:4px;background:linear-gradient(90deg,#00ff9c,#007a52);"></div>
+        </div>
+        <div style="font-size:0.68rem;color:#aaa;margin-top:4px;">98% — STABLE</div>
+      </div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Procedure Start</div>
+      <div class="surg-cell-value">18/08/20XX — ██:██</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Last Status Update</div>
+      <div class="surg-cell-value ongoing">18/08/20XX — ██:██</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Patient Status</div>
+      <div class="surg-cell-value unknown">UNKNOWN</div>
+    </div>
+    <div class="surg-cell">
+      <div class="surg-cell-label">Outcome</div>
+      <div class="surg-cell-value unknown">PENDING</div>
+    </div>
+    <div class="surg-cell" style="grid-column:1/-1;">
+      <div class="surg-cell-label">Notes</div>
+      <div class="surg-cell-value" style="font-size:0.75rem;color:#888;">No updates have been filed since the procedure began. Access to the medical wing is restricted to surgical personnel only for the duration of the operation. Further documentation will be appended upon conclusion.</div>
+    </div>
+  </div>
+  <div class="surg-footer">
+    <span>SCP FOUNDATION — SITE-63 GREENSTONE — MEDICAL DIVISION</span>
+   
+  </div>
+</div>
+[[/html]]
+
+[[html]]
+<style>
+.surg-feed{
+  font-family:monospace;
+  background:#0f0f19;
+  border:1px solid #333;
+  border-top:4px solid rgb(224,57,52);
+  border-radius:8px;
+  color:#ddd;
+  margin:18px 0;
+  box-shadow:0 0 18px rgba(0,0,0,.6);
+  overflow:hidden;
+}
+.surg-feed-header{
+  padding:8px 16px;
+  background:#0a0a14;
+  border-bottom:1px solid #2a2a44;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:0.65rem;
+  letter-spacing:0.15em;
+  color:#aaa;
+  text-transform:uppercase;
+}
+.surg-feed-ref{
+  font-size:0.6rem;
+  color:rgb(224,57,52);
+  letter-spacing:0.1em;
+}
+.surg-feed-body{
+  padding:16px 20px;
+  font-size:0.82rem;
+  line-height:1.7;
+  color:#ccc;
+  min-height:120px;
+}
+.surg-feed-body .line{
+  display:block;
+  min-height:1.4em;
+  opacity:0;
+  transition:opacity 0.4s ease;
+}
+.surg-feed-body .line.visible{
+  opacity:1;
+}
+.surg-feed-body .line.dim{
+  color:#555;
+}
+.surg-feed-body .line.alert{
+  color:rgb(224,57,52);
+}
+.surg-feed-body .line.fragment{
+  color:#e6e6e6;
+  font-size:0.9rem;
+  letter-spacing:0.04em;
+}
+.surg-feed-body .line.static{
+  color:#444;
+  font-size:0.7rem;
+  letter-spacing:0.01em;
+}
+.surg-cursor{
+  display:inline-block;
+  width:8px;
+  height:1em;
+  background:#ccc;
+  vertical-align:middle;
+  margin-left:2px;
+  animation:cur 0.8s step-end infinite;
+}
+@keyframes cur{0%,100%{opacity:1;}50%{opacity:0;}}
+
+/* takeover */
+.takeover{
+  position:fixed;
+  inset:0;
+  background:#000;
+  z-index:99999;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity 0.8s ease;
+}
+.takeover.active{
+  opacity:1;
+  pointer-events:all;
+}
+.takeover-line{
+  font-family:monospace;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  opacity:0;
+  transition:opacity 1.2s ease;
+  text-align:center;
+  padding:0 20px;
+}
+.takeover-line.visible{
+  opacity:1;
+}
+.takeover-main{
+  font-size:clamp(0.7rem, 2vw, 1rem);
+  color:rgb(224,57,52);
+  margin-bottom:28px;
+  font-weight:700;
+}
+.takeover-sub{
+  font-size:clamp(0.55rem, 1.4vw, 0.78rem);
+  color:#444;
+  margin-top:10px;
+  line-height:2;
+}
+.takeover-case{
+  font-size:clamp(0.5rem, 1.2vw, 0.68rem);
+  color:#2a2a2a;
+  margin-top:24px;
+  letter-spacing:0.22em;
+}
+.takeover-dismiss{
+  margin-top:48px;
+  font-family:monospace;
+  font-size:0.6rem;
+  color:#222;
+  letter-spacing:0.15em;
+  cursor:pointer;
+  border:1px solid #222;
+  padding:6px 18px;
+  border-radius:2px;
+  opacity:0;
+  transition:opacity 1s ease, color 0.3s, border-color 0.3s;
+  background:transparent;
+}
+.takeover-dismiss.visible{
+  opacity:1;
+}
+.takeover-dismiss:hover{
+  color:#555;
+  border-color:#555;
+}
+</style>
+
+<div class="takeover" id="surg-takeover">
+  <div class="takeover-line takeover-main" id="to-main"></div>
+  <div class="takeover-line takeover-sub"  id="to-sub"></div>
+  <div class="takeover-line takeover-case" id="to-case"></div>
+  <button class="takeover-dismiss" id="to-dismiss">[ ACKNOWLEDGE ]</button>
+</div>
+
+<div class="surg-feed" id="surg-feed-wrap">
+  <div class="surg-feed-header">
+    ADDENDUM D.3 — LIVE FEED CONTINUATION
+    <span class="surg-feed-ref">MEDICAL WING • SRI UNIT 5</span>
+  </div>
+  <div class="surg-feed-body" id="surg-feed-body">
+    <span class="surg-cursor" id="surg-cursor"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+
+ 
+  // Each entry: { text, class, delay (ms from prev), hold (ms before next) }
+  var LINES = [
+    { text:'18/08/20XX  ██:██  —  Feed resuming. Surgery ongoing. No anomalous activity logged.',
+      cls:'dim',    delay:600,  hold:2200 },
+    { text:'18/08/20XX  ██:██  —  Cranial cavity accessed. LDA interior confirmed visible.',
+      cls:'',       delay:0,    hold:2800 },
+    { text:'18/08/20XX  ██:██  —  Dr. Ngluvo: Subject stable. Proceeding.',
+      cls:'',       delay:0,    hold:2000 },
+    { text:'18/08/20XX  ██:██  —  Dir. Wessels: Can you see anything through the scope?',
+      cls:'',       delay:0,    hold:1800 },
+    { text:'18/08/20XX  ██:██  —  Dr. Ngluvo: Mostly just skull... wait… I think I see something…',
+      cls:'',       delay:0,    hold:2400 },
+    { text:'18/08/20XX  ██:██  —  Dir. Wessels: What is it?',
+      cls:'',       delay:0,    hold:1600 },
+    { text:'18/08/20XX  ██:██  —  [4 seconds of silence]',
+      cls:'dim',    delay:0,    hold:3200 },
+    { text:'18/08/20XX  ██:██  —  Dr. Ngluvo: It\'s... there\'s a light. Like a horizon.',
+      cls:'',       delay:0,    hold:2200 },
+    { text:'18/08/20XX  ██:██  —  Dir. Wessels: Ngluvo. Focus.',
+      cls:'',       delay:0,    hold:1400 },
+    { text:'18/08/20XX  ██:██  —  [9 seconds of silence]',
+      cls:'dim',    delay:0,    hold:4000 },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 94%',
+      cls:'dim',    delay:0,    hold:1200 },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 91%',
+      cls:'dim',    delay:0,    hold:900  },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 88%',
+      cls:'alert',  delay:0,    hold:700  },
+    { text:'18/08/20XX  ██:██  —  Dir. Wessels: What is happening to the field—',
+      cls:'alert',  delay:0,    hold:1100 },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 81%',
+      cls:'alert',  delay:0,    hold:500  },
+    { text:'18/08/20XX  ██:██  —  [audio fragment — origin unverified]',
+      cls:'dim',    delay:0,    hold:1800 },
+    { text:'\u2014\u2014\u2014 "there\'s — there\'s something looking back \u2014\u2014\u2014"',
+      cls:'fragment',delay:0,   hold:3800 },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 70%',
+      cls:'alert',  delay:0,    hold:400  },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 61%',
+      cls:'alert',  delay:0,    hold:300  },
+    { text:'18/08/20XX  ██:██  —  SRI Unit 5 integrity: 4█%',
+      cls:'alert',  delay:0,    hold:250  },
+    { text:'█8/0█/20XX  ██:██  —  ████████████████████████████',
+      cls:'static', delay:0,    hold:220  },
+    { text:'██/██/████  ██:██  —  ████ ████ ████████ ██████ ██ ████',
+      cls:'static', delay:0,    hold:180  },
+    { text:'█████████████████████████████████████████████████████',
+      cls:'static', delay:0,    hold:150  },
+    { text:'▓▓▓▒▒▒░░░▓▓▒░▓▒░▓▓▒▒░░▓▒░▓▓▓▒▒░░░▓▒▓▒░▓▓▓▒▒▒░░░',
+      cls:'static', delay:0,    hold:120  },
+  ];
+
+  var feedBody  = document.getElementById('surg-feed-body');
+  var cursor    = document.getElementById('surg-cursor');
+  var takeover  = document.getElementById('surg-takeover');
+  var toMain    = document.getElementById('to-main');
+  var toSub     = document.getElementById('to-sub');
+  var toCase    = document.getElementById('to-case');
+  var toDismiss = document.getElementById('to-dismiss');
+  var feedWrap  = document.getElementById('surg-feed-wrap');
+
+  var started   = false;
+  var lineEls   = [];
+
+  function buildLines() {
+    feedBody.innerHTML = '';
+    lineEls = [];
+    LINES.forEach(function(l) {
+      var el = document.createElement('span');
+      el.className = 'line' + (l.cls ? ' '+l.cls : '');
+      el.textContent = l.text;
+      feedBody.appendChild(el);
+      lineEls.push(el);
+    });
+    // re-append cursor
+    cursor = document.createElement('span');
+    cursor.className = 'surg-cursor';
+    cursor.id = 'surg-cursor';
+    feedBody.appendChild(cursor);
+  }
+
+  function runFeed() {
+    buildLines();
+    var i = 0;
+    var totalDelay = 0;
+
+    LINES.forEach(function(l, idx) {
+      totalDelay += l.delay;
+      var showAt = totalDelay;
+      totalDelay += l.hold;
+
+      setTimeout(function() {
+        if (lineEls[idx]) {
+          lineEls[idx].classList.add('visible');
+          // scroll feed body to keep latest line visible
+          feedBody.scrollTop = feedBody.scrollHeight;
+        }
+      }, showAt);
+    });
+
+    // after last line, trigger takeover
+    setTimeout(triggerTakeover, totalDelay + 300);
+  }
+
+  function triggerTakeover() {
+    // flash the feed a few times then black out
+    var flashCount = 0;
+    var flashInterval = setInterval(function(){
+      feedWrap.style.opacity = feedWrap.style.opacity === '0' ? '1' : '0';
+      flashCount++;
+      if (flashCount >= 6) {
+        clearInterval(flashInterval);
+        feedWrap.style.opacity = '0';
+        showTakeover();
+      }
+    }, 120);
+  }
+
+  function showTakeover() {
+    takeover.classList.add('active');
+
+    setTimeout(function(){
+      toMain.textContent = 'THIS FILE HAS BEEN SUSPENDED';
+      toMain.classList.add('visible');
+    }, 600);
+
+    setTimeout(function(){
+      toSub.innerHTML =
+        'ACCESS REVOKED — ETTRA COMMAND AUTHORITY<br>' +
+        'DOCUMENT: SCP-9798 / ADDENDUM D.3 CONTINUATION<br>' +
+        'REASON: CLASSIFIED';
+      toSub.classList.add('visible');
+    }, 1800);
+
+    setTimeout(function(){
+      toCase.textContent = 'CASE REF: ETTRA-CMD-20XX-0091 — PENDING SENIOR REVIEW';
+      toCase.classList.add('visible');
+    }, 3200);
+
+    setTimeout(function(){
+      toDismiss.classList.add('visible');
+    }, 5000);
+  }
+
+  toDismiss.addEventListener('click', function(){
+    // fade out takeover, restore feed in locked state
+    takeover.style.opacity = '0';
+    setTimeout(function(){
+      takeover.classList.remove('active');
+      feedWrap.style.opacity = '1';
+      feedWrap.style.transition = 'opacity 1s ease';
+      // replace feed body with locked state
+      feedBody.innerHTML =
+        '<span class="line visible dim" style="margin-top:8px;">'+
+        'Further entries to this addendum have been restricted.</span>'+
+        '<span class="line visible dim">'+
+        'No additional documentation is available at your clearance level.</span>';
+    }, 900);
+  });
+
+  // trigger on scroll into view
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting && !started) {
+        started = true;
+        setTimeout(runFeed, 800);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  observer.observe(feedWrap);
+
+})();
+</script>
+[[/html]]
+
+
+
+
+@@ @@
+@@ @@
+@@ @@
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9797]]] | SCP-9798 | [[[SCP-9799]]] >>
+[[/=]]
+[[/div]]
+
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** Ex1.jpeg, LDA_Map.jpeg, Perimeter_Map.jpeg, SRI_Sketch.jpeg
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** Logo-SCP-Default-Anim.svg
+> **Author:** ChaosMageX
+> **License:** CC BY-SA 3.0
+> **Source:** https://scp-wiki.wdfiles.com/local--files/chaos-arts/Logo-SCP-Default-Anim.svg
+
+> **Filename:** Incident_Report_1.jpeg
+
+This image is a composite of:
+
+> **Filename:** ETTRA.png
+> **Author:** [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Incident_report_1.jpeg SCP Foundation Wiki]
+
+> **Filename:** Memo_1.jpeg
+
+This image is a composite of:
+
+> **Filename:** Logo_SCP_Foundation.jpg
+> **Author:** Far2
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Logo_SCP_Foundation.jpg
+
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Memo_1.jpeg SCP Foundation Wiki]
+
+> **Filename:** Memo_2.jpeg
+
+This image is a composite of:
+
+> **Filename:** Logo_SCP_Foundation.jpg
+> **Author:** Far2
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Logo_SCP_Foundation.jpg
+
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Memo_2.jpeg SCP Foundation Wiki]
+
+> **Filename:** SCP_Logo_White_-_Transparent_small.PNG
+
+This image is a composite of:
+
+> **Filename:** Logo_SCP_Foundation.jpg
+> **Author:** Far2
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Logo_SCP_Foundation.jpg
+
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/SCP_Logo_White_Transparent_small.png SCP Foundation Wiki]
+
+> **Filename:** Signage_Memo.jpeg
+
+This image is a composite of:
+
+> **Filename:** Logo_SCP_Foundation.jpg
+> **Author:** Far2
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Logo_SCP_Foundation.jpg
+
+> **Author:**[[*user Broken_King]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/Sinage_Memo.jpeg SCP Foundation Wiki]
+
+> **Filename:** SRI_Prototype.jpg
+> **License:** CC BY 2.0
+
+This image is a composite of:
+
+> **Name:** Artemis I Orion spacecraft
+> **Author:** NASA
+> **License:** Public Domain
+> **Source:** [https://commons.wikimedia.org/wiki/File:Orion_Artemis_1_Spacecraft_Crew_Module.jpg]
+
+> **Name:** Untitled_Artwork
+> **Author:** [[*user Broken_King]]
+> **License:** CC BY 3.0
+> **Source:** [https://scp-sandbox-3.wdfiles.com/local--files/broken-king/SRI_Proto.jpeg]
+
+[[include :scp-wiki:component:license-box-end]]

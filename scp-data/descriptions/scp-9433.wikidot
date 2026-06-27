@@ -1,0 +1,32 @@
+
+	=====
+[[include component:preview
+text=We can just look at it. We don't have to, though. Only if you want.
+]]
+=====
+[[module CSS]]
+/* Hide the original page title */
+#page-title {
+  display: none;
+}
+[[/module]]
+[[>]]
+[[module Rate]]
+[[/>]]
+**Item #:** SCP-9000-ARC
+
+**Object Class:** Safe
+
+**Special Containment Procedures:** In storage at [[[scp-7669 |Site-28]]]. SCP-9000-ARC is held in a locked shipping container at all times; the container is filled with biodegradable loose-fill packing in the event of relocation.
+
+**Description:** SCP-9000-ARC is a concrete statue, spray painted white with Krylon brand paint. It depicts an androgynous nude figure, reclining while pointing to the north.
+
+**Origin:** SCP-9000-ARC was purchased from GoI-012 ("[[[marshall-carter-and-dark-hub |Marshall, Carter and Dark Ltd.]]]") during an auction in Italy. According to GoI-012, it was designed and produced by its defunct in-house art department. Internal records on its production were lost in the intervening years; there is apparently controversy within GoI-012, concerning whether it is a depiction of St. John the Apostle or the Virgin Mary (or, a composite entity). It was purchased for 447.60 pounds.
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9432]]] | SCP-9000-ARC | [[[SCP-9434]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

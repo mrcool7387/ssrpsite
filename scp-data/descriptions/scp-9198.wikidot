@@ -1,0 +1,8 @@
+
+	[[module ListPages category="fragment" parent="." order="name" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-9198-0
+https://scp-wiki.wikidot.com/fragment:scp-9198-1
+--]

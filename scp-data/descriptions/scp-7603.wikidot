@@ -1,0 +1,84 @@
+
+	[[div style="display: none;"]]
+[[include component:image-block
+name=https://scp-wiki.wdfiles.com/local--files/scp-7603/thumbnail-crom.png
+|caption=777
+|width=100%
+|align=center]]
+[[/div]]
+[[include :scp-wiki:info:start]]
+[[=]]
++ SCP-7603
+[[=image https://scp-wiki.wdfiles.com/local--files/scp-7603/thumbnail-crom.png]]
+++ P was for Pluto, Previously.
+++ Presently Primrose.
+----
+
++++ Author:
+[[*User Fantem]] as the Perfectly Pampered Passion Professor
+
++++ Co-Author/Illustrator:
+[[*User Opossumistic]] as Professor Possum, PHD
+
++++ Audiobook:
+[https://youtu.be/EYsZW7bVX3Q SCP Un[REDACTED}]
+[[/=]]
+
+----
+[[=]]
+**Word Count:** 20,104 words / 1 hour 15 minutes
+
+⚠️ **Content warning:** This story contains gore and graphic imagery, transphobia/deadnaming, strong language, blasphemy, domestic abuse and violence, mental and emotional abuse, mentions of sexual abuse and violence, and excessive self harm.
+[[/=]]
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:info-cw]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-0--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-1--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-2--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-3--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-4--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-5--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7603-6--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[[include :scp-wiki:component:ratio-bar base=-- | ex=--]]
+
+
+------
+
+[[include :scp-wiki:component:earthworm
+| first=false| last=false | hub=yes
+| previous-url=/scp-7579 | previous-title=Ø is for Ørkesløs
+| next-url=/scp-7660| next-title=Q is for Questions
+| hub-url=/scp-anthology-hub | hub-title=SCP ANTHOLOGY Hub
+]]
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-7602]]] | SCP-7603 | [[[SCP-7604]]] >>
+[[/div]]
+[[/=]]
+
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Skull_of_Babalon.png
+> **Name:** Canis mesomelas 02 MWNH 103d.JPG & Babalon_seal.png
+> **Author:** Klaus Rassinger und Gerhard Cammerer, Museum Wiesbaden, sigil by Aleister Crowley, edited by Fantem
+> **License:** CC BY-SA 3.0
+> **Source Links:** 
+> [https://commons.wikimedia.org/wiki/File:Canis_mesomelas_02_MWNH_103d.JPG Main image link]
+> [https://commons.wikimedia.org/wiki/File:Babalon_seal.png Sigil image link]
+=====
+> **Files:** The sigils
+> **Author:** Fantem
+> **License:** CC BY-SA 3.0
+=====
+> **Files:** All of the illustrations
+> **Author:** Opossumistic
+> **License:** CC BY-SA 3.0
+[[include :scp-wiki:component:license-box-end]]

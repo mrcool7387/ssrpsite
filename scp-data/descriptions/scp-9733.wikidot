@@ -1,0 +1,222 @@
+
+	[[div style="display:none"]]
+[[include :scp-wiki:theme:flopstyle]]
+[[/div]]
+[[include :scp-wiki:theme:minimal
+|title=Unreality Dept.
+|subtitle=Making the unreal a]]
+
+[[module CSS]]
+#header {
+    background-image: url('http://scp-wiki.wikidot.com/local--files/unreality-hub/Unreality%20Header%20Logo.svg');
+}
+
+
+
+body {
+    color: black;
+}
+
+
+
+#top-bar div.open-menu a {
+    border-radius: 0px;
+    color: white !important;
+    background-color: black;
+    border: none !important;
+    box-shadow: none;
+}
+
+
+
+.scp-image-block {
+    border: solid 1px #000000;
+    box-shadow: none;
+    background: black !important;
+}
+ 
+.scp-image-block .scp-image-caption {
+    color: white;
+    background: black !important;
+    border-top: solid 1px #000000;
+}
+
+
+
+#page-content .rate-box-with-credit-button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 0px !important;
+}
+[[/module]]
+
+=====
+[[include component:preview
+text=That's the least you could give them.]]
+=====
+
+[[include :scp-wiki:info:start]]
+**SCP-9733-D:** Alex Thorley Figures Out Staplers
+by [[*user BlazingPie]]
+
+//That's the least you could give them.//
+
+[[include :scp-wiki:component:ratio-bar pie=--]]
+
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= Decommissioned
+|containment-image= http://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Decommissioned.svg
+|containment-color= 66, 66, 72
+|inc-neutralized-layout = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-five= 0, 0, 0
+|inc-clearance= --]]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9733-D
+|clearance= 5
+|container-class= Decommissioned
+|secondary-class= none
+|disruption-class= none
+|risk-class= none
+]]
+
+[[div style="border-top: 1px solid black; margin-top: 1em"]]
+[[/div]]
+
+[[div style="margin-top: 1em"]]
+[[include :scp-wiki:component:image-block-peppo name=unstapler.jpg|caption=SCP-9733-D prior to its decommission. Photo courtesy of Alex Thorley.]]
+[[/div]]
+
+##black|**SPECIAL CONTAINMENT PROCEDURES:**## The decomissioning of SCP-9733-D has been approved retroactively by the [[[decom-dept-hub|Decommisioning Department]]] by request of the [[[unreality-hub|Department of Unreality]]]. The remains of SCP-9733-D were disposed of.
+
+Alex Thorley is not allowed to purchase a new stapler for any reason. They have been provided with a standard Foundation-issue stapler.
+
+##black|**DESCRIPTION:**## SCP-9733-D was a translucent stapler purchased and temporarily owned by Alex Thorley up until its subsequent decommission; any object stapled with SCP-9733-D would cease to exist, this effect could be reversed by removing the leftover staple from a given nonexistent object. The precise nature of this anomaly and any further intricacies of SCP-9733-D are presumably only known to Alex Thorley.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+= [[span style="border-bottom: 1px solid black; box-shadow: 0px 1px 0px black"]]**ADDENDUM 9733/1 | INTERVIEW LOG**[[/span]]
+
+The following interview, conducted by Department of Unreality Director John Doe, took place after the decomissioning of SCP-9733-D was reported by Alex Thorley.  
+
+[[div style="border: 3px solid black; background: white; padding: 0 1em"]]
+
+= **##black|[BEGIN LOG]##**
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+**John Doe:** Why did you buy SCP-9733-D?
+
+**Alex Thorley:** I needed a stapler, and I saw one at the store.
+
+**John Doe:** Anything else? Any deeper meaning? Maybe some hidden motives?
+
+//Alex Thorley winces, becoming visibly uncomfortable.//
+
+**Alex Thorley:** What?
+
+**John Doe:** Answer the question, please.
+
+//Alex Thorley remains silent for a few seconds longer than usual.//
+
+**Alex Thorley:** It was... pretty? I guess? I don't know.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+= **##black|[END LOG]##**
+
+[[/div]]
+
+Alex Thorley has consistently refused to elaborate further on any and all points they made during this interview.
+
+[[div style="border-top: 1px solid black; margin-top: 1em"]]
+[[/div]]
+
+= [[span style="border-bottom: 1px solid black; box-shadow: 0px 1px 0px black"]]**ADDENDUM 9733/2 | TESTING LOG**[[/span]]
+
+The following testing log was compiled based on the retrieved security footage of Alex Thorley's private quarters.
+
+[[div style="border: 3px solid black; background: white; padding: 0 1em"]]
+
+##black|**TESTED OBJECT:**## Two sheets of paper, existent.
+##black|**OUTCOME:**## Objects successfully stapled together and ceased to exist. Alex Thorley expressed confusion for a brief moment before noticing the leftover staple on their desk.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Two sheets of paper, nonexistent.
+##black|**OUTCOME:**## The leftover staple successfully straightened out by Alex Thorley, both sheets of paper came back into existence, now displaying holes consistent with stapling.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Air in the room, existent.
+##black|**OUTCOME:**## Object successfully stapled and ceased to exist. Alex Thorley struggled to take their next breath, immediately prompting the next test.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Air in the room, nonexistent.
+##black|**OUTCOME:**## The leftover staple successfully straightened out by Alex Thorley, air came back into existence, now displaying holes consistent with stapling. By order of the Department of Unreality, an additional air conditioning unit was connected to Alex Thorley's quarters.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Nothing, existent.
+##black|**OUTCOME:**## Object successfully stapled and ceased to exist. 
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Nothing, nonexistent.
+##black|**OUTCOME:**## The leftover staple successfully straightened out by Alex Thorley, in place of nothing, another instance of SCP-9733-D came into existence.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Two SCP-9733-D, existent.
+##black|**OUTCOME:**## Objects successfully stapled together and ceased to exist.
+
+[[div style="border-top: 1px solid black"]]
+[[/div]]
+
+##black|**TESTED OBJECT:**## Two SCP-9733-D, nonexistent.
+##black|**OUTCOME:**## A single piece of pink glitter fell onto Alex Thorley's desk, prompting them to audibly gasp. They stared at it for a short while, then left the room.
+
+[[/div]]
+
+It is currently unknown if the glittery and appealing nature of SCP-9733-D contributed to the course of events described above. Due to concerns over Alex Thorley's mental health, this hypothetical will not be investigated.
+
+[[div style="border-top: 1px solid black; margin-top: 1em"]]
+[[/div]]
+
+= [[span style="border-bottom: 1px solid black; box-shadow: 0px 1px 0px black"]]**ADDENDUM 9733/3 | FILE PHOTO**[[/span]]
+
+[[div style="margin-top: 1em"]]
+[[include component:image-block name=stapler.jpg|caption=The current stapler of Alex Thorley. Photo courtesy of Alex Thorley.|align=center]]
+[[/div]]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-9732]]] | SCP-9733-D | [[[SCP-9734]]] >>
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** unstapler.jpg
+> **Author:** James Bowe
+> **License:** Creative Commons Attribution 2.0 Generic
+> **Source Link:** [*https://commons.wikimedia.org/wiki/File:Stapler_(4761466019).jpg Wikimedia Commons]
+> **Notes:** Color adjusted by [[*user BlazingPie]]
+
+> **Filename:** stapler.jpg
+> **Author:** BGN-WMCO
+> **License:** Creative Commons Attribution-Share Alike 3.0 Unported
+> **Source Link:** [*https://commons.wikimedia.org/wiki/File:Stapler.JPG Wikimedia Commons]
+> **Notes:** Cropped and color adjusted by [[*user BlazingPie]]
+[[include :scp-wiki:component:license-box-end]]

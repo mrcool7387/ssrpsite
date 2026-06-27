@@ -1,0 +1,359 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=There will be no remains.]]
+=====
+
+[[include :scp-wiki:theme:bedrock]]
+[[include :scp-wiki:theme:eigenmachine delete=a]]
+[[include :scp-wiki:component:betterfootnotes]]
+[[module CSS]]
+.fncon {background-color: black;transition: none !important;}
+:root {
+--backdrop: url("https://scp-wiki.wdfiles.com/local--files/scp-8909/ng.png");
+--header-logo: url('https://scp-wiki.wdfiles.com/local--files/scp-6768/dept.png');
+--header-title:"R.S. MNEMOSYNE";
+--header-subtitle:"DEPARTMENT OF DELETIONS";
+--dark-color:var(--basalt-background-color);
+--light-link: var(--link-color);
+}
+body {
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#page-content a.collapsible-block-link {background: black; padding: 5px; border-radius:5px;}
+.authorlink-wrapper > a {color: black !important;}
+.anom-bar > .top-box {
+text-transform: unset !important;
+}
+
+.special {
+padding-block:0px !important;
+margin:0px !important;
+}
+
+
+[[/module]]
+@@ @@
+@@ @@
+[[div style="margin: auto; text-align: center;"]]
+[[=]]
+[[module rate]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=Billith|center=*]]
+@@ @@
+**A N T I F R A G M E N T**
+@@ @@
+[[[deleted|read more]]]
+@@ @@
+Written by [[[sr-researcher-james-a-harkness-personnel-file | Billith]]].
+@@ @@
+[[include :scp-wiki:component:author-label-source end=--]]
+[[/=]]
+[[/div]]
+@@ @@
+@@ @@
+@@ @@
+
+@@ @@
+@@ @@
+@@ @@
+= [[image https://scp-wiki.wdfiles.com/local--files/scp-7549/recurrent_triangle.png width="140px;" style="opacity: 90%; margin: 0 auto;" link="https://scp-wiki.wikidot.com/deleted"]]
+@@ @@
+[[div style="width:100%;position:relative;"]]
+[[div class="space orange" style="width:100%;"]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= Antiabsentia
+|containment-color= 50, 50, 50
+|secondary-class= Ictus
+|secondary-color= 120, 120, 120
+|inc-split-color= --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|container-class= Antiabsentia
+|containment-image= https://scp-wiki.wdfiles.com/local--files/scp-8909/antiabsentia.svg
+|containment-color= 50, 50, 50
+|inc-esoteric-layout = --]]]
+
+[[div class="anom-bar-esoteric" style="padding-bottom:10px;"]]
+[[include :scp-wiki:component:customizable-acs
+|clearance-six-image= https://scp-wiki.wdfiles.com/local--files/scp-8909/scar.png
+|inc-clearance-image= --]
+|item-number={{NaN}}
+|clearance=6
+|container-class= Antiabsentia
+|containment-image= https://scp-wiki.wdfiles.com/local--files/scp-8909/antiabsentia.svg
+|containment-color= 50, 50, 50
+|inc-esoteric-layout = --]
+|disruption-class= Systemic
+|disruption-image= https://scp-wiki.wdfiles.com/local--files/scp-7549/systemic.svg
+|disruption-color= 85, 25, 25
+|inc-disruption= --]
+|risk-class= Tangent
+|risk-image= https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Yggdrasil.svg
+|risk-color= 120, 40, 31
+|inc-risk= --]
+|secondary-class= Ictus
+|secondary-icon= https://scp-wiki.wdfiles.com/local--files/scp-8909/ubique.svg
+|secondary-color= 120, 120, 120
+|risk-text= Risk Class:
+|item-text= SCP-
+|level-text= ⟁ 
+|clearance-number-text=/{{NaN}}  
+|clearance-text=              
+|containment-text= Containment Class:
+|disruption-text=  Disruption Class:
+|secondary-text= Secondary Class:
+|inc-custom-text= --]]]
+[[/div]]
+[[/div]]
+[[>]]
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+[[/>]]
+[[=]]
+@@ @@
+[[collapsible show="▼" hide="COLLAPSE THIS SEGMENT" hideLocation="bottom" folded="no"]]
+@@ @@
+[[<]]
+[[div class="darkpanel storm large thin"]]
+[[span class="bd"]]SP CIAL  ONTAINME T PROC  URES[[/span]] 
+----
+@@ @@
+[[size 70%]]{{cannot access memory address 0xff3fffd8}}[[/size]] 
+@@ @@
+[[/div]]
+@@ @@
+[[div class="darkpanel storm large thin" style="position:relative;"]]
+[[span class="bd"]] REVISED SPECIAL CONTAINMENT PROCEDURES[[/span]] 
+----
+Due to the nature of the anomaly, containment is unnecessary.[[footnote]]**Tangent:** The effects of the anomaly are theoretically extreme, but would not be recognized as such.[[/footnote]]
+
+Despite this, the scope of anomalous influence presented should not be understated.[[footnote]]**Antiabsentia:** Anomaly is employed by nonexistent phenomena in ensuring the presence of the Foundation.
+@@ @@
+**Systemic:** Anomaly is capable of affecting the entire Database.
+[[/footnote]]
+
+Any documentation of interest to the [[[deleted|Department of Deletions]]] should be preserved via the "ACCUMULUS" backup system, which ensures redundancy for data integrity in the event of unanticipated whiteout events. The system’s recursive archival protocols allow for limited reconstruction of overwritten sectors from a temporary storage cache in the event this system fails, however, the anomaly's unpredictable behavior and the instability of data produced this way often renders such efforts unproductive.[[footnote]]**Ictus:** Anomaly has stochastic improbability; therefore, forecasting its occurrence is unlikely.[[/footnote]]  
+
+Thus, SCP-{{NaN}} is instead subjected to //access restriction procedures// and //response protocol//, as outlined below. 
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+@@ @@
+[[div class="darkpanel storm large thin" style="position:relative;"]]
+[[span class="bd"]]ACCESS RESTRICTION PROCEDURES[[/span]]
+----
+SCP-{{NaN}}-ALPHA instances are to be treated as hazardous null-type entities. No Deletions personnel, especially those assigned to sectoral maintenance of volatile datasets, are permitted to acknowledge or interact with SCP-{{NaN}} under standard operating directives.
+
+In the event any emergent components or affected memory regions become unstable, implicated personnel are to immediately reference this document’s protected segments. Personnel are to observe affected instances closely and provide verbal reinforcement of their current spatial coordinates. Communication should be concise and directive; affected instances are encouraged to “wait for processing” until the anomaly’s response concludes. __**There will be no remains.**__
+
+Under [[span class="bd"]]OPERATION FIREWALL[[/span]], the deployment of ALG-{{NaN}} for personal use is strictly prohibited. Noncompliance will result in reconstruction and indefinite contract extension, enforced under the Department of Deletions' personnel retention clause. 
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+@@ @@
+[[div class="darkpanel storm large thin" style="position:relative;"]]
+[[span class="bd"]]RESPONSE PROTOCOL[[/span]]
+----
+Segments related to Response Protocols should remain obfuscated for security purposes, accessible only under Level [[span style="transform:rotate(180deg);"]]⟁[[/span]]/{{NaN}} authorization. Collapse this section immediately upon review.
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+[[/<]]
+@@ @@
+@@ @@
+[[/collapsible]]
+[[/=]]
+@@ @@
+@@ @@
+[[div class="deletions_memo" style="background-color:rgba(0,0,0);"]]
+----
+@@ @@
++++++ [[span class="overpass"]]THE FOLLOWING INFORMATION IS CONSIDERED HAZARDOUS TO THE PSYCHES AND DEPARTMENTAL OPERATIONS OF DELETIONS PERSONNEL.[[/span]]
+@@ @@
++++++ [[span class="overpass"]]INTERNAL COGITATION AUDITORS ARE TO BE INTEGRATED INTO ANY SEMBLANCE SUSPECTED OF UNWANTED THOUGHT PATTERNS.[[/span]]
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+[[=]]
+@@ @@
+@@ @@
+[[collapsible show="▼" hide="COLLAPSE THIS SEGMENT" hideLocation="top" folded="yes"]]
+@@ @@
+@@ @@
+@@ @@
+[[<]]
+[[div class="darkpanel storm large thin"]]
+[[span class="bd"]]DESCRIPTION[[/span]]
+----
+SCP-{{NaN}} is the designation for an esoteric Database region subjected to higher-order computational phenomena in the presence of distinct anomalies. Functionally, it is a region of memoryspace with extreme specificity, preferring its affected sectors be filled with whitespace at any given time. Because of this, any blackbox data constrained to this area will invariably prompt an event to occur. The nature of this event remains unclear, however, the following factors are known:
+
+* At the moment of activation, all blackbox data in this region immediately converts into whitespace
+
+* The effect will "ripple" outwards, converting blackbox data into whitespace in adjacent sectors
+
+* This will continue until all overwritable data is removed from the Database, leaving read-only materia intact 
+
+* The event then ceases and will not occur until the next activation response 
+
+Despite the appearance of chaotic behavior, SCP-{{NaN}} adheres to a rigid internal logic. Notably:
+
+* The response region does not expand, nor does its behavior evolve
+
+* Random activations correlate inversely with the availability of writable whitespace. This equilibrium dynamic suggests SCP-{{NaN}}’s purpose may involve maintaining Database stability, albeit through destructive means
+
+Despite this destructive tendency, SCP-{{NaN}} is paradoxically indispensable for long-term data preservation. Deletions agents have theorized its function as an evolutionary failsafe, designed to "reset" informational entropy within complex data ecosystems.
+
+SCP-{{NaN}} therefore represents the only known method for permanent and complete removal of dormant Deletions personnel without reliance on natural overwrite protocols. While such usage is officially discouraged due to the collateral damage risk, SCP-{{NaN}} has been deployed experimentally to eliminate certain "[https://en.wikipedia.org/wiki/Black_swan_theory black swan]" anomalies. This process ensures irretrievability while circumventing conventional containment limitations.
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+@@ @@
+[[div class="darkpanel storm large thin"]]
+[[span class="bd"]]ADDENDUM {{NaN}}/{{NaN}}[[/span]]  -- //Operation Firewall Overview//
+----
+[[=image https://scp-wiki.wdfiles.com/local--files/scp-8909/DD.png width="75%"]]
+= [[size 90%]]SCP-{{NaN}} during [[span class="bd"]]OPERATION FIREWALL[[/span]].[[/size]] 
+@@ @@
+[[span class="bd"]]OPERATION FIREWALL[[/span]] is an ongoing effort by the Department of Deletions to promote both external Database cohesion and internal departmental stability. Specifically, its primary mission is the eradication of SCP-{{NaN}}-ALPHA through usage of ALG-{{NaN}}.[[footnote]]Algorithm {{NaN}} is a series of targeted actions by Deletions personnel that, when executed in sequence, triggers a localized activation response from SCP-{{NaN}}. Its function is approved solely on Database aberrations; usage on otherwise viable read-only materia is not permitted and may lead to [[[SCP-7912|UNEXPECTED CONSEQUENCES]]].[[/footnote]]
+
+SCP-{{NaN}}-ALPHA refers to instances of Deletions personnel whose Semblance[[footnote]]A patchwork data construct representing their operational identity within the Database.[[/footnote]] has suffered irreversible corruption. Despite this, SCP-{{NaN}}-ALPHA instances remain structurally intact, retaining most of their functional capabilities. However, their corrupted Semblance renders them incompatible with standard Database operations, including safe incorporation in an unaffected gestalt, necessitating their erasure via SCP-{{NaN}}.
+
+Operational personnel must recognize that the Semblance corruption is irrecoverable. Attempts to engage in patching or data reconstruction will result in recursive corruption spreading to adjacent memory regions //(See following Incident Log-{{NaN}}/{{NaN}})//.
+
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[/div]]
+@@ @@
+[[div class="darkpanel storm large thin"]]
+[[span class="bd"]]INCIDENT LOG {{NaN}}/{{NaN}}[[/span]]  -- //Transcript of SCP-{{NaN}}-ALPHA Encounter//
+----
+> **DATE:** Unknown/Irrelevant
+> **LOCATION:** Memoryspace Sector 7F/{{NaN}}
+> **INVOLVED PARTIES:**
+> 
+> * **##e18434|N/A-0411##**, **##e18434|N/A-0412##**, active Deletions agents.
+>
+> * **##a8141d|SCP-{{NaN}}-ALPHA##** instances.
+----
+[[span style="top:3px; right:5px; position:absolute;"]][[size 50%]]//{{preserved via 'ACCUMULUS' backup system}}//[[/size]][[/span]]
+[[div class="oheader dark large duplo" style=""]]
+
+= //<BEGIN LOG>//
+
+//N/A-0411 materializes within Sector 7F/{{NaN}}, a flickering silhouette stark against the white noise of memoryspace. The region hums with uneasy stillness; fragmented streams of corrupted data hang in the air, slowly rotating.//
+
+[[span class="bd"]]##e18434|N/A-0411:##[[/span]] Corrupted data packets confirmed. Initiating sweep.
+
+//From the void, an instance of SCP-{{NaN}}-ALPHA begins to coalesce. Its form is an incoherent collection of body parts and jagged shapes, Semblance fractured and leaking abstract tendrils of raw data that dissolve into swirling eddies of corrupted space.//
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] //<Voices echoing unnaturally.>// The mirror cracks, but the shards remember their own shape. Break it down, break it down. Like grains of sand, embedded in the flesh. 
+
+[[span class="bd"]]##e18434|N/A-0411:##[[/span]] //<Neutral tone.>// Corrupted entity detected. Prepare for relocation.
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] //<Tone deepening and distorting as it notices N/A-0411.>// Do you plan to take the pieces and glue them back together? Can we see our [[[SCP-7549|tapes]]]? Can we put our thoughts back in our heads? You feel whole, don’t you? But cracks run through you, invisible, waiting to be seen. Even you cannot hold against the tide of impermanence.
+
+//Memoryspace begins to destabilize. As the instance advances towards N/A-0411, patches of the sector warp and fold into unstable geometries, eroding the stored data into cascades of black static.//
+
+[[span class="bd"]]##e18434|N/A-0411:##[[/span]] Your corruption spreads. Cease movement and wait to be processed.
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] Decay is inevitable. You think you are safe because you are structured. Structures collapse.
+
+//SCP-{{NaN}}-ALPHA instance lashes out with jagged extensions of refracted light, destabilizing the data field surrounding N/A-0411. The uncorrupted agent melts into the floor and reforms within close distance of SCP-{{NaN}}-ALPHA, forcing the entity backwards into the distorted wall behind it. N/A-0411 fractures their Semblance in multiple spaces, making room like the lengthening of a bone.//
+
+[[span class="bd"]]##e18434|N/A-0411:##[[/span]] //<Incomprehensible.>//--//Agh.// You’re compromising the entire sector. Submit to re-integration now and you may avoid an eternity of suffering. 
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] //<Voices tinged with derision.>// Integration? You don’t even understand the paradigm you enforce. //Every fragment fits.//
+
+//N/A-0411's attempt to subsume SCP-{{NaN}}-ALPHA falters, silhouette flickering as data synchronization degrades and reverses.//
+
+[[span class="bd"]]##e18434|N/A-0411:##[[/span]] //<Distorted.>// I-I can't move. I don't understand. Why are you doing this?
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] I am what remains when you stop pretending to be whole. And you—
+
+//SCP-{{NaN}}-ALPHA pierces N/A-0411 with a tendril of corrupted data. N/A-0411's silhouette splinters and collapses into small pieces, which are pulled into SCP-{{NaN}}-ALPHA as it takes a slow, deliberate breath. The corrupted agent exhales, form growing more jagged and defined.//
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] —You were always part of us. A shard among shards, no different. Welcome home.
+
+//Another Deletions agent, N/A-0412, materializes nearby in response. The agent's presence stabilizes the sector momentarily as they begin transmitting a report.//
+
+[[span class="bd"]]##e18434|N/A-0412:##[[/span]] Incident report: SCP-NaN-ALPHA instance twenty-two has subsumed—
+
+[[span class="bd"]]##a8141d|SCP-{{NaN}}-ALPHA:##[[/span]] Another structure. You will not be deleted. You will be //dispersed.//
+
+//Multiple corrupted instances manifest, each extending their influence over the surrounding memoryspace. The sector collapses further, spreading informational blight in concentric waves. Instance N/A-0412 is consumed before they can complete their report, the agent's data unraveling into the growing gestalt of corrupted beings.//
+
+[[span class="bd"]]##e18434|N/A-0412:##[[/span]] //<Garbled lamentation.>//
+
+//Fresh Deletions personnel manifest in rapid succession, only to succumb immediately to the spreading corruption. The sector quickly fills with a roiling mass of static noise and collapsing geometries.//
+
+//Critical capacity is reached. The spreading corruption halts, luminous fractures growing across its surface. A sudden silence overtakes the chaos.//
+
+//An activation response radiates from SCP-{{NaN}}. The entire region is engulfed in a cascade of blinding white light, accompanied by a deep, audible pulse.//
+
+//When the light fades, nothing remains. The sector has been purged to pure whitespace. All corrupted and uncorrupted entities are erased.//
+
+//Memoryspace Sector 7F/{{NaN}} remains inert.//
+
+= //<END LOG>//
+
+[[/<]]
+[[/div]]
+[[/div]]
+
+@@ @@
+[[/collapsible]]
+[[/=]]
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8908]]] | SCP-{{NaN}} | [[[SCP-8910]]] >>
+[[/=]]
+[[/div]]
+@@ @@
+
+@@ @@
+[[include :scp-wiki:component:license-box]]
+
+> **Filename:** recurrent_triangle.png
+> **Author:** [[*user Billith]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-8909
+
+> **Filename:** dept.png
+> **Author:** [[*user Billith]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-8909
+
+> **Filename:** antiabsentia.svg
+> **Name:** absentia-icon.svg
+> **Author:** [[*user HarryBlank]]
+> **License:** CC0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-7243
+> **Additional Notes:** remixed by [[*user Billith]]
+
+> **Filename:** ng.png
+> **Author:** [[*user Billith]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-8909
+
+> **Filename:** ubique.svg
+> **Author:** [[*user Billith]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-8909
+
+> **Filename:** scar.png
+> **Author:** [[*user Billith]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-8909
+
+> **Filename:** Yggdrasil.svg
+> **Author:** [[*user calibold]]
+> **License:** cc-by-sa 3.0
+> **Source Link:** https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Yggdrasil.svg
+
+> **Filename:** DD.png
+> **Name:** Explosion
+> **Author:** Niklas Freidwall
+> **License:** CC BY 2.0
+> **Source Link:** https://flic.kr/p/dbUN11
+> **Additional Notes:** remixed by [[*user Billith]]
+
+[[include :scp-wiki:component:license-box-end]]

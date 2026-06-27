@@ -1,0 +1,18 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6998-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6998-2 --]
+
+[[div class="footer-wikiwalk-nav"]]
+= « [[[SCP-6997]]] | SCP-6998 | [[[SCP-6999]]] »
+[[/div]]
+
+[[include component:license-box]]
+[[include component:license-box-end]]

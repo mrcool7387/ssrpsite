@@ -1,0 +1,108 @@
+
+	=====
+[[include component:preview
+text=IT IS THE YEAR 3169. SPACE IS DEAD. ALL EXTANT LIFE FORMS RESIDE IN DIGITA. GOD-EMPEROR REAGAN RULES THE CYBERSPACE.]]
+=====
+
+[!--
+NOTE TO TRANSLATORS:
+good luck lmao
+--]
+
+
+[[=]]
+[[module Rate]]
+[[/=]]
+[[include :scp-wiki:component:ratio-bar base=-- |ex=--]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:9000contestchoccoman-0
+https://scp-wiki.wikidot.com/fragment:9000contestchoccoman-1
+https://scp-wiki.wikidot.com/fragment:9000contestchoccoman-2
+https://scp-wiki.wikidot.com/fragment:9000contestchoccoman-3
+https://scp-wiki.wikidot.com/fragment:9000contestchoccoman-4
+--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+##transparent|%%title%%##
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9898]]] | SCP-9899 | [[[SCP-9900]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** braxton.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** chance.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** splash.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** uplink.gif
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** Image was greenified, and Ronald Reagan was put into a halftone effect. Additional text was overlayed on top.
+> **Derivative Of:** Official Portrait of President Reagan 1981.jpg
+
+> **Name:** Official Portrait of President Reagan 1981.jpg
+> **Author:** Michael Evans
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** whoosh1.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** whoosh2.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+
+> **Filename:** whoosh3.png
+> **Name:** 
+> **Author:** [[*user choccoMan]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** https://scp-wiki.wikidot.com/scp-9899
+> **Additional Notes:** 
+> **Derivative Of:** 
+[[include :scp-wiki:component:license-box-end]]
+
+@@@@
+@@@@
+@@@@
+
+[[collapsible show="show comments" hide="hide comments"]]
+[[module comments]]
+[[/collapsible]]

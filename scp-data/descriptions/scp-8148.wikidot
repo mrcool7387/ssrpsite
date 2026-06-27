@@ -1,0 +1,26 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-8148-0
+https://scp-wiki.wikidot.com/fragment:scp-8148-1
+https://scp-wiki.wikidot.com/fragment:scp-8148-2
+https://scp-wiki.wikidot.com/fragment:scp-8148-3
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8147]]] | SCP-8148 | [[[SCP-8149]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

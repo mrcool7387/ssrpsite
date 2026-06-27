@@ -1,1 +1,0 @@
-SCP-008 is a complex prion that is highly contagious to life, being able to spread rapidly through bodily fluids and droplets. It is contained inside a pressurized gas pipe with its valve left open. Mobile Task Force Beta-7 are specialised at dealing with infectious SCPs such as SCP 008-1 when breaches occur.

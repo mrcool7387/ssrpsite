@@ -1,0 +1,43 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4932A MAIN SCP --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4932B TERMINAL --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4931]]] | SCP-4932 | [[[SCP-4933]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** AlaskaRed.png
+> **Name:** USA Alaska location map.svg
+> **Author:** Alexrk2
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/file:uSA_Alaska_location_map.svg Wikimedia Commons]
+
+> **Filename:** Buildings.png
+> **Author:** [[*user westrin]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-4932 SCP Foundation Wiki]
+
+> **Filename:** Them.png
+> **Author:** [[*user caimanchameleon]], [[*user henzoid]], [[*user westrin]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-4932 SCP Foundation Wiki]
+
+> **Filename:** They.png
+> **Author:** [[*user caimanchameleon]], [[*user henzoid]], [[*user westrin]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-4932 SCP Foundation Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]

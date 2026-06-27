@@ -1,0 +1,41 @@
+
+	[[include :scp-wiki:theme:unusual-cargo]]
+[[module CSS]]
+#header::before {
+  background: url("http://scp-wiki.wdfiles.com/local--files/theme%3Awriting-anomalies/THX%40");
+background-size: 110px;
+  background-repeat: no-repeat;
+}
+#header h1 a::before {
+  content: "Secure, Contain, Protect";
+}
+
+#header h2 span::before {
+  content: "SCP Foundation";
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:glitch-elements]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|1 "created_by="Fireknight"]]
+%%content%%
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-9924-0
+https://scp-wiki.wikidot.com/fragment:scp-9924-1
+https://scp-wiki.wikidot.com/fragment:scp-9924-2
+https://scp-wiki.wikidot.com/fragment:scp-9924-3
+https://scp-wiki.wikidot.com/fragment:scp-9924-4
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9923]]] | SCP-9924 | [[[SCP-9925]]] >>
+[[/=]]
+[[/div]]

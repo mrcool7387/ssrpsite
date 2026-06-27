@@ -1,0 +1,34 @@
+
+	=====
+[[include component:preview
+text=1. If this wall still stands unbroken, then leave this place.
+]]
+=====
+
+[[include :scp-wiki:theme:basalt]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**SCP-9464:** A Place of Honour
+//Word count: 552 words//
+
+**Author:** [https://scp-wiki.wikidot.com/feathersnake feathersnake]
+[[/=]]
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:theme:basalt darkmode=a]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+@@@@
+@@@@
+@@@@
+@@@@
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9463]]] | SCP-9464 | [[[SCP-9465]]] >>
+[[/=]]
+[[/div]]

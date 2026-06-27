@@ -1,0 +1,47 @@
+
+	[[include component:preview text= Who knew playing Jenga could save a worldwide disaster from an ancient tower.]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Fermentating]]
+
+[[include :scp-wiki:component:author-label-source end=--]]
+
+
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestfermentating-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestfermentating-1 --]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** Discovery
+> **Name:** It stands tall, uncannily.
+> **Author:** [[*user Fermentating]]
+> **License:** CC0 1.0
+> **Source Link:** https://commons.m.wikimedia.org/wiki/File:Bayanzag_10.jpg
+> **Additional Notes:** //Image edited by// [[*user Fermentating]]
+
+> **Filename:** angry 9000
+> **Author:** Yanish E
+> **License:** CC BY 4.0
+> **Source Link:** http://scp-wiki.wikidot.com/local--files/9000contestfermentating/angry%209000
+> **Additional Notes:** //Image edited by// [[*user Fermentating]]
+
+> **Filename:** Middle Of The Earth, Middle Of the Throne
+> **Author:** [[*user Fermentating]]
+> **License:** CC0 Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:The_Dragon_Throne_Pekin.jpg
+> **Additional Notes:** //Image slightly edited by// [[*user Fermentating]]
+
+> **Filename:** calm 9000
+> **Author:** lwtt93
+> **License:** CC BY 2.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Xinjiang_Sunset_in_the_Gobi_desert_(5270646017).jpg
+> **Additional Notes:** //Image edited by// [[*user Fermentating]] //with the help of// [[*user BAD_DATA]]
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,2093 @@
+
+	=====
+[[include component:preview text=You are not my mother.]]
+=====
+[[include :scp-wiki:component:dynamic-emails code=--]]
+[[include :scp-wiki:info:start]]
+⚠️ **Content warning:** Alcoholism, Parental neglect, Abusive familial relationships
+[[include :scp-wiki:info:end]]
+[[include :scp-wiki:component:info-cw]]
+
+[[module css]]
+.textbox {
+      border: 3px solid #444444;
+      color: black;
+      padding: 1em;
+      margin: 1em;
+}
+.logs {
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    width: 97.7%;
+}
+ 
+.logs-header {
+    text-align: center;
+    border-bottom: 2px solid #444444;
+}
+ 
+table.dialog {
+    border-collapse: collapse;
+}
+ 
+table.dialog th {
+    font-family: var(--display-font);
+    padding: 1.1em 1em 0em 1em;
+}
+ 
+table.dialog td {
+    font-family: var(--dialogue-font);
+    padding: 1.15em 0em 0em 0.8em;
+}
+
+#page-content table.dialog,
+#page-content table.dialog th,
+#page-content table.dialog td {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  padding: 0 !important;
+}
+
+#page-content table.dialog {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  background: transparent !important;
+  margin: 0 0 1rem 0 !important;
+}
+
+#page-content table.dialog th {
+  font-family: var(--display-font), system-ui, sans-serif !important;
+  padding: 0.75em !important;
+  border-right: 2px solid #444444 !important;
+  text-align: left !important;
+  width: 18%;
+  vertical-align: top;
+}
+
+#page-content table.dialog td {
+  font-family: var(--dialogue-font), system-ui, sans-serif !important;
+  font-size: 1.15em !important;
+  padding: 0.75em !important;
+  color: #000 !important;
+}
+
+#page-content table.dialog th,
+#page-content table.dialog td {
+  font-size: 1em !important;
+}
+[[/module]]
+
+**Item #:** SCP-9890
+
+**Object Class:** Euclid
+
+**Special Containment Procedures:** The Foundation is to be alerted to any reported "resurrections" or of individuals found to be living despite having a valid death certificate issued under their identity. Any such individuals are to be screened for the possibility of being SCP-9890 instances. Known SCP-9890 instances are to be contained within a standard humanoid containment cell. All non-Foundation personnel exposed to the anomaly are to be amnesticized.
+
+**Description:** SCP-9890 refers to perfect biological copies of recently deceased individuals. Each SCP-9890 instance is identical in every aspect to the individual it is mimicking, including retaining the individual's memories. Upon manifestation, an SCP-9890 instance attempts to establish contact with the deceased individual’s close relatives, relying on them for basic care and support consistent with typical human relationships. 
+
+As of 10-28-2025, seven SCP-9890 instances have been reported globally, designated SCP-9890-1 through 7. Each case involves the reappearance of a deceased individual within 2–174 days of their confirmed death. Investigation into a potential common origin or trigger event is ongoing.
+
+**Addendum — Initial Discovery:** The first recorded instance of SCP-9890 occurred on 9-14-2025, when Researcher Ethan Holt was approached outside his residence by his mother, Diane Holt, approximately two months after her death. Researcher Holt immediately contacted the Foundation, resulting in containment of the SCP-9890 instance. It was subsequently transferred to the nearby Site-149.
+
+**Addendum — Research:** Upon containment, the instance refused to communicate with anyone except Researcher Holt. Despite his objections, Holt was assigned as Head Researcher to ensure cooperation and continued communication with the anomaly.
+
+[[div class="textbox"]]
+[[div class="logs"]]
+[[div class="logs-header"]]
+**INTERVIEW 1**
+[[<]]
+**Date:** 9-15-2025
+**Interviewer:** Researcher Ethan Holt
+**Subject:** SCP-9890-1 (“Diane Holt”)
+**Location:** Interview Room 2, Site-149
+[[/<]]
+
+[[/div]]
+[[table class="dialog"]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[The doors to the interview room open and Researcher Holt enters. He sits down at the table opposite SCP-9890-1 and places a notepad with a pen on the table. Both remain silent for a moment.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Good day. I am Researcher Ethan Holt. I have been tasked with conducting this interview. Before we start, what would you like to be addressed as?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Hi, Ethan.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Please answer my question.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Whatever you'd like.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt writes something in his notepad.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Let me begin with a simple question. 9890, can you please explain what you are?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What am I?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Yes.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What kind of question is that, Ethan?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Please answer.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What do you want me to say? Your mother?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt sighs and stares at 9890-1 briefly before speaking.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I saw my mother being buried with my own eyes. Whatever you're trying won't work. This will go much easier if you cooperate. Now please, what are you?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[SCP-9890-1 scoffs and stays quiet for a moment.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I am Diane Holt. Your mother.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt says nothing and writes in his notepad.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Can you please explain your origin?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What are these questions, Ethan? Why are you asking me that?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Please answer the question.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+No, Ethan. You need to tell me what's going on.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+9890, this interview will go much smoother if you cooperate.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Why are you calling me that, Ethan? Is this meant to be some sort of punishment for what happened last time? I already told you I'm sorry. I know you're angry, but you can't just treat me this way. I'm still your mothe—
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You are **not** my mother.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Both remain silent for a moment.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I strongly encourage you to start cooperating. It will be easier for all of us.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[He writes briefly on his notepad, tears out a page and slides it across the table.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Think about the answers to these questions please. We will continue this tomorrow.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt packs up and leaves the room.]//
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:dynamic-emails start=--
+|from=  ethan.holt82@scp.int
+|to= james.donovan@scp.int
+|cc= none
+|subject= SCP-9890 Interview Reassignment
+]]
+Director Donovan,
+
+I once again would like to request reassignment from SCP-9890. The anomaly is persistent in maintaining the act of being my mother, and it is becoming increasingly difficult to maintain professionalism. Considering the circumstances, I believe that a different researcher would be better suited to conduct the interviews.
+[[include :scp-wiki:component:dynamic-emails end=--
+|name= Ethan Holt
+|title= Researcher, Site-149
+|signoff=Secure. Contain. Protect.
+|signoff-icon=https://scp-wiki.wikidot.com/local--files/component:dynamic-emails/transparent.png
+]]
+
+[[include :scp-wiki:component:dynamic-emails start=--
+|from=  james.donovan@scp.int
+|to= ethan.holt82@scp.int
+|cc= none
+|subject= Re: SCP-9890 Interview Reassignment
+]]
+Researcher Holt,
+
+I am sorry, but I must deny your request. You remain the only person the anomaly has shown willingness to speak with. I do not believe it is wise to burn that bridge before even trying. If the anomaly is so adamant in upholding the act, I suggest you consider engaging with it on its terms for now.
+[[include :scp-wiki:component:dynamic-emails end=--
+|name= James Donovan
+|title= Director of Site-149
+|signoff=Secure. Contain. Protect.
+|signoff-icon=https://scp-wiki.wikidot.com/local--files/component:dynamic-emails/transparent.png
+]]
+
+[[div class="textbox"]]
+[[div class="logs"]]
+[[div class="logs-header"]]
+**INTERVIEW 2**
+[[<]]
+**Date:** 9-16-2025
+**Interviewer:** Researcher Ethan Holt
+**Subject:** SCP-9890-1 (“Diane Holt”)
+**Location:** Interview Room 2, Site-149
+[[/<]]
+
+[[/div]]
+
+[[table class="dialog"]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt enters the room and sits down opposite SCP-9890-1. He places his notepad on the table and clears his throat.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Good day, 9890. Are you ready for today's interview?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Why do you call me those numbers, Ethan?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+That's the designation you have been assigned by the Foundation.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Can't I just be called by my name?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You can. Would you prefer that?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Yes, Ethan. I would prefer that.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Okay, Diane. Are you ready to start?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[SCP-9890-1 doesn’t respond, her eyes fixed on Researcher Holt.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Have you prepared answers to my questions?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+No, Ethan. I can't answer your questions.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Why?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Because they don't make sense. //"Why have you taken the form of Diane Holt?"// Are you serious? What's that even supposed to mean?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt exhales slowly, staying quiet for a moment.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Okay, Diane. I'm sorry. We may have gotten off on the wrong foot. I would like to start over if that's fine with you.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Alright...
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Do you know why you're being held here?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 does not answer.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+The Foundation discovers and researches anomalies. Basically anything that breaks or goes against our normal understanding of the world. For example, supernatural phenomena.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt pauses.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You are one of those anomalies. Diane Holt has been dead for over two months.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 stays quiet.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Now, I would like to figure out how that's possible. And your cooperation would be greatly appreciated.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[A brief, heavy silence fills the room.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I don't know.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+There must be something, Diane. Anything you can tell us.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 hesitates for a moment, looking down.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I just remember waking up near the river... in those wetlands past Stratford Hills.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+What then?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I walked.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Where?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+To you.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Why?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 pauses, looking up at Holt.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I don't know.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Do you remember anything from before waking up?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Not much. I think I was at home watching TV or something.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Sounds about right.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Huh?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+That's where they found you dead.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 doesn't respond.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Anything else you can tell me?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I don't think so.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Okay.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[The room falls silent.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Look, Ethan. I don't know what happened, but it's me, okay?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt does not respond.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You may think I'm some...
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 pauses, searching for words.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Something else, but I'm not. It's me, your mother.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I find that hard to believe.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+It's me, Ethan! I'm the person that used to take you to elementary school. The person that used to bake you cakes every Sunday. The person that used to take you for rides in the car when you couldn't sleep. I'm the one you ran to first when you got a good grade. I took you to Byrd Park in the summers. I brought you hot chocolate when you were cold in the winter. It's me.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt chuckles quietly.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Not what I remember my mother for.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 scoffs.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Of course, you—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You done, or are you going to keep pulling on my feelings?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Sorry for trying my hardest to convince my son that I'm his mother.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I'm not your son.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You can say that all you want, but you are. What would your father—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+**Don't.**
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[A sharp silence fills the room.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+We're family, Ethan.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Some family.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt pauses, looking at 9890-1.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+If you're so sure that you're actually Diane Holt, will you allow us to run tests to prove it?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What tests?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Physical. Blood, DNA and such.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Sure.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Very well.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt gathers his notes and leaves the room. SCP-9890-1 stays seated, staring at the door.]//
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:dynamic-emails start=--
+|from=  chrisreeder@scp.int
+|to= ethan.holt82@scp.int
+|cc= none
+|subject= Grave Request
+]]
+Ethan,
+
+Per your request, we've sent agents to check on your mother's grave. The grave was untouched, nothing out of the ordinary. They opened it up and the body’s still there. Its DNA matches Diane Holt. Everything lines up with the original autopsy report too.
+
+Sorry, but your mother wasn't brought back from the dead.
+[[include :scp-wiki:component:dynamic-emails end=--
+|name= Christopher Reeder
+|title= Researcher, Site-149
+|signoff=Secure. Contain. Protect.
+|signoff-icon=https://scp-wiki.wikidot.com/local--files/component:dynamic-emails/transparent.png
+]]
+
+[[div class="textbox"]]
+[[div class="logs"]]
+[[div class="logs-header"]]
+**INTERVIEW 3**
+[[<]]
+**Date:** 9-17-2025
+**Interviewer:** Researcher Ethan Holt
+**Subject:** SCP-9890-1 (“Diane Holt”)
+**Location:** Interview Room 2, Site-149
+[[/<]]
+
+[[/div]]
+
+[[table class="dialog"]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[The doors open and Researcher Holt enters. He sits at his usual spot.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Good day, Diane.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Hi, Ethan.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[Holt flips through his notes.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I'm afraid there's not much for us to discuss today. The test results aren't back yet. Unless you remembered something new.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Not particularly.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I see.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[They glance at each other as silence fills the room.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You know, I'm sorry, Ethan.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+For what, Diane?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+For what happened with the kids.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[Holt lowers his eyes, staring at the table for a moment.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I totally understand why you cut me off after that. I've just been hoping—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Diane, I don't see how this conversation is relevant.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I've been thinking about... what happened to me. And I think I've been given another chance.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Another chance? 
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Yes, Ethan. God gave me another chance at life. I don't want to waste it. I'd like to use it to rebuild our relationship.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Our relationship is purely professional. Let's not—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Oh, come on, Ethan. Stop with that crap. Haven't I shown you enough to prove it's really me?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Proof? What proof? Everything you’ve said sounds like an attempt to pull at my emotions.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Oh, so me sharing my memories and reminiscing is manipulation now?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Yeah? I wonder, why don’t you reminisce past me in middle school?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Oh, would that convince you? If I started talking about what a drunk I was?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Shit, maybe! That’d be closer to the mother I actually remember.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I know I wasn't perfect, but I loved you, Ethan. I always made sure you were taken care of. I cooked for you, cleaned for—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Fuck off, please. You didn’t starve me, congratulations. Do you want applause?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You always think of me as the villain, but I was the only one taking care of you.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Yeah, no shit. Dad couldn’t. He was dead. At least he didn’t have to see what you became.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You think it was easy for me? I’m sorry I needed to cope somehow.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You’ve been 'coping' for twenty-five years! //"I’ll stop, I’ll get therapy, I’ll find a group."// How’d that go, huh?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You have no idea what it's been like for me!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Right, always about you! What about the thirteen-year-old kid stuck with an alcoholic mother?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Oh, Ethan, I'm not an alcoholic!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Bullshit! Every other day you were blacked out when I came home from school. Take some accountability, for once.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Alcoholics can’t function without alcohol! I went to work, I paid the bills—
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Oh, right. Only half the day you were wasted. My mistake!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+That’s not true! You know I was getting better!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Better? When? When you showed up drunk to babysit? Or when you died surrounded by bottles?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+No wonder I relapsed after you cut me off!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Relapsed? You never stopped! And don’t pretend that came out of nowhere. How many chances did I give you?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 does not respond.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+How many?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You never give up on family!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Don't lecture me about family! You were closer to the bottle than you were to me!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+That's not true!
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Really? What about my birthdays? My graduation? Even my fucking wedding! For fuck's sake, Ma! 
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[Researcher Holt slams the table.]//
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+And you have the nerve to ask for another chance? Another fucking chance?
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]] 
+//[The room falls into silence. Researcher Holt collects his notes, gets up and leaves the room.]//
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:dynamic-emails start=--
+|from=  chrisreeder@scp.int
+|to= ethan.holt82@scp.int
+|cc= none
+|subject= SCP-9890 Lab Results
+]]
+Ethan,
+
+The test results came in. The biological scans came back as a perfect match to Diane Holt. Not just DNA, but everything. Blood type, fingerprints, dental records, even old scar tissue lines up exactly with what’s on her medical file.
+
+I don't know how to tell you this, but for all intents and purposes, that **is** your mother.
+
+Let me know how you want to proceed.
+[[include :scp-wiki:component:dynamic-emails end=--
+|name= Christopher Reeder
+|title= Researcher, Site-149
+|signoff=Secure. Contain. Protect.
+|signoff-icon=https://scp-wiki.wikidot.com/local--files/component:dynamic-emails/transparent.png
+]]
+
+[[div class="textbox"]]
+[[div class="logs"]]
+[[div class="logs-header"]]
+**INTERVIEW 4**
+[[<]]
+**Date:** 9-18-2025
+**Interviewer:** Researcher Ethan Holt
+**Subject:** SCP-9890-1 (“Diane Holt”)
+**Location:** Interview Room 2, Site-149
+[[/<]]
+
+[[/div]]
+
+[[table class="dialog"]]
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[The door opens. Researcher Holt steps in, holding a file folder. He looks visibly tired. SCP-9890-1 is already seated at the table, her hands folded.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Morning, Diane.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Morning, Ethan.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt sits, opens the file, and skims through it for a moment.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+The tests came back.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+And?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+They’re… conclusive.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[He pauses.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Everything matches. You're Diane Holt.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Okay. What does that mean for us?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Not much. It doesn't get us any closer to the real question.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 stays quiet.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+How is it possible that two Dianes exist?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+It's a gift from God, Ethan.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I can't accept that explanation.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Why not? He sent me here to make things right. To be a better mother.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+That’s not why you’re here.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+I know. But it’s why **I’m** here.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt sighs. After a brief pause, he starts packing his things.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+This will be our last interview, Diane.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1: 
+[[/hcell]]
+[[cell]]
+What? Why?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+There's no further point in them. You can't tell us any relevant information.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[9890-1 remains silent.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+You'll be transferred to a long-term containment cell after this. I was able to arrange something more comfortable.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+What? You're keeping me here?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Yes. You're still an anomaly, and there's a lot we don't understand about you.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[She doesn't respond.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+Don't worry. You have been granted a lot of privileges. You'll be well taken care of.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Silence fills the room for a moment.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+You didn't answer my question.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Which one?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+The fact that I'm your mother. What does that mean for us?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+I've told you—
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+No, Ethan. What does it mean for **us**?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+Nothing.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+How can you say that?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt silently stares at her.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Didn't you miss me at all? Did you even care that I died?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt hesitates for a moment before speaking quietly.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt: 
+[[/hcell]]
+[[cell]]
+At first, I didn’t feel anything. I figured it would be that way. I was trying to let you go as much as I could. Well, apparently unsuccessfully, because eventually I started feeling… sad. 
+
+I was sad for what could've been. I knew we'd never have a relationship again, but there always was that lingering //“what if.”// That little bit of hope, as much as I tried to fight it. And it wasn’t there anymore. 
+
+But, I also felt... relieved. Relieved knowing that my mother wasn't drinking herself to sleep anymore. Knowing that it was finally over. 
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[He pauses, his tone hardens.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+And then I realized, how much I just… couldn’t stand you. How much I hated being around you. You looked like my mother, yet you were nothing like her. The wonderful, loving, and caring person I remembered was long gone, replaced by a shell of your former self. A walking reminder of what I lost. And I hated it. I hated you.
+
+So yeah, I felt relieved. Relieved that you were finally gone. All of you. 
+
+You’re not back, Ma. You never will be. I had to accept that, because I can't keep getting hurt. Not again.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+No... you don't mean that.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+I do, Ma. I really do.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt stands up from his chair.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Please, Ethan, don’t leave me here all alone. I don’t have anyone else.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Holt lingers for a moment, then slowly makes his way toward the door.]//
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+SCP-9890-1:
+[[/hcell]]
+[[cell]]
+Ethan! You'd just leave your mother here?
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+Researcher Holt:
+[[/hcell]]
+[[cell]]
+My mother died a long time ago.
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[cell]]
+//[Researcher Holt leaves the room. The door closes behind him.]//
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[include component:wikimodule |ratings= --]]]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9889]]] | SCP-9890 | [[[SCP-9891]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

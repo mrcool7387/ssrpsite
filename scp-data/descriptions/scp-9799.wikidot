@@ -1,0 +1,93 @@
+
+	=====
+[[include component:preview
+text=
+They'll have to look at her, one last scrap of her, and then she won't die.
+]]
+=====
+[[include info:start]]
+**SCP-9799: Woman in Grey** 
+**Author:** [[*user Tufto]]. This is their entry for the SCP-9000 competition. More of their work can be found [[[tufto-personnel-file|here]]].
+**Images:** ronald.jpg is in the public domain, and can be found [https://commons.wikimedia.org/wiki/File:FBI_Laboratory_scientist.jpg here].
+haus.jpg is credited to Fillius, is licensed under CC BY SA 3.0, and can be found [https://commons.wikimedia.org/wiki/File:Bryngarw_House_Early_80s.jpg here].
+teddy.jpg is credited to Hethers, is licensed under CC BY SA 3.0, and can be found [https://commons.wikimedia.org/wiki/File:HighStreetGaietycirca1930.jpg here].
+family.jpg is in the public domain and can be found [https://commons.wikimedia.org/wiki/File:StateLibQld_1_46091_Family_portrait,_1900-1910.jpg here].
+bedroom.jpg is in the public domain and can be found [https://commons.wikimedia.org/wiki/File:Photograph,_House_of_Hector_Guimard,_ca._1910_(CH_18411059).jpg here].
+herbertteddy.jpg is in the pudlib domain and can be found [https://commons.wikimedia.org/wiki/File:%22Christmas_Morning%22_LCCN2005693074.jpg here].
+landscape.jpg is in the public domain and can be found [https://commons.wikimedia.org/wiki/File:%22Beacon_Hill_House,%22_Arthur_Curtiss_James_house,_Beacon_Hill_Road,_Newport,_Rhode_Island._Blue_Garden,_view_to_pergola_LCCN2006684513.tif?page=1 here].
+hidden.jpg is in the public domain and can be found [https://commons.wikimedia.org/wiki/File:Hidden12.jpg here].
+[[include info:end]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contesttufto-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contesttufto-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contesttufto-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contesttufto-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contesttufto-4 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9798]]] | SCP-9799 | [[[SCP-9800]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** ronald.jpg
+> **Author:** [[*user tufto]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-9799 SCP Foundation Wiki]
+> **Additional Notes:** Cropped from original
+> **Derivative Of:**
+> 
+> **Name:** FBI Laboratory scientist
+> **Author:** Unknown
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:FBI_Laboratory_scientist.jpg Wikimedia Commons]
+
+> **Filename:** haus.jpg
+> **Name:** Bryngarw House Early 80s
+> **Author:** Fillius
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Bryngarw_House_Early_80s.jpg Wikimedia Commons]
+
+> **Filename:** teddy.jpg
+> **Name:** HighStreetGaietycirca1930
+> **Author:** Hethurs
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:HighStreetGaietycirca1930.jpg Wikimedia Commons]
+
+> **Filename:** family.jpg
+> **Name:** StateLibQld 1 46091 Family portrait, 1900-1910
+> **Author:** Unknown
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:StateLibQld_1_46091_Family_portrait,_1900-1910.jpg Wikimedia Commons]
+
+> **Filename:** bedroom.jpg
+> **Name:** Photograph, House of Hector Guimard, ca. 1910 (CH 18411059)
+> **Author:** Unknown
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Photograph,_House_of_Hector_Guimard,_ca._1910_(CH_18411059).jpg Wikimedia Commons]
+
+> **Filename:** herbertteddy.jpg
+> **Name:** "Christmas Morning" LCCN2005693074
+> **Author:** Miscellaneous Items in High Demand, PPOC, Library of Congress
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:%22Christmas_Morning%22_LCCN2005693074.jpg Wikimedia Commons]
+
+> **Filename:** landscape.jpg
+> **Name:** "Beacon Hill House," Arthur Curtiss James house, Beacon Hill Road, Newport, Rhode Island. Blue Garden, view to pergola LCCN2006684513
+> **Author:** Johnston, Frances Benjamin
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:%22Beacon_Hill_House,%22_Arthur_Curtiss_James_house,_Beacon_Hill_Road,_Newport,_Rhode_Island._Blue_Garden,_view_to_pergola_LCCN2006684513.tif?page=1 Wikimedia Commons]
+
+> **Filename:** hidden.jpg
+> **Name:** Hidden12
+> **Author:** Неизвестный фотограф II половины XIX века
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Hidden12.jpg Wikimedia Commons]
+[[include :scp-wiki:component:license-box-end]]

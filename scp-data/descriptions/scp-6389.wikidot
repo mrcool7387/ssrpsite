@@ -1,0 +1,57 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include component:ratio-bar base=-- |ex=--]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+
+[[module css]]
+div.notice-box {
+    background: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png) #faf2c3;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    padding: 0 10px 12px;
+    margin: 7px 4px 12px;
+    overflow: hidden;
+}
+ 
+div.notice-box div.image-container img {
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #999;
+}
+[[/module]]
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Agisuru and Tstaffor
+|no-right-margin=*]]
+You can check out more of our works here:
+[[[agisuru|Agisuru's Very Cool Author Page]]]
+[[[tstaffor-s-author-page|Tstaffor's Isolated Containment Terminal]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+
+
+[[module ListPages category="fragment" parent="scp-6389" order="title" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6389-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6389-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6389-3 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6388]]] | SCP-6389 | [[[SCP-6390]]] >>
+[[/=]]
+[[/div]]

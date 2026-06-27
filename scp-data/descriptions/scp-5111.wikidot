@@ -1,0 +1,32 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-5111-1
+http://scp-wiki.wikidot.com/fragment:scp-5111-2
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5110]]] | SCP-5111 | [[[SCP-5112]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box author=Popsioak & WinterShadow]]
+=====
+> **Filename:** Pelican Nebula
+> **Name:** IC 5070 - Pelican Nebula (29888470343).jpg
+> **Author:** Giuseppe Donatiello
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikipedia.org/wiki/file:iC_5070_-_Pelican_Nebula_(29888470343).jpg Wikimedia Commons]
+=====
+[[include component:license-box-end]]

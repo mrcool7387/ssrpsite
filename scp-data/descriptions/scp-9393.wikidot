@@ -1,0 +1,42 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[span style="display: none;"]]%%title%%[[/span]]
+>
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-4 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-5 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-6 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-7 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-8 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-9 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-10 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-11 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-12 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-13 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-14 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-15 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-16 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-17 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-18 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestmann-19 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9392]]] | SCP-9393 | [[[SCP-9394]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,35 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+
+%%content%%
+
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-9191-1
+https://scp-wiki.wikidot.com/fragment:scp-9191-2
+https://scp-wiki.wikidot.com/fragment:scp-9191-3
+https://scp-wiki.wikidot.com/fragment:scp-9191-4
+https://scp-wiki.wikidot.com/fragment:scp-9191-5
+https://scp-wiki.wikidot.com/fragment:scp-9191-6
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9190]]] | SCP-9191 | [[[SCP-9192]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** 68cedf841fcf2.png
+> **Name:** mka.png
+> **Author:** circledot
+> **License:** CC BY SA 3.0.
+> **Source Link:** http://scp-wiki.wikidot.com/local--files/fragment:9000contestcircledot-3/mka
+[[include :scp-wiki:component:license-box-end]]

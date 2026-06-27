@@ -1,0 +1,87 @@
+
+	[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=component:info-ayers
+|authorPage=https://scp-wiki.wikidot.com/scp-4276
+|comments=
+= **SCP-3580** - //Honor In Blood//
+
+G'day.
+
+I said last time that my next skip would reach 10,000 words. Here's 11,000.
+
+Welcome to Honor In Blood, after nine years in development, hopefully, it will have been worth the wait. Thanks and have fun!
+
+My deepest appreciation to:
+* DrSoot77
+* Doctor Levi Starkin
+* StrangerSwing
+* And especially Jiwoahn
+For taking a look at this massive project!
+]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-3580-0 Main --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-3580-1 Second --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-3579]]] | SCP-3580| [[[SCP-3581]]] >>
+[[/=]]
+[[/div]]
+[[=]]
+[[include :scp-wiki:component:license-box]]
+[[<]]
+=====
+> **Filename:** Prosthetic
+> **Name:** File:Articulated artificial right arm, 16th century (Science Museum, London).jpg
+> **Author:** Unknown author
+> **License:** Creative Commons Attribution 4.0 International
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Articulated_artificial_right_arm,_16th_century_(Science_Museum,_London).jpg
+=====
+> **Filename:** Morty
+> **Name:** File:French sniper ghillie.jpg
+> **Author:** CcH Adrien Courant/French Army
+> **License:** Licence Ouverte 2.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:French_sniper_ghillie.jpg
+=====
+> **Filename:** BAGGER
+> **Name:** File:Bagger-garzweiler.jpg
+> **Author:** Martinroell
+> **License:** Creative Commons Attribution-Share Alike 2.5 Generic
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Bagger-garzweiler.jpg
+=====
+> **Filename:** Fort
+> **Name:** File:Fortress at Veliko Tarnovo.JPG
+> **Author:**
+> **License:** Creative Commons Attribution-Share Alike 3.0 Unported
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Fortress_at_Veliko_Tarnovo.JPG
+=====
+> **Filename:** Crater
+> **Name:** File:Crater of Mount Bromo, Java, Indonesia, 20220820 0558 9456.jpg
+> **Author:** Jakub Hałun
+> **License:** Creative Commons Attribution-Share Alike 4.0 International
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Crater_of_Mount_Bromo,_Java,_Indonesia,_20220820_0558_9456.jpg
+=====
+> **Filename:** BACKGROUND
+> **Name:** File:Red and Gold (16173781482).jpg
+> **Author:** StormSignal
+> **License:** Creative Commons Attribution-Share Alike 2.0 Generic
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Red_and_Gold_(16173781482).jpg
+=====
+> **Filename:** HELLBENT
+> **Name:** File:Standard Professional Photo.jpg
+> **Author:** Hugoeduardoazefia
+> **License:** Creative Commons Attribution-Share Alike 4.0 International
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Standard_Professional_Photo.jpg
+=====
+[[/<]]
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

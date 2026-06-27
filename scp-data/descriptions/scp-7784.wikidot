@@ -1,0 +1,15 @@
+
+	[[>]]
+[[include :scp-wiki:info:start]]
+"Baron Munchhausen's Narrative of His Marvellous Travels and Campaigns in the Foundation" by  [[*user (Mister_Toasty)]]
+@@ @@
+[[[https://scp-wiki.wikidot.com/mister-toasty| I have an Author Page!]]]
+[[include :scp-wiki:info:end]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7784-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7784-2 --]

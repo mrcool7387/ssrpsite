@@ -1,0 +1,53 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[[module css]]
+
+.post{
+  display: flex;
+  padding: 5%;
+}
+
+.one {
+  width: 15%;
+  float: left;
+}
+
+.two {
+  margin-left: 5%;
+}
+
+.eno {
+  width: 15%;
+  float: right;
+}
+
+.owt {
+  margin-right: 5%;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- Translation (if ever) reference: --]
+[!-- http://www.scp-wiki.net/fragment:scp-5451-1 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5451-2 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5451-3 --]
+ _
+
+  
+[[footnoteblock]]
+ _
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5450]]] | SCP-5451 | [[[SCP-5452]]] >>
+[[/=]]
+[[/div]]

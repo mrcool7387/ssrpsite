@@ -1,0 +1,26 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://www.scp-wiki.net/fragment:scp-5647-1 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5647-2 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5647-3 --]
+
+~~~~
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5646]]] | SCP-5647 | [[[SCP-5648]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

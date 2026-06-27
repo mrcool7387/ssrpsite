@@ -1,0 +1,52 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[!-- Meant for safekeeping --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5221-offset-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5221-offset-2 --]
+
+
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5220]]] | SCP-5221 | [[[SCP-5222]]] >>
+[[/=]]
+[[/div]]
+----
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** whitefog2.jpg
+> **Author:** [https://www.flickr.com/photos/76254519@N08 greenoid]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://search.creativecommons.org/photos/26fe7bc6-eccc-4e0f-948d-d14c0eac3d0e CC Search]
+
+> **Filename:** house.jpg
+> **Author:** [https://commons.wikimedia.org/wiki/User:Werewombat Ian Poellet]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://ccsearch-dev.creativecommons.org/photos/f71484f7-3643-4017-9433-139a23f9549d CC Search]
+
+> **Filename:** heatchart.jpg
+> **Author:** [https://www.flickr.com/photos/49416631@N00 mattlemmon]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://ccsearch-dev.creativecommons.org/photos/679a4407-9033-4f93-bb28-deb1d99c6ce6 CC Search]
+
+> **Filename:** bunkerhall.jpg
+> **Author:** [https://www.flickr.com/photos/27119837@N06 CargoCult]
+> **License:** CC BY 2.0
+> **Source Link:** [https://ccsearch-dev.creativecommons.org/photos/57ec89c9-bff3-4571-bf19-dd96a7b8ada2 CC Search]
+
+> **Filename:** shaftoflight.jpg
+> **Author:** [https://www.flickr.com/photos/20218973@N00 Francis Storr]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [https://search.creativecommons.org/photos/4b150bb6-0c97-46fa-b5a4-1913db800739 CC Search]
+
+=====
+[[include :scp-wiki:component:license-box-end]]

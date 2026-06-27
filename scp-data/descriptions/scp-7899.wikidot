@@ -1,0 +1,24 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=SYTYCFanon]]
+**SCP-7899** - Clockwork Apotheosis
+
+[[[https://scp-wiki.wikidot.com/sytycfanon|For more stories in my verse check here]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7899-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7899-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7899-2 --]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

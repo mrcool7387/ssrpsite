@@ -1,0 +1,79 @@
+
+	[!-- https://scp-wiki.wikidot.com/fragment:scp-8084-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8084-1 --]
+
+=====
+[[include component:preview
+text=
+REAGAN: Please, just take this off our hands. I'll be grateful if you just make it go away.
+]]
+=====
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:twin-files]]
+[[module CSS]]
+#header h1 a {
+ 
+    background-image: none;
+
+}
+
+#header h1 a::before {
+    text-shadow: none;
+    color: white;
+}
+ 
+#header h2 {
+    display: flex;
+}
+
+#header h1 {
+    margin-top: 5.7rem;
+    margin-left: 2.5rem;
+}
+
+@media (max-width: 768px) {
+
+#header h1 {
+    margin-left: 1.3rem;
+}
+
+}
+
+:root {
+
+    --header-title: "SCP Foundation";
+    --header-subtitle: "Secure, Contain, Protect";
+
+}
+
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="title" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[=]]
+[[div class="series-nav"]]
+« [[[SCP-8083]]] | SCP-8084 | [[[SCP-8085]]] »
+[[/div]]
+@@ @@
+[[include :scp-wiki:component:earthworm
+| previous-url = https://scp-wiki.wikidot.com/scp-8339
+| previous-title = Photophobia
+| next-url = https://scp-wiki.wikidot.com/scp-8876
+| next-title = Anthropophobia
+| hub-url = https://scp-wiki.wikidot.com/scp-anthology-2024
+| hub-title = Anthology 2024
+| class = earthworm--anth24 {$class}
+]]
+[[/=]]
+[[include :scp-wiki:component:license-box
+|author=basirskipreader and FLOORBOARDS]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

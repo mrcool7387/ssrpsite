@@ -1,0 +1,103 @@
+
+	[[=]]
+[[module Rate]]
+[[/=]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- 
+https://scp-wiki.wikidot.com/fragment:scp-6000-1
+https://scp-wiki.wikidot.com/fragment:scp-6000-2
+https://scp-wiki.wikidot.com/fragment:scp-6000-3
+https://scp-wiki.wikidot.com/fragment:scp-6000-4
+https://scp-wiki.wikidot.com/fragment:scp-6000-5
+
+haha please dont break --]
+
+----
+[[include component:wikimodule |normal= --]]]
+----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5999]]] | SCP-6000 | [[[SCP-6001]]] >>
+[[/=]]
+[[/div]]
+----
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=**ROUNDERHOUSE**]]
+=====
+[[<]]
+----
+> **Filename:** center.png, centerred.png
+> **Name:** Fusillade Logo
+> **Author:** [[*user Aethris]]
+> **License:** CC BY-SA 3.0
+
+> **Filename:** 6k.jpg
+> **Author:** [[*user ROUNDERHOUSE]]
+> **License:** CC BY-SA 3.0
+> **Note:** Composite of smallsnek.jpg and bubble4.png
+
+> **Filename:** bubble3.png
+> **Name:** Borneo rainforest.jpg
+> **Author:** Dukeabruzzi/edited by [[*user ROUNDERHOUSE]]
+> **License:** CC BY-SA 4.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:Borneo_rainforest.jpg Wikimedia Commons]
+
+> **Filename:** smallsnek.jpg, bigsnek.png
+> **Author:** [[*user Valdevia]] / [https://scp-wiki.wikidot.com/valdevia Art Page]
+> **License:** CC BY 4.0
+
+> **Filename:** library.png
+> **Name:** County Dublin - Long Room-Trinity College - 20180703092642.jpg
+> **Author:** MichaelMaggs/edited by [[*user ROUNDERHOUSE]]
+> **License:** CC BY-SA 4.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:County_Dublin_-_Long_Room-Trinity_College_-_20180703092642.jpg Wikimedia Commons]
+
+> **Filename:** tilly.png
+> **Name:** Blanche Lincoln, 2007.jpg
+> **Author:**  	Office of Senator Blanche Lincoln/edited by [[*user ROUNDERHOUSE]]
+> **License:** Public Domain
+> **Source:** [https://commons.wikimedia.org/wiki/File:Blanche_Lincoln,_2007.jpg Wikimedia Commons]
+
+> **Filename:** bubble4.png
+> **Name:** Aerial view of the Amazon Rainforest.jpg
+> **Author:**  	lubasi/edited by [[*user ROUNDERHOUSE]]
+> **License:** CC BY SA 2.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Amazon_Rainforest.jpg Wikimedia Commons]
+
+> **Filename:** forest2.png
+> **Name:** Flickr - Israel Defense Forces - IDF Elite Units' Soldiers Take Cover in the Elyakim Combat Training Base (14).jpg
+> **Author:**  	Israel Defense Forces/edited by [[*user stephlynch]]
+> **License:** Public Domain
+> **Source:** [https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_IDF_Elite_Units'_Soldiers_Take_Cover_in_the_Elyakim_Combat_Training_Base_(14).jpg Wikimedia Commons]
+
+> **Filename:** jungleman.png
+> **Author:**  	Pixabay
+> **License:** Public Domain
+> **Source:** [https://pixabay.com/photos/soldier-the-war-the-army-conflict-4768760/ Pixabay]
+
+> **Filename:** bubble5.png
+> **Name:**working on it
+> **Author:**  	working on it
+> **License:** working on it
+> **Source:** working on it
+
+> **Filename:** earth.png
+> **Name:** 
+> **Author:**  	NASA/edited by [[*user rounderhouse]]
+> **License:** Public Domain
+> **Source:** [https://commons.wikimedia.org/wiki/File:Sun_Over_Earth%27s_Horizon.jpg Wikimedia Commons]
+
+> **Filename:** interior.png
+> **Name:** Long Room Interior, Trinity College Dublin, Ireland - Diliff.jpg
+> **Author:**  	Diliff
+> **License:** CC BY-SA 4.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg Wikimedia Commons]
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

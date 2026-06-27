@@ -1,0 +1,30 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL/fragment|0"]]
+%%content%%
+[[/module]]
+
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9000-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9000-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9000-2 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9602]]] | SCP-9603 | [[[SCP-9604]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:advanced-navigation-toolbar-source dual= false
+|styleNum= one
+|prev= https://scp-wiki.wikidot.com/goc-intellog-d-5589 |prevtext= GOC INTELLOG-Δ-5589
+|prevImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Damnum.png
+|hub= https://scp-wiki.wikidot.com/beneath-control-hub |hubtext= Beneath Control Hub
+|next= https://scp-wiki.wikidot.com/scp-9603 |nexttext= SCP-9603
+|nextImage= https://scp-wiki.wdfiles.com/local--files/dr-moned-s-icons-and-art/Yesod.png
+]]

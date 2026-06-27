@@ -1,0 +1,32 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragment list:
+http://scp-wiki.wikidot.com/fragment:scp-1173-a
+http://scp-wiki.wikidot.com/fragment:scp-1173-1
+--]
+
+[[module ListPages category="fragment" parent="." order="@URL|random" limit="1" ]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-1172]]] | SCP-1173 | [[[SCP-1174]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** sq11-06.jpg
+> **Name:** Carte du tendre 300dpi.jpg
+> **Author:** François Chauveau
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Carte_du_tendre_300dpi.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

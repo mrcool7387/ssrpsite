@@ -1,0 +1,69 @@
+
+	[[include component:preview
+text=
+Why did the Foundation purchase this church?
+]]
+
+[[include :scp-wiki:component:scp-pride]]
+[[>]]
+[[module rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8727-1
+https://scp-wiki.wikidot.com/fragment:scp-8727-2 --]
+
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+@@@@
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8726]]] | SCP-8727 | [[[SCP-8728]]] >>
+[[/=]]
+[[/div]]
+@@@@
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** church.jpg
+> **Name:** Kolleg St Ludwig06.jpg
+> **Author:** Markus Schweiss
+> **License:** CC BY SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Kolleg_St_Ludwig06.jpg Wikimedia Commons]
+
+> **Filename:** cat-2.jpg
+> **Name:** Panama Canal construction LCCN2006680089
+> **Author:** Miscellaneous Items in High Demand, PPOC, Library of Congress
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Panama_Canal_construction_LCCN2006680089.jpg Wikimedia Commons]
+
+> **Filename:** handle.png
+> **Name:** Emergency Brake
+> **Author:** N/A
+> **License:** CC 0
+> **Source Link:** [https://pxhere.com/en/photo/1210676 Pxhere]
+
+> **Filename:** thetruth.jpg
+> **Name:** Last breath.JPG
+> **Author:** Dimitra.
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Last_breath.JPG Wikimedia Commons]
+
+> **Filename:** exhumation.jpg
+> **Name:** Palmiry - exhumation of Mieczysław Niedziałkowski.jpg
+> **Author:** Unknown Author
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Palmiry_-_exhumation_of_Mieczys%C5%82aw_Niedzia%C5%82kowski.jpg Wikimedia Commons]
+
+
+
+[[include :scp-wiki:component:license-box-end]]

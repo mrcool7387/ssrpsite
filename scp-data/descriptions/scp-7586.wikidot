@@ -1,0 +1,139 @@
+
+	=====
+[[include component:preview
+text=In which Ruiz Duchamp dies, dies, and dies again.
+]]
+=====
+
+[[image 7586-Thumbnail.png class="crom-thumbnail" style="display: none"]]
+
+[[module css]]
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "ETC";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
+}
+
+.info-container{
+--barColour: #275495
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-7586
+|authorPage=https://scp-wiki.wikidot.com/montagueetc
+|comments=
+
+= **SCP-7586** -  & PASTE
+
+= Monarchs and Maestros - Chapter 4
+
+----
+
+= ⚠️ **Content Warning:** Suicide, self harm, & body horror.
+
+]]
+
+= ⚠️ content warning ↑
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7586-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7586-2 --]
+
+[[include :scp-wiki:component:wikimodule |normal= --]]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7585]]] | SCP-7586| [[[SCP-7587]]] >>
+[[/=]]
+[[/div]]
+
+[[=]]
+[[include :scp-wiki:component:license-box]]
+[[/=]]
+[[<]]
+=====
+> **Filename:** 7586-Thumbnail.png, partial-remains.png
+> **Name:** Biennale Venezia 2011
+> **Author:** [[[https://www.flickr.com/people/badswan/ | Davide Costanzo]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/badswan/5852520017/ | Flickr]]]
+=====
+> **Filename:** PHYSICS.png
+> **Author:** [[*user Navla]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[navla-artwork | Navla's Artwork]]]
+=====
+> **Filename:** dotted-line-blue.png
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> ----
+> **Name:** Scissors
+> **Author:** [[[https://thenounproject.com/alexander.wiefel/ | Alexander Wiefel]]]
+> **License:** CC BY 3.0
+> **Source Link:** [[[https://thenounproject.com/icon/scissors-50641/ | The Noun Project]]]
+=====
+> **Filename:** dashA.jpg
+> **Name:** Mind Over Matter
+> **Author:** [[[https://www.flickr.com/people/artotemsco/ | Artotem]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/artotemsco/26064480438/ | Flickr]]]
+=====
+> **Filename:** dashB.png
+> **Name:** Biennale
+> **Author:** [[[https://www.flickr.com/people/126773975@N03/ |  Emma Nibaru]]]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/126773975@N03/14692956630/ | Flickr]]]
+=====
+> **Filename:** green-profile.jpg
+> **Name:** Placeholder Person with black tie
+> **Author:** Peppypo & [[[https://commons.wikimedia.org/wiki/User:Pasingr | Tschechische Länder]]]
+> **License:** CC BY-SA 4.0
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Placeholder_Person_with_black_tie.jpg | Wikimedia Commons]]]
+=====
+[[/<]]
+[[=]]
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

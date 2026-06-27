@@ -1,0 +1,27 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+=====
+[[include component:preview
+text=I'm sorry, Shauna. I couldn't make them remember you.]]
+
+[[div style="display: none;" class="crom-thumbnail"]]
+[[include component:image-block name=onion.jpg]]
+[[/div]]
+
+=====
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8288-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8288-1 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8287]]] | SCP-8288 | [[[SCP-8289]]] >>
+[[/=]]
+[[/div]]

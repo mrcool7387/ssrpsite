@@ -1,0 +1,45 @@
+
+	[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- For translators, here is a direct link to each iteration:
+https://scp-wiki.wikidot.com/fragment:scp-7472-1
+https://scp-wiki.wikidot.com/fragment:scp-7472-2
+https://scp-wiki.wikidot.com/fragment:scp-7472-3
+--]
+
+[[collapsible show="You Might Also Like..." hide="Feel free to add this collapsible to your own articles!"]]
+[[div class="blockquote"]]
+
+[[[SCP-3790-J]]] ⁠-- //Pantopicon IV: The Search for Pantopticon III (sic)//, by [[*user Captain Kirby]] and [[*user Rounderhouse]]
+
+[[[SCP-6222]]] -- //FISH PRISON//, by [[*user Aftokrator]]
+
+[[[SCP-6247]]] -- //The Assassination of the Fish Council by the Coward Fishish as told by the Noble Founder of the Fish Council Fishish//, by [[*user Fishish]]
+
+[[/div]]
+[[/collapsible]]
+
+-----
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7471]]] | SCP-7472 | [[[SCP-7473]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=AnActualCrow and Ralliston]]
+=====
+> **Name:** prg3oWY.png
+> **Author:** [[*user AnActualCrow]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-7472 SCP Foundation Wiki]
+
+> **Name:** PANOPTICON.png
+> **Author:** [[*user Ralliston]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-7472 SCP Foundation Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]

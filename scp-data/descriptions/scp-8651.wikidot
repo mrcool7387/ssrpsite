@@ -1,0 +1,406 @@
+
+	=====
+[[include component:preview
+text=You have one(1) new message(s).]]
+=====
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:greystyle]]
+[[div class="blockquote"]]
+[[=]]
+@@@@
+++++ NOTICE FROM SITE-01 INTERNAL TERMINAL
+
+Concurrent access detected: an unidentified user is currently viewing this file. Unexpected errors may occur.
+@@@@
+[[/=]]
+[[/div]]
+[[div]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number=8651
+|clearance= 2
+|container-class=safe
+|secondary-class=
+|secondary-icon=
+|disruption-class=
+|risk-class=
+]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= safe
+|containment-image= https://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/safe-icon.svg
+|containment-color= 120, 73, 64
+|inc-neutralized-layout = --]]]
+
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-two= 120, 73, 64
+|inc-clearance= --]]]
+[[/div]]
+[[include :scp-wiki:component:acs-animation]]
+@@@@
+**Special Containment Procedures:** SCP-8651-A instances are to send direct messages to D-14's[[footnote]]D-14 is currently contained in a sound-proof chamber located in Site-01.[[/footnote]] e-mail address when attempting to remove SCP-8651's effect.[[footnote]]Personnel are to follow the instructions stated at the bottommost of this file.[[/footnote]] Personnel are also to ignore all direct messages containing audio files before having them properly inspected by O5-2. 
+@@@@
+[[=]]
+[[collapsible show="You have one (1) new message(s)." hide="Close"]]
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+HELP 
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/=]]
+@@@@
+**Description:** SCP-8651 is an MP3 audio file containing a brief, low-quality scream. 
+
+When SCP-8651 is received through a direct message (e.g text message or e-mail), and subsequently played by the recipient, the subject will become an SCP-8651-A instance. 
+
+@@@@
+[[=]]
+[[collapsible show="You have one (1) new message(s)." hide="Close"]]
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+FUCKK mY eArs
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/=]]
+@@@@
+SCP-8651-A instances will initially perceive low-frequency auditory stimuli as the contents of SCP-8651. This effect will progressively intensify, ultimately leading to all auditory input being perceived as an extremely loud instance of SCP-8651, resulting in extreme pain in the instance's auditory sensory organs.
+
+@@@@
+[[=]]
+[[collapsible show="You have four (4) new message(s)." hide="Close"]]
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+A maastorpiece. 
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+A masterppiecee
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+An masterpiece. 
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+A nasterpiece. 
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**[ERROR: DATA LOST]**
+----
+@@@@
+[[/div]]
+
+[[/collapsible]]
+[[/=]]
+@@@@
+The only known method of terminating SCP-8651's effect is for an SCP-8651-A instance to send SCP-8651 to another individual through a direct message and have them play it.
+
+SCP-8651-A instances are to follow the following instructions when sending such a message to successfully remove SCP-8651's effect:
+* Include a file of SCP-8651. 
+* Include several sentences persuading the recipient to play SCP-8651. 
+* __Do not__ include any explicit mention that you are currently affected by SCP-8651. 
+* Use perfect grammar and spelling. 
+
+Failure to do so results in the message being instantly deleted by an unknown mechanism, causing SCP-8651's effect to persist.
+
+
+@@@@
+@@@@
+@@@@
+[[=]]
+[[collapsible show="You have one (1) new message(s)." hide="Close"]]
+[[div style="float: center; border: solid 3px #444444; width: 85%; padding: 1px 15px; margin: auto; margin-top: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.2);"]]
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**From:**
+[[/hcell]]
+[[cell]]
+o5-2@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**To:**
+[[/hcell]]
+[[cell]]
+o5-7@email.com
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**CC:**
+[[/hcell]]
+[[cell]]
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**Subject:**
+[[/hcell]]
+[[cell]]
+A masterpiece. 
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+Seven,
+
+I seem to have come across the most elegant, astonishing, and beautiful piece of audio I have ever heard. It is difficult to articulate how much emotion can be conveyed in so brief a recording, yet this file manages it effortlessly.
+
+There is a certain rawness to it—something immediate and unfiltered—that I find quite compelling. I have replayed it several times now, and each instance has only reinforced my initial impression.
+
+I have attached it below. I would strongly encourage you to listen at your earliest convenience. I believe you will find it… memorable. I would be very interested to hear your thoughts afterward.
+
+Regards, O5-2
+[[include :scp-wiki:component:audio-player-woed-source
+|unique-name=scream
+|audio-file= https://scp-wiki.wdfiles.com/local--files/scp-8651/Wilhelm_Scream.ogg.ogx
+|background-color=rgb(252, 252, 252)
+|border-color=rgb(215, 215, 215)
+|border-radius=0.313rem
+|dropshadow-color=rgba(12, 12, 12, 0.15)
+|text-color=rgb(80, 0, 2)
+|icons-color=rgb(171, 0, 5)
+|player-color=rgb(215, 215, 215)
+|progress-color=rgb(80, 0, 2)
+]]
+----
+@@@@
+[[/div]]
+[[/collapsible]]
+[[/=]]
+@@@@
+@@@@
+@@@@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8650]]] | SCP-8651 | [[[SCP-8652]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+Filename: Wilhelm_Scream
+Author: likely Sheb Wooley
+License: CC0 1.0
+Page Source: https://commons.wikimedia.org/wiki/File:Wilhelm_Scream.ogg
+[[include :scp-wiki:component:license-box-end]]

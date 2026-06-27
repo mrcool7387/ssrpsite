@@ -1,0 +1,51 @@
+
+	[[>]]
+[[module rate]]
+[[/>]]
+
+[[module listpages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5045a MAIN SCP --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5045b ENDING --]
+
+[[div class="footer-wikiwalk-nav"]]
+= « [[[SCP-5044]]] | SCP-5045 | [[[SCP-5046]]] »
+[[/div]]
+
+[[include :scp-wiki:component:license-box author=ratking666, ValidClay, & Westrin]]
+=====
+> **Filename:** corruptedicon.png
+> **Author:** [[*user ratking666]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-5045 SCP Foundation Wiki]
+> **Derivative Of:**
+> ----
+> **Name:** logo.png
+> **Author:** [[*user far2]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/ SCP Foundation Wiki]
+
+> **Filename:** farmdation.jpg
+> **Author:** [[*user ratking666]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-5045 SCP Foundation Wiki]
+> **Derivative Of:**
+> ----
+> **Name:** Hotel hallway.jpg
+> **Author:** TriangularPizza
+> **License:** CC BY-SA 4.0
+> **Source Link:** [http://commons.wikimedia.org/wiki/file:hotel_hallway.jpg Wikimedia Commons]
+
+> **Filename:** farmerleft.png, farmer.png, goat102info.jpg, goat23info.jpg, goat342info.jpg, goat44info.jpg, goat852info.jpg, goat853info.jpg, goatvricon.png, helpers.jpg, light_bg2.png, listen.jpg, log1farmer.png, log1goats.png, log1title.jpg, log2caught.jpg, log2door.png, log2farmhouse.png, log2goated.jpg, log2helpers.jpg, log2victims.png, log2yellowman.jpg, theend.png, uhoh.png
+> **Author:** [[*user ratking666]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-5045 SCP Foundation Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+=====
+[[include component:preview
+text=Glitch Productions, I demand you pay me for the concepts you stole from this article with your "Amazing Digital Circus".]]
+=====

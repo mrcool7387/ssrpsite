@@ -1,0 +1,83 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=PlaguePJP: XXVII
+]]
+=====
+
+[[include :scp-wiki:component:pjpss]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by PlaguePJP##[[/size]]
+[[/div]]
+
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-7592 [!-- url of your page on the scp wiki --]
+|authorPage=http://www.scp-wiki.net/plaguepjp[!-- link to your author page --]
+|comments= 
+= **SCP-7592** — //Did You Know?//
+]]
+
+[[div]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number=7592
+|clearance= 1
+|container-class= safe
+|secondary-class=
+|secondary-icon=
+|disruption-class=
+|risk-class=
+]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= safe
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
+|containment-color= 0,159,107
+|inc-neutralized-layout = --]]]
+
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-one= 0,159,107
+|inc-clearance= --]]]
+[[/div]]
+
+-----
+
+**Special Containment Procedures:** SCP-7592 is effectively self-containing, as it only manifests at SCP Foundation-owned Sites, provisional Sites, and external areas of operation. SCP-7592 instances that contain classified information should be reported and removed.
+
+**Description:** SCP-7592 is the collective designation for a series of "Did You Know?" style metal signs manifesting in all SCP Foundation Sites. SCP-7592 instances are denoted by their use of multi-colored text, large images, and distinct grammar and spelling issues. While resembling the style of some Foundation notices, a majority of the information presented had no correlation to Foundation workplace safety or procedure. SCP-7592 instances vary widely in subject matter, ranging from nonsequiturs to extremely limited knowledge of the SCP Foundation's operations. 
+
+After a period of 24 hours, SCP-7592 instances will alter in appearance, often with a unique font, text colors, related image, and a new "fact." SCP-7592 instances began manifesting in the lobbies of all Foundation Sites on December 20th, 2022. with all Sites receiving the same signage. Below is a comprehensive compilation of all SCP-7592 instances that have manifested to date.
+
+[[image dyn1.png]]
+@@ @@
+[[image dyn2.png]]
+@@ @@
+[[image dyn3.png]]
+@@ @@
+[[image dyn4.png]]
+@@ @@
+[[image dyn5.png]]
+@@ @@
+[[image dyn6.png]]
+@@ @@
+[[image dyn7.png]]
+@@ @@
+[[image dyn8.png]]
+
+It is unknown what entity or entities are responsible for the SCP-7592 phenomenon. Pending Ethics Committee approval, a major addition would be made to the containment procedures of this anomaly. This update would require all personnel who come into contact with an SCP-7592 instance to ensure they read and fully comprehend the text of the respective instance. This would theoretically guarantee permanent containment.
+
+[[footnoteblock]]
+----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7591]]] | SCP-7592 | [[[SCP-7593]]] >>
+[[/=]]
+[[/div]]
+----
+[[include component:wikimodule |ratings= --]]]

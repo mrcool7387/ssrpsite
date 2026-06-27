@@ -1,0 +1,62 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:theme:cyberpunk theme-number=1]]
+[[div style="display: none;"]]
+[[include component:image-block name=http://scpdsandbox.wikidot.com/local--files/aftodept/hannibalbustsmol.jpg|caption=.]]
+[[/div]]
+[[=]]
+[[div]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**SCP-6146: Sic Semper Cartago**
+
+Team Xenophania's third entry in [https://scp-wiki.wikidot.com/department-contest DEPARTMENT-CON 2022].
+
+Written by [[*user Aftokrator]]
+
+**[http://scp-wiki.wikidot.com/aftokrator More by this author]**
+
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/div]]
+[[/=]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6146-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6146-2 --]
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6145]]] | SCP-6146 | [[[SCP-6147]]] >>
+[[/=]]
+[[/div]]
+[[=]]
+[[include :scp-wiki:component:license-box]]
+=====
+[[<]]
+> **Filename:** hannibalbust.jpg
+> **Name:** Mommsen_p265.jpg
+> **Author:** Phaidon Verlag (Wien-Leipzig)
+> **License:** Public Domain
+> **Source:** https://commons.wikimedia.org/wiki/File:Mommsen_p265.jpg
+
+> **Filename:** palaceinterior.jpg
+> **Name:** Governors-Interior.jpg
+> **Author:** Anonymous (Photoglob Zurich photochrom)
+> **License:** Public Domain
+> **Source:** https://commons.wikimedia.org/wiki/File:Governors-Interior.jpg
+
+> **Filename:** phoenicianlingo.png
+> **Name:** Phoenician Language.png
+> **Author:** MalkiShamash
+> **License:** CC BY-SA 4.0
+> **Source:** https://commons.wikimedia.org/wiki/File:Phoenician_Language.png
+[[/<]]
+=====
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]

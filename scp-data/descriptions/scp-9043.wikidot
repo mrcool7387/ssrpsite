@@ -1,0 +1,15 @@
+
+	[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-9043-offset-0
+https://scp-wiki.wikidot.com/fragment:scp-9043-offset-1
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-9042]]] | SCP-9043 | [[[SCP-9044]]] >>
+[[/div]]

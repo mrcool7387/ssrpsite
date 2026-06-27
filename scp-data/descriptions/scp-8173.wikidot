@@ -1,0 +1,73 @@
+
+	[[module CSS]]
+.collapsible-block-content {
+  animation-name: fadeUp;
+  animation-duration: 1.0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+.collapsible-block-unfolded .collapsible-block-link {
+  animation-name: fadeIn;
+  animation-duration: 2.0s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translate(0,15px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+[[/module]]
+
+=====
+[[include component:preview
+text=
+A new SCP dossier is being served to Foundation staff. The anomaly? Some things are inherently not anomalous. Enclosed, Ms. Harrier’s poignant story about the Foundation’s response.
+]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:acs-animation]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8173-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8173-1--]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8173-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8173-3 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8172]]] | SCP-8173 | [[[SCP-8174]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** RDgDBft.png
+> **Name:** N/A.
+> **Author:** None provided.
+> **License:** [[https://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]]
+> **Source Link:** https://imgur.com/RDgDBft
+> **Additional Notes:** [[https://scp-wiki.wikidot.com/scp-style-resource Taken from the Style Guide]]
+> **Derivative Of:** (Situational)
+[[include :scp-wiki:component:license-box-end]]

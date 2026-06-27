@@ -1,0 +1,27 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=BlackMonday & Rendi]]
+SCP-9229 - O Sancta Simplicitas!
+Author: [[*user BlackMonday]] & [[*user Rendi]]
+Theme modified from //[https://scp-wiki.wikidot.com/theme:turbo-vision Turbo Vision]// by [[*user JakdragonX]] and [[*user Croquembouche]]
+[[include :scp-wiki:component:author-label-source end=--]]
+=====
+[[include component:preview
+text=Center of planet. Sitting on nukes. Pull the trigger? Hope logs help.]]
+=====
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9229-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9229-1 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9228]]] | SCP-9229 | [[[SCP-9230]]] >>
+[[/=]]
+[[/div]]

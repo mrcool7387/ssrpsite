@@ -1,0 +1,29 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestmalvarik-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestmalvarik-1 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8107]]] | SCP-8108 | [[[SCP-8109]]] >>
+[[/=]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** Logo.jpg
+> **Author:** [[*user Malvarik1]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** Test2.jpg
+> **Author:** [[*user Malvarik1]]
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Alicia_Gordillo,_Doctora_en_Biomedicina_y_experta_en_Obesidad.jpg 
+
+[[include :scp-wiki:component:license-box-end]]

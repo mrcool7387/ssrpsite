@@ -1,0 +1,466 @@
+
+	=====
+[[include component:preview
+text=The car starts to move. Now we're getting somewhere.]]
+=====
+
+[[module css]]
+:root {
+  --fnColor: #3990ed;
+}
+
+.danke {
+    padding: 5px;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.agent {
+    background-color:#002200;
+    border: 3px solid #37467a;
+    color: #786cc4;
+}
+
+.site {
+    background-color:#130124;
+    border: 3px solid #694e9c;
+    color: #9777dd;
+}
+
+:root {
+  --fnColor: #3990ed;
+}
+[[/module]]
+
+[[include :scp-wiki:theme:basalt darkmode=a|hidetitle=a]]
+[[module CSS]]
+
+body {
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Fractal_-_Icy_Leaves.png/1024px-Fractal_-_Icy_Leaves.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body:before {
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(170deg, transparent, rgb(0, 0, 0) 65%, rgb(0, 0, 0) 65%, rgb(0, 0, 0) 62%);
+  z-index: -1;
+  color:#EDEDED;
+}
+
+:root {
+    /* REDMODE */
+    --basalt-UI-dark-palette: 26, 26, 47;
+    --basalt-bright-element-color: 57, 144, 237;
+    --basalt-dark-element-color: 24, 22, 33;
+    --basalt-primary-color: 13, 17, 31;
+    --basalt-secondary-color: 18, 17, 26;
+    --basalt-tertiary-color: 40, 40, 50;
+    --general-border-color: 172, 129, 247;
+}
+
+
+a:link {
+  color: #3990ed;
+}
+a:visited {
+  color: #9686f0;
+}
+a:hover {
+  color: #3990ed;
+}
+a:active {
+  color: #3990ed;
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:acs-animation]]
+
+[[module css]]
+:root{
+  --header-title: "Site-⌘";
+  --header-subtitle: "Department of Surrealistics";
+  --logo-image: url("https://scp-wiki.wdfiles.com/local--files/secure-facilities-locations/Site-Looped_Square.svg");
+}
+[[/module]]
+
+
+[[div style="margin: auto; text-align: center;"]]
+[[=]]
+[[module rate]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=the pointers.|center=*]]
+
+> That boy needs therapy
+> Purely psychosomatic
+> That boy needs therapy
+> Lie down on the couch.
+> What does that mean?
+(The Avalanches - Frontier Psychiatrist)
+
+Written by [[*user troutmaskreplica]], and [[*user cowscantgomoo]] for Draft Swap 2025
+
+[[include :scp-wiki:component:author-label-source end=--]]
+[[/=]]
+[[/div]]
+
+[[div class="anom-bar-esoteric"]]
+[[include :scp-wiki:component:customizable-acs
+|accent-one= 9, 1, 13
+|accent-two= 69, 3, 39
+|class-number-color= 25, 168, 147
+|inc-color-accent = --]
+|item-number=2275
+|clearance=5
+|container-class= pustule
+|containment-image= https://upload.wikimedia.org/wikipedia/commons/4/42/Abstract-010_-_Viscious_Speed_-_game-icons.svg
+|containment-color= 9, 224, 163
+|inc-esoteric-layout = --]
+|disruption-class= GOOD
+|disruption-image= https://scp-sandbox-3.wdfiles.com/local--files/cowscantgomoo2/greenCheck.png
+|disruption-color= 0, 159, 107
+|inc-disruption= --]
+|risk-class= BAD
+|risk-image= https://scp-sandbox-3.wdfiles.com/local--files/cowscantgomoo2/red_x.png
+|risk-color= 196, 2, 51
+|inc-risk= --]
+|secondary-class= Thaumiel
+|secondary-icon= https://scp-sandbox-3.wdfiles.com/local--files/spicyee/thaumiel_fill.png
+|secondary-color= 156, 23, 59
+|risk-text= Risk Class:
+|item-text= SCP-
+|level-text= Level:
+|clearance-number-text= √λ
+|clearance-text= Possibly Secret
+|containment-text= Containment Class:
+|disruption-text=  Disruption Class:
+|secondary-text= Secondary Class:
+|inc-custom-text= --]]]
+[[/div]]
+------
+
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Site**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Site Director**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Research Head**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Department**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Site-⌘, Site-██[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Director N. Carter[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Sr. Researcher L. Bohm[[/size]]
+[[/cell]]
+[[cell style="text-align: center; width: 25%;"]]
+[[size 80%]]Noöspherics, Surrealistics
+[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+------
+
+[[include component:image-block name= https://scp-sandbox-3.wdfiles.com/local--files/troutmaskreplica-draftswap/burningship.jpg|align=center|width=100%|height=50%|caption=Abstract mapping of ideatic points via SCP-2275.]]
+
+[[div class="modal"]]
+**Notice:** The following document has annotations by SCP-2275-A in order to benefit mutual understanding.
+@@ @@
+**Special Containment Procedures:** The Department of Noöspherics is to hold a monopoly on entry into the noösphere to prevent rival entanglement with SCP-2275. SCP-2275-A is stored in the Research and Development Wing in Site-16. SCP-2275-A can only leave Site-16 under the express approval of Sr. Researcher Bohm.
+
+The primary chamber of SCP-2275-A must be stimulated via a controlled electric shock of 24 volts every 72 hours while inoperative. While operational, SCP-2275-A's partial lobe, temporal lobe, and frontal lobe must repeatedly be inflamed. Increased constant stimulation is to be applied to the inferior parietal lobule and superior temporal sulcus during computation through SCP-2275.
+
+Any failure from SCP-2275-A to function properly is to be met with immediate disciplinary measures through increased activation of pain receptors and further entanglement with SCP-2275.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]] Further information on the maintenance and creation of SCP-2275-A can be found in Document 2275-A.
+
+SCP-2275 markers have been embedded in this file. Further ideatic points of interest are to be processed upon recognition. Research efforts to entangle Document 2275-B with SCP-2275 are ongoing.
+
+SCP-2275 has breached containment from [[[SCP-6445|Site-⌘]]].[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|Good.##[[/span]]
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Description:** SCP-2275 is an abstract moral pointer that designates a given subject or concept as either "good" or "bad." SCP-2275 exists in a conceptual sup-abstraction layer within the noösphere, currently requiring a theoretical recursive [[[SCP-6200|NICE Drive]]] to map its ideatic points.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##blue|**IDEATIC POINTS**## are points within the Noosphere that correspond to a single conceptual idea. Ideatic points are embedded in a transiental state within the physical Noosphere, allowing them to affect other points that do not follow sequentially.[[/span]] It is currently unknown if the use of SCP-2275 alters the contents of the concept within or if it is merely a form of identification. SCP-2275 appears to be consistent across different vessels, proving an objective definition of morality. SCP-2275 is consistent with human ethics when exposed to larger, more abstract concepts but differs when provided with simplistic input, primarily due to humanity's inability to properly comprehend binary morality.
+
+SCP-2275 can only be pointed to a concept through the use of a sentient mind that is both connected to the noösphere and entangled with SCP-2275. The process of entanglement requires consistent thoughts toward binary morality, regardless of personal belief; however, this is logistically impossible without anomalous intervention.
+
+SCP-2275-A is an organic computer prototype designed for use in an unrelated project. As the minimum viable product, SCP-2275 uses a singular human brain, connected to the Noösphere pre-mortem, to process conceptual data and imagery for the Department of Noöspherics.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]] After the prototype became a success, it was repurposed for use in SCP-2275 testing as a physical vessel.
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Discovery:** SCP-2275 was found within the noösphere during a routine mapping. During an interaction with a physical thoughtform during the mapping process, the penségraphers[[span class="fnnum"]].[[/span]][[span class="fncon"]]Noospheric cartographers.[[/span]] attempted to gauge its intentions, discovering and entangling themselves with SCP-2275 in the process. Through intensive mnestic and amnestic therapy, almost all of them were able to make a recovery and detangle themselves from SCP-2275, with the exception of Junior Researcher Marié Cutler, who became permanently fixated on SCP-2275 during abstraction therapy. After consultation with Senior Researcher Lancer Bohm, Cutler agreed to aid in the repurposing of SCP-2275-A.
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Addendum 2275.1:** Testing Log
+
+Following the assembly of SCP-2275-A, extensive testing was performed on a myriad of ideatic points to judge the accuracy of SCP-2275 judged by the overseer council. An abridged excerpt of the testing log has been included below.
+
+||~ Concept ||~ Result ||
+||= Joy ||= ##green|**GOOD**## ||
+||= Pain ||= ##red|**BAD**## ||
+||= Friendship ||= ##green|**GOOD**## ||
+||= Loneliness ||= ##red|**BAD**## ||
+||= Knowledge ||= ##green|**GOOD**## ||
+||= Submission ||= ##green|**GOOD**## ||
+||= Humility ||= ##green|**GOOD**## ||
+||= Pride ||= ##red|**BAD**## ||
+||= Containment||= ##green|**GOOD**## ||
+||= Freedom ||= ##red|**BAD**## ||
+||= Work Ethic||= ##green|**GOOD**## ||
+||= Disregard for Authority ||= ##red|**BAD**##  ||
+||= Empathy ||= ##red|**BAD**##  ||
+||= Self-Preservation ||= ##red|**BAD**##  ||
+||= The SCP Foundation ||= ##green|**GOOD**##[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad. Bad. Bad. Bad. Bad. Bad.##[[/span]] ||
+||= The Chaos Insurgency ||= ##red|**BAD**##  ||
+||= Sr. Researcher L. Bohm ||= ##red|**BAD**##  ||
+||= An infinite staircase ||= ##green|**GOOD**## ||
+||= A vast expanse ||= ##red|**BAD**## ||
+||= The vast expanse ||= ##green|**GOOD**## ||
+||= Apotheosis ||= ##green|**GOOD**## ||
+||= Staying in Line ||= ##green|**GOOD**##  ||
+||= A floating ruse on the breeze, hoping to find itself out of the ink. ||= ##red|**BAD**## ||
+||= A blinking point of perfection in a void of all that rejects it. ||= ##green|**GOOD**## ||
+||= A being that is transcends to perfection. ||= ##red|**BAD**## ||
+||= A being that is able to transcend to perfection but chooses not to. ||= ##green|**GOOD**## ||
+||= The journey. ||= ##green|**GOOD**## ||
+||= The destination. ||= ##red|**BAD**## ||
+||= Containment. ||= ##green|**GOOD**## ||
+||= Containment. ||= ##green|**GOOD**## ||
+||= Containment. ||= ##green|**GOOD**## ||
+
+For all recorded ideatic points, see Document 2275-B.
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Addendum 2275.2:** Ethics Committee Integration
+
+Following extensive testing of SCP-2275, Ethics Committee Chairman Victoria Fitzgerald set up a meeting with Senior Researcher Lancer Bohm regarding possible uses of SCP-2275.
+
+[[div class="smallmodal"]]
+= **MEETING TRANSCRIPT**
+------
+**Date:** 6/08/2028
+**Subjects:** Ethics Committee Chairman Dr. Victoria Fitzgerald (EC-4), Sr. Researcher Lancer Bohm
+------
+
+= **<<BEGIN LOG>>**
+
+//(Bohm walks into the conference room. Fitzgerald sits at the center of the table, looking out the window. Traffic can be heard on the street below.)//
+
+**Bohm:** Excuse me, can I help you?
+
+**Fitzgerald:** Take a seat, Lancer. I want to talk about 2275.
+
+//(Bohm nervously takes a seat and inches it closer to the table. Fitzgerald wheels her chair around. She turns over some papers, revealing the documentation to SCP-2275.)//
+
+**Fitzgerald:** Specifically, I want to make a proposal. Or for you to make one. Whichever comes first.
+
+//(Bohm reviews the documentation with a confused look on his face.)//
+
+**Bohm:** Do you mind introducing yourself? I'm sorry, but I have no idea who you are.
+
+**Fitzgerald:** Of course! Victoria Fitzgerald, the fourth member of the Ethics Committee.
+
+//(Fitzgerald reaches out to shake Bohm's hand. Bohm sits paralyzed, looking her up and down. Finally, after a few seconds, he nervously shakes her hand. His palms are sweaty.)//
+
+**Bohm:** Is there a problem? Ethically, of course.
+
+**Fitzgerald:** Quite the contrary, I'm here on behalf of the rest of the committee about the potentials of 2275.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+//(Bohm visibly relaxes.)//
+
+**Fitzgerald:** Unless there //is// a problem?
+
+**Bohm:** No, no! No problem here, I'm just nervous, is all.
+
+**Fitzgerald:** Good. Our AI construct noticed your work here and forwarded it to us. A form of objective morality. And, according to these testing logs, it seems like its accurate. Is this correct?
+
+**Bohm:** Uh, yes! What's on the file is only an abridged version. As you can see in the attached image, we were able to—
+
+**Fitzgerald:** Map out core ideatic points throughout the noosphere. We would like to offer you and your team an opportunity to broaden its use to the entire Foundation. You see, the Ethics Committee has had... trouble in the past when it comes to enforcing our rulings. It's gotten especially difficult in recent years, with O5 Command simply disagreeing with our ethical concerns.
+
+**Fitzgerald:** It's our hope that a more objective approach will be able to remove the certainty that comes with having to define our gray areas. That's where 2275 comes in. Our very own objective morality.
+
+**Fitzgerald:** We'll help you acquire the funding you need to continue testing and developing your processor— your -A, I believe? — and get that project up and running. We just need you to draft up a project proposal and submit it to us for review. That should get the ball rolling.
+
+**Bohm:** Well, that's going to be difficult. Thinking of issues, just off the top of my head, I don't know how we're going to get that many brains to make a better processor. Ethically, that is.
+
+**Fitzgerald:** Well, remember to include that in your proposal.
+
+//(Bohm uncomfortably hugs his forearms with his hands. Fitzgerald takes notice and reflexively hides her lips.)//
+
+**Bohm:** Well, why are you coming to tell me this alone? This meeting could have easily been a text.
+
+**Fitzgerald:** (smirking) Bold for you to say. We can't have this meeting on the books. Part of the checks and balances of the administrative branch means that the Ethics Committee can't open up new projects. Only review, modify, and cancel them. Which usually isn't much of a problem, but when it came to this, we had to reach you in a way that wouldn't... arouse suspicion.
+
+**Bohm:** (chuckling) From who, the Ethics Committee?
+
+//(Pause.)//
+
+**Fitzgerald:** What was that?
+
+**Bohm:** Nothing, it's just something we say around the—
+
+//(Pause.)//
+
+**Bohm:** Continue.
+
+**Fitzgerald:** Thank you. There are penalties we'd have to face if we broke our own guidelines. So it'd be best if we weren't caught. Watching the Watchmen and such.
+
+**Bohm:** So this is an illegal move on your part.
+
+//(Fitzgerald scrunches her face in a flash of anger before returning to a more relaxed position. She leans back into her chair, which makes an audible groan, and crosses her arms.//
+
+**Fitzgerald:** I don't know what you're trying to insinuate, but that isn't going to work. Any report you file might fail to make it up the chain. I'm wearing an antimemetic chain, so none of this would appear on camera without a heavy dose of mnestics.
+
+**Fitzgerald:** And besides, why would you refuse this offer? It'll be your first major cross-site project you'll have in the Foundation. Your security clearance will get bumped from Level 3 to Level 4, and as the Project Manager, for what would be an indefinite project, you'd have a pretty safe role within the Foundation Command Structure. I mean, you wouldn't want to pass this opportunity up.
+
+**Bohm:** I certainly won't.
+
+**Fitzgerald:** Good.
+
+//(Fitzgerald gets up to leave. Right before she opens the door, she turns to address Bohm.)//
+
+**Fitzgerald:** Oh, and in case you think you're hot shit walking out of this room, I know about Marie.
+
+//(Dread falls over Bohm's face. He slowly turns towards Fitzgerald.)//
+
+**Bohm:** You... what.
+
+**Fitzgerald:** Of course, it's just me. None of the other members know about it. I'm the one who proposed the proposal of this proposal in the first place. Of course, I did my due research.
+
+//(Bohm's fingers dig into the plastic armrests of his chair.)//
+
+**Fitzgerald:** It's quite despicable, honestly. But you don't get to where I am without stomaching a little disgust. And you wouldn't be where you are without...
+
+//(Fitzgerald stares at Bohm in contempt. Bohm avoids eye contact, opting to focus on the patterns on the carpet.)//
+
+**Fitzgerald:** I suggest you get to drafting that proposal now.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|Good.##[[/span]]
+
+//(Fitzgerald leaves the room, swiftly closing the door behind her. Bohm crunches over, resting his head in his hands. He stays in this position for the next fifteen minutes before exiting the room.)//
+
+= **<<END LOG>>**
+
+[[/div]]
+@@ @@
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Addendum 2275.3:** Site-⌘ Memo, sent by SCP-2275-A.
+
+[[div class="smallmodal"]]
+The car swerves, parallel parking perfectly. The police officer walks up to the car and shakes their head in comfortable disgust.
+
+"You know you're never going to reach it? Right?"
+
+The golden ticket was brown, but I wasn't always this way. I just don't see color.
+
+I look up to him and groaned in disgust.
+
+"Listen, man." I say.
+
+"The horizon isn't something you touch. Going faster doesn't change anything."
+
+They pause to breathe, looking down at their watch. It's half past μ.
+
+This conversation was getting us nowhere. "So, is moving a bad thing?"
+
+The cop thought for a moment before diagonally moving their head.
+
+I groan to myself, reaching into their holster and fired their gun between my eyes.
+
+The splatter of blood and organs splurt onto the car ceiling. The cop just shrugs as my brain begins to crawl back to the hole where my skull should be.
+
+"You can keep going if you want, just don't get pissed when you lose your way."
+
+The car starts to move. Now we're getting somewhere.
+------
+
+The line is a fine one. It's a very fine line between the light and not the light. It's all easier to see if you cross it. Do not do the line. Being on the wrong side of judgment day only makes the mess harder to clean up. All is bad.
+[[/div]]
+The reasoning behind this is unclear.
+[[/div]]
+@@ @@
+[[div class="modal"]]
+**Addendum 2275.4:** Incident Logs
+@@ @@
+The following was taken from the brain patterns of SCP-2275-A directly regarding the Ethics Committee.
+----
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= All is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|Good.##[[/span]]
+
+= Kill the complex, kill the condition.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|Good.##[[/span]]
+
+= Killing is painful. Pain is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= Construct better ideals.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|Good.##[[/span]]
+
+= Impossible to reach ideals.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= Ideal is bad because it is unobtainable.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= The top is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= Everything below is bad.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= Anything above is empty.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##red|Bad.##[[/span]]
+
+= Nobody is above.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|**GOOD.**##[[/span]]
+
+= Nothing is above.[[span class="fnnum"]].[[/span]][[span class="fncon"]]##green|**GOOD.**##[[/span]]
+----
+Business will continue as usual.
+[[/div]]
+
+[[footnoteblock]]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-2274]]] | SCP-2275 | [[[SCP-2276]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** BurningShip
+> **Name:** Miniship Burning Ship 28K
+> **Author:** PantheraLeo1359531
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Miniship_Burning_Ship_28K_(Regenbogenfarben)_14062019.jpg Wikimedia Commons]
+
+> **Filename:** Fractal
+> **Name:** Fractal - Icy Leaves
+> **Author:** WelshPixie
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Fractal_-_Icy_Leaves.png Wikimedia Commons]
+[[include :scp-wiki:component:license-box-end]]

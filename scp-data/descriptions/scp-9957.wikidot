@@ -1,0 +1,443 @@
+
+	[[include :scp-wiki:theme:minimal
+|title=SCP Foundation
+|subtitle=Secure, Contain, Protect]]
+
+[[include :scp-wiki:component:collapsible-sidebar]]
+
+====
+[[include component:preview
+text=
+Counting grains of sand on the beach.
+]]
+=====
+[[[Black Diamond Billions Hub]]] >> SCP-9957
+
+[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=mxsinister]]
+**SCP-9957 : Arithmomania, Acrylic On Canvas** by [[*user mxsinister]]
+
+//**This work contains CWs for: suicide.**//
+
+For the rest of my work, visit [[[https://scp-wiki.wikidot.com/mxsinister-author |mxsinister's corner office.]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+[[>]]
+[[include :scp-wiki:component:info-cw]]
+[[/>]]
+[[module css]]
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.court-document {
+display: grid;
+border: 2px solid black;
+width: fit-content;
+counter-reset: lineno;
+grid-template-columns: repeat(2, auto);
+overflow: hidden;
+background-color: #ebdaf3;
+color: black;
+}
+
+.num::before {
+content: counter(lineno);
+counter-increment: lineno;
+}
+
+.monospace {
+font-family: 'Andale Mono', 'Courier New', Courier, monospace;
+line-height: 1;
+padding: 10px;
+font-size: 16px;
+}
+
+.monospace p {
+margin: 1lh 0;
+line-height: 1;
+}
+
+.lineno-container {
+height: 0;
+}
+
+.linenos {
+border-right: 1px solid black;
+}
+
+.nums::after {
+content: "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534";
+width: 0;
+display: block;
+overflow-wrap: initial;
+margin-right: 2em;
+}
+
+.court-document-content {
+margin-bottom: -1.5lh;
+}
+
+.invisible{
+   color:transparent;
+}
+
+[[/module]]
+
+
+@@ @@
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9957
+|clearance= 2
+|container-class= safe
+|secondary-class= none
+|disruption-class= vlam
+|risk-class= warning
+]]
+
+@@ @@
+
+[[include component:image-block | name=beachpainting.jpg | caption=SCP-9957. Memetic vectors have been removed for safety. | width=40%]]
+**Special Containment Procedures:** SCP-9957 is to be stored in the Site-90 Reliquary under the purview of the Art and Artifacts Department.
+
+As of 03/20/2023, no personnel of the species //Homo sanguisuga//[[footnote]] Colloquially known as vampires. [[/footnote]] are permitted to view SCP-9957.
+
+**Description:** SCP-9957 is a 17" x 10" acrylic painting depicting a beach. The surface of the item is distinctly textured, indicating numerous (5,950,012,713) grains of sand. Viewing SCP-9957 triggers an episode of intense arithmomania[[footnote]] Condition characterized by an involuntary compulsion to count objects. [[/footnote]] in the observer. 
+
+**Discovery:** SCP-9957 was mailed to [*https://scp-wiki.wikidot.com/site90-dossier Site-90] on 03/07/2023 with a note that read "See, Critique, Preserve." Based on the characteristics of the shipping box, security and research personnel inferred the package to contain a painting. Accordingly, SCP-9957 was transported to a research laboratory on sub-level 3. 
+
+Dr. Basira Ziani from the Arts and Artifacts department, acting as ad hoc lead researcher for the anomaly, ordered D-101947[[footnote]] Who had no prior record of arithmomania or associated disorders. [[/footnote]] to open the package first. Upon viewing SCP-9957, D-101947 dropped to their knees and immediately began fervently inspecting the painting's surface. After five minutes, when researchers attempted to remove D-101947, they expressed extreme distress and pleaded to be returned to the painting, eventually requiring sedation. After waking, D-101947's anxiety showed no signs of diminishing, though they were able to explain their urge to count the grains of sand in the painting. 
+
+**Edit:** D-101947 was notably 'inconsolable' when conscious. When they were allowed to view SCP-9957 once more on 03/15/2023, they were unable to successfully produce a sum, which agitated them further. It was not until D-109147 was informed of the exact number that their mental state stabilized. 
+
+**Addendum 9957.01:** 
+> **Excerpts from A Comprehensive Review of Obsessive-Compulsive Disorder in //Homo sanguisuga// by Dr. Erik Nikitovich Belikov, published in Foundation Parapsychology Journal, 1988.**
+> 
+> To varying degrees, the majority (60%-70%) of observed //homo sanguisuga// meet the criteria to be diagnosed with obsessive-compulsive disorder. Comparatively sound-minded members of the species are still prone to general anxiety, neurotic behavior and superstitious habits.
+> 
+> Even controlling for the significant impact of upbringing and habituation, the prevalence and intensity of vampiric OCD (VOCD) can be largely attributed to genetics and brain chemistry. For instance, brain imaging studies reveal considerable imbalances in neurotransmitters such as serotonin, dopamine and glutamate compared to a human baseline.
+> 
+> In addition, vampires consistently exhibit over-activity in the cortico-striato-thalamo-cortical (CSTC) circuit, which is the brain network responsible for error and threat detection, as well as behavioral regulation, decision-making and physical habits. 
+> 
+> [[=]]
+> ...
+> [[/=]]
+> 
+> One of the most common manifestations of VOCD is arithmomania: the need to count objects and actions, perform mathematical calculations, or engage in other number-related rituals. 
+>  
+> People often take advantage of this trait when defending themselves against vampires. It is common advice to scatter seeds, salt, grains of rice, or whatever else is available in tiny sizes and large numbers upon one's doorstep--or else, directly in front of the vampire. If luck is on one's side, the vampire will become occupied with counting the items, allowing their would-be victim time to escape or attack. 
+> 
+> However, it should be noted that—likely as both an evolutionary defense and a general manifestation of superhuman physiology—vampires have been observed counting at speeds that far exceed human capabilities.
+> 
+> While almost all vampires share a tendency for the obligate performance of certain repetitive and often superstitious rituals, these do not always manifest the same way. When salt is spilled on the ground, one vampire might feel compelled to count each grain, while another might simply throw a bit more over their shoulder for good luck; a third might practice both customs. 
+
+**Addendum 9957.02:** 
+At the request of Dir. Victoria Ward, [*https://scp-wiki.wikidot.com/scp-8153 Dr. Jules Calliet] from the Department of Esoteric Mathematics and Dr. Acul Anders[[footnote]] Previously diagnosed with VOCD. [[/footnote]] from the Department of Applied Mathematics both visited Site-90 on 03/20/2023. 
+
+After two days of attempting to enumerate the grains in SCP-9957, Dr. Anders excused himself from the research lab, took a broom out of a janitorial supply closet and promptly staked himself through the heart using the broken-off handle. The incident was attributed directly to the psychological effects of SCP-9957.
+
+Dr. Caillet proposed that the number of grains present in SCP-9957 was simply n [[$ \to \infty $]], and that combined with compulsion-inducing memetic vectors, the painting indicated "a cruel sense of irony" on behalf of the artist.
+
+**Addendum 9957.03:** 
+Following SCP-9957's arrival at Site-90, Mobile Task Force Mu-3 ("Highest Bidders") received the following information from a deep-cover agent embedded within GoI-012,[[footnote]] Marshall, Carter, and Dark Ltd., an anomalous goods and services broker. [[/footnote]] forwarded from the company's internal database. 
+
+[[div style="border:4px double #032D38;"]]
+[[div style="color:#032D38; font-size:11pt; background:rgb(232, 244, 250);font-family: book;padding: 15px;"]]
+
+**INTERNAL MEMO No. 186718**
+
+**ATTACHMENT CODE:** AXN987/ACR654/CJE321-01
+
+**DATE:** 02/28/2023
+
+**TO:** PERCIVAL A. DARKE
+
+**PENNED BY:** DORIAN C. SLOAN
+
+Percival, there's been an incident. I'm at Warehouse 4B helping with a shipment of new artwork that came in this morning. Particularly a painting (generated label: AXN987/ACR654/CJE321) by [*https://scp-wiki.wikidot.com/scp-9967 Ezaiah Jackson]. 
+
+We took precautions before looking at it, and nothing hazardous showed up on the typical screenings. But Beltman and Chromires took one look at it and just hit the ground to start counting (grains of sand--painting's of a beach scene). The piece is titled 'Arithmomania', so that's fitting.
+
+There's two other pieces from the same artist in here, but we're leaving those closed unless you say otherwise. I can handle the rest of the inventory, but only if someone sedates these two. 
+
+I honestly don't know why I'm fine, but it could be as simple as my not being a numbers guy.
+
+On that note: Alex is begging me to beg you to not let Lucas[[footnote]] Lucas Aurelio, PoI-012-013, External Acquisitions Manager. Youngest known son of the Monaco family, a prominent dynasty of Italian vampires.  [[/footnote]] see this. Your call.
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div style="border:4px double #032D38;"]]
+[[div style="color:#032D38; font-size:11pt; background:rgb(232, 244, 250);font-family: book;padding: 15px;"]]
+**INTERNAL MEMO No. 186719**
+
+**ATTACHMENT CODE:** AXN987/ACR654/CJE321-02
+
+**DATE:** 02/28/2023
+
+**TO:** DORIAN C. SLOAN
+
+**PENNED BY:** PERCIVAL A. DARKE
+
+The Marshall team's members often sport a high resistance to memetic art; then again, that usually extends to our acquisitions employees as well. I suspect your immunity in this case could be related to your being a [*https://scp-wiki.wikidot.com/scp-9123 memetic hazard yourself]. Interesting, if so--we'll run some tests later.
+
+For now: Box the painting back up, label accordingly, and leave Mr. Jackson's other works alone. Please keep Mei and Alexander from doing anything rash. I'll be there in 30 minutes.
+
+[[/div]]
+[[/div]]
+
+@@ @@
+[[div style="border:4px double #032D38;"]]
+[[div style="color:#032D38; font-size:11pt; background:rgb(232, 244, 250);font-family: book;padding: 15px;"]]
+**INTERNAL MEMO No. 186723**
+
+**ATTACHMENT CODE:** AXN987/ACR654/CJE321-03
+
+**DATE:** 03/01/2023
+
+**TO:** ALEXANDER J. BELTMAN
+
+**PENNED BY:** LUCAS A. MONACO
+
+Explain yourself.
+
+74 items scheduled for shipment and only 71 description entries on the ledger. See blank cells E1990:E1993.
+
+Why is there only data entered for 33 out of the 34 artists we were expecting? If Jackson failed to deliver, mark that specifically. 
+
+Metadata shows 29 descriptions written by Sloan. I am appalled that you would let him near a spreadsheet, even at your laziest. Be grateful he didn't break anything in the workbook, or I'd have had your head.
+
+To top it all off, your write-up is an ambiguous and unhelpful mess. Were you high?
+
+I don't know how Chromires let you get away with this, since she's logged as having been on site with you, but do not expect the same lenience from me. Can I not leave London for a goddamn day? Do better.
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div style="border:4px double #032D38;"]]
+[[div style="color:#032D38; font-size:11pt; background:rgb(232, 244, 250);font-family: book;padding: 15px;"]]
+**INTERNAL MEMO No. 186801**
+
+**ATTACHMENT CODE:** AXN987/ACR654/CJE321-04
+
+**DATE:** 03/01/2023
+
+**TO:** PERCIVAL A. DARKE
+
+**PENNED BY:** HOGARTH M. CARTWRIGHT
+
+You need to loop Monaco in on the paint-by-numbers debacle. He just shook Dorian down for details about why Mei and Alexander were on leave. Kudos to the kid for keeping his mouth shut, but really, we all know how much of a nightmare it will be to try to keep Count Dracula in the dark for any longer. 
+
+Besides, I'm down an accountant until Mei gets her head back on straight, so if there's a chance Monaco will have any insight, I think we should let him at it. Worst comes to worst, at least he's no stranger to [*https://scp-wiki.wikidot.com/y2k-mp3 nervous breakdowns].
+
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+[[div style="border:4px double #032D38;"]]
+[[div style="color:#032D38; font-size:11pt; background:rgb(232, 244, 250);font-family: book;padding: 15px;"]]
+**INTERNAL MEMO No. 186810**
+
+**ATTACHMENT CODE:** AXN987/ACR654/CJE321-05
+
+**DATE:** 03/02/2023
+
+**TO:** LUCAS A. MONACO, DORIAN C. SLOAN
+
+**PENNED BY:** PERCIVAL A. DARKE
+
+Lucas, I know it's a tall order for you, but don't freak out. I've given you access to a file titled AXN987/ACR654/CJE321. Please review for yourself. 
+
+Furthermore, I want you both to come into my office tomorrow morning to take a series of Levi-Bussard examinations; these are standard-use by the Foundation to measure individuals' memetic resistance. How considerate of them to save us the trouble of developing such tools ourselves. Why waste time and money on what we can easily filch?
+
+I'm thinking we really ought to issue these to all of our in-house employees, but for now, I just want to verify that Lucas' scores either match or exceed Dorian's before we expose him to the hazard in question. 
+
+[[/div]]
+[[/div]]
+
+@@ @@
+
+||||||~ LEVI-BUSSARD EXAMINATION RESULTS ||||||
+||~ ATTEMPT NO. ||~ DORIAN C. SLOAN ||~ LUCAS A. MONACO ||
+|| 1 || 94 || 100 ||
+|| 2 || 89 || 100||
+|| 3 || 91 || 100[[footnote]] As if I've ever made less than perfect on a test in my life. Can I see the blasted thing now? //--Lucas// [[/footnote]]||
+
+@@ @@
+
+[[div class="court-document"]]
+
+[[div class="lineno-container"]]
+[[div class="monospace linenos"]]
+[[div class="nums"]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="monospace court-document-content"]]
+**STENOGRAPHER'S STONE TRANSCRIPT AXN987/ACR654/CJE321-01**
+
+//DATE: 03/04/2023//
+//TIME BEGIN: 09:14AM UTC -0//
+
+[BEGIN TRANSCRIPT]
+
+[LUCAS MONACO and DORIAN SLOAN enter a small, temperature-controlled room within Warehouse 4B in London.]
+
+**DORIAN:** Stupid question--
+
+**LUCAS:** They normally are.
+
+**DORIAN:** --but just to check, you //can// handle regular beaches, right?
+
+[There is a single wooden box against the wall, along with a rolled-up tarp. DORIAN lays the tarp out across the floor.]
+
+**LUCAS:** I'm fucking Italian. What, are you going to ask next if I have a garlic allergy?
+
+**DORIAN:** So sand doesn't usually count for you, then?
+
+**LUCAS:** Loaded choice of words, but no; I've never //seriously// gone about counting every single granule on the beach. Granted that I'm wearing the proper SPF, the beach is usually only mildly miserable.
+
+[LUCAS and DORIAN lay the box on the ground in the center of the tarp and methodically remove the canvas. LUCAS' breath hitches as DORIAN peels back the cloth covering to reveal the painting.]
+
+[They push the container to the side. LUCAS stares at it without blinking. DORIAN watches his face anxiously for six seconds.]
+
+**LUCAS:** Okay, here's what we're going to do--
+
+[LUCAS kneels down to open his briefcase. He removes a ruler and a graphite pencil. He hands an additional pencil and legal pad to DORIAN.]
+
+**LUCAS:** When I knock the floor once, like so, you're going to make a tally mark. One tally mark will indicate one-thousand grains. I don't expect that I'll lose count, but this gives me a safeguard.
+
+[LUCAS makes faint pencil marks up along the sides of the canvas, indicating 1 cm x 1 cm sections.[[footnote]]These markers were not present when the Foundation received SCP-9957. [[/footnote]] He proceeds to cover all but the top-left corner with opaque, acid-free cloth.]
+
+**LUCAS:** I should be able to verify your accuracy later with the recording, but for both our sake, try to keep up.
+
+**DORIAN:** Got it.
+
+[DORIAN sits down on the ground with the legal pad in front of him. LUCAS tosses him a pencil sharpener for good measure, then checks his watch.]
+
+**LUCAS:** I need an hour of complete silence. If this hour passes, and I appear to be losing my mind without making substantial progress, make me get up and leave. 
+
+**DORIAN:** Make-- Lucas, you don't mean...?
+
+**LUCAS:** What else would I mean? Put that silver tongue to work and tell me what to do.
+
+**DORIAN:** My voice hardly works on you. 
+
+[LUCAS scoffs.]
+
+**LUCAS:** What, just because you can't convince me to [*https://scp-wiki.wikidot.com/put-it-all-on-black jump off a building] means you're not persuasive at all? 
+
+**DORIAN:** To be fair, you'd survive that anyway. 
+
+[LUCAS shakes his head and adjusts the painting so the exposed section is nearest to him.]
+
+**LUCAS:** No matter. It shouldn't come to that. Now--ready?
+
+**DORIAN:** Set.
+
+[LUCAS puts his head down and begins to rapidly count the pale granules composing a section of sand. He knocks the floor beside him with his left hand at a rapid, accelerating pace as DORIAN frantically scratches tally marks onto the page. LUCAS pauses after 21 seconds, looking up at DORIAN and extending a hand.]
+
+[DORIAN passes him the legal pad, which he checks with an approving nod. LUCAS writes the number //3,367,001// beside the section before handing it back.]
+
+[This process continues for thirty-four minutes and eight seconds, at which point LUCAS pauses to put his head in his hands. DORIAN opens his mouth, but closes it without speaking.]
+
+[LUCAS silently retrieves a cigarette from his briefcase. He lights it and takes three measured drags before passing the rest to DORIAN, who takes only one long pull before putting it out on the stone ground.]
+
+[Counting and measurement resumes for another twenty-seven minutes. LUCAS swallows intermittently, his hands shaking. He has to stop several times to wipe tears from his eyes. DORIAN checks his watch between sections.]
+
+[LUCAS lets out a sigh as he moves onto a segment of blue and white sky. He makes a false start on the next section, only to cover it back up and put his hand to his temples. DORIAN fixes him with an expression of concern.] 
+
+**LUCAS:** We're almost at an hour, aren't we?
+
+[DORIAN nods.]
+
+**LUCAS:** I'm alright to push through. Sorry it's taking longer than I thought.
+
+[DORIAN shakes his head and waves his hand in an affirming motion. LUCAS' eyes track his wrist, and he swallows.]
+
+**LUCAS:** Yes or no, have you eaten today?
+
+[DORIAN thinks about it, then nods. Cocking his head, he extends his wrist to LUCAS.]
+
+[LUCAS firmly grasps DORIAN's hand and sinks his teeth into the vein. He drinks for three seconds, then releases. LUCAS licks the puncture marks once, instantly coagulating the blood.]
+
+**LUCAS:** Grazie ... Steak dinner on me, by the way. You need the iron.
+
+[DORIAN chuckles, rubbing his wrist as LUCAS cracks his neck and knuckles.]
+
+**LUCAS:** Okay, back to it.
+
+[For the next thirty-four minutes, counting and measurement resumes uninterrupted. The last eleven minutes are dedicated entirely to the final corner. When LUCAS finishes, he lays down on the ground, breathing heavily.]
+
+**LUCAS:** 38,004,003 for that last one ... That's 5,950,012,713 grains in that entire piece. 
+
+[DORIAN nods in confirmation, making note of the number before sliding the legal pad across the floor to LUCAS, who holds it up to read.]
+
+**LUCAS:** God, I'd rather count spilled salt any day of the week. That was horrible. 
+
+**DORIAN:** Alex and Mei will thank you for your service, I'm guessing.
+
+**LUCAS:** Pfft-- they better ...
+
+**DORIAN:** I'm gonna put this thing back up, if it's alright with you.
+
+[LUCAS laughs as he rests his arm over his eyes.]
+
+**LUCAS:** Oh, we're not done. I'm going to need to recount it to be certain.
+
+**DORIAN:** You're kidding.
+
+**LUCAS:** God, I wish I was ...
+
+**DORIAN:** And then you'll want to do it three times, 'cause it's a nicer number?
+
+**LUCAS:** Am I so predictable?[[footnote]] For the record, the total sum did not change between the three attempts. //--Lucas// [[/footnote]]
+
+[DORIAN sighs, then shrugs.]
+
+**DORIAN:** Hey, if you're good, I'm good. God knows you've got the tougher job.
+
+**LUCAS:** There's no rush. We have all day, and I need a break. 
+
+[LUCAS sits up.]
+
+**LUCAS:** I'm telling Percival we're never buying art from this Jackson individual again .. Shame you're too young to remember when Backdoor SoHo had any taste. 
+
+**DORIAN:** Oh, now there's an argument we can have later. But yeah, memetic pranks aside, this painting's hideous.
+
+**LUCAS:** Say, I wonder if Percival will let me buy it ...
+
+[DORIAN looks baffled.]
+
+**DORIAN:** You //want// it?
+
+**LUCAS:** God, no. I want to make a charity write-off of it. 
+
+[LUCAS grins.]
+
+**LUCAS:** I was thinking I'd donate it to the SCP Foundation.
+
+[END STENOGRAPHER’S STONE TRANSCRIPTION.]
+
+//TIME CONCLUDED: 10:55AM UTC -0//
+
+[[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** beachpainting.jpg
+> **Name:** Guadalupe Beach Painted with Brushstoke
+> **Author:** Harold Litwiler, Poppy
+> **License:** CC BY 2.0.
+> **Source Link:** https://openverse.org/image/159ecc9d-0174-4390-a8e8-94acfc5e430e?q=beach+painting&p=23
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,34 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://scp-wiki.wikidot.com/fragment:scp-5939-1 --]
+[!-- http://scp-wiki.wikidot.com/fragment:scp-5939-2 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5938]]] | SCP-5939 | [[[SCP-5940]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+> **Image source:** [https://commons.wikimedia.org/wiki/File:Rosa_Precious_platinum.jpg Rose]
+> **Original name:** Rosa Precious platinum
+> **License:** CC 0.10 (public domain is also mentioned)
+> **Original by:** Bernard Spragg on 29 April 2018
+> **Additional note:** I edited the image to resemble a (mostly) black rose.
+
+> **Image source:** [https://commons.wikimedia.org/wiki/File:JNU_White_Rose.jpg SecondRose]
+> **Original name:** JNU White Rose
+> **License:** Creative Commons Attribution-Share Alike 4.0 International
+> **Original by:** [https://commons.wikimedia.org/wiki/User:Pallav.journo Pallav.journo] on 11 September 2009
+
+[[include :scp-wiki:component:license-box-end]]

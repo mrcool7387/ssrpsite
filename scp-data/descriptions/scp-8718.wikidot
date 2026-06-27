@@ -1,0 +1,51 @@
+
+	=====
+[[include :scp-wiki:component:preview
+|text="After all, while you were dying in the dark, we were building."]]
+=====
+[[include :scp-wiki:info:start]]
+**SCP-8718:** Spear of the People
+**Author:** [https://scp-wiki.wikidot.com/panik-s-perfection-in-progress Mr Panik]
+⚠️ **Content warning:** Mild gore.
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:fade-in speed=4]]
+
+[[module CSS]]
+.black-bar {
+    background: black;
+    color: black;
+    padding: 2px 5px;
+}
+
+[[/module]]
+
+[[module ListPages parent="." limit="1" offset="1"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-8718-0
+https://scp-wiki.wikidot.com/fragment:scp-8718-1
+https://scp-wiki.wikidot.com/fragment:scp-8718-2
+--]
+
+[[module ListPages parent="." category="fragment" limit="1" order="created_at" offset="@URL|0"]]
+@@ @@
+
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8717]]] | SCP-8718 | [[[SCP-8719]]] >>
+[[/=]]
+[[/div]]

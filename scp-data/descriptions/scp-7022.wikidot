@@ -1,0 +1,26 @@
+
+	[[include :scp-wiki:component:rewrite-notice open=--]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-7022-1
+https://scp-wiki.wikidot.com/fragment:scp-7022-2
+--]
+
+=  _
+ _
+ _
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+=  _
+ _
+ _

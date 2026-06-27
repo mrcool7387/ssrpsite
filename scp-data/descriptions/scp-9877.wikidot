@@ -1,0 +1,104 @@
+
+	[[include :scp-wiki:component:preview]]
+[[include :scp-wiki:theme:space]]
+[[include :scp-wiki:theme:cosmos]]
+
+=====
+[[include component:preview
+text=Several other snippets believed to be Terran music have been found, but are unable to be properly identified.]]
+=====
+
+[[module css]]
+:root{
+--header-title: "SCP CONSULATE";
+--header-subtitle: "Secure, Contain, Prosper";
+}
+#page-content .foo div.collapsible-block-unfolded-link {
+ display: none;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+,,By [[[top|TopDownUnder]]],,
+,,49-sec read,,
+[[/>]]
+
+[[include :scp-wiki:component:flops-header
+|item=9877
+|containment=euclid
+|level=3
+|security=confidential
+|disruption=ekhi
+|disruption-bg-color=#bd5200
+]]
+
+[[include :scp-wiki:component:image-block
+name=https://lspr.wdfiles.com/local--files/record/camel.jpg
+|caption=The constellation Camelopardlis, of which Shǎowèi is a part of.
+|width=250px
+|align=right]]
+
+**Special Containment Procedures:** SCP-9877 is monitored and recorded by the Deep Sky Array in the outer Heliosphere. Due to the low-quality of SCP-9877, civilian receivers automatically filter it as background noise. As such, no further containment procedures are needed.
+
+**Description:** SCP-9877 is a repeating broadband radio transmission originating from a region of space corresponding to the star Shǎowèi. SCP-9877 was first detected in the 27th century. The signal is extremely degraded, due to severe signal attenuation and background cosmic noise. Despite this, listeners of SCP-9877 report intense feelings of safety, recognition, and "not being alone."
+
+Analysis by the Department of Pre-Modernity has identified several snippets of pre-24th-century music, such as //Johnny Be Goode// by Edward Berry, //Eine Zauberflöte// by Wolfgang Mosark, and //Puspåwarnå// by Duke of Mangkunegaran. Several other snippets believed to be Terran music have been found, but are unable to be properly identified.
+
+SCPS FARLIGHT[[footnote]]An Aeneas-class vessel used by the Foundation for travels that would exceed a human lifespan.[[/footnote]] was commissoned to travel to Shǎowèi, in the hopes of receiving a stronger signal.
+
+**Addendum.9877.1:** FARLIGHT Arrival
+
+Upon SCPS FARLIGHT coming within 0.5 lightyears of Shǎowèi, the following signal was received:
+
+[[include :snippets:html5player
+|type=audio
+|url=https://lspr.wdfiles.com/local--files/record/greeting.ogg
+]]
+
+During analysis of the audio, the following image was found in the Department of Pre-Modernity's records. Automated systems flagged a relation between the two.
+
+[[div class="foo"]]
+[[collapsible show="VIEW IMAGE"]]
+[[include :scp-wiki:component:image-block
+name=https://lspr.wdfiles.com/local--files/record/disc.jpg
+|caption=Context unknown.
+|width=250px
+|align=center]]
+[[/collapsible]]
+[[/div]]
+
+[[footnoteblock]]
+
+
+~~~~
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9876]]] | SCP-9877 | [[[SCP-9878]]] >>
+[[/=]]
+[[/div]]
+
+------
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** greeting.ogg
+> **Name:** Voyager Golden Record greeting in English
+> **Author:** Nick Sagan / NASA
+> **License:** CC-0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Voyager_Golden_Record_greeting_in_English.ogg Wikimedia]
+
+> **Filename:** camel.jpg
+> **Name:** 12 Camelopardalis
+> **Author:** David Ritter
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:12_Camelopardalis.jpg Wikimedia]
+
+> **Filename:** disc.jpg
+> **Name:** Voyager disc
+> **Author:** NASA
+> **License:** CC-0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Voyager_disc.jpg Wikimedia]
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,18 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL"]]
+%%content%%
+[[/module]]
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-7943-0
+https://scp-wiki.wikidot.com/fragment:scp-7943-1
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-7942]]] | SCP-7943 | [[[SCP-7944]]] >>
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

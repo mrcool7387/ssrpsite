@@ -1,0 +1,303 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:jakstyle]]
+
+[[include :scp-wiki:component:betterfootnotes]]
+
+[[include :scp-wiki:component:wide-image-sizer]]
+
+[[module CSS]]
+#page-title {
+    display: none !important;
+[[/module]]
+
+[[module CSS]]
+:root {
+--header-title: "SITE-53";
+--header-subtitle: "Sand • Spirits • Solitude";
+--lgurl: url('https://scp-sandbox-3.wikidot.com/local--files/cloudy-perspective/Logo_of_the_SCP_Foundation%20%281%29.png');
+}
+#header::before {
+    opacity: 0.40
+}
+[[/module]]
+
+[[module css]]
+.fnnum::after {
+    color: var(--fnColor, #1eb5e8);
+}
+.fncon {
+    background: #38383C;
+    border: 2px #212325;
+}
+:root {
+    --fnColor: #1eb5e8;
+}
+[[/module]]
+
+[[>]]
+[[include :scp-wiki:info:start]]
+= **SCP-7466:** Ethereal Canvas
+= **Author:** [[*user Barbarous_Bread]]
+
+⚠️ **Content warning:** This article contains brief implications of suicide.
+[[include :scp-wiki:info:end]]
+
+[[div style="margin-top: -1.0em;"]]
+⚠️[[size 80%]]content warning ↑[[/size]]
+[[size 80%]]by **[[[barbarous-bread-box|Barbarous_Bread]]]**[[/size]]
+[[/div]]
+[[/>]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 7466
+|clearance= 2
+|container-class= euclid
+|disruption-class= vlam
+|risk-class= notice
+]]
+
+[[module CSS]]
+:root {
+--one-color: 246,246,246;
+--two-color: 246,246,246;
+--three-color: 246,246,246;
+--four-color: 246,246,246;
+--five-color: 246,246,246;
+
+[[/module]]
+
+----
+
+[[include component:image-block
+    name= https://scp-wiki.wikidot.com/local--files/scp-7466/Critters.jpg|
+    caption=Two immature SCP-7466 detected near the Site-53 Observatory. |
+    align=center |
+    width=100%
+]]
+----
+[[=]]
+++++ Special Containment Procedures
+[[/=]]
+----
+@@ @@
+Given their small population and localized breeding grounds, it is unlikely that members of the public will inadvertently discover SCP-7466 or their creations. If this does occur, Site-53 security forces are to retrieve the individual(s) and amnesticize them. They may then be released at the nearest roadway or access point.
+
+Regular patrols are to be conducted of known SCP-7466 territory to monitor their population and activity levels.
+
+Publicly available satellite imagery of region is to be manipulated and geographical studies of this area are to be restricted to minimize risk of exposing the existence of SCP-7466. 
+
+@@ @@
+-----
+[[=]]
+++++ Description
+[[/=]]
+----
+@@ @@
+SCP-7466 are spectral entities that meticulously re-create various objects out of available materials. Their current population is 68 and they occupy a small, remote area near Site-53. As these entities have only been found in the desert, they have been seen using a variety of native elements such as sand, gravel, clay, flora, and fauna. As SCP-7466 develop, they display advanced skill in mimicry of both natural and man-made structures.
+
+[[include :scp-wiki:component:image-block-peppo
+|name= https://scp-wiki.wikidot.com/local--files/scp-7466/Castle.jpg
+|caption= Example of SCP-7466 construction resembling the Site-53 Observatory.
+|width=300px
+]]
+
+SCP-7466 utilize telekinetic abilities to modify their environment in order to entice a partner, behavior similar to that of some non-anomalous animals.[[span class="fnnum"]].[[/span]][[span class="fncon"]]For example, male white-spotted pufferfish (//Torquigener albomaculosus//) create and decorate intricate circular nests to attract mates.[[/span]]@@  @@Individual SCP-7466 will craft objects in clusters to display to potential mates. These objects, while far from simplistic, demonstrate only the early developments of their abilities. SCP-7466 will periodically evaluate the objects constructed by others using an unknown metric. Should two instances be satisfied with one another's work, they will then bond for life.
+
+Following successful coupling, the two SCP-7466 will begin a collaborative endeavor which will last until their deaths.[[span class="fnnum"]].[[/span]][[span class="fncon"]]SCP-7466 instances typically live 12-15 years.[[/span]]@@  @@These large-scale projects involve manipulating the landscape in a way that their additions appear congruent with pre-existing features of the region. SCP-7466 utilize minute, progressive changes to the area to achieve this effect. These projects --serve no known purpose-- [Update: //See Addendum 7466.1//].
+
+@@ @@
+-----
+[[=]]
+++++ Addendum 7466.1: Survey Expedition
+[[/=]]
+----
+@@ @@
+As SCP-7466 were deemed to pose no threat, Junior Researcher David Carlyle was tasked with surveying the population of SCP-7466 and to observe them at various stages in their lifespan.
+@@ @@
+[[div style="border: 1px solid #CDCDD1; margin: 1em; padding: 1em;"]]
+= **BEGIN LOG**
+----
+
+= **27 JUL 2019**
+
+Today I began by following the two SCP-7466 that were found near the Site-53 Observatory. I was able to find an area with 15 entities each appearing to be juveniles. They are engaging in simplistic behaviors such as meandering through the desert or manipulating the desert's surface to form illustrations. While these are rudimentary in terms of their full capabilities, they still express an intuitive understanding of complex geometry.
+
+Before me are fractal patterns extending for dozens of meters, diagrams of celestial movements, and I believe one of them took note of me as it seems to be re-creating my face in the dirt.
+
+----
+
+= **29 JUL 2019**
+
+They do not rest nor do they appear to require sustenance. Each moment is spent seeking out things to create. I've found scores of various things that they've made, but unfortunately the small or superficial ones are prone to degradation so we may never know how much they have created. The ones that do remain are beautiful.
+
+I may not be an artist, but I can appreciate the craft.
+
+There are almost 40 of the entities here. From my vantage point along this bluff, there is a field of objects that they've made: vehicles, animals, cacti, towers of intricate and interwoven spirals at least 30 meters tall. Some complete and many in progress.
+
+The young are scurrying about the objects finding materials to add to their own. A branch, a stone, pieces of dilapidated creations -- all repurposed into something new, something of their own. 
+
+I've seen a few of the entities who have examined each other's portfolio of sophisticated re-creations. Some simply return back to their own areas, while others pair up and then withdraw from this area together.
+----
+
+= **03 AUG 2019**
+
+There are few elder entities in this area. Exploring on foot makes finding them harder as they seek isolated locations in the desert to work on massive collaborative projects. I've seen them in the process of building up mountains, excavating canyons, expanding rivers, and boring out cave systems. Their choices and placement of building materials seem to indicate a desire for these to appear as though they were natural, that they belong.
+
+[[include component:image-block
+name=Wide%20Canyon.jpg |
+caption=Two mature SCP-7466. Colorized areas indicate alterations that SCP-7466 have made to the environment. Detected via measurement of Mansfield-Pitt Radiation indicative of physical manipulation by spectral entities. |
+align=center |
+width=100%
+]]
+
+----
+
+= **01 SEP 2019**
+
+After being out here for over a month, I have considered where these beings come from many times.
+
+I believe that I have discovered the answer. I'll bring it back to the site in the next few days.
+
+I've taken a particular interest in a pair of the beings. I've stayed with them exclusively for the past three weeks. They were near death. I assumed as much due to their decreased activity and radiance. 
+
+Their deaths were like that of a star: they collided and then collapsed upon themselves. They then exploded scattering throughout the region. Each stone, each grain of sand, everything that they've touched was riddled with the remains of its designer. 
+
+That was three days ago.
+
+Today everything that was imbued with those remnants began to shimmer in a vibrant white. These particles began to coalesce into a myriad of shapes upon the earth. The shapes then merged along captivating spirals to a few separate spaces. As each shape formed their final arrangements, they lifted from the soil.
+
+Each one a new entity. Three of them scurrying about newly formed and eager to carry on their progenitor's legacy.
+
+[[/div]]
+@@ @@
+----
+[[=]]
+++++ Addendum 7466.2: Recovered Journal
+[[/=]]
+----
+@@ @@
+During the later portion of Dr. David Carlyle's expedition, he made camp at a dilapidated structure that appeared to be a residence at one point. Its walls were covered in illustrations and compositions in various stages of deterioration. 
+
+A grave marker was noted behind the building with the name "David" carved into it. Next to the grave was a decayed corpse with what appeared to be self-inflicted injuries to its arms.
+
+Photos below show the building's interior and the grave site.
+
+Dr. Carlyle recovered a journal from this building and digitized the last entry:
+@@ @@
+[[div style="border: 1px solid #CDCDD1; margin: 1em; padding: 1em;"]]
+
+These years at your side have been the greatest of my life. Your mind and creativity made me feel that the world was worth living in, even if you felt that it wasn't. We ran here to escape the people who shunned us, but you couldn't run away from the darkness inside. God knows you tried.
+
+I miss your touch, your breath against my neck as we danced under the stars.
+
+Now you are buried beneath those same stars. 
+
+I sit here content with the thought that I will soon join you. Each day feels longer, emptier. I can't wake up any longer without seeing your face resting next to me. Your eyes looking into my soul.
+
+I will paint once more so that the world won't forget your beauty. So that I can see you one last time.
+
+Then we can be together, my beloved, creating for eternity.
+[[/div]]
+
+@@ @@
+[[=]]
+[[collapsible show="Photo of Structure Interior" hide="Photo of Structure Interior"]]
+@@ @@
+|| [[image https://scp-wiki.wikidot.com/local--files/scp-7466/Wall.jpg width="300px"]] ||
+@@ @@
+[[/collapsible]]
+[[/=]]
+@@ @@
+@@ @@
+[[=]]
+[[collapsible show="Overhead Photo of Grave Site" hide="Overhead Photo of Grave Site"]]
+@@ @@
+|| [[image https://scp-wiki.wikidot.com/local--files/scp-7466/Grave.jpg width="100%"]] ||
+@@ @@
+[[/collapsible]]
+[[/=]]
+@@ @@
+----
+@@ @@
+[[=]]
+[[module Rate]]
+
+[[collapsible show="More by Barbarous_Bread" hide="More by Barbarous_Bread"]]
+
+**SCPs:**
+
+[[module ListPages created_by="barbarous_bread" order="created_at" separate="no" tags="scp" perPage="250" prependLine="||~ Item # ||~ Rating ||~ Comments ||"]]
+|| %%title_linked%% || ##green|+ %%rating%%## || %%comments%% || 
+[[/module]]
+
+**Tales:**
+
+[[module ListPages created_by="barbarous_bread" order="created_at" separate="no" tags="+tale -scp -author" perPage="250" prependLine="||~ Item # ||~ Rating ||~ Comments ||"]]
+|| %%title_linked%% || ##green|+ %%rating%%## || %%comments%% ||
+[[/module]]
+
+[[/collapsible]]
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+@@ @@
+<< [[[SCP-7465]]] | SCP-7466 | [[[SCP-7467]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Critters (Modified by [[user Barbarous_Bread]])
+> **Name:** Sechura Desert (also Nazca Desert)
+> **Author:** A. Duarte
+> **License:** [https://creativecommons.org/licenses/by-sa/2.0/ CC BY-SA 2.0]
+> **Source Link:** [https://www.flickr.com/photos/30411166@N04/14367808171 Flickr]
+----
+> **Filename:** Castle (Modified and combined by [[user Barbarous_Bread]])
+> 
+> **Name:** Sand Castle, Mission Beach
+> **Author:** Gary J. Wood
+> **License:** [https://creativecommons.org/licenses/by-sa/2.0/ CC BY-SA 2.0]
+> **Source Link:** [https://www.flickr.com/photos/37663331@N00/602431615 Flickr]
+> 
+> **Name:** Nevada Desert
+> **Author:** Tela Chhe
+> **License:** [https://creativecommons.org/licenses/by/2.0/ CC BY 2.0]
+> **Source Link:** [https://www.flickr.com/photos/21042103@N03/3117617230 Flickr]
+----
+> **Filename:** Canyon (Modified by [[user Barbarous_Bread]])
+> **Name:** Desert View Grand Canyon 3
+> **Author:** Tony Hisgett
+> **License:** [https://creativecommons.org/licenses/by/2.0/ CC BY 2.0]
+> **Source Link:** [https://www.flickr.com/photos/37804979@N00/15358723808 Flickr]
+----
+> **Filename:** Wall (Modified and combined by [[user Barbarous_Bread]])
+> 
+> **Name:** Peeling Paint On Wood Board
+> **Author:** L.C. Nøttaasen
+> **License:** [https://creativecommons.org/licenses/by/2.0/ CC BY 2.0]
+> **Source Link:** [https://www.flickr.com/photos/35166455@N00/3406239315 Flickr]
+> 
+> **Name:** Giorgio Agamben painted portrait _DDC0720 
+> **Author:** thierry ehrmann
+> **License:** [https://creativecommons.org/licenses/by/2.0/ CC BY 2.0]
+> **Source Link:** [https://www.flickr.com/photos/home_of_chaos/5061656909/ Flickr]
+----
+> **Filename:** Grave (Modified and combined by [[user Barbarous_Bread]])
+> 
+> **Name:**  Fractal Modular Star 
+> **Author:** Kerstin
+> **License:** [https://creativecommons.org/licenses/by-sa/2.0/ CC BY-SA 2.0]
+> **Source Link:** [https://www.flickr.com/photos/115665376@N07/21879765858 Flickr]
+> 
+> **Name:** Starry Spin-up
+> **Author:** European Southern Observatory (ESO)
+> **License:** [https://creativecommons.org/licenses/by/4.0/ CC BY 4.0]
+> **Source Link:** [https://commons.wikimedia.org/w/index.php?curid=42607701 Wikipedia]
+> 
+> **Name:** Aerial Sand
+> **Author:** Jason Schuller
+> **License:** [https://stocksnap.io/license CC 0]
+> **Source Link:** [https://stocksnap.io/photo/aerial-sand-OYWD66VZAG StockSnap]
+=====
+[[include :scp-wiki:component:license-box-end]]

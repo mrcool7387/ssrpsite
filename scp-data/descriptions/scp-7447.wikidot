@@ -1,0 +1,39 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7447-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7447-2 --]
+
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7446]]] | SCP-7447 | [[[SCP-7448]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+
+----
+> **Filename:** Luxmi_engine.jpg
+> **Name:** Space Simulation Chamber Prepared for Testing Webb Telescope
+> **Author:** NASA Goddard Space Flight Center
+> **License:** CC-BY 2.0
+> **Source Link:** [https://flickr.com/photos/24662369@N07/15553023224 Flickr]
+----
+> **Filename:** SCP-7447New.jpg
+> **Name:** Man on the Bench
+> **Author:** Jaroslav A. Polák
+> **License:** CC0 1.0
+> **Source Link:** [https://www.flickr.com/photos/98796230@N03/14227800952 Flickr]
+----
+=====
+[[include :scp-wiki:component:license-box-end]]

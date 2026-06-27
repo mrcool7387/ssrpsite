@@ -1,0 +1,51 @@
+
+	=====
+[[include component:preview
+text=Who do you save when you stop running?]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+
+%%content%%
+
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestsimartar-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestsimartar-1 --]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9549]]] | SCP-9550 | [[[SCP-9551]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Farmhouse_on_farm field.jpg
+> **Author:** Ryan Hagerty
+> **License:** Public Domain
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Farmhouse_on_farm_field.jpg
+> **Additional Notes:** image used in article has been cropped.
+
+> **Filename:** UIU_Logo-NSMBW.png
+> **Author:** [[*user Zhange]], [[*user Woedenaz]], and [[*user JackalRelated]]
+> **License:** CC by-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wdfiles.com/local--files/unusual-incidents-unit-hub/UIU_Logo-NSMBW.png]]]
+
+> **Filename:** manila-texture.png
+> **Author:** [[*user JackalRelated]]
+> **License:** CC by-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wdfiles.com/local--files/theme:twin-files/manila-texture.png]]]
+
+> **Filename:** manila-top.png
+> **Author:** [[*user JackalRelated]]
+> **License:** CC by-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wdfiles.com/local--files/theme:twin-files/manila-top.png]]]
+
+=====
+[[include :scp-wiki:component:license-box-end]]

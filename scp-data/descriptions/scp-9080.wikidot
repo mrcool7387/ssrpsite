@@ -1,0 +1,44 @@
+
+	=====
+[[include component:preview
+text=
+A sad attempt at damage control, one sovereign soul... and predictions that come true, just as was told.
+]]
+=====
+
+[[>]]
+[[include :scp-wiki:info:start]]
+[[=]]
+//**SCP-9080** - Just As Was Told//
+
+by [[*user AnotherSunnyDay]] and [[*user mouseatemyhouse]]
+
+**Please mind the offsets!** There are 3.
+
+Check out Sunny's only other work (as of now), [[[SCP-8970]]], Therapeutic Applications of a Loaded Firearm.
+
+Check out Mouse's shiny [https://scp-wiki.wikidot.com/mouseatemyhouse author page!]
+
+letterz2.png was taken by [[*user mouseatemyhouse]] and they release it into CC BY-SA 3.0.
+
+Jacobsletter.jpg was taken by [[*user AnotherSunnyDay]] and they release it into CC BY-SA 3.0.
+
+Flowers.jpg was taken by [https://commons.wikimedia.org/wiki/File:Flower_field_in_Ijan_01.jpg Ավետիսյան91] on Wikimedia Commons which they released into CC BY-SA 4.0.
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/>]]
+
+[!--
+fragment:9000contestsunnymouse-0
+fragment:9000contestsunnymouse-1
+fragment:9000contestsunnymouse-2
+fragment:9000contestsunnymouse-3
+--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL"]]
+%%content%%
+[[/module]]
+
+[[=]]
+<< [[[SCP-9079]]] | SCP-9080 | [[[SCP-9081]]] >>
+[[/=]]

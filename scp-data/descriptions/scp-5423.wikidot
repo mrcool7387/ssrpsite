@@ -1,0 +1,34 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragment list:
+http://scp-wiki.wikidot.com/fragment:scp-5423-1
+http://scp-wiki.wikidot.com/fragment:scp-5423-2
+http://scp-wiki.wikidot.com/fragment:scp-5423-3
+http://scp-wiki.wikidot.com/fragment:scp-5423-4
+http://scp-wiki.wikidot.com/fragment:scp-5423-5
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5422]]] | SCP-5423 | [[[SCP-5424]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+=====
+> **Filename:** scp-5423-6-xk.html
+> **Author:** [[*user dreverettmann]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-5423 SCP Foundation Wiki]
+=====
+[[include component:license-box-end]]

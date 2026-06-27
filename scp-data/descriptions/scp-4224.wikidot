@@ -1,0 +1,70 @@
+
+	[!--
+For maintenance, or if anyone wants to translate it for some reason
+https://scp-wiki.wikidot.com/fragment:scp-4224-1
+httsp://scp-wiki.wikidot.com/fragment:scp-4224-2
+https://scp-wiki.wikidot.com/fragment:scp-4224-3
+https://scp-wiki.wikidot.com/fragment:scp-4224-4
+--]
+
+[[include theme:black-highlighter-theme]]
+[[include theme:disrememberment-theme]]
+[[include component:info-ayers
+|lang=en[!-- EN/RU/KO/CN/FR/PL/ES/TH/JP/DE/IT/UA/PTBR --]
+|page=scp-4224[!-- url of your page on the scp wiki --]
+|authorPage=https://scp-wiki.wikidot.com/ayers-array[!-- link to your author page --]
+|comments=
+= **//SCP-4224: History Will Be Kind To Me//**
+= ^^[https://www.youtube.com/watch?v=YkADj0TPrJA 「In The Air Tonight」]^^
+-----
+**Image Sources:**
+* 1) [https://scp-wiki.wdfiles.com/local--files/the-great-hippo/scp_trans.png SCP_Trans.png by The Great Hippo, CC-BY-SA 3.0]
+* 2) [https://www.geograph.org.uk/photo/1733287 Cantley Sugarbeet factory at Night by Ashley Dace, CC-BY-SA 2.0]
+* 3) [https://commons.wikimedia.org/wiki/File:Polmone_d%27acciaio_(Alvis_Motor_Company)_.jpg Polmone d'acciaio (Alvis Motor Company) by Luca Borghi, CC-BY-SA 3.0]
+ 
+**Acknowledgements:**
+* [[user Uncle Nicolini]], for critique.
+* [[user IndigoElks]], for critique.
+* [[user Gekkoguy]], for critique.
+* [[user incidental_cabbage]], for encouragement and critique.
+* [[user WrongJohnSilver]], for critique and pointing out some errors.
+* [[user magnadeus]], for critique.
+* [[user MrBazzle]], for critique
+* [[user Vivax]], for in-depth critique and major help with the ending and consistency of the article.
+* [[user MrPines]], for the hover code CSS.
+* [[user Rounderhouse]], for making the CSS theme.
+@@ @@
+]]
+[[module CSS]]
+.scp-image-caption{position: inherit;}
+.page-rate-widget-box{position: relative;bottom: 1em;}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module CSS]]
+:root{
+    --barColour: #3a3a3a;
+}
+#page-title{
+margin-bottom: 0px;
+}
+.info-container .collapsible-block-folded a{
+color: #FFF;}
+.info-container .collapsible-block-unfolded-link a{
+color: #FFF;}
+[[/module]]
+
+@@ @@
+[[module ListPages category="fragment" parent="." order="name" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4223]]] | SCP-4224 | [[[SCP-4225]]] >>
+[[/=]]
+[[/div]]

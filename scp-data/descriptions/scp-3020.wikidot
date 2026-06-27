@@ -1,0 +1,33 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Hey future translators (and my future self)! Use these links to get to the source pages if you need them copied. Translators, do them in the order posted below, or there will be confusion.
+
+http://scp-wiki.wikidot.com/fragment:scp-3020-1
+http://scp-wiki.wikidot.com/fragment:scp-3020-2
+http://scp-wiki.wikidot.com/fragment:scp-3020-3
+http://scp-wiki.wikidot.com/fragment:scp-3020-4
+http://scp-wiki.wikidot.com/fragment:scp-3020-5
+http://scp-wiki.wikidot.com/fragment:scp-3020-6
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-3019]]] | SCP-3020 | [[[SCP-3021]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+
+=====
+[[include :scp-wiki:component:license-box-end]]

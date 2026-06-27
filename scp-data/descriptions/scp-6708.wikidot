@@ -1,0 +1,129 @@
+
+	[[>]]
+[[module rate]]
+[[/>]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:isolated-terminal]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[module CSS]]
+:root {
+  --accentColor: 235,229,205;
+  --darkColor: 18,19,22;
+}
+[[/module]]
+
+[[div style="background: url(http://kaktuskontainer.wdfiles.com/local--files/format-hell/scp_trans.png) bottom center no-repeat; text-align: center; width: 600px; margin: 0 auto; font-size: 20px; padding: 0px;"]]
+
+@@ @@
+
+@@ @@
+
+[[=]]
+++* WARNING: THE FOLLOWING FILE IS LEVEL 3/6708 CLASSIFIED
+ANY ATTEMPT TO ACCESS THIS FILE WITHOUT LEVEL 3/6708 AUTHORIZATION WILL BE LOGGED AND WILL LEAD TO IMMEDIATE DISCIPLINARY ACTION.
+[[/=]]
+= **6708**
+
+@@ @@
+
+@@ @@
+
+[[/div]]
+----
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[size 125%]]**Item #:** SCP-6708[[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]**Level 3/6708**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[size 125%]]**Object Class:** Pending [?][[/size]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[size 125%]]**Secret**[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[a href="*http://scp-int.wikidot.com/niveaux-de-menace-des-objets-scp" style="font-size: 18px; color: white; text-shadow: 1px 3px 1px rgba(0,0,0,0.3); text-decoration: none;"]]
+[[span_ style="display: inline-block; width: 100%; background-color: grey; text-align: center; border: 1px none #000; margin: 1px; padding-top: 8px; padding-bottom: 8px;"]]
+**Threat Level:** Undetermined
+[[/span]]
+[[/a]]
+----
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Site**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Site Director**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Research Head**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Task Force**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Site-███[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]][REDACTED][[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]][REDACTED][[/size]]
+[[/cell]]
+[[cell style="text-align: center; width: 25%;"]]
+[[size 80%]]N/A[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+**SPECIAL CONTAINMENT PROCEDURES:** SCP-6708 is housed within a windowless containment chamber with a reinforced locking mechanism. No surveillance equipment is to be installed within the chamber. Proper authorization from at least 13 members of the Overseer Council is required to enter the chamber.
+
+The shaft leading to the chamber where SCP-6708 was recovered has been filled with concrete.
+
+[[include component:image-block
+| name=machine.jpg
+| caption=A small section of SCP-6708.
+| width=250px
+]]
+
+**DESCRIPTION:** SCP-6708 is the designation given to a large mechanical device or machine, measuring approximately 8 cubic meters, composed of multiple rusted metal axles, bolts, gears, hydraulic compressors, levers, pistons, and other mechanical parts of various sizes. SCP-6708 weighs 196 kilograms and bears a single metal placard bolted on top of it reading "[[[https://scp-wiki.wikidot.com/scp-4220|Department of Abnormalities]]]".
+
+A key-operated safety switch is installed behind SCP-6708, although it appears to be defective due to the key being dislocated inside the lock cylinder, thereby keeping it affixed in the position labeled with the word 'DEACTIVATED'.
+
+Human subjects making direct skin contact with SCP-6708 report having several auditory hallucinations. These effects compound in severity the longer a subject is touching SCP-6708.
+
+The hallucinations reported includes:
+
+* A loud guttural roar of an unknown animal organism.
+* A machine or device vibrating loudly.
+* Several sounds of flesh hitting metal.
+
+**ADDENDUM 6708-1:** Discovery
+
+SCP-6708 was first recovered in a large underground chamber located underneath an abandoned lighthouse in [REDACTED], Europe. The only known entrance into the chamber is through a 20-meter deep shaft under a hatch in the middle of the lighthouse's ground floor.
+
+The chamber consists of a large circular concrete room, approximately 50 meters in diameter. In the center of the room was SCP-6708, suspended in the air via four large carbon-steel chains. Surrounding it are multiple large metal cages[[footnote]]Subsequent analysis revealed that one of the cages, located on the far corner, was torn open from the inside.[[/footnote]], with all of them containing traces of hydrochloric acid and dried blood.
+
+Directly on the bottom of SCP-6708 is a large pit, with a depth of around one kilometer. Exploration drones sent into the pit shows that it is almost 30% filled with multiple large skeletal remains, all of them belonging to an unknown reptilian species.
+
+@@ @@
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6707]]] |  SCP-6708 | [[[SCP-6709]]] >>
+[[/=]]
+[[/div]]

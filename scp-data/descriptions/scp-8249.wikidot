@@ -1,0 +1,25 @@
+
+	=====
+[[include component:preview
+text=Legends abound of Adam of the Transient, the greatest hero of his era, defender of his kind. An ancient oath he has inherited, and in fulfilment of it, there has yet been no trial he couldn't overcome.
+
+Could this be the one he cannot?]]
+=====
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="name" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8249-1 Arc 1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8249-2 Arc 2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8249-3 Arc 3 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8248]]] | SCP-8249 | [[[SCP-8250]]] >>
+[[/=]]
+[[/div]]

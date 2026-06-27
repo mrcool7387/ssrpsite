@@ -1,0 +1,58 @@
+
+	[!-- Fragments: --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestampyrreference-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestampyrreference-2 --]
+
+=====
+[[include component:preview
+text=We are under siege.]]
+=====
+
+
+[[=]]
+[[module rate]]
+[[/=]]
+
+[[div style="position:relative;"]]
+[[div style="position:absolute; left:50%; transform:translateX(-50%);"]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Ampyrsand & Some Reference
+|center=*]]
+@@ @@
+[[=]]
+**SCP-9410:**
+[[size 110%]]
+##8F281D|**THE NEVER WΔR**##
+[[/size]]
+[[/=]]
+@@ @@
+[[=image https://nu-scptheme.github.io/Black-Highlighter/img/logo.svg style="width: 50px; opacity: 70%;"]]
+
+@@ @@
+[[=]]
+Written by [[*user Ampyrsand]] and [[*user Some Reference]].
+[[/=]]
+@@ @@
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[/div]]
+[[/div]]
+
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestampyrreference-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestampyrreference-1 --]
+
+@@ @@
+@@ @@
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9409]]] | SCP-9410 | [[[SCP-9411]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,50 @@
+
+	[[include info:start]]
+**SCP-5041:** The Man in the Iron Mask
+**Author:** [[*user stormbreath]]
+
+* Thanks to [[*user MaliceAforethought]] for looking this over. His crit prompted me to go in a vastly different direction from my original drafts, which I was much happier with.
+* Thanks to [[*user The Pighead]] for help with French translation.
+* Additional thanks to my other critters: [[*user DrAkimoto]], [[*user Oboebandgeek99]], [[*user Anxiety Incorporated]], [[*user MalyceGraves]]
+
+View more of my articles [[[stormbreath|here.]]]
+
+----
+
+For the benefit of translators and editors, here are links to the individual offsets:
+
+* **[https://scp-wiki.wikidot.com/fragment:scp-5041-1 First Page]**
+* **[https://scp-wiki.wikidot.com/fragment:scp-5041-2 Second Page]**
+
+[[include info:end]]
+[[div class="au-credit"]]
+by [[[stormbreath]]]
+[[/div]]
+
+[[module CSS]]
+.au-credit {
+    text-align: right;
+    margin-right: 2em;
+    margin-top: -10px;
+}
+
+#page-content .creditRate {
+    margin-bottom: 0;
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5040]]] | SCP-5041 | [[[SCP-5042]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

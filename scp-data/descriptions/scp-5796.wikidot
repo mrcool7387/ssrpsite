@@ -1,0 +1,429 @@
+
+	=====
+[[include component:preview
+text=
+She has a lot of work. I do too. I miss her smile.
+]]
+=====
+[[include :scp-wiki:info:start]]
+> And my lungs will grow cancers
+> And my back it will grow achy
+> I will buy us an acre
+> Of some land in the city
+> We could live there together
+> Or I'll live alone less happy
+> But I'll live
+> [[[https://youtu.be/Te_9_ANLzMg |Unfortunately.]]]
+@@ @@
+(Love in the Time of Human Papillomavirus, AJJ)
+**SCP-5796**
+**Image:** Website icon created by [[*user Agente Shuffle]]
+
+[https://scp-wiki.wikidot.com/trouts-authorpage My authorpage!]
+@@ @@
+[[include :scp-wiki:info:end]]
+
+[[include :scp-wiki:component:acs-animation]]
+[[include :scp-wiki:component:text-style]]
+[[module css]]
+.danke {
+    padding: 5px;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.agent {
+    background-color:#002200;
+    border: 3px solid #55AA55;
+    color: #77CC77;
+}
+
+.site {
+    background-color:#222200;
+    border: 3px solid #AAAA55;
+    color: #DDDD77;
+}
+[[/module]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+[[include :scp-wiki:component:pride-highlighter |inc-lsb-alt= --]]]
+
+
+
+[[include :scp-wiki:component:customizable-acs
+|disruption-class= gevurah
+|disruption-image= https://scp-wiki.wdfiles.com/local--files/calibri-s-mega-cool-art-page-it-s-mostly-just-icons-but-what/Gevurah.svg
+|disruption-color= 215,6,111
+|inc-disruption= --]]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 5796
+|clearance= 4
+|container-class= keter
+|secondary-class= none
+|disruption-class= gevurah
+|risk-class= notice
+]]
+-----
+
+**Special Containment Procedures:** As SCP-5796 is only accessible on Foundation servers, civilian interference is unlikely. All Foundation members are to remain unaware of the web address of SCP-5796, and any personnel without Level 4 clearance attempting to, or have already accessed SCP-5796 are to be reprimanded and punished. All testing with SCP-5796 must go through Site Director Amelia Werchester.
+
+**Description:** SCP-5796 is a dating website, named "Soulmate Connection Program," that is exclusively accessible via Foundation servers. The site cannot be blocked or removed through any known means, including redirection. SCP-5796 generates dating profiles for all individuals affiliated with the Foundation, including D-Class personnel, humanoid anomalies,[[footnote]] With limited internet access. [[/footnote]] and the O5 council.
+
+[[include :scp-wiki:component:image-block name=http://scp-wiki.wikidot.com/local--files/scp-5796/soulmateconnectionprogram.png|caption=SCP-5796's logo.|width=200px]]
+
+These profiles contain personal information, such as legal name, age, and gender preference, and are created without the knowledge of the individuals in question. However, the text style of the profiles is consistent with the manner in which the person would write.
+
+SCP-5796 is equipped with several features, such as a private messaging system, customizable profiles, and a site search function, which showcases a list of every Foundation site, with all employed personnel. Any personnel accessing SCP-5796 will automatically be logged in to their assigned profile, with no option to log out or delete their account. SCP-5796 does not create accounts for individuals who are in a relationship.[[footnote]] This excludes those in polyamorous relationships seeking more than one partner. [[/footnote]]
+
+**Further Notes:**
+-----
+[[div class="danke site"]]
+**WARNING**
+**You are attempting to access a file restricted only to Site Director Werchester.**
+**Please input credentials to proceed.**
+> USER: D34DM4NSP4RTY
+> PASS: * * * * * * * * * * * * *
+
+**Credentials accepted.**
+
+**Welcome, Site Director Werchester.**
+**What file would you like to access?**
+> All
+**Accessing all attached files...**
+[[/div]]
+
+__Journal Entry 5/19/2013__
+> So turns out, there's an SCP dating website. Great. Fun! The higher ups don't know where this came from nor do anyone else. Guess it's just something random that fucks us over. Gonna run a few tests on this thing, tell 'em if I see anything unusual.
+> I was told to write down my notes, but I'm out of paper. On the file it goes.
+
+__Journal Entry 5/21/2013__
+> Real creepy invasion of privacy. I checked my "profile", and it was way to detailed for my liking. Written how I talk, including pics of myself. Even knows about my cat. Gross. I'm gonna avoid checking other people's profiles for now.
+
+__Journal Entry 5/22/2013__
+> Got a notif in the corner that said "All Alone on a Wednesday Night? God, you're pathetic."
+> @@ @@
+> Fuck you too, SCP-5796. I'm done testing.
+
+__Journal Entry 5/26/2013__
+> Fine. Fine, I'll continue checking this site out.
+> @@ @@
+> Looking through all the different sites, you don't need to be a person to use this, since I found Dr. Crow. That's fun. I looked at Site-19, didn't catalogue any anomalies below 18 so that's uh. Good as well. Gonna keep looking, lemme jot this down.
+
+**PROPOSED REVISION:** These profiles contain personal information, such as legal name, age, and gender preference, and are created without the knowledge of the individuals in question. However, the text style of the profiles is consistent with the manner in which the person would write. **All profiles on SCP-5796 are persons who are above the age of eighteen, and are completely aware and able to consent romantically and sexually.**
+
+> Gonna need to change the wording but hey, I got plenty of time. I'll continue to update it.
+
+__Journal Entry 5/27/2013__
+> Turns out I'm not the only person using this site, either I gotta punish someone or act like I'm completely oblivious. She commented on my profile, lemme copy it real quick.
+
+>> I would say you're in major trouble, but I don't want you reporting me to the others. So keep this between us.
+
+> Others? Interesting. Says her name is Kaitlan Ademola. I think, I'll check that again later.
+
+__Journal Entry 6/5/2013__
+> Alright I need to log some other stuff. That's what this journal is for.
+> @@ @@
+> There's options to like posts and comments, and "follow" people, showing their posts. These posts are stuff whatever these people are doing, taken by..someone. Can't tell who, no reflection or anything.
+> Gonna spy a bit on other people. Just for testing purposes.
+
+**PROPOSED REVISION:** These profiles contain personal information, such as legal name, age, and gender preference, and are created without the knowledge of the individuals in question. However, the text style of the profiles is consistent with the manner in which the person would write. All profiles on SCP-5796 are persons who are above the age of eighteen, and are completely aware and able to consent romantically and sexually. **Frequently, the profiles will update with recent events for whatever person.**
+
+> I'll make it better later. Just got to text her back.
+
+__Journal Entry 6/6/2013__
+> I'm so depraved, man
+> @@ @@
+> Jesus fuckin' christ. I'm sitting here, browsing her profile. I need to go touch grass. I contemplated commenting "kind of a MILF" under one of her pics but I realized I feel like such a creep doing that. Gonna take a break, check up with you again later.
+
+__Journal Entry 6/9/2013__
+> Alright, I'm doin' better. Someone walked into my office but thankfully he was completely oblivious to me oogling at some ladies profile. Just told him it's some scp reports and he did what he needed i guess. It was something about testing with SCP-whatever so I gave him the pass.
+> Made me realize how weird I am. Gonna need a few more days to myself.
+
+__Journal Entry 6/12/2013__
+> She messaged me sdfaskhfhk
+> @@ @@
+> We chatted for a little bit and she is a lot more down to earth than I first thought, incredibly nice, even called me "hun". She seems to know a bit about me but I got no clue. Might be another supervisor, her profile doesn't list where she works. Probably not relevant. I hope.
+
+__Journal Entry 6/13/2013__
+> Talked some more.
+> Both of us like Talking Heads, she told me she saw them live once. Told her that we should meet up someday. She said her job takes up the majority of her time but she will try to fit me into her schedule. I want her so bad it's drivin me mad. (yknow. beatles reference. i still want her either way)
+> Looked at her profile more, she loves books. I typically don't read for fun but I'll try sometime later.
+
+__Journal Entry 6/16/2013__
+> Chatted more, she wasn't as active but it's clear she's interested. Lemme grab a screenshot..
+
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="sent"]]
+[[span class="text"]]Sorry for all the awkward small talk, not really sure how to have a big convo[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Don't worry about it dear, I'm not typically a chatter either. But it's not like I'll mock you for saying something odd.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]Thank you lol[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Don't worry. I'm free tomorrow, actually. We could meet up if you don't have much to do.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]YES[[/span]]
+[[span class="text"]]I mean. Sure.[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]You're cute.[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+> changed my schedule. im hoping she doesnt find me creepy irl
+
+__Journal Entry 6/18/2013__
+> Met her in person. She's a lot taller than I first thought. Not that its a bad thing of course (I like tall girls) but me being 5'5 and her being like. I think almost six feet was awkward. We went to this nice restaurant, we didn't mention work.
+> @@ @@
+> She was a lot nicer in person. Kept her formal way of speaking. Gonna see if we can do something else later.
+
+__Journal Entry 6/20/2013__
+> Continued to chat, I got her number now at least. She told me she was really busy for the weekend, decided to actually focus on work stuff for now. I'll update this later.
+
+__Journal Entry 6/21/2013__
+> We talked about our life at home. Told her about my cat, Elvis Pawsley. She thought the name was really cute. I asked about her pets but she said she never had one, which makes me sad.
+> @@ @@
+> Maybe I can invite her over? She might like Elvis.
+
+__Journal Entry 6/23/2013__
+> I told her about my family. She reminds me of my mom a bit. This doesn't say anything about me, does it?
+> God damn it, Freud. You win again.
+
+__Journal Entry 6/25/2013__
+> Went on another date with her. Second one, this time to a much cheaper place to see if she y'know. Isn't in it for the money.
+> She laughed at my cheesy jokes again.
+> I think I might be ready to tell her.
+
+__Journal Entry 6/26/2013__
+> We talked more.
+
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="sent"]]
+[[span class="text"]]I love you[[/span]]
+[[span class="text"]]FUCK that was[[/span]]
+[[span class="text"]]that was a mistake aa[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Pfft. You're cute.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]Huh? Wha[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Hasn't even been long, but you're already so sweet. Don't think I've had someone treat me as nice as you.[[/span]]
+[[span class="text"]]I love you too, hun.[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+__Journal Entry 6/30/2013__
+> Her account and mine got updated, says "dating". Maybe this SCP isn't so bad. Will update you later.
+
+__Journal Entry 7/03/2013__
+> She sent me a. not very safe for work pic of herself.
+> @@ @@
+> @@ @@
+> She's fucking gorgeous.
+
+__Journal Entry 7/08/2013__
+> We went on yet another date. This time we watched a movie together. We were holding hands the entire time.
+
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="sent"]]
+[[span class="text"]]I'm happy to have met you<3[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Aw, you make me blush. I'm blessed to meet you as well.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]Do you wanna hang out tomorrow? Y'know, just us two at my place. I got snacks.[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]I'd love to see you.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]:D[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+__Journal Entry 6/26/2013__
+> We met up at my house.
+> @@ @@
+> We had dinner, we watched stuff on the couch
+> We did. Stuff
+> @@ @@
+> I love her touch. She also finds Elvis adorable.
+
+__Journal Entry 6/28/2013__
+> Kept talking, kept sending pics. I don't know what to put here, really.
+
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="sent"]]
+[[span class="text"]]Listen. You're nuts.[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Me? Pfft, it's good music.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]Shut upppp. duran duran is a one hit wonder, you nut.[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Does that make it bad? Maybe hungry like the wolf was just so much better.[[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]]Lies. Talking heads has SO many hits.[[/span]]
+[[span class="text"]]Did duran duran make Swamp? Checkmate.[[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]]Fair enough.[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+> Hungry Like the Wolf is mid.
+
+__Journal Entry 7/14/2013__
+> Sorry for not updating. She said she has a lot of work to do. I do too.
+> I miss her smile.
+
+__Journal Entry 7/16/2013__
+> She told me she'll be gone for the next few days. Gonna follow her feed, maybe there's something interesting.
+
+__Journal Entry 7/17/2013__
+> FUCK
+> @@ @@
+> fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck fuck
+> Okay so uh bad news. Kaitlan is way out of my league.
+> Like.
+
+>> Met up with the other O5s about ΩK "End of Death" discussion. Finally prepared something in case it does come, SCP-3287.
+
+> She's a fucking O5 member. What the fuck. What the fuck is omega K?? end of death??
+
+__Journal Entry 7/18/2013__
+> She hasn't realized that I saw that post, or that the post is there yet. I haven't said anything to her.
+
+__Journal Entry 7/19/2013__
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]]Hello?[[/span]]
+[[span class="text"]]Are you there? You haven't said much to me recently.[[/span]]
+[[span class="text"]]If you have an important day, please tell me.[[/span]]
+[[span class="text"]]Honey? Are you okay?[[/span]]
+[[span class="text"]]I'm here if you need to talk, please don't ghost me.[[/span]]
+[[span class="text"]]I love you.[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+> I'm so sorry.
+
+__Journal Entry 7/21/2013__
+> I told her that I know the truth. She hasn't said anything all day.
+> If anything happens, I'm sorry.
+
+__Journal Entry 7/25/2013__
+> Nothing.
+
+__Journal Entry 7/30/2013__
+[[div class="text-container-wrap"]]
++++ Kaitlan Ademola
+[[div class="text-container"]]
+[[div class="sent"]]
+[[span class="text"]]I'm sorry. I didn't want to know about this. I still love you.[[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+__Journal Entry 8/1/2013__
+> Nothing.
+
+__Journal Entry 8/2/2013__
+> Still nothing.
+
+__Journal Entry 8/3/2013__
+> Nothing.
+
+__Journal Entry 8/6/2013__
+> Guess who stopped by my office?
+> @@ @@
+> It's nice to see her again. She sat in my office awkwardly. She pat my shoulder, gave me a kiss. I asked her if I'm going to be amnesticized. She didn't say anything. She left after a few minutes.
+
+__Journal Entry 8/6/2013__
+> Just get a message. Being demoted. I should've known.
+> @@ @@
+> I know she didn't send it, said it was gross negligence or whatever. Damn it. I knew I fucked up the second I opened that website. I'm gonna forget all of this. Forget the Foundation and forgetting her.
+> @@ @@
+> Please. I don't want to forget.
+
+__Journal Entry 8/17/2013__
+> I miss her. Haven't seen her since.
+> @@ @@
+> I just want to hear her voice again. Feel her lips. I want to see her again.
+
+__Journal Entry 9/1/2013__
+> I'm sorry, Amelia. This is for your own good. I love you.
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+@@ @@
+[[div class="danke site"]]
+**This is the end of the file. If you would like to put in another entry, please input "Create".**
+> Delete
+**Which entry do you want to delete?**
+> All
+**Input username and password to proceed.**
+> USER: O5-6
+> PASS: * * * * * * * * * * * * * * * * *
+**O5 detected, overriding lock...**
+**Deleting...**
+...
+...
+...
+**Entries have been deleted.**
+> Log out
+**Logging out..**
+**Successfully logged out! Thank you for using SCiPNET!**
+[[/div]]
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[/div]]
+----
+[[=]]
+<< [[[SCP-5795]]] | SCP-5796 | [[[SCP-5797]]] >>
+[[/=]]
+----
+[[include component:wikimodule |ratings= --]]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** soulmateconnectionprogram
+> **Author:** [[user Agente Shuffle]]
+> **License:** CC BY-SA 3.0
+[[include :scp-wiki:component:license-box-end]]

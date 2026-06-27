@@ -1,0 +1,32 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=Reading this article counts as a conservation effort.
+]]
+=====
+
+[[>]]
+[[module rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+
+[!-- For translators, here is a direct link to each iteration:
+https://scp-wiki.wikidot.com/fragment:scp-8276-0
+https://scp-wiki.wikidot.com/fragment:scp-8276-1
+https://scp-wiki.wikidot.com/fragment:scp-8276-2
+--]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8275]]] | SCP-8276 | [[[SCP-8277]]] >>
+[[/=]]
+[[/div]]
+
+
+
+[[include component:wikimodule |ratings= --]]]

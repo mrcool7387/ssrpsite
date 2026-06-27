@@ -1,0 +1,39 @@
+
+	[[module CSS]]
+
+div#page-title::after {
+  content: "by LordStonefish;
+  font-size: 50%;
+  color: #888;
+}
+
+[[/module]]
+
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-4930-1
+http://scp-wiki.wikidot.com/fragment:scp-4930-2
+--]
+
+[[module ListPages category="fragment" parent="." order="name"" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+-----
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+[[include :scp-sandbox-3:more-by-stonefish]]
+[[/=]]
+[[/div]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4929]]] | SCP-4930 | [[[SCP-4931]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,35 @@
+
+	[[include :scp-wiki:info:start]]
+**SCP-9179:** Well Enough Alone
+**Author:** [[*user Aldi_Shopper]]
+
+
+More works at my [/aldishopper-author-page Author Page]
+
+[[include :scp-wiki:info:end]]
+
+=====
+[[include :scp-wiki:component:preview
+text=Under Creighton Projection, block capitals are the manifestation of screaming.]]
+=====
+
+[[include :scp-wiki:theme:scp-offices-sigma]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+https://scp-wiki.wikidot.com/fragment:scp-9179-0
+https://scp-wiki.wikidot.com/fragment:scp-9179-1
+https://scp-wiki.wikidot.com/fragment:scp-9179-2
+https://scp-wiki.wikidot.com/fragment:scp-9179-3
+https://scp-wiki.wikidot.com/fragment:scp-9179-4
+https://scp-wiki.wikidot.com/fragment:scp-9179-5
+https://scp-wiki.wikidot.com/fragment:scp-9179-6
+https://scp-wiki.wikidot.com/fragment:scp-9179-7
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-9178]]] | SCP-9179 | [[[SCP-9180]]] >>
+[[/div]]

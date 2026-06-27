@@ -1,0 +1,58 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:the-foundation-theme]]
+[[module CSS]]
+#page-title{display:none}
+[[/module]]
+[[>]]
+[[module rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=andromedaz
+|no-right-margin=*]]
+Losing Interest, by [[*user andromedaz]]
+
+For more of my works, visit [https://scp-wiki.wikidot.com/andromedaz-page Andromedaz's Universe of Dreams]!
+
+Thank you to [[*user Kothardarastrix]] and [[*user Ghost Jackal]] for looking at this.
+[[/collapsible]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Children:
+https://scp-wiki.wikidot.com/fragment:scp-7996-1
+https://scp-wiki.wikidot.com/fragment:scp-7996-2
+https://scp-wiki.wikidot.com/fragment:scp-7996-3
+https://scp-wiki.wikidot.com/fragment:scp-7996-4
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7995]]] | SCP-7996 | [[[SCP-7997]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** distortion2.jpg
+> **Name:** Alpine Meadow (14998437399).jpg
+> **Author:** Katja Schulz/edited by [[*user andromedaz]]
+> **License:** CC BY 2.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Alpine_Meadow_(14998437399).jpg Wikimedia Commons]
+=====
+> **Filename:** accelerator.jpg
+> **Name:** CERN LHC Tunnel1.jpg
+> **Author:** Julian Herzog
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:CERN_LHC_Tunnel1.jpg Wikimedia Commons]
+=====
+> **Filename:** 4000forest.jpg
+> **Name:** Forest (190).jpg
+> **Author:** Paul Hudson
+> **License:** CC BY 2.0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Forest_(190).jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

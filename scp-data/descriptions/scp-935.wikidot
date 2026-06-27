@@ -1,0 +1,34 @@
+
+	=====
+[[include component:preview
+text=
+The story of a curse that haunts a family for generations for a sin that they don't know they committed, but continue to commit, and the people who tried to save their loved ones in the wrong way.
+]]
+=====
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=component:info-ayers
+|authorPage= https://www.wikidot.com/user:info/comrade-waldo
+|comments= = //**SCP-935:** Nothing Bad Ever Happens to the Bowes//
+= Word Count: 5,218
+= Reading Time: 18 minutes
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-935-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-935-2 --]
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-934]]] | SCP-935 | [[[SCP-936]]] >>
+[[/=]]
+[[/div]]

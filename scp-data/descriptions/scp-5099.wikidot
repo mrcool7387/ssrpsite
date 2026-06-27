@@ -1,0 +1,34 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include theme:magnus-web-format]]
+[[include theme:black-highlighter-theme]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-5099-1
+http://scp-wiki.wikidot.com/fragment:scp-5099-2
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5098]]] | SCP-5099 | [[[SCP-5100]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+=====
+> **Filename:** Patomsky_crater.jpg
+> **Name:** Patomsky crater.jpg
+> **Author:** Dmitry Semenov
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikipedia.org/wiki/file:patomsky_crater.jpg Wikimedia Commons]
+=====
+[[include component:license-box-end]]

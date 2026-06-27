@@ -1,0 +1,43 @@
+
+	[[include theme:black-highlighter-theme]]
+[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+
+[[include info:start]]
+[[=]]
+**SCP-4870:** Something’s Wrong With Site-17
+@@ @@
+**Author:** [[*user ItsDenali]] and thanks to [[*user Reverend Fox]] and [[*user Crow-Cat]] for their helpful insight and critique!
+**Image Credit:** Image produced by me, see comments page for details.
+[[/=]]
+[[include info:end]]
+
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+[!-- Fragments in case you want to see their source code: --]
+[!-- http://www.scp-wiki.net/fragment:scp-4870-1--]
+[!-- http://www.scp-wiki.net/fragment:scp-4870-2--]
+
+[!-- Sandbox Versions:--]
+[!-- http://kontainer.djkakt.us/fragment:scp-4870-1--]
+[!-- http://kontainer.djkakt.us/fragment:scp-4870-2--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4869]]] | SCP-4870 | [[[SCP-4871]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** tortoise.jpg
+> **Author:** [[*user itsdenali]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-4870/offset/1 SCP Foundation Wiki]
+[[include :scp-wiki:component:license-box-end]]

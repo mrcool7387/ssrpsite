@@ -1,0 +1,30 @@
+
+	[[include :scp-wiki:info:start]]
+**SCP-5763:** I dreamt I was a butterfly
+**Author:** [[*user CompleteIndie]]
+**Written for DeptCon2022.**
+
+//The ramblings of the architect can become clear. Do you wish to be enlightened?//
+[[include :scp-wiki:info:end]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5763-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5763-2 --]
+
+@@ @@
+
+[[=]]
+
+[[include :scp-wiki:component:wikimodule |ratings= --]]]
+
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-5762]]] | SCP-5763 | [[[SCP-5764]]] >>
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]
+
+[[/=]]

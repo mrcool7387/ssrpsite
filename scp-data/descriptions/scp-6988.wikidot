@@ -1,0 +1,31 @@
+
+	[[include :scp-wiki:theme:basalt hidetitle=a|darkmode=a]]
+
+[[=]]
+[[module Rate]]
+[[/=]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6988-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6988-2 --]
+@@ @@
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6987]]] | SCP-6988 | [[[SCP-6989]]] >>
+[[/=]]
+[[/div]]
+
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** marking.png
+> **Author:** Flower
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-6988 SCP Foundation Wiki]
+=====
+[[include :scp-wiki:component:license-box-end]]

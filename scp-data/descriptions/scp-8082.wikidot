@@ -1,0 +1,38 @@
+
+	=====
+[[include component:preview
+text="--Who-- lit the fuse that tore the Foundation's world apart?"]]
+=====
+
+[[>]]
+[!-- [[module Rate]] --]
+[[include :scp-wiki:info:start]]
+{{SCP-8082: "The Wild Hunt"}}
+
+{{Written by [[*user Nonaggress]]}}
+
+{{Content Warning: A few depictions of verbal emotional abuse, gaslighting, allusions to child abuse, disturbing imagery.}}
+[[include :scp-wiki:info:end]]
+[[div style="margin-right: 2em; margin-top: -10px;"]]
+^^by [[[Nonaggress-writes|Nonaggress]]]^^
+[[/div]]
+[[/>]]
+
+[!--
+
+https://scp-wiki.wikidot.com/scp-8082
+https://scp-wiki.wikidot.com/fragment:the-wild-hunt-0
+https://scp-wiki.wikidot.com/fragment:the-wild-hunt-1
+https://scp-wiki.wikidot.com/fragment:the-wild-hunt-2
+https://scp-wiki.wikidot.com/fragment:the-wild-hunt-3
+--]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8081]]] | SCP-8082 | [[[SCP-8083]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,363 @@
+
+	[[include :scp-wiki:theme:5k area-12=a]]
+
+[[module css]]
+.Wylder1 {
+    float: right;
+    width: 500px;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 2em;
+    margin-left: 0;
+    padding-right: 0;
+}
+.Wylder2 {
+    color: white;
+    font-size: 12pt;
+    font-family: var(--UI-font);
+    border-radius: 5% / 66px;
+    background: rgba(154, 140, 71, .5);
+    text-align: left;
+    padding: 2px 24px;
+}
+#page-content .Wylder1::before {
+    display: block;
+    content: "» DR. WYLDER";
+    text-align: right;
+    font-family: var(--UI-font);
+    font-style: bold;
+    font-size: 1.1em;
+    color: white;
+    margin-left: 1rem;
+    padding-bottom: 3px;
+}
+.Toth1 {
+    float: left;
+    width: 500px;
+    text-align: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 2em;
+    margin-left: 0;
+    padding-right: 0;
+}
+.Toth2 {
+    color: white;
+    font-size: 12pt;
+    font-family: var(--UI-font);
+    border-radius: 5% / 66px;
+    background: rgba(61, 117, 116, .5);
+    text-align: left;
+    padding: 2px 24px;
+}
+#page-content .Toth1::before {
+    display: block;
+    content: "» DR. TOTH";
+    text-align: left;
+    font-family: var(--UI-font);
+    font-style: bold;
+    font-size: 1.1em;
+    color: white;
+    margin-left: 1rem;
+    padding-bottom: 3px;
+}
+
+@media only screen and (min-width: 1020px) {
+  body {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(var(--basalt-primary-color)) 15%, rgb(var(--basalt-primary-color)) 50%, rgb(var(--basalt-primary-color)) 85%, rgba(0,0,0,0) 100%), url(https://scp-wiki.wikidot.com/local--files/scp-7566/bad_doors.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  }
+[[/module]]
+
+[[=]]
+[[module Rate]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=Placeholder McD, HarryBlank, Trey Bishop & Gabriel Kero
+|center=*]]
+[[div class="papernote"]]
++++ [[span class="st"]]DOOR SQUID[[/span]]
+[[size 105%]]//You want a murder monster? Have a murder monster.//[[/size]]
+[[/div]]
+
+[*/placeholder-mcd-s-authorpage PLACEHOLDER STAFF DOCUMENT]
+[*/this-page-intentionally-left-blank This Page Intentionally Left Blank]
+[https://www.artreyus.com/ Trey's Art Website]
+[*/gabe gabe]
+[[div style="margin-top: -1.2em; font-size: 85%; color: rgb(187, 187, 187);"]]
+Supported by [*https://affray.co/ Affray Interactive 🡕]
+[[/div]]
+[[include :scp-wiki:component:author-label-source end=--]]
+[[/=]]
+
+@@ @@
+
+
+[[div class="blockquote tert"]]
+Welcome, Dr. Wylder. Backend mode is active. You may append comments for containment personnel to address at the conclusion of this file.
+[[/div]]
+
+@@ @@
+
+[[div class="table1 tableb"]]
+[[include :scp-wiki:component:customizable-acs
+|accent-one= 210,210,210
+|accent-two= 210,210,210
+|class-number-color= 3,3,3
+|inc-color-accent = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= cernunnos
+|containment-image= https://scp-wiki.wikidot.com/local--files/scp-7566/cernunnos-icon-orange_3.svg
+|containment-color= 255,109,0
+|inc-containment = --]]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= SCP-7566
+|clearance= 3
+|container-class= cernunnos
+|secondary-class= none
+|disruption-class= ekhi
+|risk-class= danger
+]]
+
+[[div class="modal"]]
+[[span class="st"]]SPECIAL CONTAINMENT PROCEDURES:[[/span]] Per this item's Cernunnos[[span class="fnnum"]].[[/span]][[span class="fncon"]]Item can be functionally contained, but the Foundation cannot achieve this for logistical and/or ethical reasons.[[/span]] classification, full-scale containment or termination of SCP-7566 may not __under any circumstances__ be attempted. To ensure the continued smooth operation of Area-12 and the safety and well-being of its personnel, containment measures will be limited to individual D-Class pest control units as deemed necessary by facilities management and security authorities.
+
+A policy of vigilance and diligence must be followed whilst traversing infrequently populated or under-construction sectors of Area-12. Personnel are to be discouraged from venturing into deprecated facilities, as these are disproportionately utilized as habitat by SCP-7566. Any such excursions __must__ be undertaken with a designated security detail trained in the detection and disposal of SCP-7566.
+[[/div]]
+
+[[include component:image-block
+name=door.jpg
+|caption= Infrastructure displaying atypically perceptible signs of SCP-7566 infestation.
+|width=100%
+|align=center]]
+
+[[div class="modal"]]
+[[span class="st"]]DESCRIPTION:[[/span]] SCP-7566 is a population of iridescent, pale-skinned megafaunal cephalopods inhabiting various elements of internal infrastructure at Area-12.
+
+A classified research operation conducted in May of 1976 within several caverns near Chesapeake Bay, Virginia resulted in the retrieval of various SCP-7566 specimens, along with the body of renowned cryptozoologist **{{[REDACTED]}}**[[span class="fnnum"]].[[/span]][[span class="fncon"]]Known to have operated under the alias of “The Maryland Snallygaster“ in the unVeiled cryptozoologist community.[[/span]] who had been reported missing weeks earlier.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Autopsy determined cause of death to be terminal dehydration.[[/span]] Instances of SCP-7566 were found by Foundation biospeleologists to be utilizing large, flattened rocks attached to their dextrous appendages with an adhesive ink excreted from their tentacles in an effort to disguise themselves against their cave wall dugouts, lying in wait to ambush prey.
+
+Additionally found endemic to the caverns were a unique species of hard-shelled cephalopod initially mistaken for common terrestrial snails, though non-anomalous cephalopods are strictly marine animals. This species appears closest-related to Coleoids, a subclass of cephalopod including cuttlefish, octopodes, and squid. However, the acquired specimens initially possessed large mollusc shells characteristic of Nautiloids; it is suspected that this species has, like hermit crabs, acquired the behavior of occupying the shells of deceased molluscs. This supposition is further corroborated by the presence within the shell of the inky black substance these creatures employ as an adhesive. How they have evolved to survive on land remains unclear. Analysis of both this new species and SCP-7566’s genomes suggest the two to be distantly taxonomically related. Further SCP classification pending.
+
+Shortly following transfer of surviving SCP-7566 instances to Area-12, a specimen escaped its transitive containment harness, likely as the result of an insufficient sedative dose. Research and security staff were unable to fully quarantine the relevant lab facilities before being attacked. One researcher was immediately devoured and several others fatally injured before the SCP-7566 instance fled into the recesses of Area-12. Per the prevalence of further instances discovered loose in the facility following this incident, it is now believed the specimen was pregnant at the time of its escape.
+
+Rocks desirable for use in SCP-7566's “shells” are obviously not present at Area-12, leaving the squid-like creatures vulnerable to predation and environmental effects. They are, furthermore, nearly blind, displaying only the weakest visual acuity to light due to their cavernous natural habitat. They mainly sense their surrounding environment through vibration. SCP-7566 have therefore adapted their adhesive capabilities for camouflage utilizing modular structural hardware within the facility, with an almost exclusive focus on hinged doors. SCP-7566 instances are generally attracted to condemned, disused, or otherwise low-traffic regions of Area-12, wherein each individual will remove a door from its hinges, attach forelegs and upper body to the door's surface, then either enter the opposite side of the open doorway and carefully insert the door back into its frame, or excavate a section of wall via makeshift hard scrap implements and occupy that space in similar fashion.[[span class="fnnum"]].[[/span]][[span class="fncon"]]It is theorized that the adhesive secreted from a specimen’s tentacles synthesizes within its stomach acid as it consumes rubble. While unconfirmed, this would explain both the as-yet-undetermined source of the adhesive ink and the mysterious disappearance of excavated materials.[[/span]] These “shell doors” are particularly difficult to detect in darkened areas; juvenile SCP-7566 specimens will often perform their camouflage behind doors leading to unused rooms and/or maintenance corridors.
+
+SCP-7566 instances can lie in wait for a functionally interminable interval, feeding off insects, rodents, and other pests, utilizing their enhanced pallesthesia to sense when larger prey draws near and emitting a variety of “knocking” vocalizations, mimicking the sound of a human knocking on the door. When approached, the instance will then silently erupt from its dugout, temporarily cracking its makeshift shell to allow for the forceful projection of a tri-clawed prehensile tongue with which it grips its prey by the throat and pierces their vocal cords.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Likely in an effort to prevent the prey from alerting others.[[/span]] Once in its grip, the prey is dragged behind the shell, which is quickly reassembled. Here the specimen will proceed to either quickly consume its prey whole, or carefully dismember it to share with its young.
+
+Upon expiration from natural causes, SCP-7566 instances can become functionally indistinguishable from the superstructure they have replaced.
+[[/div]]
+
+[[/div]]
+
+@@ @@
+
+[[div class="blockquote tert"]]
+You may append your comments here. Containment personnel will respond within 24 hours.
+[[/div]]
+
+@@ @@
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+Since coming on as a therapist at Area-12, I've been trying to figure out why everyone is so stressed, on edge, just plain freaked out all the time. Finally someone pointed me to this file, and now I get it. What I don't get: why the hell hasn't this ongoing containment breach been dealt with yet? How is it even POSSIBLE that these things have been loose in the facility for so long? They should have been wiped out decades ago!
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+They didn’t brief you on 7566 at on-boarding? It's really not that easy. Think of them as termites.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+So, we fumigate!
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+Fine, do //not// think of them as termites. Think of them as the sea creatures which consume shipwrecks and leave ship-shaped corpses behind. They don't eat our infrastructure, they replace it.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+I still don't see why this hasn't been fixed, but now I also don't see why the file is lacking the explanatory context you just provided.
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+Morale. For one thing, clearing the things out and replacing all the affected superstructure would take longer than constructing an entirely new facility. Hence, Cernunnos.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+That... can't be right.
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+Fine. I'll show you.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+This is an ELIDAR cross-section of Area-12, right?
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[=image https://scp-wiki.wikidot.com/local--files/scp-7566/meat_map2.png]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+Okay?
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+This is the present extent of SCP-7566 infestation in the superstructural members.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[=image https://scp-wiki.wikidot.com/local--files/scp-7566/meat_map.png]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+Oh, right, and the bedrock too. I should add something in the file about that.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+WHAT
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Wylder1"]]
+    [[div class="Wylder2"]]
+We need to evacuate the entire facility.
+    [[/div]]
+[[/div]]
+    [[div style="clear: right;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+No. No, we don't. We've got work to do, and that work requires a great deal of patience and attention to detail. Just like the work 7566 is doing. Just like the work required to not get grabbed by them. You haven't been here long enough to really get it, so don't beat yourself up.
+
+You need to evolve your thinking a little.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+They aren't infesting Area-12.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+[[div class="Toth1"]]
+    [[div class="Toth2"]]
+They **are** Area-12.
+    [[/div]]
+[[/div]]
+    [[div style="clear: left;"]]
+    [[/div]]
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[div class="series-nav"]]
+[[<]]
+<< [[size 85%]][*/scp-6762 SCP-6762][[/size]]
+[[/<]]
+[[=]]
+**| @@ @@ SCP-7566 @@ @@ |**
+[[/=]]
+[[>]]
+[[size 85%]][*/uiu-file-1972-055 Faultline][[/size]] >>
+[[/>]]
+[[/div]]
+
+[[div class="end_card"]]
+[[div class="blockquote quint"]]
+by [[*user Placeholder McD]], [[*user HarryBlank]], [[*user nightbellows]], and [[*user Gabriel Kero]]
+[[/div]]
+
+[[module Rate]]
+
+[[div class="footer-wikiwalk-nav" style="margin: 0 auto;"]]
+[[=]]
+<< [[[SCP-7565]]] | SCP-7566 | [[[SCP-7567]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=Placeholder McD, HarryBlank, & Gabriel Kero]]
+[[<]]
+=====
+
+> **Filename:** baddoors.jpg
+> **Name:** Corridor
+> **Author:** Taber Andrew Bain
+> **License:** CC BY 2.0
+> **Source Link:** [https://www.flickr.com/photos/88442983@N00/2493075778 flickr]
+
+> **Name:** Door.jpg
+> **Author:** Kyle Fitzpatrick
+> **License:** CC BY-SA 3.0
+> **Source Link:** Local files
+
+> **Name:** meat_maps
+> **Author:** [[*user Syuzhet]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** Local files
+=====
+[[/<]]
+[[include :scp-wiki:component:license-box-end]]
+
+[[/div]]

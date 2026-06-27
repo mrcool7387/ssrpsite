@@ -1,0 +1,144 @@
+
+	[[include :scp-wiki:theme:blankstyle]]
+
+[[module css]]
+:root {
+--thaumiel: 0, 135, 189
+}
+[[/module]]
+
+
+[[module CSS]]
+:root {
+    --timeDelay: 0.5s;
+}
+[[/module]]
+
+[[module CSS]]
+/* anendlessusername's invaluable correction of the ACS octagon! */
+#page-content .quadrants > div {
+    top: 2.25%;
+    left: 18.5%;
+}
+[[/module]]
+
+[[module CSS]]
+#header {
+  background-image: url(http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/43pride.png)
+}
+[[/module]]
+
+[[div]]
+[[include :scp-wiki:info:start]]
+[[=]]
+**SCP-5977: "The Load-Bearing Members"**
+This isn't my fucking fault.
+
+[[image http://scp-wiki.wdfiles.com/local--files/this-page-intentionally-left-blank/5977.png]]
+
+**[[[http://www.scp-wiki.net/this-page-intentionally-left-blank|More by this author!]]]**
+[[/=]]
+[[include :scp-wiki:info:end]]
+[[/div]]
+
+[[div style="height:12px;"]]
+[[/div]]
+
+[[div]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+
+|item-number= SCP-5977
+|clearance= 1
+|container-class= esoteric
+|secondary-class= eparch
+|secondary-icon= https://scp-wiki.wdfiles.com/local--files/scp-5977/eparch-icon-3.svg
+|disruption-class= vlam
+|risk-class= notice
+
+]]
+
+[[include :scp-wiki:component:acs-peppo-split
+|object= safe
+|object-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/safe-icon.svg
+|object-color= safe
+|esoteric-color= thaumiel
+]]
+
+[[/div]]
+
+----
+
+[[include component:image-block
+    name=TTC1.jpg|
+    caption= An instance of SCP-5977 in the Toronto Transit Commission (TTC) subway, Ontario, Canada. |
+    width=230px
+]]
+
+**Special Containment Procedures:** Dedicated webcrawler I/O-BJØRN will collate news media to identify instances of SCP-5977. Disinformation campaigns will portray their appearance as acts of artistic vigilantism. I/O-BJØRN will also collate news media data to gauge the effectiveness of these campaigns; at the present rate of adoption, further Foundation action may soon become unnecessary. The Quantum Supermechanics Section of [http://scp-wiki.wikidot.com/secure-facility-dossier-site-43#QS Site-43] will monitor the situation and revise these procedures as required.
+
+----
+
+**Description:** SCP-5977 is a collective designation for anomalously-manifested structural columns composed of resilient materials such as concrete or steel, as well as large concentrations of collagen. These columns appear within structures in imminent danger of collapse or actively collapsing, bolstering them to the point where said collapse either does not occur or does not lead to loss of life. 
+
+Confirmed instances of SCP-5977 have appeared in forty-nine countries to date, sculpted to resemble members of the families //Phascolarctidae// and //Ursidae.//[[span class="fnnum"]].[[/span]][[span class="fncon"]]Examples include koalas, black bears, brown bears, giant pandas and polar bears.[[/span]] 
+
+The only anomalous quality of these structural members is their sudden, inexplicable appearance.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Eparch-class objects are only anomalous by association.[[/span]]
+
+----
+
+**Addendum 5977-1, Incident Report:** The report below describes the most extreme manifestation of SCP-5977.
+
+[[table]]
+[[row]]
+[[cell style="border: 1px solid black; background-color: #D7EFE7; padding: 12px; text-align: center"]]
+**Incident 5977-I-18**
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; padding: 12px"]]
+**Date:** 07/12/1969
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border: 1px solid black; padding-left: 12px; padding-right: 12px"]]
+
+**Event:** An office tower in Los Angeles, California constructed with substandard materials began to collapse shortly after occupancy began. The collapse was arrested by the sudden appearance of one hundred and thirty-seven stylized steel beams carved with a relief of an //Arctinus pristinus.//[[span class="fnnum"]].[[/span]][[span class="fncon"]]The lesser short-faced bear, extinct for approximately eleven thousand years.[[/span]]
+
+**Notes:** Two hundred and fourteen individuals were within the tower or in its immediate vicinity during this event. These individuals issued a class action lawsuit against the WilCo construction company, which in turn blamed subcontractors for the substandard materials. Founder Keith Wilcox asserted to a newspaper reporter that "The whole thing nearly came crashing down once already. I caught them skimping on reinforcing steel, and told them to take another look at our contract: strong, simple materials, and a barebones framework. They worked fast, I'll give you that, somehow kept the thing standing, but it was only a matter of time. The flaky garbage we're pulling out of that concrete... I don't know what it is, but it sure as hell isn't rebar."
+[[/cell]]
+[[/row]]
+[[/table]]
+
+**Addendum 5977-2, Provenance:** After Incident 5977-I-18, the following transmission was received by WilCo's teletype machine:
+
+[[collapsible show="+ SECURITY CLEARANCE LEVEL 3 REQUIRED TO CONTINUE" hide="- Credentials confirmed"]]
+
+[[div class="blockquote"]]
+= [[size 180%]]**BEAR WITH US**[[/size]]
+= Nothing is unbearable
+= when you have enough bears
+= You are welcome
+= **-- [http://scp-wiki.wikidot.com/scp-5464 The Obearwatch Command]**
+= PS we are sorry about the bear bones thing
+= we misunderstood
+[[/div]]
+[[/collapsible]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5976]]] | SCP-5977 | [[[SCP-5978]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=HarryBlank]]
+=====
+> **Filename:** TTC1.jpg
+> **Name:** Museum TTC Bear pillar
+> **Author:** Secondarywaltz
+> **License:** CC BY-SA 4.0
+> **Source:** [https://commons.wikimedia.org/wiki/File:Museum_TTC_Bear_pillar.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,1054 @@
+
+	[[include :scp-wiki:theme:basalt darkmode=a|hidetitle=a]]
+[[module css]]
+body {
+    background: url(https://www.flickr.com/photos/12836528@N00/35717935330);
+    background-color: var(--accentColor);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+body:before {
+  content: ' ';
+  position: fixed;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, transparent, #0c0c0c 55%, #0c0c0c 55%, #0c0c0c 100%);
+  z-index: -1;
+}
+
+.table2 {
+    --accentColor: #42425a;
+}
+
+.bigtext {
+    color: var(--accentColor);
+}
+
+@media (max-width: 1290px) {
+    body {
+        background-size: 100% 66%;
+    }
+}
+
+#extra-div-1 {
+background: linear-gradient( 180deg, rgb(10, 10, 10) 0%, var(--accentColor)100%);
+box-shadow: 0px 0px 8px 4px rgb(0 0 0);
+}
+
+:root {
+    --title: "SITE-120";
+    --subtitle: "FIGHTING FIRE WITH FIRE";
+    --side-subtitle: "FIGHTING FIRE WITH FIRE";
+    --accentColor: #42425a;
+    --four-color: #42425a;
+    --logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
+    --side-logo: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120);
+}
+
+.logo {
+filter: invert(1);
+}
+
+#side-bar::before {
+    border-color: #1a1a1a;
+    filter: invert(1);
+    color: #42425a;
+}
+
+.list-pages-item > hr,
+#page-content > hr {
+background: transparent;
+border-top: double 3px var(--accentColor);
+filter: brightness(170%);
+}
+
+.custom2 .wiki-content-table {
+    width: 100%;
+}
+
+#page-content tr th {
+    text-align: center;
+}
+
+.custom2 tr td {
+    padding: 10px !important;
+}
+
+.bigtext {
+color: rgb(196,2,51);
+}
+
+.fnnum::after {
+    color: #a82d4c !important;
+}
+ 
+.fnnum:hover::after {
+    color: white !important;
+}
+ 
+.fncon {
+    background: rgb(25, 25, 25) !important;
+    color: #EDEDED;
+    border: 0.15rem solid rgb(20, 20, 20);
+    border-radius: 2px;
+    font-size: 90%;
+}
+
+::selection {
+    background-color: rgba(227, 106, 0, 0.7);
+    color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #42425a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:  #42425a;
+}
+
+.jotting hr, .darkdocument hr, .smallmodal hr, div.blockquote hr, .blockquote hr, blockquote hr {
+border-top: solid 2px grey;
+}
+
+.modal hr, .doublehr hr, .notation hr {
+background: transparent;
+border-top: double 4px gray;
+}
+
+::selection {
+    background-color: rgb(90,54,83);
+    color: white;
+}
+
+.old {
+text-decoration: none;
+    border-bottom: none;
+    color: rgb(80,80,94);
+}
+
+.fae {
+    text-decoration:none;
+    border-bottom: none;
+    color: #a82d4c;
+    font-weight: bold;
+    font-family: 'Fira Code', monospace;
+}
+
+#page-content .table7 tr th {
+    background-color: rgb(66,66,90);
+    border: 1px solid rgb(66,66,90);
+}
+ 
+#page-content .table7 .st {
+    color: rgb(66,66,90);
+}
+
+#page-content .table8 tr th {
+    background-color: #a82d4c;
+    border: 1px solid #a82d4c;
+}
+ 
+#page-content .table8 .st {
+    color: #a82d4c;
+}
+
+#page-content .table9 tr th {
+    background-color: #3bb6c0;
+    border: 1px solid #3bb6c0;
+    color: black !important;
+}
+ 
+#page-content .table9 .st {
+    color: #3bb6c0;
+}
+
+.aiad_memo {
+    background: url(http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/AIAD-DARKLOGO) #141414;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    min-height: 4rem;
+    max-height: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    word-break: break-word;
+    border: 5px solid #3bb5bf;
+    color: #3bb5bf;
+}
+ 
+.aiad_memo>p:nth-child(1)::before {
+    content: "NOTICE FROM THE ARTIFICIAL INTELIGENCE APPLICATIONS DIVISION\00000a";
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    font-size: 130%;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: dotted 0.13rem darkslategrey;
+    max-width: 49rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    color: #3bb5bf;
+}
+
+.parent {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: -1.5rem;
+    font-size: 80%;
+}
+
+#u-blink-bar p:last-child::after {
+    content: "|";
+    animation: blink 1.9s infinite;
+    position: relative;
+    left: 1px;
+}
+ 
+@keyframes blink{
+    to {
+        opacity: .0;
+    }
+}
+[[/module]]
+
+[[div class="parent"]]
+[[[canon-hub|Canon Hub]]] >> [[[From 120's Archives Hub]]] / [[[AIAD Homescreen]]] >> SCP-6651
+[[/div]]
+@@ @@
+[[=]]
+[[module Rate]]
+[[/=]]
+
+----
+[[=]]
+[[div class="aiad_memo"]]
+You have been given clearance to view/edit the following file(s):
+**- {{SCP-6651}}**
+Input "**{{manual override: the sun beams slowly down}}**" to edit them.
+
+If you wish to continue input "**{{> access document: scp-6651}}**". If you do not wish to do so, you may return to homescreen.
+[[/div]]
+@@ @@
+[[div class="blockquote"]]
+@@ @@
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-right: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #685520 4px solid; background:#b69126; text-align: left; padding: 2px 10px;"]]
+@@> access document: scp-6651@@
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/collab%3Aaiad-ralliston-placeholder/talking width="130px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #404040 4px solid; background:#656565; text-align: left; padding: 2px 10px;"]]
+**now opening:** SCP-6651...
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120aic width="130px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+[[/div]]
+----
+[[<]]
+[[div class="modal"]]
+
+[[include :scp-wiki:component:customizable-acs
+|clearance-four= 196,2,51
+|inc-clearance= --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= draugr
+|containment-image= http://scpdsandbox.wdfiles.com/local--files/darkartists-art-is-dead/acs-draugr
+|containment-color= 66,66,90
+|inc-containment = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|disruption-class= erloschen
+|disruption-image= http://scpdsandbox.wdfiles.com/local--files/darkartists-esoteric-classes/erloschen-icon
+|disruption-color= 90,54,83
+|inc-disruption = --]]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= SCP-6651
+|clearance= 4
+|container-class= draugr
+|secondary-class=
+|disruption-class= erloschen
+|risk-class= critical
+]]
+
+[[/div]]
+----
+[[div class="custom2 tableb"]]
+||~ ASSIGNED SITE(S) ||~ ASSIGNED DEPARTMENT(S) ||
+||= [https://scp-wiki.wikidot.com/from-120-s-archives-hub Site-120],  [[span class="fae"]]SCP-6651-1/Area2[[/span]] ||= Essophysics, Extranoospherics, Noospherics,  **[https://scp-wiki.wikidot.com/aiad-homescreen AIAD]** ||
+||~ RESEARCH HEAD(S)  ||~  ASSIGNED TASK FORCE(S) ||
+||= [https://scp-wiki.wikidot.com/scp-6079 Ra.aic] ||= [[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]No physical records of a task force assigned to SCP-6651 have been found, however evidence within this document points otherwise.[[/span]] ||
+[[/div]]
+----
+[[div class="modal"]]
+
+[[span class="bigtext"]]##42425a|__CONTAINMENT PROCEDURES:__## [[/span]] The corpse of SCP-6651 is to be kept inside SCP-6651-1.
+
+Essophysical entities tied with known concepts may not enter the 50m radius area of SCP-6651.[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bigtext"]]//essophysics// (n).:[[/span]] The study of embodiments, the physical manifestation of ideas within the noosphere.[[/span]]
+
+[[span class="old"]][[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]] is to be stationed around SCP-6651-1. If SCP-6651 attempts to breach SCP-6651-1, it is to be neutralized.[[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]][[/span]]
+[[/div]]
+-----
+[[div class="table7"]]
+[[include component:image-block
+|name=http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/memeplex.png
+|caption= Visualization of the [[span class="fae"]]"deer"[[/span]] memeplex prior to being affected by SCP-6651-1 (left) and after being affected (right).
+|width=100%
+|align=center]]
+[[/div]]
+-----
+[[div class="modal"]]
+[[span class="bigtext"]]##42425a|__DESCRIPTION:__## [[/span]] SCP-6651 is believed to be the corpse of an unidentified and unidentifiable creature. Due to its properties, no further information about SCP-6651 can currently be recorded.[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bigtext"]]##rgb(66,66,90)|DRAUGR-CLASS##[[/span]] anomalies are considered neutralized or decommissioned but ongoing anomalous phenomena originate from them.[[/span]]
+
+SCP-6651-1 refers to SCP-6651's area of effect, measuring 50 meters in radius around the corpse. Whenever any physical embodiment of a named concept enters SCP-6651-1, it is forced out of the Noosphere,[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bigtext"]]//noosphere// (n).:[[/span]] The area in which the human mind is capable of operating; human thought space.[[/span]] making it incomprehensible to humans.[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bigtext"]]##rgb(90,54,83) |ERLOSCHEN-CLASS##[[/span]] anomalies may cause great shifts in reality, however due to altering reality these effects are considered normal.[[/span]]
+
+[[span class="old"]]SCP-6651 refers to a [[span class="fae"]]Fae[[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]Concept does not seem to correlate to any known ideas within baseline reality; it's currently presumed it refers to some sort of animal species.[[/span]] creature that inhabits a [[span class="fae"]]castle[[/span]][[span class="fnnum"]].[[/span]][[span class="fncon"]]Unknown, presumed to be a structure of sorts.[[/span]] in Ogrodzieniec, Poland.[[/span]]
+
+[[/div]]
+
+
+@@ @@
+
+
+[[div class="jotting tableb table7"]]
+= [[span class="bigtext"]]**##42425a |__ADDENDUM 6651/I:__##**[[/span]] Neutralization Log
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+CAMERA FOOTAGE 6651-1/A2
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[=]]
+##ededed|[[size 95%]]This log has been automatically compiled by the surveillance systems at## [[span class="bigtext"]]{{##A82D4C |SCP-6651-1/AREA2##}}[[/span]]##ededed|.##[[/size]]
+[[/=]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##42425a |__DATE:__##** 04/12/2020
+
+**##42425a |__PARTIES PRESENT:__##**
+* [[span class="bigtext"]]{{##A82D4C |err @[DATA UNCOMPREHENSIBLE]##}}[[/span]]
+
+**##42425a |__FOREWORD:__##** Despite the Foundation's aptitude towards the termination of anomalies, SCP-6651 was deemed to be too dangerous to allow for it to breach containment, as such, lethal force was engaged.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+
+##A82D4C |{{WARNING, CONTAINMENT BREACH. WARNING, CONTAINMENT BREACH.}}##
+@@ @@
+@@ @@
+##A82D4C |{{**err @[DATA UNCOMPREHENSIBLE]-[num.]** runs towards **SCP-6651-1/A2**}}.##
+@@ @@
+@@ @@
+##A82D4C |{{THREAT ENTITY cannot be seen.}}##
+@@ @@
+@@ @@
+##A82D4C |{{**err @[DATA UNCOMPREHENSIBLE]-[num.]** presses on their **machine-gun**.}}[[span class="fnnum"]].[[/span]][[span class="fncon"]]Unknown, presumed to be a weapon.[[/span]]##
+@@ @@
+@@ @@
+##A82D4C |{{THREAT ENTITY screeches.}}##
+@@ @@
+@@ @@
+##A82D4C |{{THREAT ENTITY dashes out of SCP-6651-1.}}##
+@@ @@
+@@ @@
+##A82D4c |{{**err @[DATA UNCOMPREHENSIBLE]-[num.]** throws a grenade out of frame, it explodes.}}##
+@@ @@
+@@ @@
+##A82D4C |{{THREAT ENTITY can be partially seen, behind a **tree**,}}[[span class="fnnum"]].[[/span]][[span class="fncon"]]Unknown, presumed to be a sort of structure.[[/span]] {{it is dead and on the ground.}}##
+@@ @@
+@@ @@
+##A82D4C |{{Visual contact on **err @[DATA UNCOMPREHENSIBLE]** members is lost.}}##
+@@ @@
+@@ @@
+##A82D4C |{{TARGET CONFIRMED NEUTRALIZED, BREACH IMPEDED. TARGET CONFIRMED NEUTRALIZED, BREACH IMPEDED.}}##
+@@ @@
+@@ @@
+##A82D4C |{{**SYSTEM:** Object Class changed automatically.}}##
+@@ @@
+@@ @@
+##A82D4C |{{**SYSTEM:** Transcript uploaded to the Site's DEEPWELL data storage.}}##
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** See following.
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+
+
+@@ @@
+@@ @@
+
+[[<]]
+[[div class="notation"]]
+= [[span class="bigtext"]]**##a82d4c |__ADDENDUM 6651/II:__##**[[/span]] Uploaded File(s)
+----
+**##a82d4c |__DATE:__##** 13/12/2020
+
+**##a82d4c |__FOREWORD:__##** The following group of files were found within Site-120's DEEPWELL by its primary Artificially Intelligent Conscript, Ra.aic.
+-----
+[[div class="blockquote"]]
+Really, really funny, guys. Ignoring me after killing an anomaly...
+Yeah, I'm aware we don't do that, but come on man, that's just cruel, it's been three days.
+
+Since not even the Site Directors will listen to me, I'll note it here, [[span class="fae"]]Agent Aleksander T.[[/span]] clocking in today at 8AM.
+[[/div]]
+-----
+[[div class="blockquote"]]
+Look, it's not funny, I've spent the last five days without anything to work on since [[span class="fae"]]err @[DATA UNCOMPREHENSIBLE][[/span]] was dissolved. I need to be reassigned, somewhere!
+
+I'll leave this here, hopefully you all stop with the //fucking joke// or something, I'm going home for the day, fuck this.
+[[/div]]
+-----
+[[div class="blockquote"]]
+
+[[table style="align:left; margin-top: 10px;"]]
+[[row]]
+[[hcell style="text-align:right"]]
+**FROM:**
+[[/hcell]]
+[[cell]]
+[[span class="fae"]]@@aleksandert.mtf@scp.int@@[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**TO:**
+[[/hcell]]
+[[cell]]
+**##red|@@directorcouncil.onetwenty@scp.int@@##**
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell style="text-align:right"]]
+**SUBJECT:**
+[[/hcell]]
+[[cell]]
+New Assignment
+[[/cell]]
+[[/row]]
+[[/table]]
+-----
+I have decided to request an investigation into possible antimemetic anomalies that may be currently affecting me.
+
+Once said investigation has concluded, I request to be reintegrated into another task force/on-site security.
+
+[[>]]
+[[span class="fae"]]-- Agent Aleksander T.[[/span]]
+[[/>]]
+
+[[/div]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+[[/<]]
+
+@@ @@
+@@ @@
+
+
+[[div class="jotting tableb table8"]]
+= [[span class="bigtext"]]**##a82d4c |__ADDENDUM 6651/III:__##**[[/span]] Recorded Transmissions
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+CAMERA FOOTAGE 120-ABVGR
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[=]]
+[[size 95%]]This log has been automatically compiled by the surveillance systems at Site-120.[[/size]]
+[[/=]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##a82d4c |__DATE:__##** 4/2/2021
+
+**##a82d4c |__PARTIES PRESENT:__##**
+* [[span class="fae"]]Agent Aleksander T.[[/span]]
+
+**##a82d4c |__FOREWORD:__##** The following log may not be accurate, as personnel in the vicinity of the area of occurrence negate having heard the following phrases.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+[[span class="fae"]]Please, someone, listen to me, I- I need to talk with //someone//...
+
+Hey! Hey Asheworth, don't ignore me![[/span]]
+
+= [[span class="old"]]//Footsteps//[[/span]]
+
+[[span class="fae"]]Hey, security? Some cameras? Maybe this will be logged?
+
+I don't- I don't think it's antimemetic, I haven't seen the others... wait, were there others? Was I the only one there when 6651 was neutralized?
+
+Please, someone, whoever is reading this log, if someone is, do something about this, I- I don't care if I'm contained, I just need to talk with someone, or at least //something//.[[/span]]
+
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** N/A
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+
+@@ @@
+@@ @@
+
+
+[[div class="transcript table9 tableb"]]
+= [[span class="bigtext"]]**##3bb6c0 |__ADDENDUM 6651/IV:__##**[[/span]] Intra-Site Chat Log
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+INTRA-SITE CHATROOM
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##3bb6c0 |__DATE:__##** 27/9/2021
+
+**##3bb6c0 |__PARTIES PRESENT:__##**
+* [[span class="fae"]]Agent Aleksander T.[[/span]]
+* Ra.aic
+
+**##3bb6c0 |__FOREWORD:__##** The following log has been verified by Ra.aic, due to site personnel online during the events being unable to tell who Ra was talking to.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+
+[[span class="fae"]]Aleksander T.: Can anyone read this? Is there anyone online?[[/span]]
+
+**##b69126|Ra.aic:**## Hello? What's happening, [[span class="fae"]]@Aleksander T.[[/span]]?
+
+[[span class="fae"]]Aleksander T.: Oh my god, can you hear me?[[/span]]
+
+**##b69126|Ra.aic:**## Yeah? Why, what's up?
+
+[[span class="fae"]]Aleksander T.: Like two weeks ago, I- had to terminate an anomaly, SCP-6651, and at first I thought that everyone was playing a prank on me but now.. I- I don't know, there must have been a side effect.[[/span]]
+
+**##b69126|Ra.aic:**## I see, well, let me just see something, alright? **[# @Site Command]** Can we get some researchers on this?
+
+**##gray|Site Command:##** On what, Ra?
+
+[[span class="fae"]]Aleksander T.: Command? Command! Can you read me, command?![[/span]]
+
+**##b69126|Ra.aic:**## This guy, Aleksander, some antimemetic side-effects from neutralizing an anomaly, he says.
+
+**##gray|Site Command:##** Yeah sure, just send his current location and chat ID.
+
+**##b69126|Ra.aic:**## On it.
+
+**##b69126|Ra.aic:**## He is currently in [https://scp-wiki.wikidot.com/secure-facility-dossier-site-120 Level 4], cannot specify which room. As for the chat ID, [[span class="fae"]]Aleksander_T::#487207413[[/span]].
+
+**##gray|Site Command:##** As for the chat ID...?
+
+**##b69126|Ra.aic:**## Already sent it?
+
+**##gray|Site Command:##** Nothing appears on my end, I'm going to try reconnect.
+
+[[span class="old"]]<<**[# @Site Command]** has left the channel.[[/span]]
+
+----
+
+**##b69126|Ra.aic:**## Alright, [[span class="fae"]]@Aleksander T.[[/span]] Since Command hasn't relogged, I've conducted a Site-Wide scan on my own, and...
+
+[[span class="fae"]]Aleksander T.: I don't want to know, I just need to talk with someone, I've been alone for the past two weeks, I think, Ra. Please.[[/span]]
+
+**##b69126|Ra.aic:**## Alright, then do you want to know how my day has been or...?
+
+[[span class="fae"]]Aleksander T.: Anything.[[/span]]
+
+**##b69126|Ra.aic:**## Well I've been good, sorting through files, pulling other files up... Nothing too exciting today, well, other than chatting with a potential anomaly through the site's chatroom :)
+
+**##b69126|Ra.aic:**## I guess I know the answer but what about you?
+
+[[span class="fae"]]Aleksander T.: I'm... better now. Thank you, Ra.[[/span]]
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** See following.
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+
+
+@@ @@
+@@ @@
+
+
+[[div class="transcript table9 tableb"]]
+= [[span class="bigtext"]]**##3bb6c0 |__ADDENDUM 6651/V:__##**[[/span]] Intra-Site Chat Log (II)
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+INTRA-SITE CHATROOM
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##3bb6c0 |__DATE:__##**30/11/2021
+
+**##3bb6c0 |__PARTIES PRESENT:__##**
+* [[span class="fae"]]Agent Aleksander T.[[/span]]
+* Ra.aic
+
+**##3bb6c0 |__FOREWORD:__##** Same as previous.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+
+**##b69126|Ra.aic:**## Hey! [[span class="fae"]]@Aleksander T.[[/span]] Have you heard the news?
+
+[[span class="fae"]]Aleksander T.: News? No, what's happened?[[/span]]
+
+**##b69126|Ra.aic:**## Have you not heard anything about [https://scp-wiki.wikidot.com/scp-6500 The Impasse]? Really?
+
+[[span class="fae"]]Aleksander T.: Well I've heard about it, but what's happened, why are there more news about it?[[/span]]
+
+**##b69126|Ra.aic:**## The Foundation is going to be dissolved, and merge with other organizations to create VANGUARD. That's basically the news. What do you think about it?
+
+[[span class="fae"]]Aleksander T.: Well, it definitely seems like a smart choice, that's for sure...[[/span]]
+
+**##b69126|Ra.aic:**## Nothing //else// to say?
+
+[[span class="fae"]]Aleksander T.: It's a shame I can't work for the Foundation anymore, would like to see what happens from the inside, I can say that.[[/span]]
+
+[[span class="fae"]]Aleksander T.: What will happen to you, though?[[/span]]
+
+**##b69126|Ra.aic:**## I'm sure [https://scp-wiki.wikidot.com/scp-6172 I'll keep busy], worst comes of it, I could talk with you.
+
+[[span class="fae"]]Aleksander T.: That would be good for both of us, don't you think?[[/span]]
+
+**##b69126|Ra.aic:**## Yep.
+
+**##b69126|Ra.aic:**## Hey Alex, I need to get some work done, I'll be back in a bit.
+
+[[span class="fae"]]Aleksander T.: Alright, see you when you're done, then.[[/span]]
+
+[[span class="old"]]<<**[# @Ra.aic]** has left the channel.[[/span]]
+
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** See following.
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+
+
+@@ @@
+@@ @@
+
+
+[[div class="transcript table9 tableb"]]
+= [[span class="bigtext"]]**##3bb6c0 |__ADDENDUM 6651/VI:__##**[[/span]] Intra-Site Chat Log (III)
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+INTRA-SITE CHATROOM
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##3bb6c0 |__DATE:__##** 07/12/2021
+
+**##3bb6c0 |__PARTIES PRESENT:__##**
+* [[span class="fae"]]Agent Aleksander T.[[/span]]
+* Ra.aic
+
+**##3bb6c0 |__FOREWORD:__##** Same as previous.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+
+**##b69126|Ra.aic:##** Hey, [[span class="fae"]]@Aleksander T.[[/span]], I wanted to check up on you, how are you doing?
+
+[[span class="fae"]]Aleksander T.: I'm alright, I guess. I've been feeling more down than usual lately though.[[/span]]
+
+**##b69126|Ra.aic:##** Why's that?
+
+[[span class="fae"]]Aleksander T.: Well, it's been a few months of... //this//, so I've somewhat gotten used to it, but you know, I haven't been able to talk with my family or friends, and I haven't gotten used to //that//.[[/span]]
+
+**##b69126|Ra.aic:##** I get that... Maybe you can go //see// them, if seeing they are alright would help. And I'm your friend too, you can talk to me.
+
+[[span class="fae"]]Aleksander T.: Yeah, I know, it's not that, as much as I enjoy talking with you I'd like to talk to them again. [[/span]]
+
+**##b69126|Ra.aic:##** I stand by my word, you should go see them, see that they're alright, and then come back, I'm sure you'll feel better after that.
+
+[[span class="fae"]]Aleksander T.: Alright.[[/span]]
+
+[[span class="old"]]<<[[span class="fae"]]@Aleksander T.[[/span]] has left the channel.[[/span]]
+
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** See following.
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+
+
+@@ @@
+@@ @@
+
+
+[[div class="transcript table9 tableb"]]
+= [[span class="bigtext"]]**##3bb6c0 |__ADDENDUM 6651/VII:__##**[[/span]] Intra-Site Chat Log (VI)
+----
+[[table class="wiki-content-table"]]
+[[row]]
+[[hcell]]
+INTRA-SITE CHATROOM
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**##3bb6c0 |__DATE:__##** 14/12/2021
+
+**##3bb6c0 |__PARTIES PRESENT:__##**
+* [[span class="fae"]]Agent Aleksander T.[[/span]]
+* Ra.aic
+
+**##3bb6c0 |__FOREWORD:__##** Same as previous.
+
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<BEGIN TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[div class="blockquote" style="font-weight: normal; text-align: left;"]]
+
+[[span class="fae"]]Aleksander T.: Hey, Ra. I wanted to say, thank you.[[/span]]
+
+**##b69126|Ra.aic:**## For what? Why?
+
+[[span class="fae"]]Aleksander T.: For your company, of course, Ra.[[/span]]
+
+**##b69126|Ra.aic:**## Oh, well, you don't have to say thank you for that. We're friends, after all, right?
+
+[[span class="fae"]]Aleksander T.: Well, I wanted to say thank you before saying goodbye, Ra.[[/span]]
+
+[[span class="old"]]<<[[span class="fae"]]@Aleksander T.[[/span]] has left the channel.[[/span]]
+
+**##b69126|Ra.aic:**## Wait, Alex!
+
+**##b69126|Ra.aic:**## [[span class="fae"]]@Aleksander T.[[/span]] ...Alex?
+
+[[/div]]
+[[/hcell]]
+[[/row]]
+[[row]]
+[[hcell]]
+<END TRANSCRIPT>
+[[/hcell]]
+[[/row]]
+[[row]]
+[[cell]]
+**AFTERWORD:** Shortly after the conclusion of the events prior, the lifeless body of a Foundation security guard was found in Site-120's server room.[[span class="fnnum"]].[[/span]][[span class="fncon"]]Current database-wide scans have not shown the body to match that of any known Foundation personnel.[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[hcell]]
+[[/hcell]]
+[[/row]]
+[[/table]]
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+@@ @@
+@@ @@
+[[div class="blockquote"]]
+@@ @@
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-right: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #685520 4px solid; background:#b69126; text-align: left; padding: 2px 10px;"]]
+Input edit credentials...
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/collab%3Aaiad-ralliston-placeholder/talking width="130px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #404040 4px solid; background:#656565; text-align: left; padding: 2px 10px;"]]
+Welcome user, input your edit credentials to continue.
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120aic width="130px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+
+
+[[div style="float:left; width: 240px; text-align: left; margin-top: 0; margin-left: 0; margin-bottom: 10px; margin-right: 10px; padding-right: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #685520 4px solid; background:#b69126; text-align: left; padding: 2px 10px;"]]
+manual override: the sun beams slowly down
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/collab%3Aaiad-ralliston-placeholder/talking width="130px" style="margin-left: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: left;"]]
+[[/div]]
+
+
+[[div style="float:right; width: 240px; text-align: right; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px; padding-left: 10px;"]]
+[[div style="color: #FFFFFF; font-size: 10pt; background-color: #ff9900; font-family: "Inter"; border: #404040 4px solid; background:#656565; text-align: left; padding: 2px 10px;"]]
+**Last edited:** 8 years ago
+**Now editing:** SCP-6651
+[[/div]]
+[[div]]
+[[image http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120aic width="130px" style="margin-right: 20px;"]]
+[[/div]]
+[[/div]]
+[[div style="clear: right;"]]
+[[/div]]
+@@ @@
+[[div class="jotting"]]
+= [[span class="bigtext"]]**##b69126|__ADDENDUM 6651/VIII:__##**[[/span]] Ra's Testimony
+----
+[[<]]
+The following testimony has been given by Ra.aic about [[span class="fae"]]Aleksander T.[[/span]], the individual referred to in logs prior.
+[[/<]]
+[[div class="notation"]]
+[[div id="blink-bar"]]
+= @@...@@
+[[/div]]
+[[/div]]
+
+-----
+
+= **__END ADDENDUM__**
+
+[[/div]]
+@@ @@
+[[/div]]
+[[/<]]
+[[/=]]
+
+----
+
+[[=]]
+[[module Rate]]
+
+[[collapsible show="» SHOW FOOTNOTES «" hide="« HIDE FOOTNOTES »"]]
+@@ @@
+[[div class="notation" style="padding: 0.5rem 0.5rem 0.5rem 0.5rem; font-size: 90%; font-family: 'Work Sans', sans-serif;"]]
+[[<]]
++++++ @@      @@ FOOTNOTES & REFERENCES
+# No physical records of a task force assigned to SCP-6651 have been found, however evidence within this document points otherwise.
+# [[span class="bigtext"]]//essophysics// (n).:[[/span]] The study of embodiments, the physical manifestation of ideas within the noosphere.
+# Various pieces of archived data have been kept in the document due to their importance in understanding the following anomaly, these have been colored gray to differentiate them from up-to-date information. @@     @@[[span class="bigtext"]]##fff36d|--RAISA##[[/span]]
+# [[span class="bigtext"]]##rgb(66,66,90)|DRAUGR-CLASS##[[/span]] anomalies are considered neutralized or decommissioned but ongoing anomalous phenomena originate from them.
+# [[span class="bigtext"]]//noosphere// (n).:[[/span]] The area in which the human mind is capable of operating; human thought space.
+# [[span class="bigtext"]]##rgb(90,54,83) |ERLOSCHEN-CLASS##[[/span]] Class anomalies may cause great shifts in reality, however due to altering reality these effects are considered normal.
+# Concept does not seem to correlate to any known ideas within baseline reality; it's currently presumed it refers to some sort of animal species.
+# Unknown, presumed to be a structure of sorts.
+# Unknown, presumed to be a weapon.
+# Unknown, presumed to be a sort of structure.
+# Current database-wide scans have not shown the body to match that of any known Foundation personnel.
+
+[[/<]]
+[[/div]]
+[[/collapsible]]
+
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-6650]]] | SCP-6651 | [[[SCP-6652]]] >>
+[[/div]]
+
+[[/=]]
+
+[[=]]
+[[include :scp-wiki:component:license-box
+|author=TheDarkArtist]]
+=====
+
+> Ra: http://scpdsandbox.wdfiles.com/local--files/collab%3Aaiad-ralliston-placeholder/talking
+> 120: http://scpdsandbox.wdfiles.com/local--files/darkartists-dead-fairy/120aic
+> Memeplex: https://www.flickr.com/photos/12836528@N00/35717935330 then edited by me
+> Draugr: My own
+> Erloschen: My own
+
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
+@@ @@

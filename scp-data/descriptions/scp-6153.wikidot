@@ -1,0 +1,31 @@
+
+	[[>]]
+[[module rate]]
+[[/>]]
+[[include :scp-wiki:theme:foxtrot]]
+[[module CSS]]
+:root {
+  --header-title: "Project Lakshmi";
+  --header-subtitle: "Safely Controlling Probability";
+}
+[[/module]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6153-a --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6153-b --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6153-c --]
+
+[[<]]
+[[footnoteblock]]
+[[/<]]
+
+@@ @@
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-6152]]] | SCP-6153 | [[[SCP-6154]]] >>
+[[/div]]
+[[/=]]

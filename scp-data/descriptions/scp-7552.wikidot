@@ -1,0 +1,54 @@
+
+	[[include :scp-wiki:info:start]]
+**Author: jwellhoner**
+[[include :scp-wiki:info:end]]
+
+[[module CSS]]
+#page-title {
+  display: none;
+}
+
+.meta-title {
+  border-bottom: solid 1px #bbbbbb;
+  color: #990011;
+  font-weight: normal;
+  margin: 0 0 0.6em;
+  padding: 0 0 0.25em;
+  font-size: 200%;
+}
+
+.meta-title p {
+  margin: 0;
+}
+[[/module]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-7552-0
+http://scp-wiki.wikidot.com/fragment:scp-7552-1
+--]
+
+[[module ListPages name="scp-7552%" parent="." category="fragment" limit="1" order="name" offset="@URL|0"]]
+[[div class="meta-title"]]
+%%title%%
+[[/div]]
+
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7551]]] | SCP-7552 | [[[SCP-7553]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Yellow Ball in a Bathroom
+> **Author:** Andrew Mason
+> **License:** CC BY 2.0 license
+> **Source Link:** https://www.flickr.com/photos/a_mason/3802854/
+=====
+[[include :scp-wiki:component:license-box-end]]

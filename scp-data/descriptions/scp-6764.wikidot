@@ -1,0 +1,471 @@
+
+	[[include :scp-wiki:component:text-style]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module CSS]]
+  .footnoteref{ font-variant: unset; }
+[[/module]]
+[[div style="text-align: right; margin-top: -20px;"]]
+[[size 80%]]##757575|by J Dune##[[/size]]
+[[/div]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=SCP-6764
+|authorPage=https://scp-wiki.wikidot.com/dr-dune-s-personnel-file
+|comments=
+= **SCP-6764** - Maddie
+ 
+-----
+
+maddie moment
+
+-----
+ 
+= **Image Credits**
+ 
+]]
+[[module CSS]]
+sup {
+    vertical-align: top;
+    position: relative;
+    top: -0.5em;
+}
+
+:root {
+    --cutColour: #fafafa;
+    --barColour: #590505;
+}
+
+.translation_block {
+    display: none;
+}
+
+.info-container .collapsible-block-folded a {
+    color: #FFF;
+}
+
+.info-container .collapsible-block-unfolded-link a {
+    color: #FFF;
+}
+
+.info-container .collapsible-block-link,
+.info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+[[/module]]
+[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:component:bhl-dark-sidebar]]
+[[include :scp-wiki:component:acs-animation]]
+
+[[=]]
+[[image https://scp-wiki.wdfiles.com/local--files/scp-5935/warning.png]]
+[[/=]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6764
+|clearance= 1
+|container-class= safe
+|secondary-class= none
+|secondary-icon=
+|disruption-class= vlam
+|risk-class= notice
+]]
+----
+
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-6764/maddie2.png|align=right|width=45%|caption=Visual reference, provided by SCP-6764 during a conversation]]
+
+**Special Containment Procedures:** As a method of physical containment for SCP-6764 has yet to be developed, containment efforts are instead focused on the continued tracking of the entity's correspondences. Communications with SCP-6764 are to be transcribed, with individuals involved amnesticized.
+
+**Description:** SCP-6764 is an entity who communicates via textual digital outlets, primarily short messaging services such as personal text components, in English-speaking countries. The phone number by which SCP-6764 uses to contact an individual varies with each instance, and investigation shows that these numbers exist  and can be linked to ordinary individuals. Despite this, SCP-6764 will always refer to the number as belonging to itself. There are no discernible patterns related to SCP-6764 contact events, and the entity has been shown to be able to communicate in locations with little or no internet connection at ordinary speeds.
+
+SCP-6764 self-identifies as “Madeline” or “Maddie”, an adult female of unknown age and ethnicity who claims to be located in an area near the individual it is contacting, though a physical presence has yet to be observed. Upon initiating contact, SCP-6764 will explain to the individual that it is inconvenienced, lost, hurt, or “stuck”, and requires assistance. SCP-6764 will then, regardless of whether or not the individual has chosen to continue contact with the entity, request said assistance.
+
+Should an individual continue contact with SCP-6764, the entity will attempt to guide them to its location. This will, if followed, result in the individual's death, the cause of which varies depending on the context of the encounter and the surrounding environment. However, a lack of engagement by the individual or a recognition of the obvious danger that would result from following through with SCP-6764’s requests [[[hogslice-makes-a-friend| usually precludes this.]]]
+
+**Addendum.6764.1:** Communication with SCP-6764
+
+The following are transcripts of communication logs with SCP-6764, sourced from various encounters.
+
+Event.6764.24: //Recovered from the phone of Derrick Gerald, a student at the University of North Carolina.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]Yo, it’s Maddie from chem class. Got a question about the exam Wednesday![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]sure whats up[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]I missed a few classes. You willing to share those notes or am I gonna be shit outta luck?[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]np, i’ll send them over[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Oh no, I can’t read pictures. My eyesight is so bad, man, lmao. I’m actually in Clarence Hall, if you wanna come to my room so I could copy them.[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]haha ok ill be over what floor[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]3rd, but can you jump out your window for me? I’d really appreciate it, dude![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]huh[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]] Like, out your window. We’ll be able to talk in-person if you do that! Just open the window and take a leap![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]who is this[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Maddie. From chem.[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]fuck off lol[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Okay, okay. Was just messing around. I'm actually down your drain, you need to turn the water on and keep it running until you pass out. Or bash your head in with that laptop. Or stab yourself with the pencil. Any of those will do, really.[[/span]]
+[[span class="text"]]Come on[[/span]]
+[[span class="text"]]Please[[/span]]
+[[span class="text"]]I’m not a ghost[[/span]]
+[[span class="text"]]Yo, fuck you dude.[[/span]]
+[[span class="text"]]k[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Heya, how’d you do on the exam?[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+----
+
+Event.6764.56: //Recovered from the phone of Chad Smithson, received while on a hunting excursion in the Saskatchewan wilderness.//
+
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]hiiiiiiiiiiiiiiiiiiii[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]Hiiiiiiiiiiiiiiiiiiiiiiii?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]its maddie, i’m lost in the woods and i need help :([[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]How are you texting me? Who are you?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]] i was taking a hike and im lost. i think theres ghosts here and i’m really scared so can you come down from the tree and help me pleeeease :(((( i hate ghosts :(((((( its so cold brrrr[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]What the fuck?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]ghosts are so scary :(( i need help and i donno where i am :((((([[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]Where are you?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]:D[[/span]]
+[[span class="text"]]okay do u see your rifle[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]Yeah?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]look down the barrel…[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]Looking.[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]pull the trigger!![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]No.[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]:([[/span]]
+[[span class="text"]]but im lost[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]If this is a joke I seriously don’t find it funny and I’d appreciate if you stopped before I call the police.[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]you don’t have cell service :)[[/span]]
+[[span class="text"]]the ghosts r getting closer. ahh!!!!![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]I’m blocking your number.[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Whatever cunt.[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+----
+
+**Event.6764.102:** //Recovered from the phone of New York resident Barry White, age 89.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]CUTE 🥰 GHOST GIRL 👻 👩‍🦰  IN YOUR AREA 🏠 LOOKING FOR COMPANY TO SPEND THE REST OF ETERNITY WITH 😇😇! I’VE BEEN HAUNTING YOU 😱😱😱 AND I’M INTERESTED 🤔 🤭 IN THE NEXT STEP. 🤫 WANNA SUMMON ⛧ ME? PICK THE KNIFE UP 🔪🔪🔪 AND SEE WHERE IT TAKES YOU… 😳😈[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]grandson ?[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+----
+**Event.6764.155:** //Recovered from the phone of Pennsylvania resident Rebecca Kirisame.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]rebecca?[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]yep! who is this?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]its maddie, i need help rn if you’re not busy?[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]uhhhhh[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]i twisted my ankle and i think it’s broken[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]are you sure you have the right number[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]yea!! i’m in your basement, actually. i hurt my leg so bad dude ouch ouch fuck fuck fuck lmao[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]lmao[[/span]]
+[[span class="text"]]where in my basement?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]by the sump pump[[/span]]
+[[span class="text"]]inside the sump pump[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]yeah? you’re inside the sump pump?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]yeah and there’s ghosts in here so can you come down quick?? i’m scared dude!!![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]*lifts you from the sump pump* there u go, my sweet…[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]i’m not joking can you come down pleeeeaseeee[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]alright, this is getting old[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]whatever the ghosts already got me you missed your chance i’m already dead :/[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]hot[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]?[[/span]]
+[[span class="text"]]what did you mean by that[[/span]]
+[[span class="text"]]rebecca im trapped in your ceiling fan could you look up there while its turned on please turn it on make sure its turned on and get me out[[/span]]
+[[span class="text"]]would you prefer if i were dead[[/span]]
+[[span class="text"]]hello?[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+----
+**Event.6764.177:** //Recovered from the phone of John Gordon, who was working at his job as a supervising manager at a construction site.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]Yo, I’m just gonna cut to the chase. Wanna die for me?[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]hoi o/!! YEs that sounds lovely..[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Woah, wow. Okay. You’re at work rn, yeah?[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]hi miss[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]Can you like, jump into the cement mixer on the floor below you? It’s kinda lonely over here and I’d really appreciate it lol.[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]what dou look like :O)[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]cute anime ghost girl drawing that got 45 thousand likes on twitter dot com :)[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]OK!!!!!!!!!!!!!!!!!!!!!!!![[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]holy fuck[[/span]]
+[[span class="text"]]wait no pls undo this you do not look as good in person[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+----
+**Event.6764.178:** //Recovered from the phone of Sarah Halcon, a Wyoming college student.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]Sarah, girl, hi! Could you come help me please I'm losing my mind being trapped with this guy[[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]hi jenny lol[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]yeah its jenny lol!! crash your car for me? bestie? or just keep texting while driving that'll work[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]**oh ar e we getting New Ghosty friends :o !!!!!!**[[/span]]
+[[span class="text"]]***their**[[/span]]
+[[span class="text"]]**hi miss**[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]oh my fucking god GO AWAY[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+----
+
+Following Gordon's death and manifestation as an entity similar to SCP-6764, a change in the anomaly's behavior and targeted subjects has been noted.
+
+**Event.6764.179:** //Recovered from the phone of Marshall Greene, a Catholic priest located in Cleveland, Ohio. Event occurred one day after Gordon's death.//
+
+[[div class="text-container-wrap"]]
+[[div class="text-container"]]
+
+[[div class="recv"]]
+[[span class="text"]]Hi hi, you probably don't get upfront requests like this but I'm either a ghost or a demon or whatever's going to get you to act immediately and I need you to exorcise your surrounding area RIGHT NOW. I CANNOT FUCKING TAKE THIS GUY ANYMORE. HE SUCKS!!![[/span]]
+[[/div]]
+
+[[div class="sent"]]
+[[span class="text"]]Who is this?[[/span]]
+[[/div]]
+
+[[div class="recv"]]
+[[span class="text"]]**oh hi am here too hello miss :O)**[[/span]]
+[[/div]]
+
+[[/div]]
+[[/div]]
+
+Since this event, SCP-6764 has exclusively contacted individuals capable of performing exorcisms. 
+
+
+[[footnoteblock]]
+------
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-6763]]] | SCP-6764 | [[[SCP-6765]]] >>
+[[/div]]
+[[/=]]
+
+
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** maddie2.png
+> **Authors:** [[*user J Dune]] and [[*user HarryBlank]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wdfiles.com/local--files/scp-6764/maddie2.png|Link]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

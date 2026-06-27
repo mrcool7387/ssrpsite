@@ -1,0 +1,34 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=Winterheart]]
+= [[[winterheart page | More by this author.]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6716-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6716-1 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6715]]] | SCP-6716 | [[[SCP-6717]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** coffeemaker.png
+> **Author:** Teepetersen
+> **License:** CC-by-SA 4.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Coffee_maker.jpg
+> **Additional Notes:** Edited by me
+
+=====
+
+
+[[include :scp-wiki:component:license-box-end]]

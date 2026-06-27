@@ -1,0 +1,142 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:extra-black-highlighter-theme]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+
+
+[[include :scp-wiki:info:start]]
+**SCP-9485:** Born too early; too late; or not at all
+**Author:** [[*user OttoBrahestadt]]
+**Word Count:** ~520
+**Reading time:** 2 minutes
+[[include :scp-wiki:info:end]]
+
+[[module CSS]]
+.blockquote{
+border-radius: 10px;
+margin: 10px
+}
+.align-center
+{
+text-align: center
+}
+[[/module]]
+[[include :scp-wiki:component:customizable-acs
+|containment-class= esoteric
+|containment-color= 100,100,100
+|secondary-class=ticonderoga
+|secondary-color=100,100,100
+|inc-split-color = --]]]
+
+[[include :scp-wiki:component:customizable-acs
+|containment-class= esoteric
+|containment-image= https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/esoteric-icon.svg
+|containment-color= 100,100,100
+|inc-esoteric-layout = --]]]
+
+[[div class="anom-bar-esoteric"]]
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9485
+|clearance= 3
+|container-class= esoteric
+|secondary-class=ticonderoga
+|secondary-icon=https://scp-wiki.wdfiles.com/local--files/component%3Aanomaly-class-bar/ticonderoga-icon.svg
+|disruption-class= amida
+|risk-class= notice
+]]
+[[/div]]
+
+------
+
+[[include :scp-wiki:component:image-block name=Tethys.png|caption=SCP-9485-4, known to the public as //Tethys//, a moon of Saturn.|width=300px]]
+**Special Containment Procedures:** The anomalous nature of SCP-9485 instances only becomes apparent on close inspection, which due to their being in outer space is impossible for civilian entities. A Foundation disinformation campaign is thus sufficient for containment.
+
+------
+
+**Description:** SCP-9485 are a group of --unfertilized-- inert eggs with a radius of 150-600km, found in various locations in the outer Solar System and resembling ordinary celestial objects. A total of 6 instances are known to exist, all beyond the orbit of Jupiter. More are likely to exist elsewhere.
+
+No instance of SCP-9485 shows signs of continuing embryonic development. The causes for this are thought to be diverse.[[footnote]]See Addendum.[[/footnote]] The age of instances cannot be established beyond a rough lower limit of 800 million years. Instances are thought to have been introduced to the solar system simultaneously or within a relatively short timespan.
+
+The structure of a typical SCP-9485 instance is as follows, starting from the surface and proceeding inwards:
+# A superficial layer of rock, regolith or water ice, deposited onto the surface over geologic time. Acts as natural camouflage.
+# A 10-30km thick layer of metallic iron intersperced with calcite.[[footnote]] The shell. [[/footnote]]
+# A 100-200km deep viscous subsurface ocean composed primarily of water.[[footnote]] The albumen. [[/footnote]]
+# A solid or semisolid core, often heterogenous.[[footnote]]The vitellus and the embryo.[[/footnote]]
+
+------
+
+**Discovery:** Some instances of SCP-9485 have been known to civilian astronomers starting in the 17th century, although their anomalous nature remained unknown until 2005 when a secondary probe launched from unmanned Foundation spacecraft ODYSSEE-3[[footnote]] Known to the public as the //Cassini-Huygens// probe. [[/footnote]] performed induced seismography on //Rhea//, one of the moons of Saturn, and received results consistent with an almost entirely liquid composition. //Rhea// was subsequently classified SCP-9485-1 after testing of other bodies led to similar findings.
+
+------
+
+[[div class="blockquote align-center"]]
+**ADDENDUM 9485-A: CATALOGUE**
+//The following is a full list of known SCP-9485 instances.//
+------
+[[table class="wiki-content-table" style="empty-cells: hide; text-align: center"]]
+[[row]]
+[[hcell]]#[[/hcell]]
+[[hcell]]Public name[[/hcell]]
+[[hcell]]Additional information[[/hcell]]
+[[/row]]
+
+[[row]]
+[[cell]]1[[/cell]]
+[[cell]]Rhea (Saturn V)[[/cell]]
+[[cell]]First recorded instance. The non-differentiated, homogenous structure of the core suggests this instance was never fertilized.[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]2[[/cell]]
+[[cell]]Oberon (Uranus IV)[[/cell]]
+[[cell]]Coincidentally discovered two months after SCP-9485-1 by the clandestinely launched ODYSSEE-2. The interior of the instance is frozen solid.[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]3[[/cell]]
+[[cell]]Mimas (Saturn I)[[/cell]]
+[[cell]]Smallest known instance. Contains no discernible core. The most likely explanation is that the impact which created the //Herschel// crater also scrambled the interior of SCP-9485-3.[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]4[[/cell]]
+[[cell]]Tethys (Saturn III)[[/cell]]
+[[cell]]A drilling rig located on the //Odysseus// crater was able to pierce the crust of SCP-9485-4 in 2018 and retrieve samples from the albumen. Subsequent samples found microbes inadvertedly introduced by the probe had contaminated the interior of SCP-9485-4 and begun consuming the nutrients within. As a result, an ever-expanding but likely temporary ecosystem has formed within SCP-9485-4.[[footnote]]Personnel responsible for overseeing the sterilization of the probe's drillbit and sampling equipment were demoted for gross negligence.[[/footnote]][[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell]]5[[/cell]]
+[[cell]]████ (█████)[[/cell]]
+[[cell]]**[REDACTED]**[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]6[[/cell]]
+[[cell]]//Not Applicable.//[[/cell]]
+[[cell]]A trans-Neptunian object. Has yet to be observed by the public. A proposal by senior researcher J. Gilliéron to officially "discover" SCP-9485-6 is under review.[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]-[[/cell]]
+[[cell]]//Not Applicable//[[/cell]]
+[[cell]]Unconfirmed. A number of asteroids and fragments in the asteroid belt are anomalously high in calcite, suggesting the past presence of an SCP-9485 instance.[[/cell]]
+[[/row]]
+
+
+[[/table]]
+[[/div]]
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9484]]] | SCP-9485 | [[[SCP-9486]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** Tethys.png
+> **Name:** Tethys - Rev 15 (37267740632).png
+> **Author:** Justin Cowart
+> **License:** CC BY 2.0.
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Tethys_-_Rev_15_(37267740632).png Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,93 @@
+
+	=====
+[[include :scp-wiki:component:preview
+|text=SCP-8403’s primary anomalous property is its ability to be manipulated.]]
+=====
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:midnight-rush]]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+‎ 
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8403-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8403-1 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8402]]] | SCP-8403 | [[[SCP-8404]]] >>
+[[/=]]
+[[/div]]
+
+[!-- A/B testing whether rate module at the bottom of the page actually affects anything - see https://scp-wiki.wikidot.com/forum/t-17022412/should-your-article-have-a-2nd-rating-module --]
+[[module css]]
+/* Only show the A/B test subject when the A/B test is active */
+:not(.ab-test--active) + .ab-test-subject { display: none; }
+
+.bottom-rating-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1rem;
+}
+.bottom-rating-module .page-rate-widget-box {
+  margin: 0;
+}
+[[/module]]
+[[module ListUsers users="."]]
+[[div class="ab-test ab-test--[[#ifexpr %%number%% % 2 == 0 | active | inactive ]]"]]
+[[/div]]
+[[/module]]
+[[div class="ab-test-subject bottom-rating-module"]]
+[[module Rate]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** GHOST_ANIM_WHITE.gif
+> **Author:** Anyar
+> **License:** CC-BY-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wikidot.com/scp-8403|SCP Foundation Wiki]]]
+
+This GIF was created with GIMP using the following image as a base:
+
+> **Name:** Girl silhouette hand up.svg
+> **Author:** MdeVicente
+> **License:** CC0 1.0
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Girl_silhouette_hand_up.svg|Wikimedia Commons]]]
+
+----
+
+> **Filename:** noria_rat_blender.jpg
+> **Author:** Anyar
+> **License:** CC-BY-SA 3.0
+> **Source Link:** [[[https://scp-wiki.wikidot.com/scp-8403|SCP Foundation Wiki]]]
+
+3D render made with Blender and GIMP. All used Blender assets are listed below:
+
+> **Name:** Realistic Rat 3D Model
+> **Author:** WildMesh 3D
+> **License:** CC-BY 4.0
+> **Source Link:** https://skfb.ly/pvzMH
+
+> **Name:** Cheese
+> **Author:** Just8
+> **License:** CC-BY 4.0
+> **Source Link:** https://skfb.ly/oCLDS
+
+> **Name:** Cardboard Box
+> **Author:** Dmitriy Korotkov
+> **License:** CC-BY 4.0
+> **Source Link:** https://skfb.ly/6WX9C
+
+> **Name:** Seamless floor Tiled Texture V
+> **Author:** Arthur.Zim
+> **License:** CC-BY 4.0
+> **Source Link:** https://skfb.ly/opADn
+[[include :scp-wiki:component:license-box-end]]

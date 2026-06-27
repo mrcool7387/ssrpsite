@@ -1,0 +1,21 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp4568-1
+http://scp-wiki.wikidot.com/fragment:scp4568-2
+http://scp-wiki.wikidot.com/fragment:scp4568-3
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4567]]] | SCP-4568 | [[[SCP-4569]]] >>
+[[/=]]
+[[/div]]

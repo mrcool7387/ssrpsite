@@ -1,0 +1,49 @@
+
+	[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[[>]]
+[[module rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-4 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-5 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-6 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8702-7 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8701]]] | SCP-8702 | [[[SCP-8703]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** office.jpg
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** jimhagopian.png
+> **Author:** [Whoever this is https://commons.wikimedia.org/wiki/User:Vanished_Account_Byeznhpyxeuztibuo]
+> **License:** Creative Commons CCO 1.0 Universal Public Domain Dedication
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Young_man_grimacing.jpg]
+
+> **Filename:** ratatooey.jpg
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** nematode.jpg
+> **Author:** Heiti Paves
+> **License:**  Creative Commons Attribution-Share Alike 3.0 Unported
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:Varbuss.jpg]
+
+[[include :scp-wiki:component:license-box-end]]

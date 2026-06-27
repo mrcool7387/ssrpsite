@@ -1,0 +1,30 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+=====
+[[include component:preview
+text=Your universe could've had an anomalous theme park. But it doesn't.]]
+=====
+[[module ListPages category="fragment" parent="." limit="1" order="name" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9884-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9884-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9884-2 --]
+@@ @@
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9883]]] | SCP-9884 | [[[SCP-9885]]] >>
+[[/=]]
+[[/div]]
+[[include :scp-wiki:component:license-box]]
+> **Filename:** barn.jpeg
+> **Name:** Abandoned Barn
+> **Author:** Midnight Believer
+> **License:** Public Domain
+> **Source Link:** https://www.flickr.com/photos/144957155@N06/31748172854/
+[[include :scp-wiki:component:license-box-end]]

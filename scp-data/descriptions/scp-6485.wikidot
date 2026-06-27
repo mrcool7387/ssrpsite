@@ -1,0 +1,34 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-6485-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:archived-6485-documents --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6484]]] | SCP-6485 | [[[SCP-6486]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** bear2.png
+> **Author:** [[*user eeveellector]]
+> **License:** CC-BY-SA-3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-6485 SCP Foundation Wiki]
+
+> **Filename:** octopus
+> **Author:** [[*user eeveellector]]
+> **License:** CC-BY-SA-3.0
+> **Source Link:** [https://scp-wiki.wikidot.com/scp-6485 SCP Foundation Wiki]
+
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,36 @@
+
+	[!-- If you see a typographical error and want to fix it, you may find the appropriate page by entering "http://www.scp-wiki.net/fragment:scp-2111-*/noredirect/true" as the URL where "*" is 1-5 (the warning page is 1, RED TALISMAN is 2... READ THIS is 5). NOTE: "Mnestics" is not a typo, it is the opposite of amnestics.--]
+[[>]]
+[[module Rate]]
+[[/>]]
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[4.63%] ls -la
+@@-rwx2r--- MEME 2/2111 18 KB Jul 14 2015@@ [[[http://www.scp-wiki.net/scp-2111/offset/1|SCP-2111(RED TALISMAN)]]]
+@@-rwx2r--- AMEM 2/2111 20 KB Jan 17 2015@@ [[[http://www.scp-wiki.net/scp-2111/offset/2|SCP-2111(RIDDEN TONGUE)]]]
+@@-rwx2r--- AMEM 2/2111 36 KB Jan 17 2015@@ SCP-2111appA
+@@-rwx2r--- CCON 2/2111 21 KB Aug 13 2015@@ [[[http://www.scp-wiki.net/scp-2111/offset/3|SCP-2111(REVENANT THEORY)]]]
+@@-rwx2r--- OZER 2/2111 21 KB Nov 1 2015@@ [[[http://www.scp-wiki.net/scp-2111/offset/4| SCP-2111(READ THIS)]]]
+@@drwx3RTrwx--- MEME 3/2111/RT 10 GB Nov 1 2015@@  scp-2111.datafiles.warningcoghaz
+
+[4.63%] [[[http://www.scp-wiki.net/scp-2111/offset/0|cd..]]]
+
+[[footnoteblock]]
+
+[[=]]
+,,**<<** ##blue|SCP-2111## | [[[In the Trenches with the Dead]]] **>>**,,
+[[/=]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-2110]]] | SCP-2111 | [[[SCP-2112]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+
+===== 
+[[include :scp-wiki:component:license-box-end]]

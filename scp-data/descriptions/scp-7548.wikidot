@@ -1,0 +1,44 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=-- |name=ArthCymro]]
+**[https://scp-wiki.wikidot.com/dr-dafydd-s-personnel-file More by this Author]**
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7548-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7548-1 --]
+
+[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+
+[[footnoteblock]]
+@@ @@
+[[include :scp-wiki:component:license-box]]
+> **Filename:** Sunspot
+> **Name:** Sunspot Loops in Ultraviolet
+> **Author:** Image Editor
+> **License:** CC BY-SA 2.0
+> **Source Link:** https://www.flickr.com/photos/11304375@N07/6799962115
+=====
+> **Filename:** sky
+> **Name:** Galaxy starry night sky background, free public domain CC0 photo.
+> **Author:** Nikolay Kondev
+> **License:** Public Domain
+> **Source Link:** https://www.rawpixel.com/image/5908721/image-public-domain-trees-stars
+=====
+[[include :scp-wiki:component:license-box-end]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7547]]] | SCP-7548 | [[[SCP-7549]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,280 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=
+Forever here this door shall sit, ‖ A rift in reason and in rhyme; ‖ A pox on those who would commit ‖ A treason 'gainst the flow of time.
+]]
+=====
+
+[[div style="display:none"]]
+[[include :scp-wiki:theme:flopstyle-dark
+|witch=a
+|loose-threads=a]]
+[[/div]]
+
+[!-- CSS is located at the bottom. --]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-source= --]]]
+[[include :scp-wiki:component:blacklight-box-source |inc-colors= --]
+|color-family=dark
+|bg-color=var(--fgColor)
+|txt-color=var(--textColorMid)
+|border-color=var(--accentColorLite)
+|label-bg-color=var(--accentColor)
+|label-txt-color=var(--keyColor)
+]]
+
+[[div class="limit"]]
+  [[div class="anchor"]]
+    [[div class="sidebox tableb"]]
+||~ SCP-6327 || **A Door Unstuck in Time** ||
+||||= Secure the Past. Contain the Present. Protect the Future. ||
+
+||~ [[image https://scp-wiki.wdfiles.com/local--files/welcome-to-delta-t/Delta-t-transparent.png style="filter: invert(1)"]] ||
+    [[/div]]
+  [[/div]]
+[[/div]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-6327
+|authorPage=/floppyphoenix
+|comments=[[div class="blockquote lightweight"]] 
+[[span class="bt bb"]]SCP-6327[[/span]] A Door Unstuck in Time 
+[[span class="bt bb"]]By[[/span]] [[*user Lt Flops]] 
+**Published on 17 Jan 2022** 
+----
+[[div class="centered"]] 
+This article is part of the forthcoming 
+**Weaving Imperceptible Threads Continuity Hub**. 
+[[/div]] 
+[[/div]] 
+----
+[[include :scp-wiki:more-by:lt-flops]]
+[[/div]]
+
+[[module Rate]]
+
+[[div class="byline"]]
+[[span style="display:none"]].[[/span]]
+[[span]]2[[/span]]
+[[/div]]
+
+[[div class="lite-heading"]]
+----
++ __SCP-6327__
+[[div class="pseudocrumbs"]]
+[[[scp-series-7|SCP Series VII]]] >> SCP-6327
+[[/div]]
+----
+[[/div]]
+
+[[div class="modal"]]
+[[=image https://scp-wiki.wdfiles.com/local--files/theme%3Aflopstyle-dark/alt_logo_bw.png class="icon-tint" style="height: 100px; width: 100px; padding: 1rem"]]
+[[div class="scp-header"]]
+= **__SCP Database Entry__**
+[[/div]]
+[[include :scp-wiki:component:flops-header
+|item=6327
+|containment=safe
+|level=5
+|security=top-secret
+|disruption=5 / amida
+|disruption-bg-color=rgba(var(--five-color), .4)
+]]
+[[/div]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=dark
+|unique-name=special-containment-procedures
+|display-name=SPECIAL CONTAINMENT PROCEDURES
+]]
+The service corridor in which SCP-6327 is installed has been sealed until further notice.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=dark
+|unique-name=past-description
+|display-name=PAST DESCRIPTION
+]]
+SCP-6327 is a nondescript wooden door bearing a poem inscribed on its surface:
+
+@@ @@
+[[div class="blockquote simple larger centered"]]
+Forever here this door shall sit,
+
+A rift in reason and in rhyme;
+
+A pox on those who would commit
+
+A treason 'gainst the flow of time.
+[[/div]]
+@@ @@
+
+An ink sample from the inscription corresponds with black Sharpie. The inscription is smudged in several places.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=dark
+|unique-name=discovery
+|display-name=DISCOVERY
+]]
+On 17 January 2032, SCP-6327 was found installed in a hitherto unused service corridor in Temporal Site-01, Sub-Basement-09.
+
+A junior advisor to the newly formed Temp/EDDIES[[span class="fnnum"]].[[/span]][[span class="fncon"]][[span class="bt bb"]]Temporal Ebb, Disruption, Desynchronization, and Intensification Enquiries Syndicate (Temp/EDDIES)[[/span]] An independent office organized in the eventuality that significant convergent temporal paradoxes have inhibited Research and Containment Team Δt at some point in the past, present, or future. Such an event would signify they had become compromised at some point in the past, present, or future, thus were/are/will be incapable of protecting the Prime-Timeline on the Foundation's terms.[[/span]] -- SCP-6327's discoverer -- sent an immediate distress beacon to the chief Temporal Anomalies official, Director [[[scp-5616|Dr. Ilse Reynders]]],[[size 80%]] PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD, PhD[[/size]].
+
+The lone security officer on-shift remarked at the time that, although the corridor itself does not have a camera, the stairwell to Sub-Basement-09 does. However, no persons or entities are recorded to have entered the Sub-Basement the week SCP-6327 appeared. This would imply it came into existence spontaneously. With no other explanation as to its appearance, this indicates an unregistered anomalous disturbance had occurred in the single most secure Foundation Site on the planet; demonstrable evidence that it has become compromised.
+
+After receiving the beacon, Director Reynders placed Temporal Site-01 under immediate spatiotemporal lockdown and ejected the site into extradimensional nullspace. This manoeuvre would have prevented any further anomalies from occurring. In the face of the sudden disappearance of Site-01, however, it left the Prime-Timeline susceptible to transtemporal threats.
+
+A fact-finding investigation into SCP-6327 henceforth occurred.
+
+The fact-finding investigation promptly met an impasse: The investigators, who were uninformed as to the nature of the anomaly, read SCP-6327's inscription and refused to proceed further, citing an OSHA breach. The junior advisor, who neglected to fill out a Special Containment Procedures file on the anomaly, was reprimanded for breach of Foundation protocol and placed under time-lock until further notice.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[include :scp-wiki:component:blacklight-box-source |inc-section-start= --]
+|color-family=dark
+|unique-name=present-description
+|display-name=PRESENT DESCRIPTION
+]]
+@@ @@
+= [[span class="terminal-span"]][DUPLICATE INFORMATION EXPUNGED][[/span]]
+@@ @@
+
+After the successful documentation and containment of SCP-6327, all requisite paperwork -- including an incident report -- was completed, and forwarded to the on-site RAISA liaison. Director Reynders currently maintains complete control over the investigatory proceedings and will personally oversee experimentation.
+
+One week has now elapsed since the discovery of SCP-6327.
+
+An experimentation log, as recorded in real-time, is as follows.
+[[include :scp-wiki:component:blacklight-box-source |inc-section-end= --]]]
+
+[[div class="tableb log"]]
+||~ ACTION || SCP-6327 is opened. ||
+||~ OUTCOME || SCP-6327 becomes ajar. A nondescript masonry wall sits behind it, offset into the finish face by approximately 20 cm. On the floor adjoining the wall is a single unidentifiable fruit in a state of advanced decay. A Post-it note is affixed between the fruit and SCP-6327. The note reads as follows. ||
+[[/div]]
+
+[[div class="faketable"]]
+[[collapsible show="POTENTIAL MEMETIHAZARD DETECTED" hide="CLOSE"]]
+@@ @@
+[[div class="blockquote simple larger"]]
+= Bureaucracy is the death of all sound work.
+[[>]]
+~ L.S.
+[[/>]]
+[[/div]]
+@@ @@
+[[/collapsible]]
+[[/div]]
+
+@@ @@
+
+[[div class="footing"]]
+[[/div]]
+
+[[span id="activeRate"]]
+[[module Rate]]
+[[/span]]
+
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-6326]]] | SCP-6327 | [[[SCP-6328]]] >>
+[[/div]]
+----
+[[include :scp-wiki:component:license-box]]
+> Original poem by [[*user seisatsu]], from [[[fragments|the Fragments page]]].
+
+> This article contains a quote from //The World As I See It// (1949) by Albert Einstein.
+
+[[div class="blockquote"]]
+**Filename:** Delta-t-transparent.png
+**Name:** RCT-Δt logo
+**Author:** [[*user HammerMaiden]]
+**License:** [*https://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0 Generic (CC BY-SA 3.0)]
+**Source Link:** [[[welcome-to-delta-t|Temporal Site-01 (RCT-Δt Hub)]]]
+[[/div]]
+[[include :scp-wiki:component:license-box-end]]
+
+[[module CSS]]
+/* == COMMON == */
+
+ :root {
+    --lgurl: url(https://scp-wiki.wdfiles.com/local--files/welcome-to-delta-t/Delta-t-transparent.png);
+
+    --header-title: "TEMPORAL SITE-01";
+    --header-subtitle: "SUSTAINING CHRONOLOGICAL PREDICTABILITY";
+}
+
+/* == SITE BANNER == */
+
+ #extra-div-1 {
+    filter: opacity(.15);
+}
+
+/* == BLACKLIGHT BOX == */
+
+ .modal {
+    width: calc(100% - 3rem);
+    padding: 0 .75rem;
+    margin: 1.5rem .5rem .5rem;
+
+    color: var(--textColorMid);
+    background: var(--fgColor);
+    border: thick solid var(--accentColorLite);
+}
+
+ .blbf-main > div {
+    border-width: thick;
+
+    hyphens: none;
+}
+
+ .blbf-main > div::before {
+    font-family: var(--header-font);
+}
+
+ @media (max-width: 767px) {
+     .blbf-main > div {
+    	padding-top: 0;
+    }
+}
+
+/* == DIV BLOCKS == */
+
+ div.blockquote.simple {
+    width: fit-content;
+    margin: 1rem auto;
+
+    box-shadow: none;
+}
+
+/* == TABLES == */
+
+ .tableb.log .wiki-content-table tr th:is(:nth-child(1), :nth-child(3)) {
+    font: bold 1.35rem var(--header-font);
+    font-variant: all-small-caps;
+    letter-spacing: .05em;
+}
+
+ .faketable {
+    position: relative;
+    bottom: 1rem;
+    margin: .4rem;
+
+    color: var(--textColorMid);
+    background: var(--fgColor);
+    outline: thin solid var(--accentColor);
+}
+
+/* == MISC == */
+ .scp-header {
+    font-size: x-large;
+}
+
+ .icon-tint {
+    filter:
+    	invert(.3)
+    	sepia(.5)
+    	saturate(800%)
+    	hue-rotate(var(--tint))
+    	opacity(.8);
+}
+[[/module]]

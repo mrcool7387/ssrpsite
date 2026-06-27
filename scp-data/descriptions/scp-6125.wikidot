@@ -1,0 +1,48 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:theme:magnus-web-format]]
+[[include :scp-wiki:component:fade-in speed=1]]
+
+[[include info:start]]
+This SCP contains 3 pages (2 offsets)
+
+The second page is an iteration of the first, whilst the last page is a medium-length tale.
+[[include info:end]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-6125-1
+https://scp-wiki.wikidot.com/fragment:scp-6125-2
+https://scp-wiki.wikidot.com/fragment:scp-6125-3
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6124]]] | SCP-6125 | [[[SCP-6126]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** ArcticIce60002.png
+> **Name:** Sea ice off western Alaska
+> **Author:** NASA Goddard Photo and Video
+> **License:** CC BY 2.0
+> **Source Link:** https://search.creativecommons.org/photos/7e65b711-8458-430d-9c9b-1fcda24dae87
+=====
+> **Filename:** Realm.png
+> **Name:** Centre de la Galaxie
+> **Author:** Amanclos
+> **License:** CC BY 2.0
+> **Source Link:** https://search.creativecommons.org/photos/fc3bc442-44f4-4f5b-a5c2-b9e770e72a70
+=====
+> **Filename:** Header.png
+> **Author:** [[*user Dr Moned]]
+> **License:** CC BY 2.0
+=====
+[[include :scp-wiki:component:license-box-end]]

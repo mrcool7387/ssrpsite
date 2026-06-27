@@ -1,0 +1,39 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragment list:
+http://scp-wiki.wikidot.com/fragment:scp-1893-iteration-a
+http://scp-wiki.wikidot.com/fragment:scp-1893-iteration-b
+http://scp-wiki.wikidot.com/fragment:scp-1893-iteration-c
+http://scp-wiki.wikidot.com/fragment:scp-1893-iteration-d
+http://scp-wiki.wikidot.com/fragment:scp-1893-iteration-e
+--]
+
+[[module ListPages category="fragment" parent="." order="random" limit="1" ]]
+
+[[div style="border: solid 1px #999999; width: 95%;background: #DAFAD9; padding: 5px; float: center; margin-bottom: 4px"]]
+[[=]]
+You are currently viewing **%%title%%** of the documentation for this entity. To view another iteration, reload the page after sixty seconds.
+[[/=]]
+[[/div]]
+
+%%content%%
+
+[[/module]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-1892]]] | SCP-1893 | [[[SCP-1894]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+
+=====
+[[include :scp-wiki:component:license-box-end]]

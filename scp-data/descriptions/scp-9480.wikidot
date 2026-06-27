@@ -1,0 +1,116 @@
+
+	=====
+[[include component:preview
+text= The myth describes many species following one after another, where the last of one species becomes the god of the next.]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=HenryFH
+|no-right-margin=*]]
+//How many legs does god have? Answer quickly.//
+
+[[>]]
+(Posted 2nd February 2026)
+[[[https://scp-wiki.wikidot.com/hazels-auteur-page |More by this author]]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+
+[[module CSS]]
+:root {
+    --timeScale: 3;
+    --timeDelay: 0s;
+}
+[[/module]]
+
+[[include :scp-wiki:component:acs-animation]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+
+|item-number= 9480
+
+|clearance= 1
+
+|container-class= safe
+
+|secondary-class= none
+
+|secondary-icon= none
+
+|disruption-class= dark
+
+|risk-class= notice
+
+]]
+@@ @@
+[[include component:image-block
+|name=A1.jpg
+|caption=**9480.0.1 -** An instance of SCP-9480-A as scanned and catalogued by Project Alexandria
+|width=40%
+|align=right]]
+
+**Special Containment Procedures:** The cover story concerning the mineshaft containing SCP-9480 is to be maintained until SCP-9480 is deemed safe to relocate. Any trespassers to the mineshaft are to be treated with an appropriate amount of force and treated with amnestics as not to arouse rumours or suspicion.
+
+**Description:** SCP-9480 is a hollow missile-shaped object measuring roughly 10 x 10 x 50 metres composed largely of graphite and diamond. The interior of SCP-9480 is mostly empty, barring a structure loosely resembling a bookshelf along the eastern wall and an additional structure at the rear. This bookshelf-esque structure contains a series of tablets desginated SCP-9480-A. Instances of SCP-9480-A are composed of a similar mix of carbon allotropes as the exterior, but are additonally marked with an unknown golden ink-like substance in a set of repeated symbols and diagrams. 
+
+The rear structure inside SCP-9480 is a statue resembling a member of the class Caudoviricetes[[footnote]]Also known as “Head and Tail” viruses, a class of bacteriophage.[[/footnote]], although not any one species in particular. Figures resembling tailed viruses also appear on many SCP-9480-A instances[[footnote]]See image **9480.0.1.**[[/footnote]]. 
+
+**Discovery:** SCP-9480 was first brought to the Foundation’s attention on 16/06/2021, after it was discovered by miners outside the town of Kimberley, South Africa. After locals were appropriately amnesticised, the mine was seized with permission from the South African government. Geological dating places the origins of SCP-9480 in the Pre-Cambrian, likely towards the early Archean.      
+
+[[collapsible show="Addendum 9480-1 - Level 2/9480 clearance required" hide="Addendum 9480-1 - Access granted"]]
+[[include component:image-block
+|name=B1.jpg
+|caption=**9480.0.2 -** Another instance of SCP-9480-A. Partial Translation - "█████ give eternally ███████████ take eternally ████"
+|width=40%
+|align=right]]
+The Wanderer’s Library was contacted for materials similar to SCP-9480-A by a covert proxy[[footnote]]Late agent Malachi Watts.[[/footnote]] who provided the Foundation with very few results before communications ceased.  The likelihood of another proxy asking about said materials within The Wanderer’s Library without arousing suspicion is unlikely.
+ 
+Agent Watts provided us with copies of 7 poems, all of which belonging to an anthology believed to describe a creation myth. The myth consists of many species following one after another, where the last of one species becomes the god of the next. The anthology appears to be written in the same set of symbols as instances of SCP-9480-A, alongside direct translations into languages known to the Foundation [[footnote]]Including Hurovian, Lamakat, and Druvisian.[[/footnote]]. These materials list the original language as "Icosagenian", a name matching a long-extinct, extradimensional parasitic species of which very little is known, other than the species' resemblance to both Caudoviricetes and diagrams shown on SCP-9480-A.
+
+Due to these similarities, it is assumed that the Icosagenian language found in the poems and the symbols found on instances of SCP-9480-A are the same, and from this assumption translations of select words and phrases have been obtained. Of specific interest was an instance of SCP-9480-A, with only a direct excerpt from one of the poems written on it:
+
+> Brave pilot, go forth and create. Build yourself out of clay, lay down in the dirt, and rest. No one is waiting. Everyone is waiting.
+
+The instance in question was placed in the middle of the shelf, with extra fortification built to secure it in place.
+
+[[/collapsible]]               
+
+[[collapsible show="Addendum 9480-2 - Level 4/EDEN clearance required" hide="Addendum 9480-2 - Access granted"]]
+This image (and the corresponding SCP-9480-A instance) have been reclassified from Project Alexandria in accordance with the Foundation's Eden Protocols.
+[[include component:image-block
+|name=C1.jpg
+|caption=**9480.0.3 -** The relevant instance of SCP-9480-A. No direct translation.
+|width=80%
+|align=center]]
+
+The phrase shown on this instance of SCP-9480-A is not believed to have a human-language parallel. Based on translators notes from the documents found in the Wanderer's Library, the first half of the phrase roughly translates to "artificial" and the second half of the phrase was a word Icosagenians used to categorise any lifeforms they used as their hosts (being a parasitic species).  From this it can be surmised the phrase describes a form of "artificial prey" or geneticallly engineered livestock. 
+
+[[/collapsible]]
+
+[[module css]]
+.footnotes-footer { 
+display:none;
+}
+[[/module]]
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+[[=]]
+[[collapsible show="» More by HenryFH «" hide="« Less by HenryFH »"]]
+[[include more-by:HenryFH]]
+||[[[hazels-auteur-page|My Author Page]]]||
+[[/collapsible]]
+[[/=]]
+[[/div]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9479]]] | SCP-9480 | [[[SCP-9481]]] >>
+[[/=]]
+[[/div]]

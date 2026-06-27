@@ -1,0 +1,29 @@
+
+	[[include :scp-wiki:component:preview
+|text=SCP-9369 isn't normal]]
+
+[[include :scp-wiki:info:start]]
+**Author:** [[*user iammuffin]]
+**Length:**
+1.7k words
+
+[[include :scp-wiki:info:end]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+>
+[[/module]]
+
+[!-- http://scp-wiki.net/fragment:scp-9369-0 --]
+[!-- http://scp-wiki.net/fragment:scp-9369-1 --]
+[!-- http://scp-wiki.net/fragment:scp-9369-2 --]
+
+[[include :scp-wiki:component:license-box]]
+
+[[include :scp-wiki:component:license-box-end]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9368]]] | SCP-9369 | [[[SCP-9370]]] >>
+[[/=]]
+[[/div]]

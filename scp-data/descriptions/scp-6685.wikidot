@@ -1,0 +1,286 @@
+
+	[[include theme:black-highlighter-theme]]
+[[include :scp-wiki:info:start]]
+= SCP-6685 by [[*user Aaris]]
+
+-----
+Credit for the images:
+1. Made by me (based on the SCP logo, licensed under CC-BY-SA 3.0).
+2. From https://commons.wikimedia.org/wiki/File:Nature-forest-trees-fog.jpg, licensed under CC-BY-SA 4.0
+3. Image from https://www.instagram.com/p/CSe_yxJFIsV/
+Made by unsettling.mages.jpg (https://www.instagram.com/unsettling.images.jpg/)
+//Licensed under CC-BY 3.0//
+**[http://www.scp-wiki.wikidot.com Thanks for stopping by!]**
+[[include :scp-wiki:info:end]]
+
+[[module CSS]]
+:root {
+    --header-title: "Site-74";
+    --header-subtitle: "Silvology Division";
+        --logo-image: url("https://scp-wiki.wdfiles.com/local--files/scp-6685/silvology.png");
+    --pale-accent: 67, 97, 86;
+    /* light red, for visited links */
+    --bright-accent: 54, 197, 94;
+    /* bright green */
+    --medium-accent: 69, 117, 96;
+    /* medium green - the "default" accent color */
+    --dark-accent: 82, 168, 135;
+    /* dark green */
+    --alt-accent: 121, 146, 137;
+    /* pale green, for newpage links */
+}
+[[/module]]
+
+[[include component:object-warning-box-source
+|bg-image=https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg
+|bg-opacity=0.15
+|text-top=BY ORDER OF THE OVERSEER COUNCIL
+|text-bottom=The following file is 4/6685 Classified.
+**Unauthorized access is forbidden.**
+|object-number=6685
+]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 6685
+|clearance= 4
+|container-class= esoteric
+|secondary-class= hiemal
+|secondary-icon= http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/hiemal-icon.svg
+|disruption-class= vlam
+|risk-class= warning
+]]
+[[module css]]
+.contain-class .class-text {
+  color: transparent !important;
+}
+
+.contain-class .class-text::before {
+  content: "euclid";
+  position: absolute;
+  top: 0;
+  color: rgba(var(--black-monochrome),1) !important;
+}
+
+.anom-bar-container.esoteric .text-part > .main-class::before {
+  background-color: rgba(var(--three-color),1);
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
+  border-color: rgb(var(--black-monochrome));
+}
+
+.anom-bar-container.esoteric .text-part > .main-class {
+  background-color: rgb(var(--white-monochrome));
+  background: linear-gradient(30deg,
+    rgb(var(--gray-monochrome),0.25) 0%,
+    rgb(var(--gray-monochrome),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%,
+    rgb(var(--three-color),0.25) 50%
+  )
+}
+
+.anom-bar-container.esoteric .danger-diamond > .top-icon::before {
+  background-color: rgb(var(--three-color));
+  background-image: url("http://scp-wiki.wikidot.com/local--files/component:anomaly-class-bar/euclid-icon.svg");
+  -webkit-filter: invert(0);
+  filter: invert(0);
+}
+[[/module]]
+@@ @@
+-----
+[[div style="background: gray; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+[[div style="background: white; padding: 1px 15px; border: solid 3px lightgray; margin: 10px; border-radius: 30px 15px;"]]
+Site command has decided that no more expeditions will be sent inside SCP-6685-1. All research is to be conducted inside the facility from now on.
+>> //Dr James Smith//
+[[/div]]
+[[/div]] 
+@@ @@
+----
+[[table style="width: 100%;"]]
+[[row]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Site**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Site Director**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Research Head**[[/size]]
+[[/cell]]
+[[cell style="border-bottom: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 90%]]**Assigned Task Force**[[/size]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]CANUST Site-74[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Nathan McLaurin[[/size]]
+[[/cell]]
+[[cell style="border-right: 1px solid #AAA; text-align: center; width: 25%;"]]
+[[size 80%]]Dr James Smith[[/size]]
+[[/cell]]
+[[cell style="text-align: center; width: 25%;"]]
+[[size 80%]]Zeta-6 "Gaia’s Angels"[[/size]]
+[[/cell]]
+[[/row]]
+[[/table]]
+----
+@@ @@
+
+**Special Containment Procedures:** The area surrounding the entrance to SCP-6685 is to be closed off to the public and a cover story of a landslide is to be maintained. Foundation operatives disguised as local law enforcement and forest rangers are to monitor the area for anything attempting to enter or leave SCP-6685. Any individual having entered SCP-6685 is to be considered lost. In the case of a subject exiting the anomaly, they are to be taken into Foundation custody indefinitely for questioning and testing. Should SCP-6685-2 exit the designated Goldilocks zone, Foundation personnel stationed at Site-74 are to initiate protocol Gaia/56B31.
+
+[[include component:image-block name=https://scp-wiki.wdfiles.com/local--files/scp-6685/forest|align=right|width=55%|caption=SCP-6685-1's interior prior to containment.]]
+**Description:** SCP-6685 is a Type II extradimensional space located in a higher dimension that can be accessed via an island located in northern Canada. Two self-containing entities inhabit the aforementioned plane.
+* SCP-6685-1 is a boreal forest identical to the ones occupying mainstream reality above the 50th parallel, albeit a lack of fauna has been reported. Currently, it is believed that it extends to the entirety of SCP-6685. Furthermore, root analysis suggests that the forest maintains a collective hive-mind, similar to certain organisms in the Fungi group.
+
+* SCP-6685-2 is an entity inhabiting SCP-6685-1. SCP-6685-2 is vaguely humanoid in nature and possesses tendrils used for locomotion as well as red, plant-like fibre skin. Its head is composed of a large bulb of tissue with a visible dark spot appearing as a primitive eye. The being is extremely hostile towards all life forms non-native to the dimension.
+SCP-6685-2 can transform organic matter into wood-like fibre resembling tree bark belonging to the same species of conifers (genera Abies, Larix and Picea) present in SCP-6685-1. This is accomplished by simple visual contact of the entity with the subject, which will induce immediate cellular mitosis and DNA changes[[footnote]]It is believed that SCP-6685-2 uses a previously unknown type of electromagnetic wave to achieve this.[[/footnote]]. The transformation is usually complete in less than a minute. Furthermore, internal organs also appear to be converted into tree sap and inner bark. Over time, the subject’s body will distort and grow leaves on its higher ends, thus resembling a non-anomalous tree.
+
+----
+
+SCP-6685 has been accessible since at least the modern human era; as evidenced by an excerpt from the journal of Jean Laplante, a French colonist who unknowingly entered SCP-6685-1 in 17██. Laplante disappeared  in the area several days later. His son later recovered the journal.
+
+> And over the sunset, I saw the angel of the forest watching me, its allure driving me ever closer. I wanted to join it and let myself be consumed by nature, by the forest, yet despite my best efforts, the forest refused me. I have tried to speak to the light, yet it has never answered.
+>> //August 19th, 17██.//
+
+                                               
+----
+[[=]]
+**Addendum 1.01**
+[[/=]]
+----
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+**Exploration Log Transcript**
+
+**Note:** Due to their expertise in forested areas, Mobile Task Force Zeta-6 was chosen for this operation.
+
+**MTF Designation:** Zeta-6  ''Gaia’s Angels''
+
+**Overview:** Zeta-6 was instructed to enter SCP-6685-1 to collect samples of flora and terminate SCP-6685-2. 
+
+**Team Lead:** ζ6 Alpha 
+
+**Team Members:** ζ6 Delta, ζ6 Charlie, ζ6 Bravo
+-----
+[BEGIN LOG]
+
+**ζ-6 Alpha:** Lights on.
+
+**ζ-6 Delta:** This place gives me the creeps.
+
+**ζ-6 Charlie:** Levels are normal, this place is breathable.
+
+**ζ-6 Alpha:** Command, we’re in position, you getting this?
+
+[Site command acknowledges]
+
+**ζ-6 Bravo:** It's on the scanner, 100 meters dead ahead.
+
+**ζ-6 Alpha:** Taking the samples now, after that we’ll proceed to follow it into the forest.
+
+[Zeta-6 takes samples]
+
+**ζ-6 Bravo:** 50 meters.
+
+**ζ-6 Alpha:** Delta, you got that flamethrower ready?
+
+**ζ-6 Delta:** Ready and prepped, sir.
+
+**ζ-6 Alpha:** Stop. We lay low here, burn that tree, this will make it come to us.
+
+[MTF Zeta-6 prepares to light a tree nearby]
+
+**ζ-6 Bravo:** Sir, it’s closing in, 30 meters-
+
+**ζ-6 Alpha:** Delta, get in position, we’ll ambush it here. Bravo, Charlie, with me. Up in the trees.
+
+[low screeching sound can be heard, SCP-6685-2 emerges from the trees]
+
+**ζ-6 Alpha:** I have a clear shot, Delta?
+
+**ζ-6 Delta:** Ready and prepped, sir.
+
+[Delta opens fire, SCP-6685-2 screams]
+
+**ζ-6 Delta:** Eat this, you giant piece of-
+
+[SCP-6685-2 emerges from the fire and lashes a tendril at Delta, dismembering and throwing him into a nearby tree]
+[Delta flatlines and begins transforming into a tree]
+
+**ζ-6 Alpha:** Friendly down, smoke it!
+
+[Alpha, Bravo and Charlie launch smoke grenades and open fire, SCP-6685-2 screeches]
+[Bravo screams, falls to the ground and is pulled away into the forest]
+
+**ζ-6 Alpha:** Shit! Shit- SHIT!
+
+**ζ-6 Charlie:** Cap, we gotta the fuck outta here-
+
+[Charlie Screams]
+[Charlie begins transforming into a tree]
+
+[ζ-6 Alpha manages to evade SCP-6685-2 and return to base]
+
+**Note:** ζ6 Alpha successfully brings back the samples as well as the head of former member ζ6 Charlie along with his helmet.
+
+[[/div]]
+
+
+
+----
+[[=]]
+**Addendum 2.01**
+[[/=]]
+-----
+**Note:** American conglomerate ████████ Solutions International has settled a deal with the local government to clean the forest located on the island known as █████. Messages from one of the workers to his wife several days prior to incident 6685/A34H. This is one of the only remains of the crew present on the island. Additional documents have been removed.
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+Yeah, we had a strange occurrence today. Jack said he saw something lurking in the trees, he swears it looked like a human. 
+[[/div]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+I mean, it’s possible, word is some people still live on this part of the island. Anyways, how was your day? 
+[[/div]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+Hey, something is seriously f’ed up in these woods. Jack went missing today
+I’m leaving when the shift ends
+[[/div]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+How the fuck do you want me to stay calm. I’ve seen it too
+[[/div]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+Fuck
+we saw him Emily, he was no longer human
+[[/div]]
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+he was made of fucking wood
+[[/div]]
+
+[Last message sent; SCP-6685-2 is believed to have exited the Goldilocks zone to retrieve the crew]
+
+[[/div]]
+-----
+@@ @@
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6684]]] | SCP-6685 | [[[SCP-6686]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+=====
+> **Filename:** forest.jpeg
+> **Author:** Commons Wikimedia
+> **License:** CC-BY-SA 4.0
+> **Source Link:** https://commons.wikimedia.org/wiki/File:Nature-forest-trees-fog.jpg
+
+> **Filename:** Silvology Division Logo.png
+> **Author:** [[*user Aaris]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** N/A
+
+=====
+[[include component:license-box-end]]

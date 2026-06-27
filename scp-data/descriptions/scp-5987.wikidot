@@ -1,0 +1,31 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://www.scp-wiki.net/fragment:scp-5987-1 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5987-2 --]
+[!-- http://www.scp-wiki.net/fragment:scp-5987-3 --]
+@@ @@
+@@ @@
+@@ @@
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5986]]] | SCP-5987 | [[[SCP-5988]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** sirenhead
+> **Author:** [[*user Cerastes]], Jon Parise
+> **License:** CC BY-SA 2.0
+> **Derivative of:** [[[https://www.flickr.com/photos/jparise/183076703|Flickr]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

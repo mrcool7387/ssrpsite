@@ -1,0 +1,68 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+
+[[module CSS]]
+@media (max-width: 767px) {
+    span {
+        word-break: unset;
+    }
+}
+[[/module]]
+[!--
+[[include info:start]]
+**The Tetris Prodigy**
+**Author:** [[*user literallymechanical]]
+For the rest of my work, check out [[[literallymechanical-s-author-page |LiterallyMechanical's Author Page]]]
+
+A few of my favorites:
+
+* [[[SCP-4170]]] -- The Dark
+* [[[SCP-4357]]] -- Slimelord
+* [[[SCP-4164]]] -- The Universal Instruction Manual
+
+My new tale series (in progress):
+* [[[save-our-souls |Save Our Souls - Part 1]]]
+[[include info:end]]
+--]
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=LiterallyMechanical
+|no-right-margin=*]]
+**The Tetris Prodigy**, by [[*user literallymechanical]]
+
+For the rest of my work, check out [[[literallymechanical-s-author-page |LiterallyMechanical's Author Page]]]
+
+A few of my favorites:
+
+* [[[SCP-5236]]] -- Ethics Committee Inquest
+* [[[SCP-4170]]] -- The Dark
+* [[[SCP-4357]]] -- Slimelord
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[!--
+[[div style="text-align: right; margin-right: 2em; margin-top: -20px;"]]
+by [[[literallymechanical-s-author-page|LiterallyMechanical]]]
+[[/div]]
+--]
+[!-- Thanks to Croquembouche and other site members for their writeup of how to use the listpages module: http://www.scp-wiki.net/listpages-magic-and-you --]
+
+[[module ListPages  category="fragment" parent="." limit="1" created_by="literallymechanical" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- For translators, here is a direct link to each iteration. --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4163-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4163-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4163-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-4163-3 --]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-4162]]] | SCP-4163 | [[[SCP-4164]]] >>
+[[/=]]
+[[/div]]

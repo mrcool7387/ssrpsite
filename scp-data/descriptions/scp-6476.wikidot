@@ -1,0 +1,451 @@
+
+	=====
+[[include component:preview
+text=
+A group of anomalous oddballs try playing TTRPGs with probability-bending dice.
+]]
+=====
+
+[[module CSS]]
+
+div.discompact
+{
+max-width: 85%; float: center; background-color: #323338;
+color: white; font-family: Arial "sans-serif"; font-size: normal;
+border: thick #1e1f23; padding: 1em; margin: 1em auto 1em auto
+}
+div.discompact span.user1{font-weight:bold;color:#66CC00}
+div.discompact span.user2{font-weight:bold;color:#FF33FF}
+div.discompact span.user3{font-weight:bold;color:#FF9966}
+div.discompact span.user4{font-weight:bold;color:#C6ECC6}
+div.discompact span.user5{font-weight:bold;color:#6699FF}
+div.discompact span.user6{font-weight:bold;color:#A3A11F}
+div.discompact span.mention {color:#6e8adc; background-color: #3C414E}
+
+.email-example .collapsible-block-folded a.collapsible-block-link {
+    animation: blink 0.8s ease-in-out infinite alternate;
+}
+@keyframes blink {
+    0% { color: transparent; }
+    50%, 100% { color: #b01; }
+}
+.email {border: solid 2px #000000; width: 88%; padding: 1px 15px; margin: 10px; box-shadow: 0 1px 3px rgba(0,0,0,.5)}
+.email-example a.collapsible-block-link {font-weight: bold;}
+.tofrom {margin-left: 10px; margin-top: 5px; padding: 1px 15px; border-left: solid 3px maroon}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+**Item #:** SCP-6476
+
+**Object Class:** Neutralized, formerly Euclid
+
+**Special Containment Procedures:** All instances of SCP-6476 shall be stored in a standard secure locker within the Site-76 Low-Risk Inanimate Objects Warehouse. Every six months, researchers will organize a single session with D-class personnel to ascertain whether SCP-6476's anomalous traits have reactivated. For a full list of pre-approved variables, see Document 6476-003-01, "Testing Protocol for One-Shot Scenarios".
+
+MTF Mu-4 ("Debuggers") and webcrawler I/O-GASNIER[[footnote]] An automated agent designed to search public Internet and "dark web" content for keywords associated with GoI-5869 ("Gamers Against Weed"). [[/footnote]] will continue monitoring online storefronts and reviews for mentions of "magic", "special", and/or "enchanted" dice.
+
+**Description:** SCP-6476 is the collective designation for a series of six-sided dice created by Raul Nandes de Jesus (PoI-6476, "rollinboxcars") for a tabletop role-playing game (TTRPG) played by members of GoI-5869 ("Gamers Against Weed").
+
+All instances of SCP-6476 were made with translucent green plastic, engraved with Arabic numerals, decorated with gold paint, and contain a weighted metallic core. Whereas mundane "loaded" dice favor specific outcomes during play, instances of SCP-6476 influenced local probability outside the game.[[footnote]] Specifically, within 2-7 days of each planned event. [[/footnote]] When activated by a two-thirds majority vote, this effect (termed SCP-6476-A) increased the likelihood of arranging an online meeting between all participants every two weeks, while reducing interruptions and obligations that would otherwise disrupt the event.
+
+When used to advance TTRPG gameplay, instances of SCP-6476 induced an anomalous state of hyperphantasia,[[footnote]] Vivid mental imagery, comprised of all baseline human senses. [[/footnote]] enhancing the user's capacity for visualizing descriptions of in-game setting, character and action. This effect (termed SCP-6476-B) was heavily stylized and consistently distinguishable from reality.
+
+As of 2019/03/16, all anomalous effects associated with SCP-6476 have ceased.
+
+||~ Instance ||~ Anomaly Status ||~ PoI # ||~ Username ||~ Role ||
+||= SCP-6476-1 ||= Unknown ||= PoI-6476 ||= rollinboxcars ||= Game Master ||
+||= SCP-6476-2 ||= Neutralized ||= PoI-7331 ||= alwaysbpositive ||= "Leena", human bard ||
+||= SCP-6476-3 ||= Unknown ||= PoI-6660 ||= meatgerm ||= "Throndir", elf ranger ||
+||= SCP-6476-4 ||= Contained ||= PoI-9791 ||= twilight_tone ||= "Rose", halfling druid ||
+||= SCP-6476-5 ||= Contained ||= PoI-9102 ||= WHEREISMYHOG ||= "Puck", halfling thief ||
+||= SCP-6476-6 ||= Contained ||= PoI-7132 ||= whistl_stahp ||= "Helga", dwarf cleric ||
+
+**Discovery:** During standard sweeps of international mail, MTF Alpha-4 ("Pony Express") identified an anomalous package sent from the mainland United States to a post office box in Moreno, Brazil. Securing the scene, MTF Alpha-4 seized two additional packages of contraband, all of which were marked "return to sender". Attempts at tracing PoI-6476 have failed, as all data on his postal registration documents is fabricated or incomplete.[[footnote]] Raul Nandes de Jesus is described as "male", "3d6+10" years old, with "joyous" eyes. The address field reads, "choose one". [[/footnote]]
+
+[[collapsible show="+ Discovery Disclosure [LEVEL 3/CLOWNFISH CLASSIFIED]" hide="- Discovery Disclosure [LEVEL 3 CONFIRMED]"]]
+SCP-6476 was first identified by **[[[start-the-music|Project CLOWNFISH]]]**, a two-tiered inter-departmental taskforce comprised of Foundation staff demographically and/or culturally adjacent to GoI-5869. One such asset, **[[[being-known|Codename NEMO]]]**, agreed to participate in PoI-6476's game in hopes of assessing his anomalous abilities and further ingratiating themselves with the community.
+
+Operational protocol dictates that LEVEL 3/CLOWNFISH assets remain anonymous to persons outside their local working group. For more information, see Document 5869-512-03, "Project CLOWNFISH Executive Summary".
+[[/collapsible]]
+[[collapsible show="+ Partial Experiment Log [LEVEL 3/CLOWNFISH CLASSIFIED]" hide="- Partial Experiment Log [LEVEL 3/CLOWNFISH CONFIRMED]"]]
+**Testing Protocol**: Seeking empirical evidence of SCP-6476-B's anomalous effects, NEMO's working group prepared a battery of tests for "Session 2", 2018/12/22. In all the experiments listed below, NEMO's activities were monitored using an electroencephalogram (EEG) and [[[goc-supplemental-arad|VERITAS Resonance Imaging]]] (VRI).
+
+> **Subject**: Control (NEMO narrating, SCP-6476-B inactive)
+> **Description**: NEMO visualizes standing "in a field, in a stiff summer breeze", taking a bite from a "bright red" apple. They roll one standard polyhedral die (1d6) to represent throwing said apple at a target.
+> **Results**: NEMO visualizes striking the target.
+> * EEG results baseline.
+> * VRI detects zero anomalous activity.
+> * Estimated VVS: 64/80.
+> **Comments**: NEMO previously scored a 64/80 (above average) on their standard employee Visualization Vividness Scale (VVS) assessment.
+
+> **Subject**: Session 2, Test 1 (PoI-6476 narrating, SCP-6476-B active)
+> **Description**: The group interacts with patrons of a crowded bar. Music, food and drink are described in detail.
+> **Results**: NEMO experiences strong visual, auditory, olfactory and gustatory responses.
+> * EEG confirms heightened activity in the parietal, temporal and visual areas.
+> * VRI detects EVE spike: ARAD 300-700 Caspers, sharp, orange, loose.
+> * Estimated VVS: 78/80.
+> **Comments**: NEMO notes that they have never tasted real mead, and cannot attest to the accuracy of the experience.
+
+> **Subject**: Session 2, Test 2 (PoI-6476 narrating, SCP-6476-B inactive)
+> **Description**: The group engages in social intrigue. NEMO rolls a set of mundane dice and lies to PoI-6476 about the resulting outcome.
+> **Results**: No effect.
+> * EEG and VRI detect zero anomalous activity.
+> * Estimated VVS: 67/80.
+> **Comments**: Cheating during the game does not elicit a response from PoI-6476. Other participants continue play, suggesting that imagery generated by SCP-6476-B is specific to each individual participant.
+
+> **Subject**: Session 2, Test 5 (PoI-6476 narrating, SCP-6476-B active)
+> **Description**: The group engages in battle. NEMO's character tries to dodge enemy attacks.
+> **Results**: Simulated motion is blurred and exaggerated. NEMO does not experience any vestibular disorientation or pain response, even when their character is struck in combat.
+> * EEG confirms heightened activity in the parietal, temporal and visual areas.
+> * VRI detects EVE spike: ARAD 500-800 Caspers, sharp, orange, loose.
+> * Estimated VVS: 74/80.
+> **Comments**: SCP-6476 appears to have built-in countermeasures against loss of balance or psychosomatic injury as a result of play.
+[[/collapsible]]
+
+**Addenda:**
+[[collapsible show="+ Addendum 6476-1: Excerpts from GoI-5869 IRC logs, 2018/11/23" hide="- Close Addendum 6476-1"]]
+> **rollinboxcars**: hey, can I do a self-promo/LFG post in this channel?
+> **rollinboxcars**: or is that against the rules
+> **bones**: That is perfectly acceptable.
+> **twilight_tone**: yeah, I've posted my commission info in here a few times.
+> **acuterobot**: me too!
+> **rollinboxcars**: sweet, ty
+> **rollinboxcars**: short version: I'm starting another TTRPG campaign! We're gonna be playing Dungeon World!
+> **WHEREISMYHOG**: what happened to your other game?
+> **rollinboxcars**: it's sort of on pause for a bit
+> **rollinboxcars**: bc scheduling across time zones is really, really hard.
+> **twilight_tone**: Alas... the GM's curse.
+> **rollinboxcars**: but that won't be a problem this time!
+> **rollinboxcars**: We'll play with voice chat, 3-4 hours every two weeks. I've already got one player lined up and I'm hoping to find four more!
+> **meatgerm**: iam that player. hello
+> **rollinboxcars**: there's a $40 buy-in for special dice, but after that, it's all pay-what-you-want, no obligation.
+> **takesmasterschoice**: lmao forty bucks for plastic
+> **rollinboxcars**: enchanted plastic!
+> **meatgerm**: we're mostly passing the same $20 around
+> **rollinboxcars**: tbh, I'm better off selling normal artisan dice on Etsy
+> **rollinboxcars**: but I really like GMing within our community, bc then I can challenge myself creatively!
+> **twilight_tone**: Game literally recognizing game.
+> **meatgerm**: yea th eheavy metal magic dice you made me are very cool
+> **meatgerm**: every time I roll a crit success I hear a power chord
+> **steakshift**: that is siiick
+> **twilight_tone**: You know what? Sign me up. I've got some money left over from my last round of comms.
+> **rollinboxcars**: awesome! welcome aboard.
+> **whistl_stahp**: can I join if I don't know much about tabletop games?
+> **rollinboxcars**: yes, 100%! newcomers are always welcome!
+> **whistl_stahp**: I played the Sailor Moon RPG a long time ago but that's it.
+> **takesmasterschoice**: the WHAT?!
+> **meatgerm**: fwiw Dungeon World is pretty easy to pick up
+> **WHEREISMYHOG**: can I invite someone from another chat?
+> **bones**: New invites to this cluster of channels must be approved by myself and the local administrator, steakshift.
+> **whistl_stahp**: one of my friends had a copy.
+> **takesmasterschoice**: cringe
+> **steakshift**: who do you have in mind WHEREISMYHOG
+> **WHEREISMYHOG**: I think you know alwaysbpositive ?
+> **steakshift**: oh yeah she's cool
+> **bones**: I am also acquainted with alwaysbpositive. Your request is approved.
+> **rollinboxcars**: awesome!
+> **takesmasterschoice**: no she suuuuuucks lol
+> **steakshift**: wow learn to stfu
+> **bones kicked takesmasterschoice.**
+> **rollinboxcars**: I'll start sending out PMs with channel invites and payment info.
+> **bones**: Please remember to use proxies, remailing services and/or post office boxes instead of sharing contact information directly.
+> **rollinboxcars**: don't worry, I've got a separate Ko-Fi account for this. We should be good!
+> **steakshift**: want help with deliveries?
+> **rollinboxcars**: definitely!
+[[/collapsible]]
+[[collapsible show="+ Addendum 6476-2: Excerpts from GoI-5869 Discord logs, "Session 1", 2018/12/08" hide="- Close Addendum 6476-2"]]
+[[div class="discompact"]]
+[[span class="user1"]]rollinboxcars[[/span]]: 30 minutes to game time, [[span class="mention"]]@everyone[[/span]] !
+[[span class="user2"]]alwaysbpositive[[/span]]: rawr!! XD im here! thanks for the invite, RB!
+[[span class="user5"]]WHEREISMYHOG[[/span]]: yeah thanks for having us
+[[span class="user2"]]alwaysbpositive[[/span]]: it's been a rlly rlly long time since I played anything like this and I'm soooo excited @w@
+[[span class="user6"]]whistl_stahp[[/span]]: yeah, same!
+[[span class="user6"]]whistl_stahp[[/span]]: kinda anxious tbh, but mostly excited.
+[[span class="user1"]]rollinboxcars[[/span]]: haha well you're not alone! I always get some pregame jitters
+[[span class="user3"]]meatgerm[[/span]]: dontw orry it's all good. boxcars best gm
+[[span class="user4"]]twilight_tone[[/span]]: One question before we get started.
+[[span class="user4"]]twilight_tone[[/span]]: Are these dice actually fair? Because they're kinda heavy.
+[[span class="user1"]]rollinboxcars[[/span]]: they're totally fair! sharp edges and everything!
+[[span class="user1"]]rollinboxcars[[/span]]: you only need to roll once to activate the gimmick, so if you don't like how they feel in-game, you can just use standard dice, or an app. Whatever works for you!
+[[span class="user4"]]twilight_tone[[/span]]: Cool. Ready whenever you are.
+
+//rollinboxcars started a call that lasted four hours.//
+
+[[span class="user6"]]whistl_stahp[[/span]]: well that was
+[[span class="user6"]]whistl_stahp[[/span]]: incredible.
+[[span class="user3"]]meatgerm[[/span]]: right??? toldyou
+[[span class="user3"]]meatgerm[[/span]]: boxcars best gm
+[[span class="user5"]]WHEREISMYHOG[[/span]]: that was a really strong start
+[[span class="user2"]]alwaysbpositive[[/span]]: YEAH!!!
+[[span class="user1"]]rollinboxcars[[/span]]: I'm glad you had fun!
+[[span class="user6"]]whistl_stahp[[/span]]: [[span class="mention"]]@alwaysbpositive[[/span]] you have a beautiful singing voice
+[[span class="user2"]]alwaysbpositive[[/span]]: ;;O;; thank youuu!
+[[span class="user3"]]meatgerm[[/span]]: yea you could join my band irl
+[[span class="user2"]]alwaysbpositive[[/span]]: haha no no I couldn't!! I don't get out much
+[[span class="user2"]]alwaysbpositive[[/span]]: very sweet of you to say tho
+[[span class="user1"]]rollinboxcars[[/span]]: so, how does everyone feel about their characters? anything you want to change about the setting?
+[[span class="user2"]]alwaysbpositive[[/span]]: um, there is one thing
+[[span class="user2"]]alwaysbpositive[[/span]]: can we try to avoid stereotyping the undead?
+[[span class="user2"]]alwaysbpositive[[/span]]: not every less-living person is a literal monster.
+[[span class="user1"]]rollinboxcars[[/span]]: yeah, sure! I'll keep that in mind going forward.
+[[span class="user1"]]rollinboxcars[[/span]]: is that gonna be a problem for our cleric?
+[[span class="user6"]]whistl_stahp[[/span]]: of course not!
+[[span class="user6"]]whistl_stahp[[/span]]: this is a diverse community and I want to respect everyone's needs.
+[[span class="user4"]]twilight_tone[[/span]]: No arguments from me
+[[span class="user3"]]meatgerm[[/span]]: same
+[[span class="user2"]]alwaysbpositive[[/span]]: awww thank you everybody ;;w;; appreciate it
+[[span class="user5"]]WHEREISMYHOG[[/span]]: meant to ask, is it better to say you're a hemovore, or that you have hemovorism?
+[[span class="user2"]]alwaysbpositive[[/span]]: I'm a vampire. It's okay to say vampire.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: okay cuz I thought that might be a slur
+[[span class="user3"]]meatgerm[[/span]]: ohh lol I get oyu rusername now
+[[span class="user3"]]meatgerm[[/span]]: thats good
+[[span class="user2"]]alwaysbpositive[[/span]]: hehe thankee
+[[/div]]
+[[/collapsible]]
+
+[[collapsible show="+ Addendum 6476-3: Excerpts from GoI-5869 Discord logs, "Session 6", 2019/02/16" hide="- Close Addendum 6476-3"]]
+[[div class="discompact"]]
+[[span class="user6"]]whistl_stahp[[/span]]: things have been really quiet at work
+[[span class="user2"]]alwaysbpositive[[/span]]: is that bad?
+[[span class="user6"]]whistl_stahp[[/span]]: not "bad", just. weird.
+[[span class="user6"]]whistl_stahp[[/span]]: like, I keep expecting to pull a weekend shift, but it hasn't happened.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: wow they make you work weekends in paratech?
+[[span class="user6"]]whistl_stahp[[/span]]: only when we're crunching
+[[span class="user5"]]WHEREISMYHOG[[/span]]: sounds like you need a union.
+[[span class="user3"]]meatgerm[[/span]]: dontyou work on your dads farm
+[[span class="user5"]]WHEREISMYHOG[[/span]]: and??
+[[span class="user5"]]WHEREISMYHOG[[/span]]: its called solidarity you cretin
+
+//rollinboxcars started a call that lasted four hours.//
+
+[[span class="user3"]]meatgerm[[/span]]: lol holy shit TT
+[[span class="user3"]]meatgerm[[/span]]: making those big moves tonight
+[[span class="user6"]]whistl_stahp[[/span]]: I canNOT believe you jumped those guards!
+[[span class="user4"]]twilight_tone[[/span]]: You guys were arguing.
+[[span class="user6"]]whistl_stahp[[/span]]: we were working out a plan!
+[[span class="user4"]]twilight_tone[[/span]]: Yeah, you were gonna keep arguing. I kept the scene moving and that is almost always better.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: she's not wrong imo
+[[span class="user6"]]whistl_stahp[[/span]]: she trampled a prince!
+[[span class="user2"]]alwaysbpositive[[/span]]: rofl yeah that was epic XD
+[[span class="user6"]]whistl_stahp[[/span]]: christ, what a mess.
+[[span class="user4"]]twilight_tone[[/span]]: You're welcome.
+[[span class="user4"]]twilight_tone[[/span]]: Anyway I gotta go. Until next time everyone!
+[[span class="user2"]]alwaysbpositive[[/span]]: wait wait wait I have big news
+[[span class="user2"]]alwaysbpositive[[/span]]: I'm going on a road trip next week!
+[[span class="user5"]]WHEREISMYHOG[[/span]]: whoa! you're leaving Eventide?[[footnote]] Eventide, Oregon ([[[locations-of-interest#eventide|Nx-51]]]) is an anomalous region characterized by perpetual darkness and rainfall. [[/footnote]]
+[[span class="user2"]]alwaysbpositive[[/span]]: yeah!! XD first time in yeaaars!!
+[[span class="user6"]]whistl_stahp[[/span]]: oh, that's exciting! I hope you have a good time.
+[[span class="user2"]]alwaysbpositive[[/span]]: super exciting! but scary!!
+[[span class="user1"]]rollinboxcars[[/span]]: should we put the game on pause while you're away?
+[[span class="user6"]]whistl_stahp[[/span]]: I'd be fine with taking a break.
+[[span class="user3"]]meatgerm[[/span]]: I'm good with w/e
+[[span class="user2"]]alwaysbpositive[[/span]]: no no you should just keep going! I can catch up
+[[span class="user1"]]rollinboxcars[[/span]]: what do you think [[span class="mention"]]@twilight_tone[[/span]]?
+[[span class="user3"]]meatgerm[[/span]]: she already logged off
+[[span class="user1"]]rollinboxcars[[/span]]: oh okay I'll send her a DM
+[[span class="user6"]]whistl_stahp[[/span]]: is she even on Discord between games?
+[[span class="user1"]]rollinboxcars[[/span]]: no worries, I'll message her on IRC too.
+[[/div]]
+[[/collapsible]]
+[[collapsible show="+ Addendum 6476-4: Excerpts from GoI-5869 Discord logs, "Session 7", 2019/03/02" hide="- Close Addendum 6476-4"]]
+[[div class="discompact"]]
+[[span class="user1"]]rollinboxcars[[/span]]: ten minutes to game time, [[span class="mention"]]@everyone[[/span]]! Hope you're doing well.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: I'm good! got proper snacks this time.
+[[span class="user3"]]meatgerm[[/span]]: im sorta bummed ou tbh
+[[span class="user4"]]twilight_tone[[/span]]: Aw. What's wrong?
+[[span class="user3"]]meatgerm[[/span]]: my band had a gig lined up and it got cancelled
+[[span class="user3"]]meatgerm[[/span]]: wasn't gonna pay much but still
+[[span class="user6"]]whistl_stahp[[/span]]: what sort of music does your band play?
+[[span class="user3"]]meatgerm[[/span]]: we do folk covers of heavy metal
+[[span class="user6"]]whistl_stahp[[/span]]: you're joking.
+[[span class="user3"]]meatgerm[[/span]]: nope not everyone likes the deep bass and screamin
+[[span class="user3"]]meatgerm[[/span]]: wewere gonna play a retirement home this weekend but it fell through
+
+//alwaysbpositive started a call that lasted less than a minute.//
+
+[[span class="user6"]]whistl_stahp[[/span]]: wait, I thought abp was on the road?
+[[span class="user5"]]WHEREISMYHOG[[/span]]: she is
+[[span class="user2"]]alwaysbpositive[[/span]]: I am
+[[span class="user2"]]alwaysbpositive[[/span]]: I buttdialed you somehow
+[[span class="user2"]]alwaysbpositive[[/span]]: idek how I have service down here! XD
+[[span class="user6"]]whistl_stahp[[/span]]: lucky I guess
+[[span class="user4"]]twilight_tone[[/span]]: Do you want to join us?
+[[span class="user2"]]alwaysbpositive[[/span]]: no sorry I have an appointment and I rlly can't miss it
+[[span class="user2"]]alwaysbpositive[[/span]]: you have fun tho!!!
+
+//rollinboxcars started a call that lasted nineteen minutes.//
+
+[[span class="user4"]]twilight_tone[[/span]]: I'm gonna be on and off mic. Eating dinner
+[[span class="user4"]]twilight_tone[[/span]]: Wait who is that in the background?
+[[span class="user5"]]WHEREISMYHOG[[/span]]: I think that's one of DOreen's friends
+[[span class="user6"]]whistl_stahp[[/span]]: [[span class="mention"]]@alwaysbpositive[[/span]] you're still in the call!
+[[span class="user2"]]alwaysbpositive[[/span]]: dangit >_< sorry
+[[span class="user2"]]alwaysbpositive[[/span]]: hey [[span class="mention"]]@everyone[[/span]]? something weird just happened
+[[span class="user2"]]alwaysbpositive[[/span]]: one of the ppl I'm travelling with just said "you forgot thijs back home, I packed it for you"
+[[span class="user2"]]alwaysbpositive[[/span]]: and handed me my freaking DICE
+[[span class="user3"]]meatgerm[[/span]]: wow ok
+[[span class="user3"]]meatgerm[[/span]]: mandatory fun
+[[span class="user1"]]rollinboxcars[[/span]]: uhhh shit. this might be a problem with the exploit
+[[span class="user1"]]rollinboxcars[[/span]]: you're still considered a player so our schedules are trying to line up
+[[span class="user5"]]WHEREISMYHOG[[/span]]: lmao Raul
+[[span class="user2"]]alwaysbpositive[[/span]]: I don't understand. I said you should keep playing without me.
+[[span class="user1"]]rollinboxcars[[/span]]: yeah but you're still part of the group, and the majority voted to continue.
+[[span class="user6"]]whistl_stahp[[/span]]: can she just loan the d6 to someone else?
+[[span class="user6"]]whistl_stahp[[/span]]: I have a friend who could take over for a session or two.
+[[span class="user1"]]rollinboxcars[[/span]]: no, she paid for the seat, she's owed the whole ride.
+[[span class="user1"]]rollinboxcars[[/span]]: hmmm
+[[span class="user1"]]rollinboxcars[[/span]]: maybe we can just write you out for a bit?
+[[span class="user4"]]twilight_tone[[/span]]: Exit Leena, pursued by a bear.
+[[span class="user1"]]rollinboxcars[[/span]]: we could kill your bard and have Helga cast Resurrection whenever you're available again
+[[span class="user2"]]alwaysbpositive[[/span]]: exCUSE me??
+[[span class="user5"]]WHEREISMYHOG[[/span]]: dude
+[[span class="user6"]]whistl_stahp[[/span]]: facepalms
+[[span class="user2"]]alwaysbpositive[[/span]]: that is REALLY insensitive!
+[[span class="user2"]]alwaysbpositive[[/span]]: it's NOT okay to assume that every vampire can just bounce back from death
+[[span class="user2"]]alwaysbpositive[[/span]]: like it doesn't MATTER when people kill us
+[[span class="user4"]]twilight_tone[[/span]]: Yikes.
+[[span class="user1"]]rollinboxcars[[/span]]: omg no that's not what I meant!
+[[span class="user1"]]rollinboxcars[[/span]]: I was talking about your character
+[[span class="user6"]]whistl_stahp[[/span]]: but you can see why she might find it hurtful, right?
+[[span class="user1"]]rollinboxcars[[/span]]: yeah absolutely. I apologize. I didn't mean to offend.
+[[span class="user6"]]whistl_stahp[[/span]]: Okay, let's just take a step back.
+[[span class="user6"]]whistl_stahp[[/span]]: boxcars, if we keep playing, is it going to mess up abp's appointment?
+[[span class="user1"]]rollinboxcars[[/span]]: I'm really not sure.
+[[span class="user2"]]alwaysbpositive[[/span]]: oh GREAT! awesomesauce
+[[span class="user6"]]whistl_stahp[[/span]]: in that case, we should probably call it for tonight.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: seconded
+[[span class="user4"]]twilight_tone[[/span]]: Yeah agreed.
+[[span class="user3"]]meatgerm[[/span]]: what about the cliffhanger?
+[[span class="user1"]]rollinboxcars[[/span]]: hopefully we'll get to it next time. I'm really sorry for the mix-up, everyone.
+[[span class="user2"]]alwaysbpositive[[/span]]: I can't make it next time either >:(((
+[[span class="user1"]]rollinboxcars[[/span]]: okay. I'm gonna try to fix the probability exploit from my end, so it doesn't affect the whole group.
+[[span class="user6"]]whistl_stahp[[/span]]: you can do that?
+[[span class="user1"]]rollinboxcars[[/span]]: Yes!
+[[span class="user5"]]WHEREISMYHOG[[/span]]: uhh dude what about the backlash
+[[span class="user5"]]WHEREISMYHOG[[/span]]: like affects like, and part affects the whole, but that doesn't mean it's free
+[[span class="user5"]]WHEREISMYHOG[[/span]]: ESPECIALLY when youre cheating lady luck
+[[span class="user1"]]rollinboxcars[[/span]]: it's fine! exploits don't have backlash.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: lmao okay
+[[span class="user6"]]whistl_stahp[[/span]]: you're sure?
+[[span class="user1"]]rollinboxcars[[/span]]: yeah, pretty sure.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: guess these dice have a subtle aura[[footnote]] Likely a visual interpretation of [[[goc-supplemental-arad|aspect radiation]]] associated with Elan-Vital Energy (EVE). [[/footnote]] for no reason at all then
+[[/div]]
+[[/collapsible]]
+[[collapsible show="+ Addendum 6476-5: Excerpts from GoI-5869 Discord logs, "Session 8", 2019/03/16" hide="- Close Addendum 6476-5"]]
+[[div class="discompact"]]
+[[span class="user5"]]WHEREISMYHOG[[/span]]: ughhh daylight savings is kicking my ass rn
+[[span class="user6"]]whistl_stahp[[/span]]: yeah same. I nearly poured cream in my cereal this morning
+[[span class="user4"]]twilight_tone[[/span]]: The Forbidden Breakfast.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: it's also calving season here on the farm
+[[span class="user5"]]WHEREISMYHOG[[/span]]: so idk how much sleep I'm gonna get this weekend :)
+[[span class="user1"]]rollinboxcars[[/span]]: tbh I'm not sure what you're talking about.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: calving is when cows have babies
+[[span class="user6"]]whistl_stahp[[/span]]: you mean Daylight Savings Time?
+[[span class="user6"]]whistl_stahp[[/span]]: spring forward, fall back?
+[[span class="user1"]]rollinboxcars[[/span]]: we don't do that in my part of Brazil
+[[span class="user4"]]twilight_tone[[/span]]: God, I wish that were me.
+[[span class="user1"]]rollinboxcars[[/span]]: so all of you just fell back?
+[[span class="user5"]]WHEREISMYHOG[[/span]]: no???
+[[span class="user4"]]twilight_tone[[/span]]: We just set our clocks forward one hour.
+[[span class="user6"]]whistl_stahp[[/span]]: it's spring in the northern hemisphere.
+[[span class="user1"]]rollinboxcars[[/span]]: oh.
+[[span class="user2"]]alwaysbpositive[[/span]]: hey [[span class="mention"]]@rollinboxcars[[/span]]! Guess who just woke up!!
+[[span class="user1"]]rollinboxcars[[/span]]: shit.
+[[span class="user6"]]whistl_stahp[[/span]]: is it dark out, wherever you are?
+[[span class="user2"]]alwaysbpositive[[/span]]: NO!!! it's DUSK!
+[[span class="user2"]]alwaysbpositive[[/span]]: I haven't risen before sunset since I got TURNED!
+[[span class="user2"]]alwaysbpositive[[/span]]: I just opened the blinds without thinking and BOOM!
+[[span class="user2"]]alwaysbpositive[[/span]]: REAL DAYLIGHT
+[[span class="user1"]]rollinboxcars[[/span]]: shit shit shit I'm sorry
+[[span class="user6"]]whistl_stahp[[/span]]: you're okay, right?
+[[span class="user2"]]alwaysbpositive[[/span]]: NO I AM NOT OKAY! I could have DIED!
+[[span class="user2"]]alwaysbpositive[[/span]]: all because THESE STUPID DICE WOKE ME UP
+[[span class="user1"]]rollinboxcars[[/span]]: I really thought I fixed them
+[[span class="user2"]]alwaysbpositive[[/span]]: fuck your GAME, fuck your DICE, and FUCK YOU.
+
+//alwaysbpositive started a video call that lasted less than thirty seconds.//[[footnote]]Video depicted rapid movement through a small apartment with blacked-out windows. The camera operator threw SCP-6476-2 onto a kitchen counter, then struck it with a meat tenderizer, destroying it.[[/footnote]]
+
+[[span class="user1"]]rollinboxcars[[/span]]: lo;p.i]'[p}
+[[span class="user3"]]meatgerm[[/span]]: harsh.
+[[span class="user4"]]twilight_tone[[/span]]: Wow
+[[span class="user5"]]WHEREISMYHOG[[/span]]: **wasted**
+[[span class="user4"]]twilight_tone[[/span]]: I don't think I've ever seen you keysmash before.
+[[span class="user1"]]rollinboxcars[[/span]]: toot bokoo
+[[span class="user4"]]twilight_tone[[/span]]: Sorry, what?
+[[span class="user1"]]rollinboxcars[[/span]]: toh borke
+[[span class="user5"]]WHEREISMYHOG[[/span]]: wat
+[[span class="user4"]]twilight_tone[[/span]]: ??
+[[span class="user6"]]whistl_stahp[[/span]]: "tooth broke"?
+[[span class="user1"]]rollinboxcars[[/span]]: ^^^
+[[span class="user4"]]twilight_tone[[/span]]: Oh, YIKES.
+[[span class="user6"]]whistl_stahp[[/span]]: well.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: lmao bro I warned you
+[[span class="user6"]]whistl_stahp[[/span]]: I think it's safe to say we're done.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: warned you bout that backlash
+[[span class="user3"]]meatgerm[[/span]]: BUT WHAT ABOUT THE CLIFFHANGER??
+[[/div]]
+[[/collapsible]]
+@@@@
+@@@@
+[[div class="email-example"]]
+[[=]]
+[[collapsible show="You are viewing an outdated version of this page. Update?" hide="Showing latest revision (2019/03/23)."]]
+[[<]]
+[[div class="discompact"]]
+[[span class="user1"]]rollinboxcars[[/span]]: hey [[span class="mention"]]@everyone[[/span]]. I just wanted to say I'm really sorry about what happened last week
+[[span class="user5"]]WHEREISMYHOG[[/span]]: lmao yeah you better be
+[[span class="user1"]]rollinboxcars[[/span]]: I assumed the group exploit would solve everything. I didn't know you guys had a time change coming up, and I didn't realize that could be so dangerous
+[[span class="user1"]]rollinboxcars[[/span]]: [[span class="mention"]]@alwaysbpositive[[/span]], I apologize for putting you at risk. like whistl said in the first session, this is supposed to be a safe space, and I fucked it up.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: understatement
+[[span class="user3"]]meatgerm[[/span]]: yeah itsa bummer
+[[span class="user4"]]twilight_tone[[/span]]: Incidentally, these dice appear to be broken.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: yeah aura's all gone
+[[span class="user1"]]rollinboxcars[[/span]]: shit, that figures.
+[[span class="user1"]]rollinboxcars[[/span]]: just send those to my PO box in Moreno and I'll hook you up with replacements, free of charge. Least I can do for your trouble.
+[[span class="user1"]]rollinboxcars[[/span]]: I'm sorry everybody. I really thought we had it this time.
+[[span class="user6"]]whistl_stahp[[/span]]: thank you for being straight with us.
+[[span class="user2"]]alwaysbpositive[[/span]]: yeah <3 thank you, Raul. apology accepted
+[[span class="user1"]]rollinboxcars[[/span]]: you're welcome
+[[span class="user2"]]alwaysbpositive[[/span]]: ... how's ur mouth? ; _ ;
+[[span class="user1"]]rollinboxcars[[/span]]: better! got a root canal yesterday. still hurts though.
+[[span class="user2"]]alwaysbpositive[[/span]]: oh noooes! D: I'm sowwy
+[[span class="user2"]]alwaysbpositive[[/span]]: offers huggs
+[[span class="user6"]]whistl_stahp[[/span]]: I'm glad we could talk this out a bit.
+[[span class="user3"]]meatgerm[[/span]]: so uhhh not tobe That Guy
+[[span class="user3"]]meatgerm[[/span]]: but what about that CLIFFHANGER
+[[span class="user4"]]twilight_tone[[/span]]: Yeah, I did trample some royalty in our last game.
+[[span class="user6"]]whistl_stahp[[/span]]: trampled the bejeezus out of that guy.
+[[span class="user1"]]rollinboxcars[[/span]]: wait
+[[span class="user6"]]whistl_stahp[[/span]]: trampled him into a diplomatic crisis
+[[span class="user1"]]rollinboxcars[[/span]]: you want to keep playing?
+[[span class="user3"]]meatgerm[[/span]]: YES
+[[span class="user6"]]whistl_stahp[[/span]]: Yeah, I'd love to!
+[[span class="user4"]]twilight_tone[[/span]]: Same.
+[[span class="user5"]]WHEREISMYHOG[[/span]]: if Doreen's cool with it then sure
+[[span class="user2"]]alwaysbpositive[[/span]]: well DUH!
+[[span class="user2"]]alwaysbpositive[[/span]]: I told you I'd be available once I got back! :3
+[[span class="user3"]]meatgerm[[/span]]: yesss!! lets play to fnid out waht happens
+[[span class="user1"]]rollinboxcars[[/span]]: well, in that case, we'll keep on rolling!
+[[span class="user6"]]whistl_stahp[[/span]]: I just have one request.
+[[span class="user1"]]rollinboxcars[[/span]]: name it.
+[[span class="user6"]]whistl_stahp[[/span]]: no more loaded dice.
+[[/div]]
+[[/div]]
+[[/<]]
+[[/collapsible]]
+[[/=]]
+
+
+[[footnoteblock]]
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6475]]] | SCP-6476 | [[[SCP-6477]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[!-- N/A (No Images)  --]
+[[include :scp-wiki:component:license-box-end]]

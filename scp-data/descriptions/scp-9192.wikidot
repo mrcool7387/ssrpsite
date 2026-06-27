@@ -1,0 +1,40 @@
+
+	[[include :scp-wiki:theme:scp-offices-sigma]]
+
+[!-- SCP Name: Squonk Hunt --]
+
+=====
+[[include component:preview
+text="Squonks aren't real."]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9192-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-9192-1 --]
+
+[[footnoteblock]]
+
+------
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9191]]] | SCP-9192 | [[[SCP-9193]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+
+=====
+> **Filename:** Squonk grayscale.png
+> **Author:** Coert Du Bois and by William T. Cox
+> **License:** Public Domain
+> **Source Link:** https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Squonk_grayscale.png/960px-Squonk_grayscale.png?_=20260512155834
+=====
+[[include :scp-wiki:component:license-box-end]]

@@ -1,0 +1,132 @@
+
+	=====
+[[include :scp-wiki:component:preview
+text=We can see the beauty of the world, even if it can't see ours. (561 words)]]
+[[image view.jpg class="crom-thumbnail" style="display: none"]]
+=====
+[[div style="display: none;"]]
+[[include :scp-wiki:theme:flopstyle-dark]]
+[[/div]]
+[[include :scp-wiki:component:assorted-paper]]
+[[module css]]
+.vintage {
+color: black;
+}
+[[/module]]
+
+[[module Rate]]
+
+[[div class="byline"]]
+[[span]] by [[[top|TopDownUnder]]] [[/span]]
+[[span]] 2 [[/span]]
+[[/div]]
+
+[[div class="meta-title"]]
+SCP-9373
+[[/div]]
+[[div class="pseudocrumbs"]]
+[[[Canon Hub]]] » [[[chaos-on-the-monolith-hub|Chaos On The Monolith]]] » SCP-9373
+[[/div]]
+
+[[include :scp-wiki:component:flops-header
+|item=9373
+|containment=safe
+|level=1
+|security=unrestricted
+|disruption=dark
+|disruption-bg-color=#00638a
+]]
+
+[[div class="lite-heading"]]
+----
+++* SPECIAL CONTAINMENT PROCEDURES
+----
+[[/div]]
+
+SCP-9373 is currently kept in the main lobby of Site-01. Personnel are allowed and encouraged to freely use SCP-9373 at their leisure. Cleaning and upkeep of SCP-9373's optical and mechanical components are to be performed as needed.
+
+[[div class="lite-heading"]]
+----
+++* DESCRIPTION
+----
+[[/div]]
+
+
+SCP-9373 is a 19th-century refracting telescope, constructed primarily of brass and teak wood. The external casing of SCP-9373 bears a deep gouge along its lower half, consistent with a ballistic impact at close range. Despite this and its age, the lens and internal optics of SCP-9373 show no signs of deterioration and remain in pristine functional condition. Engraved along the barrel of SCP-9373 is the following inscription:
+
+[[div class="blockquote"]]
+[[=]]
+//We can see the beauty of the world, even if it can't see ours.//
+[[image AW-signature.png]]
+[[/=]]
+[[/div]]
+
+When an individual looks through the eyepiece of SCP-9373, the expected image is replaced by a view of the planet Earth as seen from the surface of the Moon. The precise vantage point on the lunar surface varies between sessions, with no point having been repeated to date. When viewed through SCP-9373, no artificial lights, structures, or other evidence of human civilization are visible on Earth's surface. 
+
+The image produced by SCP-9373 is stable for the duration of each session. Repositioning or reorienting the telescope has no effect on the observed image.
+
+[[div class="lite-heading"]]
+----
+++* ADDENDUM.9373.1
++++* ACQUISITION
+----
+[[/div]]
+
+SCP-9373 was originally constructed by [https://scp-wiki.wikidot.com/system:page-tags/tag/professor-aw#pages Professor A██████ W█████] in the 1890s for her --associate-- wife, Nora W█████. The object remained in Nora W█████'s possession until her murder in 1904. The object was recovered from the scene of Nora W█████'s death by B████ H███████, one of the Foundation's founding members, and remained in their personal collection until it was donated to the Foundation in 1969.
+
+The following pages were donated alongside SCP-9373, presumably ripped from a diary or journal:
+
+[[div class="estrella-paper vintage"]]
+It is past two o'clock and she has not moved from her worktable these four hours. As I write, she is fitting the lens into the barrel. I have enquired twice in the past hour whether she intends to join me in bed. She says yes, sharply, which I have learnt means anything but. She looks much younger under the lamplight.
+[[/div]]
+
+[[div class="estrella-paper vintage"]]
+We attended the H███████ dinner on Thursday. Dr. H███████, having had rather too much wine by the fish course, enquired of A██████ whether she did not find it peculiar, two women keeping house as we do. He said it with a smile, as though it were merely a curiosity and nothing more. A██████ said she found it very practical. He laughed and turned to whisper something to the gentleman beside him. I held her hand under the table for the remainder of the evening.
+[[/div]]
+
+[[div class="estrella-paper vintage"]]
+She presented it to me one Tuesday morning, without much ceremony. She simply set it by the window and told me to look when I was ready. She then took herself to the armchair and did a very poor job of pretending to read. I could see her peering at me over the top of her journal. I shall not trouble myself to describe what I saw, as I doubt I could do the view even a fraction of the justice it deserves. But when I turned around, I found her watching me quite openly. I found myself crying in her arms before I knew what I was about.
+[[/div]]
+@@ @@
+
+@@ @@
+
+@@ @@
+
+@@ @@
+
+[[include :scp-wiki:component:image-block
+name=view.jpg
+|caption=Live view through SCP-9373.
+|width=600px
+|align=center]]
+
+~~~~
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9372]]] | SCP-9373 | [[[SCP-9374]]] >>
+[[/=]]
+[[/div]]
+
+------
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** AW-Signature.png
+> **Author:** [[*user TopDownUnder]]
+> **License:** CC-BY-SA 3.0
+> **Source Link:** See files
+> **Derivative Of:**
+> **Filename:** AW-signature.png
+> **Author:** [[*user Lamentte]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [http://scp-wiki.wdfiles.com/local--files/scp-300/AW-signature.png SCP Wiki]
+
+> **Filename:** view.jpg
+> **Name:** AS12-51-7526 - Apollo 12 - NARA - 16690554
+> **Author:** NASA
+> **License:** CC-0
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:AS12-51-7526_-_Apollo_12_-_NARA_-_16690554.jpg Wikimedia]
+=====
+[[include :scp-wiki:component:license-box-end]]

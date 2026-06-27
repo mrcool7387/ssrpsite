@@ -1,0 +1,28 @@
+
+	[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[[include :scp-wiki:info:start]]
+**SCP-8922:** The Curse of Site-BELUGA
+**Author:** [[*user Daveyoufool]]
+⚠️ **Content warning:** Hoo, boy... depictions of physical and emotional abuse, sexual content (nothing TOO explicit), second offset ends with what could be called a bombing incident at a middle school, gratuitous violence, body horror, vomit, torture. Do not read on a full stomach.
+[[include :scp-wiki:info:end]]
+[[include :scp-wiki:component:info-cw]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8922-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8922-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8922-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8922-4 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-8922-5 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8921]]] | SCP-8922 | [[[SCP-8923]]] >>
+[[/=]]
+[[/div]]

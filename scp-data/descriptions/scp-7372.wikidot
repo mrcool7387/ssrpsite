@@ -1,0 +1,25 @@
+
+	[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- For translators, here is a direct link to each iteration:
+https://scp-wiki.wikidot.com/fragment:scp-7372-1
+https://scp-wiki.wikidot.com/fragment:scp-7372-1 
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7371]]] | EE-7372 | [[[SCP-7373]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** sudan.jpg
+> **Name:** ISS048-E-485 - View of Sudan.jpg
+> **Author:** 	Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikimedia.org/wiki/File:ISS048-E-485_-_View_of_Sudan.jpg Wikimedia Commons]
+=====
+[[include :scp-wiki:component:license-box-end]]

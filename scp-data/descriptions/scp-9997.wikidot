@@ -1,0 +1,22 @@
+
+	[[>]]
+[[module Rate]]
+[[include :scp-wiki:component:author-label-source start=--
+|name=bigslothonmyface
+]]
+Written by [[*user bigslothonmyface]]
+You can find more of their work on their [[[https://scp-wiki.wikidot.com/bigslothonmyface-author-page |author page.]]]
+[[include :scp-wiki:component:author-label-source end=--]]
+[[/>]]
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestbigslothonmyface-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:9000contestbigslothonmyface-1 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9996]]] | SCP-9997 | [[[SCP-9998]]] >>
+[[/=]]
+[[/div]]

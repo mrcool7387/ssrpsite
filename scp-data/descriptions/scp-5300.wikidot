@@ -1,0 +1,106 @@
+
+	[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:pride-highlighter |inc-lgbt-alt= --]]]
+
+[!-- Remove the page title, add email formatting. --]
+[[module CSS]]
+#page-title {
+    display: none;
+}
+
+.logbox {
+    display: inline-block;
+    float: top;
+    padding: 1px 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    margin: auto;
+    border: solid 2px #000000;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.tofrom {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 1px 15px;
+    border-left: solid 3px maroon;
+}
+[[/module]]
+
+[!-- The content for some of these ListPages is pretty minimal. This outer div acts as a container which allows us to put the footer-wikiwalk-nav element at the bottom of the article. --]
+[[div style="position: relative; height:100%"]]
+
+[!-- I don't like the standard layout of the info bar, so here's some hacky shit to make it do what I want without copying all the CSS. --]
+[[include :scp-wiki:component:info-ayers-source | comments=[!--]]
+--]
+[[=]]
+**SCP-5300** - //Ship in a Bottle//
+Written by [[*user MirageTD]] and [[*user Habitual_Snubnose]]
+[[/=]]
+------
+= **Images (in order of appearance)**
+SCP Location Starchart - Generated with [[[https://github.com/dcf21/star-charter | the StarCharter tool]]], written by Dominic Ford
+[[[https://plus.maths.org/content/imaging-maths-inside-klein-bottle | Klein Bottle with Möbius Band]]] - Doctor Konrad Polthier, Freie Universität Berlin (used with [[file Klein-Bottle_permission.pdf | written permission]] as per [[[https://plus.maths.org/content/terms-use-and-notices | the terms of plus.maths.org]]])
+------
+= **Critters**
+Many thanks to [[*user Dyslexion]], [[*user CaliBold]], [[*user DrAkimoto]], [[*user stormbreath]], OriCat, [[*user gee0765]] and [[*user Uncannyon]] for providing critique and feedback.
+------
+= **Miscellaneous Credits**
+The end of the fourth paragraph in the introductory email is a paraphrase from [[[http://www.scp-wiki.net/about-the-scp-foundation#wiki-tab-0-0 | the Administrator's note]]].
+The "Vietnam book" Zajic refers to is //The Things They Carried//, by Tim O'Brien.
+------
+[[/div]]
+[[div class="u-faq"]]
+@@ @@
+= [http://www.scp-wiki.net/component:info-ayers F.A.Q.]
+[[/div]]
+[[/collapsible]]
+[[/div]] 
+[[module CSS]]
+.info-container .collapsible-block-content br {
+    margin-bottom: 1em;
+}
+.info-container .collapsible-block-content > div:nth-child(1) > p {
+    margin: 1em 2em 1em 2em;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:scp-5300-1
+http://scp-wiki.wikidot.com/fragment:scp-5300-2
+http://scp-wiki.wikidot.com/fragment:scp-5300-3
+--]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+@@ @@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5299]]] | SCP-5300 | [[[SCP-5301]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box author=MirageTD & Habitual_Snubnose]]
+=====
+> **Filename:** kleinBottleAnim.gif
+> **Names:** kleinBottle_anim.gif
+> **Author:** Konrad Polthier
+> **License:** Copyrighted //[https://scp-wiki.wdfiles.com/local--files/scp-5300/Klein-Bottle_permission.pdf (used with permission)]//
+> **Source Link:** [https://plus.maths.org/imaging-maths-inside-klein-bottle-15 plus.maths.org]
+
+> **Filename:** wormhole.svg
+> **Author:** [[*user miragetd]], using [https://github.com/dcf21/star-charter StarCharter] by Dominic Ford
+> **License:** CC BY-SA 3.0
+=====
+[[include component:license-box-end]]
+
+[[/div]]

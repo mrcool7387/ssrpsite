@@ -1,0 +1,88 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-6663
+|authorPage=http://www.scp-wiki.net/the-bread-box
+|comments=**SCP-6663:** A Lost Gallop for the Sun
+**Author:** [[*user Deadly Bread]]@@ @@
+----
+[[include :scp-wiki:more-by:deadly-bread]]
+[[/div]]
+
+[[table style="border: none; width: 100%;"]]
+[[row]]
+[[cell]]
+[[span style="font-size: 125%;"]][[span style="font-weight: 900;"]]ITEM NUMBER:[[/span]] SCP-6663[[/span]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[span style="font-weight: 900; font-size: 125%;"]]###990000|LEVEL 1/6663##[[/span]]
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell]]
+[[span style="font-size: 125%;"]][[span style="font-weight: 900;"]]CONTAINMENT CLASS:[[/span]] NEUTRALIZED[[/span]]
+[[/cell]]
+[[cell style="text-align: right;"]]
+[[span style="font-weight: 900; font-size: 125%;"]]###990000|UNRESTRICTED##[[/span]]
+[[/cell]]
+[[/row]]
+[[/table]]
+-----
+[[include component:image-block name=header.png|align=center|width=100%|caption=Myers' Ranch, the site of SCP-6663.]]
+**Special Containment Procedures:** The property where SCP-6663 occurred has been purchased by the Foundation under the guise of demolition. Due to the low possibility of SCP-6663's discovery, no further efforts have been deemed necessary. 
+
+**Description:** SCP-6663 refers to an unidentified space launch that occurred on May 12th, 1970. The site of the launch was Myers' Ranch, an equestrian facility located in Broken Arrow, Oklahoma, USA. Currently, details regarding both the spacecraft itself and the method by which it was launched are unknown, as the craft's current distance has made interception infeasible. Observations made following the launch have determined the craft to be made of mostly scrap materials which should not have been capable of reaching Earth's escape velocity. 
+
+Subsequent searches of Myers' Ranch discovered the source of the launch to have been the horse stables. Further investigation discovered the following:
+* Various tools and scrap metal, possessing horse tooth indentations.
+* A large amount of shattered glass, suggesting a skylight previously present overhead. 
+* Rudimentary star charts carved onto the stable wall, among a crude depiction of a horse head.
+* Newspaper clippings from the Apollo 11 moon landing (severely worn).[[footnote]]Wear appears to be from regular handling and not misuse, as clippings were carefully stored within an empty sack of feed. Cutouts of all three astronauts were also found pinned to the walls of the stable.[[/footnote]]
+* A dented metal bucket, inlaid with a crude glass visor. The word "Butterscotch" has been carefully etched into the side, along with a makeshift NASA logo. 
+
+It should be noted that no horse, living or deceased, was found within the stable. 
+
+**Addendum.6663.1:** Following continued observation of the spacecraft, a projected flight path has been established. Based on the craft's current trajectory, it is believed that the object will impact a large solar body by 2011, upon which it will be considered Neutralized. 
+
+**Addendum.6663.2:** On April 2nd, 2011, several observatories within the Northern Hemisphere observed a sudden ejection of gas and space dust from within Orion's belt, forming a large interstellar cloud. Witnesses to this event reported a feeling of closure and accomplishment. These effects ceased after several minutes. Records of the event have been scrubbed from observatory records, and falsified reports of the cloud's existence prior to this incident have been disseminated. 
+
+SCP-6663 has been reclassified as Neutralized. 
+
+[[collapsible show="+++ View attachment/scp-6663/file04.png" hide="--- Hide attachment/scp-6663/file04.png"]]
+@@ @@
+[[include component:image-block name=nebula.png|align=center|caption=file04.png]]
+[[/collapsible]]
+
+----
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-6662]]] | [[[http://www.scp-wiki.net/the-bread-box|Deadly Bread]]] | [[[SCP-6664]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box
+|author=Deadly Bread]]
+=====
+> **Filename:** header.png
+> **Name:** Night at Moulton Barn
+> **Author:** Eltabre
+> **License:** CC BY-SA 4.0
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Night_at_Moulton_Barn.jpg|Wikimedia Commons]]]
+
+> **Filename:** nebula.png
+> **Name:** Barnard 33
+> **Author:** [[[https://en.wikipedia.org/wiki/Ken_Crawford_(astrophotographer)|Ken Crawford]]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[https://commons.wikimedia.org/wiki/File:Barnard_33.jpg|Wikimedia Commons]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

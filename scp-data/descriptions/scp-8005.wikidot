@@ -1,0 +1,76 @@
+
+	[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+[[>]]
+[[module rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-4 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-5 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-6 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-7 --]
+[!-- https://scp-wiki.wikidot.com/fragment:8000contestdaveyoufool-8 --]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8004]]] | SCP-8005 | [[[SCP-8006]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+> **Filename:** itshammie.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** holyfool.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** skogslottet.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** nathang.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** thegreatboyg.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** boyghurt.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** crackedboyg.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** boygcore.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+> **Filename:** hammiewin.png
+> **Author:** [[*user daveyoufool]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** SCP Foundation Wiki
+
+[[include :scp-wiki:component:license-box-end]]

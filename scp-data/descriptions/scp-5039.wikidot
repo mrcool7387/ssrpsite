@@ -1,0 +1,44 @@
+
+	[[include info:start]]
+**SCP-5039:**  //Where Did You Go?//
+**Author:** [[*user Hexick]]
+**Image Sources:**
+
+https://commons.wikimedia.org/wiki/File:View_of_a_suburban_home,_by_James_G._Lock.jpg
+----
+https://commons.wikimedia.org/wiki/File:2011-12-17_12.06.08OldPC.jpg
+
+All modifications to these images were done by me.
+[[include info:end]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- Fragments--]
+[!-- http://scp-wiki.wikidot.com/fragment:scp-5039-1--]
+[!-- http://scp-wiki.wikidot.com/fragment:scp-5039-2--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5038]]] | SCP-5039 | [[[SCP-5040]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box]]
+=====
+> **Filename:** still
+> **Name:** View of a suburban home, by James G. Lock.jpg
+> **Author:** James G. Lock
+> **License:** Public Domain
+> **Source Link:** [https://commons.wikipedia.org/wiki/file:view_of_a_suburban_home,_by_James_G._Lock.jpg Wikimedia Commons]
+
+> **Filename:** comp
+> **Name:** 2011-12-17 12.06.08OldPC.jpg
+> **Author:** Mattruffoni
+> **License:** CC BY-SA 4.0
+> **Source Link:** [https://commons.wikipedia.org/wiki/file:2011-12-17_12.06.08OldPC.jpg Wikimedia Commons]
+=====
+[[include component:license-box-end]]

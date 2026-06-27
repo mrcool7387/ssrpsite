@@ -1,0 +1,18 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+[!--
+https://scp-wiki.wikidot.com/fragment:8672-0
+https://scp-wiki.wikidot.com/fragment:8672-1
+--]
+
+[[footnoteblock]]
+
+[[div class="footer-wikiwalk-nav"]]
+= << [[[SCP-8671]]] | SCP-8672 | [[[SCP-8673]]] >>
+[[/div]]

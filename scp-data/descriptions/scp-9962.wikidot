@@ -1,0 +1,272 @@
+
+	=====
+[[include component:preview
+text=we do love bein sneaky]]
+=====
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=HenryFH
+|no-right-margin=*]]
+//Do these councils go all the way up?//
+
+[[>]]
+(Posted 2nd April 2026)
+[[[https://scp-wiki.wikidot.com/hazels-auteur-page |More by this author]]]
+[[/>]]
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[include :scp-wiki:component:text-style]]
+
+[[include :scp-wiki:theme:black-highlighter-theme]]
+[[include :scp-wiki:component:centered-header-bhl]]
+[[include :scp-wiki:component:toggle-sidebar-bhl]]
+
+[[include :scp-wiki:component:anomaly-class-bar-source
+|item-number= 9962
+|clearance= 5
+|container-class= keter
+|disruption-class= dark
+|risk-class= notice
+]]
+
+**Special Containment Procedures:** Due to the risks involved with monitoring O5 communication channels, current protocol requires Overseers to personally report any instances of SCP-9962 directly to RAISA.
+
+**Description:** SCP-9962 is a phenomenon affecting secure instant messaging channels used by O5 Council members. The anomaly manifests itself as text messages from an individual claiming to be a member of a supposed "O6 Council". Despite numerous assessments from Foundation IT teams, the origin of SCP-9962 is still unknown.
+
+Below is an archive of reported SCP-9962 instances[[footnote]]As of 22/03/2026.[[/footnote]]:
+
+**14/03/2026, O5-8:**
+
+[[div class="text-container-wrap"]]
++++ UNKNOWN
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]] i just wanted to check how things were running down at the fives [[/span]]
+[[span class="text"]] any updates the big man should know about? [[/span]]
+[[span class="text"]] (the big man is me) [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] What? Who is this? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] oh you get promoted and forget about me? [[/span]]
+[[span class="text"]] hahahaha just joshing [[/span]]
+[[span class="text"]] it's O6-2 [[/span]]
+[[span class="text"]] big bro if you will [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] I won't. [[/span]]
+[[span class="text"]] How did you get this number? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] haha wdym? [[/span]]
+[[span class="text"]] all O6 council members have your info [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] There is no O6 Council. [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] oh yeah mums the word haha [[/span]]
+[[span class="text"]] we do love bein sneaky [[/span]]
+[[span class="text"]] catch you on the flip side 8 ball [[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+**15/03/2026, O5-4:**
+
+[[div class="text-container-wrap"]]
++++ UNKNOWN
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]] yo are you going store? [[/span]]
+[[span class="text"]] while you're there can you pick up some handcuffs [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Handcuffs? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] yeah you know [[/span]]
+[[span class="text"]] handcuffs [[/span]]
+[[span class="text"]] for containing things [[/span]]
+[[span class="text"]] thats our thing right? we contain. [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] I'm sorry who is this? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] oh sorry new phone lmao. its O6-2 [[/span]]
+[[span class="text"]] B) [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] ??? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] thats me wearing sunglasses [[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+**17/03/2026, O5-9:**
+
+[[div class="text-container-wrap"]]
++++ UNKNOWN
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]] yo [[/span]]
+[[span class="text"]] nine iron [[/span]]
+[[span class="text"]] how goes it [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Oh hi [[/span]]
+[[span class="text"]] Are you that prank caller? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] nah its O6-2 [[/span]]
+[[span class="text"]] has someone been bothering u guys? [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Um [[/span]]
+[[span class="text"]] No don't worry about it [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] haha class [[/span]]
+[[span class="text"]] anyways what you been up to? [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] I don't think I can divulge that [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] come on you can tell me [[/span]]
+[[span class="text"]] im big bro! [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] No [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] im your oneesan [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] What [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] sorry [[/span]]
+[[span class="text"]] forget i said that [[/span]]
+[[span class="text"]] ive been watching a lot of anime recently [[/span]]
+[[span class="text"]] have you seen jojos? [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] No [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] its rlly good [[/span]]
+[[span class="text"]] its kinda like you guys [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] How so [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] its these people who save the world [[/span]]
+[[span class="text"]] but they dont get any recognition [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] I see [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] anyways i gotta go do something [[/span]]
+[[span class="text"]] O6 and out [[/span]]
+[[span class="text"]] haha [[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+**19/03/2026, O5-6:**
+[[div class="text-container-wrap"]]
++++ UNKNOWN
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]] hey [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Who is this? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] O6-2 [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Oh I see. [[/span]]
+[[span class="text"]] What is it? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] i was thinking of coming down the office and seeing u guys [[/span]]
+[[span class="text"]] is there a good day for that? [[/span]]
+[[span class="text"]] when ur not too busy [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Let me check with the others[[footnote]] The O5 council voted in favour of attempting to make the supposed “O6-2” appear in person. [[/footnote]][[/span]]
+[[span class="text"]] You can come by tomorrow [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] alr perfect [[/span]]
+[[span class="text"]] ████ █████ ████[[footnote]] Current location of O5 headquarters. [[/footnote]] right? [[/span]]
+[[span class="text"]] you still there? [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] . [[/span]]
+[[span class="text"]] Yes that's correct. [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] haha nice [[/span]]
+[[span class="text"]] be there at ten [[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+**20/03/2026, O5-6:**
+
+[[div class="text-container-wrap"]]
++++ UNKNOWN
+[[div class="text-container"]]
+[[div class="recv"]]
+[[span class="text"]] sorry mate i can't come by the office today :( [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Why not? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] my leave request got denied [[/span]]
+[[/div]]
+[[div class="sent"]]
+[[span class="text"]] Denied? [[/span]]
+[[span class="text"]] By who? [[/span]]
+[[/div]]
+[[div class="recv"]]
+[[span class="text"]] O7 council :( [[/span]]
+[[/div]]
+[[/div]]
+[[/div]]
+
+[[div class="blockquote" style="border-radius: 10px; margin: 10px"]]
+[[=]]
+[[collapsible show="» More by HenryFH «" hide="« Less by HenryFH »"]]
+[[include more-by:HenryFH]]
+||[[[hazels-auteur-page|My Author Page]]]||
+[[/collapsible]]
+[[/=]]
+[[/div]]
+
+[[module css]]
+.footnotes-footer {
+display:none;
+}
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-9961]]] | SCP-9962 | [[[SCP-9963]]] >>
+[[/=]]
+[[/div]]

@@ -1,0 +1,50 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+=====
+[[include component:preview
+text=🜨︎♒︎♐︎ ♅♎︎ ♂☿♊︎ ♅♊︎☾♃♊︎♒︎♂ ♅♎︎ ♓︎♎︎☊♊︎♐︎ ♂☿♊︎ ♓︎♑︎♏︎☾🜨︎☾♍︎.]]
+=====
+
+
+[[module css]]
+.danke {
+    padding: 5px;
+    margin-bottom:10px;
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.agent {
+    background-color:#002200;
+    border: 3px solid #55AA55;
+    color: #77CC77;
+}
+
+.site {
+    background-color:#222200;
+    border: 3px solid #AAAA55;
+    color: #DDDD77;
+}
+[[/module]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!--
+Fragments:
+http://scp-wiki.wikidot.com/fragment:letters-1
+http://scp-wiki.wikidot.com/fragment:letters-2
+--]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-8874]]] | SCP-8875 | [[[SCP-8876]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+[[include :scp-wiki:component:license-box-end]]

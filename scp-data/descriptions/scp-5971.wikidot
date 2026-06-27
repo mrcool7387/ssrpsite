@@ -1,0 +1,28 @@
+
+	[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages category="fragment" parent="." order="created_at" limit="1" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- For translators, here is a direct link to each iteration. --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5971-0 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5971-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5971-2 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5971-3 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-5971-4 --]
+[!-- To make ListPages work correctly, make this main page first, then upload the first iteration and set its parent to the first page. Repeat that for each iteration. Remember to change the offset links at the bottom of each iteration to the correct link for the new pages you have created. --]
+
+[[footnoteblock]]
+@@@@
+@@@@
+
+@@@@
+@@@@
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-5970]]] | SCP-5971 | [[[SCP-5972]]] >>
+[[/=]]
+[[/div]]

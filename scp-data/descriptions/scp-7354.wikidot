@@ -1,0 +1,139 @@
+
+	=====
+[[include component:preview
+text=All the flowers bloomed, the day wretched Važjuma descended upon our world.
+]]
+=====
+
+[[div style="display: none;"]]
+[[include component:image-block
+| name=7354-Thumbnail.png
+| caption=Thumbnail.
+| width=100%
+| align=center]]
+[[/div]]
+
+[[module css]]
+
+#page-content .info-container {
+    --link-color: rgb(var(--swatch-text-general));
+}
+
+#page-content .info-container .collapsible-block-link,
+#page-content .info-container:hover .collapsible-block-link {
+    line-height: 1.6em;
+}
+
+#page-content .info-container .collapsible-block-folded,
+#page-content .info-container .collapsible-block-unfolded-link {
+    display: grid;
+}
+
+#page-content .info-container .collapsible-block-folded .collapsible-block-link,
+#page-content .info-container .collapsible-block-link {
+    -webkit-mask: unset;
+            mask: unset;
+    background: transparent;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0;
+}
+
+#page-content .info-container .collapsible-block-folded::before,
+#page-content .info-container .collapsible-block-unfolded-link::before {
+    --wght: 800;
+    content: "ETC";
+    color: #FFFFFF;
+    font-family: Inter, Arimo, Verdana, Geneva, "Helvetica Neue", "Helvetica", Arial, sans-serif;;
+    display: block;
+    pointer-events: none;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 2.75ex;
+}
+
+[[/module]]
+
+[[include :scp-wiki:component:info-ayers
+|lang=en
+|page=scp-7354
+|authorPage=https://scp-wiki.wikidot.com/montagueetc
+|comments=
+
+= **SCP-7354** - The Cruor Pool
+
+----
+
+= A reimagining of [[[SCP-354]]] for [[[RemixCon2023]]].
+
+]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[module ListPages  category="fragment" parent="." limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7354-1 --]
+[!-- https://scp-wiki.wikidot.com/fragment:scp-7354-2 --]
+
+----
+[[include :scp-wiki:component:wikimodule |normal= --]]]
+----
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7353]]] | SCP-7354 | [[[SCP-7355]]] >>
+[[/=]]
+[[/div]]
+
+[[include :scp-wiki:component:license-box]]
+=====
+> **Filename:** 7354-Thumbnail.png
+> **Name:** Mask with two heads
+> **Author:** [[[https://www.flickr.com/people/hutchike/ | Kevin Hutchinson]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/hutchike/2130568 | Flickr]]]
+=====
+> **Filename:** truculent-icon3.svg
+> **Author:** [[*user PeppersGhost]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[SCP-4703]]]
+=====
+> **Filename:** hands.png
+> **Author:** [[*user MontagueETC]]
+> **License:** CC BY-SA 3.0
+> **Derivative of:**
+> ----
+> **Name:** Detail - "Exploration" by Ashley Zelinskie
+> **Author:** [[[https://www.flickr.com/people/nasawebbtelescope/ | NASA's James Webb Space Telescope]]] 
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/nasawebbtelescope/33530327812 | Flickr]]]
+=====
+> **Filename:** watchstation.png
+> **Name:** Green Mountain Campground
+> **Author:** [[[https://www.flickr.com/people/blmoregon/ | Bureau of Land Management Oregon and Washington]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/blmoregon/32947036370/ | Flickr]]]
+=====
+> **Filename:** conjoin.png
+> **Name:** Mask with two heads
+> **Author:** [[[https://www.flickr.com/people/hutchike/ | Kevin Hutchinson]]]
+> **License:** CC BY 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/hutchike/2130568 | Flickr]]]
+=====
+> **Filename:** Nadox.png
+> **Name:** Klavigar - Nadox (Logo)
+> **Author:** [[*user SunnyClockwork]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [[[sunny-art-cotbg-sarkicism | SunnyClockwork's Artwork - CotBG and Sarkicism]]]
+=====
+> **Filename:** omen.png
+> **Name:** Light vs dark
+> **Author:** [[[https://www.flickr.com/people/quinndombrowski/ | Quinn Dombrowski]]]
+> **License:** CC BY-SA 2.0
+> **Source Link:** [[[https://www.flickr.com/photos/quinndombrowski/5330977108/ | Flickr]]]
+=====
+[[include :scp-wiki:component:license-box-end]]

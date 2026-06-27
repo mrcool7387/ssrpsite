@@ -1,0 +1,98 @@
+
+	[[module CSS]]
+#title {
+    display: none;
+}
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[!--
+Fragments:
+https://scp-wiki.wikidot.com/fragment:scp-7676-0
+https://scp-wiki.wikidot.com/fragment:scp-7676-1
+https://scp-wiki.wikidot.com/fragment:scp-7676-2
+--]
+
+[[module ListPages parent="." category="fragment" limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[[div class="footer-wikiwalk-nav"]]
+[[=]]
+<< [[[SCP-7675]]] | SCP-7676 | [[[SCP-7677]]] >>
+[[/=]]
+[[/div]]
+
+[[include component:license-box author=S D Locke & notgull]]
+=====
+> **Filename:** burial.jpg
+> **Name:** Abstract blurry monotone background
+> **Author:** Rawpixel
+> **License:** Public Domain
+> **Source Link:** [http://rawpixel.com/image/4021691 Rawpixel]
+
+> **Filename:** doyouremember.png
+> **Author:** [[*user s d locke]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-7676 SCP Foundation Wiki]
+> **Derivative Of:**
+> ----
+> **Name:** North Salinas High School Class of 1978
+> **Author:** Kelly Nigro
+> **License:** Public Domain
+> **Source Link:** [http://flic.kr/p/78WmR1 Flickr]
+[[div class="blockquote"]]
+**Filename:** photo.png
+**Author:** [[*user s d locke]]
+**License:** CC BY-SA 3.0
+**Source Link:** [/scp-7676 SCP Foundation Wiki]
+**Derivative Of:**
+----
+**Name:** Beth Haupt Davis, Gulfport High School, 1978 - 1979
+**Author:** Joe Haupt
+**License:** CC BY-SA 2.0
+**Source Link:** [http://flic.kr/p/eURW6b Flickr]
+----
+**Name:** Operation Stitches Sew
+**Author:** Counselling
+**License:** Public Domain
+**Source Link:** [http://pixabay.com/photos/operation-stitches-sew-shoulder-480679 Pixabay][[/div]]
+> **Filename:** for_sd_locke.wav
+> **Author:** [[*user simplexityyfvs]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-7676 SCP Foundation Wiki]
+
+> **Filename:** james.png
+> **Name:** Surrealism in photography 09.jpg
+> **Author:** Mostafameraji
+> **License:** Public Domain
+> **Source Link:** [http://w.wiki/7EZ5 Wikimedia Commons]
+
+> **Filename:** jlocke.png
+> **Name:** Faith Hope Love.jpg
+> **Author:** Viktor Pinchuk
+> **License:** CC BY-SA 4.0
+> **Source Link:** [http://w.wiki/7EZ8 Wikimedia Commons]
+
+> **Filename:** kevin.png
+> **Name:** منية حمورابي 2.jpg
+> **Author:** حميدة السنان
+> **License:** CC BY-SA 4.0
+> **Source Link:** [http://w.wiki/7EZ9 Wikimedia Commons]
+
+> **Filename:** sarah.png
+> **Name:** "BrainChain" Willem den Broeder 2001 .png
+> **Author:** Willem den Broeder
+> **License:** CC BY-SA 4.0
+> **Source Link:** [http://w.wiki/7EZB Wikimedia Commons]
+
+> **Filename:** stanley.png
+> **Name:** DRAWING SURREALISM exhibition 2012 at the Los Angeles County Museum of Art (LACMA).jpg
+> **Author:** Fontanal
+> **License:** CC BY-SA 4.0
+> **Source Link:** [http://w.wiki/7EZC Wikimedia Commons]
+=====
+[[include component:license-box-end]]

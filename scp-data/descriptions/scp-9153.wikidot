@@ -1,0 +1,101 @@
+
+	=====
+[[include component:preview
+text=Researchers Helen Dang and Jade Huynh study an anomaly pertaining to the vast infinities of mathematics while navigating a burgeoning romantic relationship and its hardships.]]
+=====
+
+[[include :scp-wiki:theme:penumbra]]
+
+[[module css]]
+:root {
+  --header-title: "SCP FOUNDATION";
+  --lgurl: url("https://scp-wiki.wdfiles.com/local--files/math-department-hub/Math%20Department%20Logo%20-%20Penumbra.png");
+  --header-subtitle: "DEPARTMENT OF ESOTERIC MATHEMATICS";
+  --accentColor: #34a5cb;
+}
+
+/* Bottom Rating Module */
+.bottom-rating-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+.bottom-rating-module .page-rate-widget-box {
+  margin: 0;
+}
+
+/* Article-Specific Styling */
+div.vertblock {
+    border: solid 2px var(--darkColor);
+    box-shadow: 0px -3px 0px -0.1px var(--accentColor);
+}
+
+a.subtlelink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#page-title {display: none;}
+
+[[/module]]
+
+[[>]]
+[[module Rate]]
+[[/>]]
+
+[[include :scp-wiki:component:author-label-source start=--
+|name=badooga]]
+**SCP-9153: The Missing Infinity**
+
+Researchers Helen Dang and Jade Huynh study an anomaly pertaining to the vast infinities of mathematics while navigating a burgeoning romantic relationship and its hardships.
+
+[[[badooga-author-page|More By Badooga]]]
+
+[[include :scp-wiki:component:author-label-source end=--]]
+
+[[module listpages category="fragment" name="fragment:scp-9153-%" limit="1" order="created_at" offset="@URL|0"]]
+%%content%%
+[[/module]]
+
+[!-- http://scp-wiki.net/fragment:SCP-9153-0 --]
+[!-- http://scp-wiki.net/fragment:SCP-9153-1 --]
+-----
+
+[[div class="bottom-rating-module"]]
+[[module Rate]]
+[[/div]]
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[Final Lecture]]] | SCP-9153 | [[[SCP-4314]]] >>
+[[/div]]
+[[/=]]
+
+[[=]]
+[[div class="footer-wikiwalk-nav"]]
+<< [[[SCP-9152]]] | SCP-9153 | [[[SCP-9154]]] >>
+[[/div]]
+[[/=]]
+
+[[=]]
+[[include :scp-wiki:component:license-box | author=badooga]]
+
+[[<]]
+=====
+> **Filename:** default.png
+> **Author:** [[*user djkaktus]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [/scp-3930 SCP Foundation Wiki]
+=====
+=====
+> **Filename:** Math Department Logo - Penumbra.png
+> **Author:** [[*user BlueEyedFox_]]
+> **License:** CC BY-SA 3.0
+> **Source Link:** [https://scp-wiki.wdfiles.com/local--files/math-department-hub/Math%20Department%20Logo%20-%20Penumbra.png SCP Wiki]
+=====
+[[/<]]
+
+[[include :scp-wiki:component:license-box-end]]
+[[/=]]
