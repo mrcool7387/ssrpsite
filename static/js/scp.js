@@ -12,6 +12,25 @@ document.addEventListener("DOMContentLoaded", () => {
         'bhs': 'Biohazard Sector'
     };
 
+    const classMap = {
+        "s": 'safe',
+        "e": "euclid",
+        "k": "keter",
+        "t": "thaumil",
+        
+        "ap": "apollyon",
+        "ar": "archon",
+        "ce": "cernunnos",
+        "ti": "ticonderoga",
+
+        "pen": "pending",
+        "noc": "not contained",
+        "exp": "explained",
+        "net": "neutralized",
+        "des": "destroyed",
+        "oec": "other estoric classes"
+    }
+
     // 1. SCP-Nummer aus der URL extrahieren
     let scpNumber = window.location.pathname.split("/").pop();
 
@@ -89,12 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("scp-title").textContent = `SCP-${scp.number}`;
         document.title = `SCP-${scp.number} - Foundation Dossier`;
 
-        // Markdown in HTML umwandeln und auslesen
-        const mdResponse = await fetch(`/api/markdownToHtml?markdown=${encodeURIComponent(scp.description || "Keine Beschreibung verfügbar.")}`);
-        if (!mdResponse.ok) {
-            throw new Error("Fehler beim Laden der Beschreibung.");
-        }
-        const htmlMd = await mdResponse.text();
+        const htmlMd = scp.description || "No Description Found"
 
         // .innerHTML nutzen, damit HTML-Tags aus der Konvertierung korrekt gerendert werden
         document.getElementById("scp-description").innerHTML = htmlMd;
@@ -115,14 +129,14 @@ document.addEventListener("DOMContentLoaded", () => {
             let finalClass = "UNBEKANNT";
 
             if (p && p !== "-/-" && p !== "siehe sekundäre klasse") {
-                finalClass = p.toUpperCase();
+                finalClass = p;
             } else if (s && s !== "-/-" && s !== "siehe tertiäre klasse" && s !== "siehe tertiär klasse") {
-                finalClass = s.toUpperCase();
+                finalClass = s;
             } else if (t && t !== "-/-") {
-                finalClass = t.toUpperCase();
+                finalClass = t;
             }
 
-            classEl.textContent = finalClass;
+            classEl.textContent = classMap[finalClass].toUpperCase();
 
             // Farbklasse dynamisch zuweisen
             classEl.className = getClassColorClass(finalClass);

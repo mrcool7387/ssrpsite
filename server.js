@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { askDatabaseClass } = require('./database'); // Importiere die neue Datenbankfunktion
+const { parseWikidot } = require('./static/js/wikidot-parser')
 
 if (!process.env.ENV_EXISTS) {
     console.error(".env-Datei nicht gefunden. Stelle sicher, dass sie existiert und die notwendigen Variablen enthält.");
@@ -90,13 +91,22 @@ app.get('/api/scp/:number', (req, res) => {
         return;
     }
 
-    const scpFolderPath = path.join(__dirname, 'scp-data', scpNumber);
-    const descPath = path.join(scpFolderPath, 'desc.md');
-    const infoPath = path.join(scpFolderPath, 'infos.json');
+    const descPath = path.join("scp-data", "descriptions", `scp-${scpNumber}.wikidot`);
+    const infoPath = path.join("scp-data", "metadata", `${scpNumber}.json`);
+
+    console.error(descPath)
+    console.error(infoPath)
 
     let desc = null;
     if (fs.existsSync(descPath)) {
-        desc = fs.readFileSync(descPath, 'utf8');
+        try {
+            const content = fs.readFileSync(descPath, 'utf8');
+            console.error(`#  > ${content}`)
+            desc = parseWikidot(content);
+            console.error(`#  < ${desc}`)
+        } catch (e) {
+            console.error(`Fehler beim Lesen der Wikidot-Datei für SCP-${scpNumber}:`, e);
+        }
     }
 
     let infoData = {
@@ -116,6 +126,7 @@ app.get('/api/scp/:number', (req, res) => {
         },
         link: dbData.link
     };
+
 
     if (fs.existsSync(infoPath)) {
         try {
@@ -145,13 +156,6 @@ app.get('/api/injects/loader', (req, res) => {
     } else {
         res.status(404).send('Loader not found');
     }
-});
-
-app.get('/api/markdownToHtml', (req, res) => {
-    const markdown = req.query.markdown;
-    const html = marked.parse(markdown);
-    console.log(html)
-    res.send(html);
 });
 
 app.get('/scp/:number', (req, res) => {
